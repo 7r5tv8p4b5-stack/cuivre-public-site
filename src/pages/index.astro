@@ -16,7 +16,7 @@ const publishedArticles = allArticles
 
 const featuredArticles = publishedArticles.filter((article) => article.frontmatter.featured === true);
 const categories = Array.from(
-  new Set(allArticles.map((article) => article.frontmatter.category || article.frontmatter.parentCategory || "未分類").filter(Boolean))
+  new Set(publishedArticles.map((article) => article.frontmatter.category || article.frontmatter.parentCategory || "未分類").filter(Boolean))
 ).sort((a, b) => a.localeCompare(b, "ja"));
 
 const title = "Cuivre｜まだ知らない、便利な選択肢を。";

@@ -1,5 +1,6 @@
 ---
 title: "ユニゾンキャリアとは？特徴・向いている人・登録前の確認ポイントを解説"
+publishedAt: "2026-08-05"
 description: "ユニゾンキャリアの公式情報をもとに、IT・Web業界向け転職支援の特徴、向いている人、登録前に確認したいポイントを整理します。"
 updatedAt: "2026-08-04"
 category: "就職・転職"
@@ -11,7 +12,9 @@ categoryTags:
   - "未経験IT転職"
   - "転職エージェント"
 articleType: "service_review"
-status: "draft"
+status: "published"
+draft: false
+noindex: false
 serviceIds:
   - "SRV-000018"
 companyIds:

@@ -15,6 +15,8 @@ categoryTags:
   - "首都圏"
 articleType: "service_review"
 status: "draft"
+draft: true
+noindex: true
 serviceIds:
   - "SRV-000015"
 companyIds:

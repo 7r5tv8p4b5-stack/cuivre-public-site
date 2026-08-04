@@ -1,11 +1,13 @@
 ---
 title: "明光グローバルエンジニアHubとは？外国人エンジニア向け転職支援の特徴・向いている人・注意点を解説"
 description: "明光グローバルエンジニアHubについて、外国人エンジニア向けの転職支援、日本語学習、書類・面接対策、利用前の確認点を公式情報ベースで整理します。"
-publishedAt:
+publishedAt: "2026-08-05"
 updatedAt: "2026-08-03"
 category: "就職・転職"
 articleType: "service_review"
-status: "draft"
+status: "published"
+draft: false
+noindex: false
 serviceIds:
   - "SRV-000014"
 affiliateProgramIds:

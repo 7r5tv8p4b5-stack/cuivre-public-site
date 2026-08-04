@@ -1,11 +1,13 @@
 ---
 title: "TECHBIZとは？特徴・メリット・注意点、利用の流れを解説"
 description: "TECHBIZの特徴、公式情報から確認できるメリット、利用前の注意点、登録から案件参画までの流れを一次情報に基づいて整理します。"
-publishedAt:
+publishedAt: "2026-08-04"
 updatedAt: "2026-08-02"
 category: "その他（仕事情報）"
 articleType: "service_review"
-status: "draft"
+status: "published"
+draft: false
+noindex: false
 serviceIds:
   - "SRV-000013"
 affiliateProgramIds:

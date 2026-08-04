@@ -1,7 +1,7 @@
 ---
 title: "Tecgate転職とは？特徴・向いている人・登録前の確認ポイントを解説"
 description: ""
-publishedAt:
+publishedAt: "2026-08-05"
 updatedAt: "2026-08-03"
 category: "就職・転職"
 parentCategory: "就職・転職"
@@ -13,7 +13,9 @@ categoryTags:
   - "キャリア相談"
   - "転職エージェント"
 articleType: "service_review"
-status: "draft"
+status: "published"
+draft: false
+noindex: false
 serviceIds:
   - "SRV-000016"
 companyIds:

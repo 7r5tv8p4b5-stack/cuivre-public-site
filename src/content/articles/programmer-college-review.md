@@ -1,7 +1,7 @@
 ---
 title: "プログラマカレッジとは？本当に無料？特徴・就職支援・向いている人を解説"
 description: "プログラマカレッジの無料の仕組み、特徴、コース内容、就職支援、向いている人、説明会前の確認ポイントを公式情報をもとに整理します。"
-publishedAt: "2026-08-05"
+publishedAt:
 updatedAt: "2026-08-04"
 category: "就職・転職"
 parentCategory: "就職・転職"
@@ -14,9 +14,10 @@ categoryTags:
   - "20代向け"
   - "無料スクール"
 articleType: "service_review"
-status: "published"
+status: "draft"
+draft: true
 slug: "programmer-college-review"
-noindex: false
+noindex: true
 canonical: "/articles/programmer-college-review/"
 ogTitle: "プログラマカレッジとは？本当に無料？特徴・就職支援・向いている人を解説"
 ogDescription: "プログラマカレッジの無料の仕組み、特徴、コース内容、就職支援、向いている人、説明会前の確認ポイントを公式情報をもとに整理します。"

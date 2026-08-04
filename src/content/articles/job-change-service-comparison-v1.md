@@ -1,7 +1,7 @@
 ---
 title: "就職・転職のサービス比較｜TECHBIZ・techadapt・Tecgate転職などを確認済み情報だけで整理"
 description: "既存Researchを再利用した比較記事の下書きです。"
-publishedAt:
+publishedAt: "2026-08-04"
 updatedAt: "2026-08-04"
 category: "就職・転職"
 parentCategory: "就職・転職"
@@ -9,7 +9,9 @@ primaryCategory: "フリーランス"
 categoryTags:
   - "就職・転職"
 articleType: "comparison"
-status: "superseded_draft"
+status: "published"
+draft: false
+noindex: false
 serviceIds:
   - "SRV-000013"
   - "SRV-000014"
