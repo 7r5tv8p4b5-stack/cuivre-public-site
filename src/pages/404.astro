@@ -1,0 +1,22 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+<BaseLayout
+  title="ページが見つかりません | Cuivre"
+  description="お探しのページは見つかりませんでした。Cuivreのトップページまたは記事一覧から目的のページをお探しください。"
+  canonical="/404/"
+  noindex={true}
+>
+  <section class="home-hero compact-hero">
+    <p class="eyebrow">404</p>
+    <h1>ページが見つかりません。</h1>
+    <p>
+      URLが変更されたか、現在は公開されていない可能性があります。
+      トップページまたは記事一覧から、公開中の情報をご確認ください。
+    </p>
+    <div class="hero-actions">
+      <a class="button-primary" href="/">トップページへ</a>
+      <a class="button-secondary" href="/articles/">記事一覧を見る</a>
+    </div>
+  </section>
+</BaseLayout>

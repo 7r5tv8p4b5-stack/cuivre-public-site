@@ -1,0 +1,24 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+const modules = import.meta.glob("../../content/articles/*.md", { eager: true });
+const articles = Object.entries(modules).map(([path, mod]) => {
+  const slug = path.split("/").pop().replace(".md", "");
+  return { slug, frontmatter: mod.frontmatter };
+}).filter((article) => article.frontmatter.status === "published" && !article.frontmatter.noindex);
+---
+<BaseLayout title="記事一覧 | Cuivre">
+  <h1>記事一覧</h1>
+  {articles.length === 0 ? (
+    <p class="empty-message">現在、公開準備中です。</p>
+  ) : (
+    <div class="article-list">
+      {articles.map((article) => (
+        <section class="article-card">
+          <span class="badge">{article.frontmatter.category || "未分類"}</span>
+          <h2><a href={`/articles/${article.slug}/`}>{article.frontmatter.title}</a></h2>
+          <p>{article.frontmatter.description}</p>
+        </section>
+      ))}
+    </div>
+  )}
+</BaseLayout>

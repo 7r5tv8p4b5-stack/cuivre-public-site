@@ -1,0 +1,34 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+export async function getStaticPaths() {
+  const modules = import.meta.glob("../../content/articles/*.md", { eager: true });
+  const categories = new Set(
+    Object.values(modules)
+      .filter((mod) => mod.frontmatter.status === "published" && !mod.frontmatter.noindex)
+      .map((mod) => mod.frontmatter.category || "未分類")
+  );
+  return Array.from(categories).map((category) => ({ params: { category }, props: { category, modules } }));
+}
+
+const { category, modules } = Astro.props;
+const articles = Object.entries(modules)
+  .map(([path, mod]) => ({ slug: path.split("/").pop().replace(".md", ""), frontmatter: mod.frontmatter }))
+  .filter((article) => (article.frontmatter.category || "未分類") === category)
+  .filter((article) => article.frontmatter.status === "published" && !article.frontmatter.noindex);
+---
+<BaseLayout title={`${category} | Cuivre`}>
+  <h1>{category}</h1>
+  {articles.length === 0 ? (
+    <p class="empty-message">現在、公開準備中です。</p>
+  ) : (
+    <div class="article-list">
+      {articles.map((article) => (
+        <section class="article-card">
+          <h2><a href={`/articles/${article.slug}/`}>{article.frontmatter.title}</a></h2>
+          <p>{article.frontmatter.description}</p>
+        </section>
+      ))}
+    </div>
+  )}
+</BaseLayout>

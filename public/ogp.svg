@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#f8fafc"/>
+  <rect x="72" y="72" width="1056" height="486" rx="32" fill="#ffffff" stroke="#dbeafe"/>
+  <text x="120" y="190" fill="#2563eb" font-family="-apple-system,BlinkMacSystemFont,'Hiragino Sans','Noto Sans JP',sans-serif" font-size="32" font-weight="700">Cuivre</text>
+  <text x="120" y="305" fill="#0f172a" font-family="-apple-system,BlinkMacSystemFont,'Hiragino Sans','Noto Sans JP',sans-serif" font-size="68" font-weight="800">まだ知らない、</text>
+  <text x="120" y="390" fill="#0f172a" font-family="-apple-system,BlinkMacSystemFont,'Hiragino Sans','Noto Sans JP',sans-serif" font-size="68" font-weight="800">便利な選択肢を。</text>
+  <text x="120" y="470" fill="#475569" font-family="-apple-system,BlinkMacSystemFont,'Hiragino Sans','Noto Sans JP',sans-serif" font-size="30">サービスを見つけ、理解し、自分に合うか判断する場所。</text>
+  <circle cx="960" cy="230" r="42" fill="#bfdbfe"/>
+  <circle cx="1025" cy="310" r="42" fill="#a7f3d0"/>
+  <circle cx="930" cy="390" r="42" fill="#fde68a"/>
+</svg>

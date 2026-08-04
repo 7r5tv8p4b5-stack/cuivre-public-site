@@ -1,0 +1,142 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+export async function getStaticPaths() {
+  const modules = import.meta.glob("../../content/articles/*.md", { eager: true });
+  return Object.entries(modules)
+  .filter(([, mod]) => mod.frontmatter.status === "published" && !mod.frontmatter.noindex)
+  .map(([path, mod]) => {
+    const slug = path.split("/").pop().replace(".md", "");
+    const relatedArticles = Object.entries(modules)
+      .map(([relatedPath, relatedMod]) => {
+        const relatedSlug = relatedPath.split("/").pop().replace(".md", "");
+        return {
+          slug: relatedSlug,
+          title: relatedMod.frontmatter.title,
+          description: relatedMod.frontmatter.description,
+          category: relatedMod.frontmatter.category,
+          status: relatedMod.frontmatter.status,
+          noindex: relatedMod.frontmatter.noindex,
+        };
+      })
+      .filter((item) => item.slug !== slug && item.category === mod.frontmatter.category && item.status === "published" && !item.noindex)
+      .slice(0, 3);
+    return { params: { slug }, props: { article: mod, relatedArticles } };
+  });
+}
+
+const { article, relatedArticles = [] } = Astro.props;
+const { Content, frontmatter } = article;
+const articleTakeaways = [
+  "サービスの基本情報",
+  "公式情報で確認できる特徴",
+  "利用する前の注意点",
+  "向いている人・向いていない人",
+  "申し込み前に確認したいポイント",
+];
+---
+<BaseLayout
+  title={frontmatter.title}
+  description={frontmatter.description}
+  canonical={frontmatter.canonical || `/articles/${frontmatter.slug || Astro.params.slug}/`}
+  ogTitle={frontmatter.ogTitle || frontmatter.title}
+  ogDescription={frontmatter.ogDescription || frontmatter.description}
+  noindex={frontmatter.noindex || frontmatter.status !== "published"}
+>
+  <article class="article-shell">
+    <header class="article-hero">
+      <div class="article-meta-row">
+        <span class="badge">{frontmatter.category || "未分類"}</span>
+        {frontmatter.updatedAt && <span class="article-date">更新日: {frontmatter.updatedAt}</span>}
+      </div>
+      <h1>{frontmatter.title}</h1>
+      {frontmatter.description && <p class="article-summary">{frontmatter.description}</p>}
+      {frontmatter.affiliateDisclosure && <p class="article-disclosure">この記事にはアフィリエイト広告を含む場合があります。掲載有無にかかわらず、公式情報を優先して整理しています。</p>}
+    </header>
+
+    <aside class="article-takeaways" aria-label="この記事で分かること">
+      <div>
+        <p class="section-kicker">READING GUIDE</p>
+        <h2>この記事で分かること</h2>
+      </div>
+      <ul>
+        {articleTakeaways.map((item) => <li>{item}</li>)}
+      </ul>
+    </aside>
+
+    <div class="article-body">
+      <Content />
+    </div>
+
+    <section class="related-articles" aria-label="関連記事">
+      <div>
+        <p class="section-kicker">RELATED</p>
+        <h2>関連記事</h2>
+      </div>
+      {relatedArticles.length > 0 ? (
+        <div class="related-grid">
+          {relatedArticles.map((item) => (
+            <a class="related-card" href={`/articles/${item.slug}/`}>
+              <span aria-hidden="true">↗</span>
+              <strong>{item.title}</strong>
+              <small>{item.description}</small>
+            </a>
+          ))}
+        </div>
+      ) : (
+        <p class="related-empty">関連する公開記事は準備中です。</p>
+      )}
+    </section>
+  </article>
+  <script is:inline>
+    const sectionThemes = [
+      { keywords: ["結論", "向いている人", "おすすめ"], className: "section-positive", icon: "✓" },
+      { keywords: ["注意", "確認", "未確認", "向いていない"], className: "section-caution", icon: "!" },
+      { keywords: ["まとめ"], className: "section-summary", icon: "→" },
+      { keywords: ["特徴", "メリット", "ポイント"], className: "section-info", icon: "i" },
+    ];
+
+    function themeForHeading(text) {
+      return sectionThemes.find((theme) => theme.keywords.some((keyword) => text.includes(keyword))) || {
+        className: "section-neutral",
+        icon: "•",
+      };
+    }
+
+    const body = document.querySelector(".article-body");
+    if (body) {
+      const firstTitle = body.querySelector(":scope > h1:first-child");
+      if (firstTitle) firstTitle.remove();
+
+      const nodes = Array.from(body.childNodes);
+      let currentSection = null;
+      nodes.forEach((node) => {
+        if (node.nodeType === Node.ELEMENT_NODE && node.tagName === "H2") {
+          const theme = themeForHeading(node.textContent || "");
+          currentSection = document.createElement("section");
+          currentSection.className = `article-section ${theme.className}`;
+          const icon = document.createElement("span");
+          icon.className = "section-icon";
+          icon.textContent = theme.icon;
+          node.prepend(icon);
+          body.insertBefore(currentSection, node);
+          currentSection.appendChild(node);
+          return;
+        }
+        if (currentSection) currentSection.appendChild(node);
+      });
+
+      body.querySelectorAll(":scope > ul, .article-section > ul").forEach((list) => {
+        list.classList.add("check-card-list");
+        list.querySelectorAll("li").forEach((item) => {
+          if (!item.querySelector(".check-icon")) {
+            const icon = document.createElement("span");
+            icon.className = "check-icon";
+            icon.textContent = "✓";
+            item.prepend(icon);
+          }
+        });
+      });
+    }
+  </script>
+</BaseLayout>

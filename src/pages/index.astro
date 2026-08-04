@@ -1,0 +1,184 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const modules = import.meta.glob("../content/articles/*.md", { eager: true });
+const allArticles = Object.entries(modules).map(([path, mod]) => {
+  const slug = path.split("/").pop().replace(".md", "");
+  return { slug, frontmatter: mod.frontmatter };
+});
+
+const hiddenStatuses = new Set(["draft", "review", "fact_check", "ready_to_publish", "superseded", "superseded_draft", "archived"]);
+const publishedArticles = allArticles
+  .filter((article) => article.frontmatter.status === "published")
+  .filter((article) => !article.frontmatter.noindex)
+  .filter((article) => !hiddenStatuses.has(article.frontmatter.status))
+  .sort((a, b) => String(b.frontmatter.publishedAt || b.frontmatter.updatedAt || "").localeCompare(String(a.frontmatter.publishedAt || a.frontmatter.updatedAt || "")));
+
+const featuredArticles = publishedArticles.filter((article) => article.frontmatter.featured === true);
+const categories = Array.from(
+  new Set(allArticles.map((article) => article.frontmatter.category || article.frontmatter.parentCategory || "未分類").filter(Boolean))
+).sort((a, b) => a.localeCompare(b, "ja"));
+
+const title = "Cuivre｜まだ知らない、便利な選択肢を。";
+const description = "Cuivreは、世の中にあるさまざまなサービスを見つけ、その価値が伝わる形で届ける情報メディアです。特徴や利用する価値だけでなく、利用前の注意点まで整理し、自分に合った選択をサポートします。";
+const organizationJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "Cuivre",
+  url: new URL("/", Astro.site ?? Astro.url).toString(),
+  description,
+  publishingPrinciples: new URL("/editorial-policy/", Astro.site ?? Astro.url).toString(),
+  sameAs: [],
+};
+---
+<BaseLayout title={title} description={description} canonical="/" ogTitle={title} ogDescription={description} structuredData={organizationJsonLd}>
+  <section class="home-hero">
+    <p class="eyebrow">Cuivre</p>
+    <h1>まだ知らない、便利な選択肢を。</h1>
+    <p class="hero-copy">
+      Cuivreは、世の中にあるさまざまなサービスを見つけ、
+      その価値が伝わる形で届ける情報メディアです。
+    </p>
+    <p>
+      サービスの特徴や利用する価値だけでなく、利用前に確認したいポイントや向いている人まで分かりやすく整理し、
+      一人ひとりが自分に合った選択をできる場所を目指しています。
+    </p>
+    <div class="hero-actions">
+      <a class="button-primary" href="/articles/">記事を見る</a>
+      <a class="button-secondary" href="#themes">サービスを探す</a>
+    </div>
+  </section>
+
+  <section class="section-block">
+    <p class="section-kicker">Brand Message</p>
+    <h2>サービスを選ぶ前に、<br />そのサービスを知る。</h2>
+    <p>
+      サービス選びで本当に大切なのは、比較することではなく、まず知ること。
+    </p>
+    <p>
+      Cuivreでは、サービスの特徴だけでなく、利用前に確認したいポイントや注意点まで整理し、
+      自分に合った選択ができる判断材料を届けます。
+    </p>
+  </section>
+
+  <section class="section-grid">
+    <div>
+      <p class="section-kicker">About</p>
+      <h2>Cuivreについて</h2>
+    </div>
+    <div>
+      <p>
+        Cuivreは、世の中にあるサービスを発見し、価値が伝わる形で整理する情報メディアです。
+      </p>
+      <p>
+        便利なサービスとの出会いを増やし、読者が安心して選択できる情報を届けることを目指しています。
+      </p>
+      <p>
+        比較やランキングを目的とするのではなく、サービスを理解するための情報を提供します。
+      </p>
+    </div>
+  </section>
+
+  <section class="section-block">
+    <p class="section-kicker">Editorial Policy</p>
+    <h2>編集方針</h2>
+    <p>
+      Cuivreでは、公式サイトや運営会社が公開している情報を優先して調査しています。
+    </p>
+    <p>
+      確認できた情報と、確認できなかった情報を区別し、推測や誇張を避けながら、
+      読者が安心して判断できる記事づくりを心がけています。
+    </p>
+    <ul class="policy-list">
+      <li>公式情報を優先</li>
+      <li>確認できない情報は断定しない</li>
+      <li>メリットだけでなく注意点も掲載</li>
+      <li>広告掲載の有無に関係なく編集する</li>
+      <li>読者が自分で判断できる材料を整理する</li>
+    </ul>
+  </section>
+
+  <section id="themes" class="section-block">
+    <p class="section-kicker">Themes</p>
+    <h2>現在取り扱っているテーマ</h2>
+    <div class="theme-list">
+      {categories.map((category) => (
+        <a href={`/categories/${category}/`}>{category}</a>
+      ))}
+    </div>
+  </section>
+
+  <section class="section-block">
+    <p class="section-kicker">Articles</p>
+    <h2>最新記事</h2>
+    {publishedArticles.length === 0 ? (
+      <p class="empty-message">現在、公開準備中です。</p>
+    ) : (
+      <div class="article-list">
+        {publishedArticles.slice(0, 6).map((article) => (
+          <section class="article-card">
+            <span class="badge">{article.frontmatter.category || "未分類"}</span>
+            <h3><a href={`/articles/${article.slug}/`}>{article.frontmatter.title}</a></h3>
+            <p>{article.frontmatter.description}</p>
+          </section>
+        ))}
+      </div>
+    )}
+  </section>
+
+  {featuredArticles.length > 0 && (
+    <section class="section-block">
+      <p class="section-kicker">Featured</p>
+      <h2>おすすめ記事</h2>
+      <div class="article-list">
+        {featuredArticles.map((article) => (
+          <section class="article-card">
+            <span class="badge">{article.frontmatter.category || "未分類"}</span>
+            <h3><a href={`/articles/${article.slug}/`}>{article.frontmatter.title}</a></h3>
+            <p>{article.frontmatter.description}</p>
+          </section>
+        ))}
+      </div>
+    </section>
+  )}
+
+  <section class="section-grid soft-section">
+    <div>
+      <p class="section-kicker">Advertisement</p>
+      <h2>広告について</h2>
+    </div>
+    <p>
+      Cuivreでは、一部の記事にアフィリエイト広告を掲載する場合があります。
+      広告掲載の有無にかかわらず、公式情報を優先し、読者が安心して判断できる情報を提供します。
+    </p>
+  </section>
+
+  <section class="section-grid">
+    <div>
+      <p class="section-kicker">Editor</p>
+      <h2>運営情報</h2>
+    </div>
+    <div>
+      <h3>Cuivre編集部</h3>
+      <p>
+        Cuivre編集部では、世の中にあるさまざまなサービスを調査し、
+        読者が安心して選択できる情報を届けています。
+      </p>
+      <p>
+        公式情報を優先し、確認できた情報と確認できなかった情報を区別した記事制作を行っています。
+      </p>
+    </div>
+  </section>
+
+  <section class="section-block">
+    <p class="section-kicker">Pages</p>
+    <h2>固定ページ</h2>
+    <div class="footer-links">
+      <a href="/about/">Cuivreについて</a>
+      <a href="/editorial-policy/">編集方針</a>
+      <a href="/affiliate-policy/">広告掲載ポリシー</a>
+      <a href="/privacy/">プライバシーポリシー</a>
+      <a href="/contact/">お問い合わせ</a>
+    </div>
+  </section>
+</BaseLayout>

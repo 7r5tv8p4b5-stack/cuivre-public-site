@@ -1,0 +1,57 @@
+---
+import "../styles/global.css";
+const {
+  title = "Cuivre",
+  description = "Cuivreは、世の中にあるさまざまなサービスを見つけ、その価値が伝わる形で届ける情報メディアです。",
+  canonical,
+  ogTitle = title,
+  ogDescription = description,
+  ogImage = "/ogp.svg",
+  noindex = false,
+  structuredData,
+} = Astro.props;
+const site = Astro.site ?? new URL(Astro.url.origin);
+const canonicalUrl = new URL(canonical ?? Astro.url.pathname, site).toString();
+const ogImageUrl = new URL(ogImage, site).toString();
+---
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta name="robots" content={noindex ? "noindex,nofollow" : "index,follow"} />
+    <link rel="canonical" href={canonicalUrl} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <meta name="theme-color" content="#f8fafc" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Cuivre" />
+    <meta property="og:title" content={ogTitle} />
+    <meta property="og:description" content={ogDescription} />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:image" content={ogImageUrl} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={ogTitle} />
+    <meta name="twitter:description" content={ogDescription} />
+    <meta name="twitter:image" content={ogImageUrl} />
+    {structuredData && <script type="application/ld+json" set:html={JSON.stringify(structuredData)} />}
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/">Cuivre</a>
+      <nav>
+        <a href="/articles/">記事</a>
+        <a href="/about/">Cuivreについて</a>
+        <a href="/editorial-policy/">編集方針</a>
+        <a href="/affiliate-policy/">広告掲載方針</a>
+        <a href="/privacy/">プライバシー</a>
+        <a href="/contact/">お問い合わせ</a>
+      </nav>
+    </header>
+    <main>
+      <slot />
+    </main>
+  </body>
+</html>
