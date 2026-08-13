@@ -1,34 +1,36 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import ArticleCard from "../../components/ArticleCard.astro";
+import { articleCategory, isPublicArticle, normalizeArticle, sortByNewest } from "../../data/site.js";
 
 export async function getStaticPaths() {
   const modules = import.meta.glob("../../content/articles/*.md", { eager: true });
   const categories = new Set(
     Object.values(modules)
-      .filter((mod) => mod.frontmatter.status === "published" && !mod.frontmatter.noindex)
-      .map((mod) => mod.frontmatter.category || "未分類")
+      .filter((mod) => isPublicArticle(mod.frontmatter))
+      .map((mod) => articleCategory(mod.frontmatter))
   );
   return Array.from(categories).map((category) => ({ params: { category }, props: { category, modules } }));
 }
 
 const { category, modules } = Astro.props;
 const articles = Object.entries(modules)
-  .map(([path, mod]) => ({ slug: path.split("/").pop().replace(".md", ""), frontmatter: mod.frontmatter }))
-  .filter((article) => (article.frontmatter.category || "未分類") === category)
-  .filter((article) => article.frontmatter.status === "published" && !article.frontmatter.noindex);
+  .map(([path, mod]) => normalizeArticle(path, mod))
+  .filter((article) => articleCategory(article.frontmatter) === category)
+  .filter((article) => isPublicArticle(article.frontmatter))
+  .sort(sortByNewest);
 ---
-<BaseLayout title={`${category} | Cuivre`}>
-  <h1>{category}</h1>
+<BaseLayout title={`${category} | Cuivre`} description={`${category}に関するCuivreの公開記事一覧です。`}>
+  <section class="page-hero">
+    <p class="section-kicker">CATEGORY</p>
+    <h1>{category}</h1>
+    <p>{category}に関する公開記事を新しい順に整理しています。</p>
+  </section>
   {articles.length === 0 ? (
     <p class="empty-message">現在、公開準備中です。</p>
   ) : (
     <div class="article-list">
-      {articles.map((article) => (
-        <section class="article-card">
-          <h2><a href={`/articles/${article.slug}/`}>{article.frontmatter.title}</a></h2>
-          <p>{article.frontmatter.description}</p>
-        </section>
-      ))}
+      {articles.map((article) => <ArticleCard article={article} variant="large" />)}
     </div>
   )}
 </BaseLayout>

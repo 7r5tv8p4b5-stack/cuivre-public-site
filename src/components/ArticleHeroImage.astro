@@ -1,0 +1,24 @@
+---
+import ServiceVisual from "./ServiceVisual.astro";
+const { image = null, frontmatter = {}, slug = "", mode = "single" } = Astro.props;
+const hasImage = Boolean(image?.src);
+---
+<figure class:list={["article-hero-image", !hasImage && "article-hero-image--fallback"]}>
+  {hasImage ? (
+    <img src={image.src} alt={image.alt || ""} loading="eager" decoding="async" />
+  ) : (
+    <div class="article-hero-image__fallback">
+      <ServiceVisual frontmatter={frontmatter} slug={slug} mode={mode} compact />
+      <div>
+        <span>Cuivre Guide</span>
+        <strong>{frontmatter.primaryCategory || frontmatter.category || "Service Review"}</strong>
+      </div>
+    </div>
+  )}
+  {hasImage && (image.source || image.type) && (
+    <figcaption>
+      {image.type && <span>{image.type}</span>}
+      {image.source && <span>{image.source}</span>}
+    </figcaption>
+  )}
+</figure>

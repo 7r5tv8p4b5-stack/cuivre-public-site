@@ -1,0 +1,14 @@
+---
+import { initialsFor, serviceNameFor, serviceNamesFor } from "../data/site.js";
+const { frontmatter = {}, slug = "", mode = "single", compact = false } = Astro.props;
+const names = mode === "multi" ? serviceNamesFor(frontmatter).slice(0, 5) : [serviceNameFor(frontmatter, slug)];
+const safeNames = names.length ? names : ["Cuivre"];
+---
+<div class:list={["service-visual", compact && "service-visual--compact", mode === "multi" && "service-visual--multi"]} aria-hidden="true">
+  {safeNames.map((name, index) => (
+    <span class={`service-tile service-tile--${index % 5}`}>
+      <strong>{initialsFor(name)}</strong>
+      <small>{name}</small>
+    </span>
+  ))}
+</div>

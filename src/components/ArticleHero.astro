@@ -1,0 +1,14 @@
+---
+import { articleCategory, articleDate } from "../data/site.js";
+const { frontmatter, articleSubject = "" } = Astro.props;
+---
+<header class="article-hero">
+  <div class="article-meta-row">
+    <span class="badge">{articleCategory(frontmatter)}</span>
+    {articleDate(frontmatter) && <time class="article-date" datetime={articleDate(frontmatter)}>更新日: {articleDate(frontmatter)}</time>}
+  </div>
+  <h1>{frontmatter.title}</h1>
+  {frontmatter.description && <p class="article-summary">{frontmatter.description}</p>}
+  {frontmatter.affiliateDisclosure && <p class="article-disclosure">この記事にはアフィリエイト広告を含む場合があります。掲載有無にかかわらず、公式情報を優先して整理しています。</p>}
+  {articleSubject && <span class="article-subject">{articleSubject}</span>}
+</header>

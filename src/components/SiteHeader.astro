@@ -1,0 +1,23 @@
+---
+import Icon from "./Icon.astro";
+import { siteNav } from "../data/site.js";
+---
+<header class="site-header">
+  <a class="brand" href="/" aria-label="Cuivre ホーム">Cuivre</a>
+  <nav class="site-nav" aria-label="主要ナビゲーション">
+    {siteNav.map((item) => <a href={item.href}>{item.label}</a>)}
+  </nav>
+  <div class="header-actions">
+    <a class="header-search" href="/articles/" aria-label="記事を探す">
+      <Icon name="search" />
+    </a>
+    <details class="mobile-menu">
+      <summary aria-label="メニューを開く">
+        <Icon name="menu" />
+      </summary>
+      <nav aria-label="モバイルナビゲーション">
+        {siteNav.map((item) => <a href={item.href}>{item.label}</a>)}
+      </nav>
+    </details>
+  </div>
+</header>

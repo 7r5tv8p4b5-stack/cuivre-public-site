@@ -1,0 +1,17 @@
+---
+const { summary } = Astro.props;
+---
+{summary && (
+  <section class="ranking-summary" aria-label="ランキング記事サマリー">
+    <div>
+      <p class="section-kicker">RANKING GUIDE</p>
+      <h2>{summary.title}</h2>
+      {summary.note && <p>{summary.note}</p>}
+    </div>
+    {summary.services?.length > 0 && (
+      <div class="ranking-services">
+        {summary.services.map((service) => <span>{service}</span>)}
+      </div>
+    )}
+  </section>
+)}

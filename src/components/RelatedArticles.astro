@@ -1,0 +1,19 @@
+---
+import ArticleCard from "./ArticleCard.astro";
+const { articles = [] } = Astro.props;
+---
+<section class="related-articles" aria-label="関連記事">
+  <div class="section-heading">
+    <div>
+      <p class="section-kicker">RELATED</p>
+      <h2>関連記事</h2>
+    </div>
+  </div>
+  {articles.length > 0 ? (
+    <div class="related-grid">
+      {articles.map((item) => <ArticleCard article={item} />)}
+    </div>
+  ) : (
+    <p class="related-empty">関連する公開記事は準備中です。</p>
+  )}
+</section>

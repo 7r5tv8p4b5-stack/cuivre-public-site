@@ -1,0 +1,18 @@
+---
+import Icon from "./Icon.astro";
+const { items = [] } = Astro.props;
+---
+{items.length > 0 && (
+  <section class="service-summary" aria-label="重要情報サマリー">
+    {items.map((item) => (
+      <div class="service-summary__item">
+        <Icon name={item.icon} />
+        <div>
+          <strong>{item.label}</strong>
+          <span>{item.value}</span>
+          {item.note && <small>{item.note}</small>}
+        </div>
+      </div>
+    ))}
+  </section>
+)}

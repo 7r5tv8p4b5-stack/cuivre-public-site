@@ -1,0 +1,38 @@
+---
+import ArticleCTA from "./ArticleCTA.astro";
+import Icon from "./Icon.astro";
+import ServiceVisual from "./ServiceVisual.astro";
+import { ctaHrefFor, logoImageFor, serviceNameFor, serviceSidebarItemsFor } from "../data/site.js";
+const { frontmatter = {}, slug = "" } = Astro.props;
+const items = serviceSidebarItemsFor(frontmatter);
+const ctaHref = ctaHrefFor(frontmatter);
+const logoImage = logoImageFor(frontmatter);
+const serviceName = serviceNameFor(frontmatter, slug);
+---
+{frontmatter.articleType === "service_review" && (
+  <aside class="service-sidebar" aria-label="このサービスについて">
+    <h2>このサービスについて</h2>
+    <div class="service-sidebar__head">
+      {logoImage?.src ? (
+        <img src={logoImage.src} alt={logoImage.alt || `${serviceName} ロゴ`} loading="lazy" decoding="async" />
+      ) : (
+        <ServiceVisual frontmatter={frontmatter} slug={slug} compact />
+      )}
+      <div>
+        <strong>{serviceName}</strong>
+        {frontmatter.serviceDescription && <p>{frontmatter.serviceDescription}</p>}
+      </div>
+    </div>
+    {items.length > 0 && (
+      <dl class="service-sidebar__list">
+        {items.map((item) => (
+          <div>
+            <dt><Icon name={item.icon || "check"} /> {item.label}</dt>
+            <dd>{item.value}</dd>
+          </div>
+        ))}
+      </dl>
+    )}
+    <ArticleCTA href={ctaHref} />
+  </aside>
+)}

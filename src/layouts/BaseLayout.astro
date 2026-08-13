@@ -1,5 +1,6 @@
 ---
 import "../styles/global.css";
+import SiteHeader from "../components/SiteHeader.astro";
 const {
   title = "Cuivre",
   description = "Cuivreは、世の中にあるさまざまなサービスを見つけ、その価値が伝わる形で届ける情報メディアです。",
@@ -25,7 +26,7 @@ const ogImageUrl = new URL(ogImage, site).toString();
     <link rel="canonical" href={canonicalUrl} />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="manifest" href="/manifest.webmanifest" />
-    <meta name="theme-color" content="#f8fafc" />
+    <meta name="theme-color" content="#fbf7ef" />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Cuivre" />
     <meta property="og:title" content={ogTitle} />
@@ -39,19 +40,19 @@ const ogImageUrl = new URL(ogImage, site).toString();
     {structuredData && <script type="application/ld+json" set:html={JSON.stringify(structuredData)} />}
   </head>
   <body>
-    <header class="site-header">
+    <SiteHeader />
+    <main>
+      <slot />
+    </main>
+    <footer class="site-footer">
       <a class="brand" href="/">Cuivre</a>
-      <nav>
-        <a href="/articles/">記事</a>
+      <nav aria-label="フッターナビゲーション">
         <a href="/about/">Cuivreについて</a>
         <a href="/editorial-policy/">編集方針</a>
         <a href="/affiliate-policy/">広告掲載方針</a>
         <a href="/privacy/">プライバシー</a>
         <a href="/contact/">お問い合わせ</a>
       </nav>
-    </header>
-    <main>
-      <slot />
-    </main>
+    </footer>
   </body>
 </html>

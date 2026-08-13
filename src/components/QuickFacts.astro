@@ -1,0 +1,21 @@
+---
+import Icon from "./Icon.astro";
+const { title = "", facts = [] } = Astro.props;
+---
+{facts.length > 0 && (
+  <section class="quick-facts" aria-label={title}>
+    <h2>{title}</h2>
+    <div class="quick-facts__grid">
+      {facts.map((fact) => (
+        <div class="quick-fact">
+          <span class="quick-fact__icon"><Icon name={fact.icon} /></span>
+          <div>
+            <strong>{fact.label}</strong>
+            <span>{fact.value}</span>
+            {fact.note && <small>{fact.note}</small>}
+          </div>
+        </div>
+      ))}
+    </div>
+  </section>
+)}

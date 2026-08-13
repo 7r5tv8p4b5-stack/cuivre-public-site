@@ -1,30 +1,32 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import Icon from "../../components/Icon.astro";
+import { categoryCardsFrom, publicArticlesFromModules } from "../../data/site.js";
 
 const modules = import.meta.glob("../../content/articles/*.md", { eager: true });
-const publishedArticles = Object.values(modules)
-  .map((mod) => mod.frontmatter)
-  .filter((frontmatter) => frontmatter.status === "published" && !frontmatter.noindex);
-const categories = Array.from(
-  new Set(publishedArticles.map((frontmatter) => frontmatter.category || frontmatter.parentCategory || "未分類").filter(Boolean))
-).sort((a, b) => a.localeCompare(b, "ja"));
+const categories = categoryCardsFrom(publicArticlesFromModules(modules));
 ---
 <BaseLayout
   title="カテゴリ一覧 | Cuivre"
   description="Cuivreで現在公開している記事カテゴリの一覧です。"
   canonical="/categories/"
 >
-  <section class="section-block">
-    <p class="section-kicker">Categories</p>
+  <section class="page-hero">
+    <p class="section-kicker">CATEGORIES</p>
     <h1>カテゴリ一覧</h1>
+    <p>公開済み記事のカテゴリを、記事数の多い順に整理しています。</p>
+  </section>
     {categories.length === 0 ? (
       <p class="empty-message">現在、公開準備中です。</p>
     ) : (
-      <div class="theme-list">
+      <div class="category-grid">
         {categories.map((category) => (
-          <a href={`/categories/${category}/`}>{category}</a>
+          <a class="category-card" href={category.href}>
+            <span><Icon name={category.icon} /></span>
+            <strong>{category.label}</strong>
+            <small>{category.count}件の記事を見る</small>
+          </a>
         ))}
       </div>
     )}
-  </section>
 </BaseLayout>

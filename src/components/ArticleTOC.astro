@@ -1,0 +1,18 @@
+---
+const { headings = [] } = Astro.props;
+const toc = headings.filter((heading) => heading.depth === 2 || heading.depth === 3).slice(0, 14);
+---
+{toc.length > 0 && (
+  <aside class="article-toc" aria-label="この記事の目次">
+    <details open>
+      <summary>この記事の目次</summary>
+      <ol>
+        {toc.map((heading) => (
+          <li class={`toc-depth-${heading.depth}`}>
+            <a href={`#${heading.slug}`}>{heading.text}</a>
+          </li>
+        ))}
+      </ol>
+    </details>
+  </aside>
+)}

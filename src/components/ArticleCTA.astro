@@ -1,0 +1,19 @@
+---
+import Icon from "./Icon.astro";
+const { href, label = "公式サイトを見る", note = "公式URLまたは承認済みAffiliate URLが設定された場合のみ表示します。" } = Astro.props;
+---
+{href ? (
+  <aside class="article-cta">
+    <div>
+      <strong>{label}</strong>
+      <span>最新情報は公式サイトで確認してください。</span>
+    </div>
+    <a class="button-primary" href={href} rel="nofollow sponsored noopener" target="_blank">
+      見る <Icon name="arrow" />
+    </a>
+  </aside>
+) : (
+  <aside class="article-cta article-cta--empty">
+    <span>{note}</span>
+  </aside>
+)}

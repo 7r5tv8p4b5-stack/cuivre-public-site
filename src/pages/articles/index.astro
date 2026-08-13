@@ -1,24 +1,35 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import ArticleCard from "../../components/ArticleCard.astro";
+import { publicArticlesFromModules } from "../../data/site.js";
 const modules = import.meta.glob("../../content/articles/*.md", { eager: true });
-const articles = Object.entries(modules).map(([path, mod]) => {
-  const slug = path.split("/").pop().replace(".md", "");
-  return { slug, frontmatter: mod.frontmatter };
-}).filter((article) => article.frontmatter.status === "published" && !article.frontmatter.noindex);
+const articles = publicArticlesFromModules(modules);
+const comparisonArticles = articles.filter((article) => (article.frontmatter.articleType || "").includes("comparison"));
 ---
-<BaseLayout title="記事一覧 | Cuivre">
-  <h1>記事一覧</h1>
+<BaseLayout title="記事一覧 | Cuivre" description="Cuivreで公開しているサービス紹介、比較ガイド、ランキング記事の一覧です。">
+  <section class="page-hero">
+    <p class="section-kicker">ARTICLES</p>
+    <h1>記事一覧</h1>
+    <p>公開済みの記事を新しい順にまとめています。サービス名、カテゴリ、比較記事から気になる記事へ移動できます。</p>
+  </section>
   {articles.length === 0 ? (
     <p class="empty-message">現在、公開準備中です。</p>
   ) : (
     <div class="article-list">
-      {articles.map((article) => (
-        <section class="article-card">
-          <span class="badge">{article.frontmatter.category || "未分類"}</span>
-          <h2><a href={`/articles/${article.slug}/`}>{article.frontmatter.title}</a></h2>
-          <p>{article.frontmatter.description}</p>
-        </section>
-      ))}
+      {articles.map((article) => <ArticleCard article={article} variant="large" />)}
     </div>
+  )}
+  {comparisonArticles.length > 0 && (
+    <section class="home-section" id="comparison">
+      <div class="section-heading">
+        <div>
+          <p class="section-kicker">COMPARISON</p>
+          <h2>比較ガイド</h2>
+        </div>
+      </div>
+      <div class="article-list">
+        {comparisonArticles.map((article) => <ArticleCard article={article} variant="large" />)}
+      </div>
+    </section>
   )}
 </BaseLayout>

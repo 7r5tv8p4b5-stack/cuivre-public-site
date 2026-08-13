@@ -1,0 +1,25 @@
+---
+import Icon from "./Icon.astro";
+const { summary } = Astro.props;
+---
+{summary && (
+  <section class="comparison-summary" aria-label="比較記事サマリー">
+    <div>
+      <p class="section-kicker">COMPARISON</p>
+      <h2>{summary.title}</h2>
+      {summary.conclusion && <p>{summary.conclusion}</p>}
+    </div>
+    {summary.services?.length >= 2 && (
+      <div class="comparison-versus">
+        <strong>{summary.services[0]}</strong>
+        <span>VS</span>
+        <strong>{summary.services[1]}</strong>
+      </div>
+    )}
+    <div class="comparison-points">
+      {(summary.points || []).map((point) => (
+        <span><Icon name="compare" /> {point}</span>
+      ))}
+    </div>
+  </section>
+)}
