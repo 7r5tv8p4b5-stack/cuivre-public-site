@@ -7,7 +7,6 @@ import ComparisonSummary from "../../components/ComparisonSummary.astro";
 import QuickFacts from "../../components/QuickFacts.astro";
 import RankingSummary from "../../components/RankingSummary.astro";
 import RelatedArticles from "../../components/RelatedArticles.astro";
-import ServiceSidebar from "../../components/ServiceSidebar.astro";
 import {
   articleCategory,
   comparisonSummaryFor,
@@ -95,7 +94,6 @@ const structuredData = {
       <div class="article-main">
         <div class="article-body" set:html={articleHtml} />
       </div>
-      <ServiceSidebar frontmatter={frontmatter} slug={slug} />
     </div>
 
     <RelatedArticles articles={relatedArticles} />
