@@ -43,7 +43,7 @@ const organizationJsonLd = {
           記事を読む <Icon name="arrow" />
         </a>
         <div class="feature-pills">
-          {quickFactsFor(featuredArticle.frontmatter).slice(0, 4).map((fact) => (
+          {quickFactsFor(featuredArticle.frontmatter).filter((fact) => fact.label !== "公式情報").slice(0, 4).map((fact) => (
             <span><Icon name={fact.icon} /> {fact.label}</span>
           ))}
         </div>
