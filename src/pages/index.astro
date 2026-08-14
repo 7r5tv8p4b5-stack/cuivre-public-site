@@ -2,7 +2,6 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import ArticleCard from "../components/ArticleCard.astro";
 import Icon from "../components/Icon.astro";
-import ServiceVisual from "../components/ServiceVisual.astro";
 import {
   articleCategory,
   articleDate,
@@ -49,9 +48,6 @@ const organizationJsonLd = {
           ))}
         </div>
       </div>
-      <div class="home-feature__visual">
-        <ServiceVisual frontmatter={featuredArticle.frontmatter} slug={featuredArticle.slug} mode="multi" />
-      </div>
     </section>
   )}
 
@@ -83,7 +79,6 @@ const organizationJsonLd = {
             <strong>{comparisonArticle.frontmatter.title}</strong>
             <span>{articleCategory(comparisonArticle.frontmatter)}</span>
           </div>
-          <ServiceVisual frontmatter={comparisonArticle.frontmatter} slug={comparisonArticle.slug} mode="multi" compact />
         </a>
       </div>
     )}

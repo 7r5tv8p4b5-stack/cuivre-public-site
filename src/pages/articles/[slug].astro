@@ -1,7 +1,6 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import ArticleHero from "../../components/ArticleHero.astro";
-import ArticleHeroImage from "../../components/ArticleHeroImage.astro";
 import ArticleTOC from "../../components/ArticleTOC.astro";
 import ComparisonSummary from "../../components/ComparisonSummary.astro";
 import QuickFacts from "../../components/QuickFacts.astro";
@@ -10,7 +9,6 @@ import RelatedArticles from "../../components/RelatedArticles.astro";
 import {
   articleCategory,
   comparisonSummaryFor,
-  heroImageFor,
   normalizeArticle,
   publicArticlesFromModules,
   quickFactsFor,
@@ -50,7 +48,6 @@ const isComparison = Boolean(comparisonSummary);
 const isRanking = Boolean(rankingSummary);
 const articleSubject = isComparison ? "比較ガイド" : isRanking ? "ランキングガイド" : serviceNameFor(frontmatter, slug);
 const quickFactsTitle = isComparison || isRanking ? "3秒でわかる要点" : `3秒でわかる ${serviceNameFor(frontmatter, slug)}`;
-const heroImage = heroImageFor(frontmatter);
 const productionUrl = `/articles/${slug}/`;
 const structuredData = {
   "@context": "https://schema.org",
@@ -84,7 +81,6 @@ const structuredData = {
 
     <ArticleHero frontmatter={frontmatter} articleSubject={articleSubject} />
 
-    <ArticleHeroImage image={heroImage} frontmatter={frontmatter} slug={slug} mode={isComparison || isRanking ? "multi" : "single"} />
     <QuickFacts title={quickFactsTitle} facts={quickFacts} />
     <ComparisonSummary summary={comparisonSummary} />
     <RankingSummary summary={rankingSummary} />

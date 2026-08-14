@@ -1,13 +1,9 @@
 ---
-import ServiceVisual from "./ServiceVisual.astro";
 import { articleCategory, articleDate, articleHref } from "../data/site.js";
 const { article, variant = "default" } = Astro.props;
 const { frontmatter } = article;
 ---
 <article class:list={["article-card", `article-card--${variant}`]}>
-  <a class="article-card__media" href={articleHref(article)} aria-label={`${frontmatter.title}を読む`}>
-    <ServiceVisual frontmatter={frontmatter} slug={article.slug} compact={variant !== "large"} />
-  </a>
   <div class="article-card__body">
     <div class="article-card__meta">
       <span class="badge">{articleCategory(frontmatter)}</span>
