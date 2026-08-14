@@ -20,6 +20,8 @@ draft: false
 slug: "jtb-domestic-travel-review"
 noindex: false
 canonical: "/articles/jtb-domestic-travel-review/"
+visualName: "JTB"
+visualSubtitle: "国内宿泊・国内ツアー"
 ogTitle: "JTBの評判・口コミは？国内旅行で使うメリット・デメリットと予約前の注意点"
 ogDescription: "JTBの国内旅行予約について、評判・口コミ、メリット・デメリット、向いている人、Web予約前の注意点を公式情報と2026年オリコン調査をもとに整理します。"
 serviceIds:
@@ -56,10 +58,10 @@ quickFacts:
     value: "総合73.1点・6位"
     note: "2026年オリコン"
   -
-    icon: "alert"
-    label: "広告注意"
-    value: "アプリ予約は成果対象外"
-    note: "A8条件"
+    icon: "team"
+    label: "向いている人"
+    value: "交通＋宿泊をまとめて探したい人"
+    note: "本文より"
 serviceSummary:
   -
     icon: "search"
@@ -74,9 +76,9 @@ serviceSummary:
     label: "オリコン"
     value: "総合6位"
   -
-    icon: "alert"
-    label: "成果対象外"
-    value: "アプリ・海外旅行など"
+    icon: "team"
+    label: "向いている人"
+    value: "交通＋宿泊をまとめて探したい人"
 officialUrl: "https://www.jtb.co.jp/kokunai_jr/kokunai_tour/"
 ---
 

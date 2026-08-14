@@ -470,6 +470,18 @@ p {
   white-space: nowrap;
 }
 
+.service-tile em {
+  display: block;
+  max-width: 100%;
+  overflow: hidden;
+  color: #6b7a72;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 750;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 .service-tile--1 {
   color: #1372b7;
   background: linear-gradient(180deg, #f7fbff, #e7f1fc);

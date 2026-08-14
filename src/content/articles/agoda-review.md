@@ -20,6 +20,8 @@ draft: false
 slug: "agoda-review"
 noindex: false
 canonical: "/articles/agoda-review/"
+visualName: "Agoda"
+visualSubtitle: "国内・海外ホテル予約"
 ogTitle: "Agoda（アゴダ）の評判・口コミは？安い理由とメリット・デメリット、予約前の注意点"
 ogDescription: "Agoda（アゴダ）の評判・口コミ、安い理由、メリット・デメリット、予約前の注意点を公式情報・オリコン・Trustpilotをもとに整理します。"
 serviceIds:
@@ -56,10 +58,10 @@ quickFacts:
     value: "クーポン・割引あり"
     note: "条件確認が重要"
   -
-    icon: "alert"
-    label: "広告注意"
-    value: "宿泊予約のみ対象"
-    note: "アプリ・航空券等は対象外"
+    icon: "team"
+    label: "向いている人"
+    value: "料金を比較して宿を選びたい人"
+    note: "本文より"
 serviceSummary:
   -
     icon: "search"
@@ -74,9 +76,9 @@ serviceSummary:
     label: "特徴"
     value: "割引・クーポン"
   -
-    icon: "alert"
-    label: "成果対象外"
-    value: "アプリ・航空券・パッケージ"
+    icon: "team"
+    label: "向いている人"
+    value: "料金を比較して宿を選びたい人"
 officialUrl: "https://www.agoda.com/ja-jp/"
 ---
 
