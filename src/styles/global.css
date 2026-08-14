@@ -866,6 +866,14 @@ p {
   padding: 0 14px 14px 32px;
 }
 
+.article-toc ul {
+  display: grid;
+  gap: 5px;
+  margin: 6px 0 0;
+  padding: 0 0 0 14px;
+  list-style: none;
+}
+
 .article-toc li {
   color: #59655d;
   font-size: 13px;
@@ -873,7 +881,16 @@ p {
 }
 
 .article-toc .toc-depth-3 {
-  margin-left: 10px;
+  position: relative;
+  color: #708078;
+  font-size: 12px;
+}
+
+.article-toc .toc-depth-3::before {
+  position: absolute;
+  left: -10px;
+  content: "-";
+  color: #8ca198;
 }
 
 .article-toc a {

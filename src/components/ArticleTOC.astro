@@ -1,6 +1,19 @@
 ---
 const { headings = [] } = Astro.props;
-const toc = headings.filter((heading) => heading.depth === 2 || heading.depth === 3).slice(0, 14);
+const stripChildPrefix = (text = "") =>
+  text.replace(/^\s*(?:[0-9０-９]+)[\.\．、\)\）]\s*/, "").trim();
+
+const toc = [];
+for (const heading of headings.filter((item) => item.depth === 2 || item.depth === 3)) {
+  if (heading.depth === 2) {
+    if (toc.length >= 14) continue;
+    toc.push({ ...heading, children: [] });
+    continue;
+  }
+  const parent = toc[toc.length - 1];
+  if (!parent) continue;
+  parent.children.push({ ...heading, text: stripChildPrefix(heading.text) });
+}
 ---
 {toc.length > 0 && (
   <aside class="article-toc" aria-label="この記事の目次">
@@ -8,8 +21,17 @@ const toc = headings.filter((heading) => heading.depth === 2 || heading.depth ==
       <summary>この記事の目次</summary>
       <ol>
         {toc.map((heading) => (
-          <li class={`toc-depth-${heading.depth}`}>
+          <li class="toc-depth-2">
             <a href={`#${heading.slug}`}>{heading.text}</a>
+            {heading.children.length > 0 && (
+              <ul>
+                {heading.children.map((child) => (
+                  <li class="toc-depth-3">
+                    <a href={`#${child.slug}`}>{child.text}</a>
+                  </li>
+                ))}
+              </ul>
+            )}
           </li>
         ))}
       </ol>
