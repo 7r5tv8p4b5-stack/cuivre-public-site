@@ -405,6 +405,8 @@ J-TRIPは、JALを利用した国内旅行を中心に扱う旅行予約サー�
 
 **JAL＋ホテルならJ-TRIP、交通手段を幅広く選ぶならビッグホリデー、沖縄・北海道などの飛行機＋ホテルならニーズツアー、JR＋ホテルなら日本旅行、ホテル中心ならAgoda**というように、旅行スタイルに合わせて比較すると選びやすくなります。
 
+国内旅行・ツアー予約サイト全体を比較したい場合は、[国内旅行・ツアー予約サイト6社比較](/articles/domestic-travel-booking-comparison/)も参考になります。
+
 ### J-TRIPでJAL利用の国内ツアーを探す
 
 <a href="https://px.a8.net/svt/ejp?a8mat=4BA7X4+BX9KPM+40T2+5Z6WX" rel="nofollow">

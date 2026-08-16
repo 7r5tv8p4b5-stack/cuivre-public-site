@@ -285,6 +285,8 @@ officialUrl: "https://japantour.airtrip.jp/"
 
 飛行機＋ホテルならエアトリ、JR・新幹線＋ホテルなら日本旅行、国内旅行を幅広く探すならJTB、宿泊施設中心ならAgodaというように、旅行内容に合わせて比較すると選びやすくなります。
 
+国内旅行・ツアー予約サイト全体を比較したい場合は、[国内旅行・ツアー予約サイト6社比較](/articles/domestic-travel-booking-comparison/)も参考になります。
+
 ### エアトリ国内ツアーはこちらから確認できます
 
 <a href="https://px.a8.net/svt/ejp?a8mat=4BA6D6+2MNYQI+AD2+2HD5WH" rel="nofollow">
