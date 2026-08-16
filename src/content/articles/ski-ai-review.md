@@ -531,6 +531,8 @@ Windows 10 / 11向けの公式配布があります。
 
 AIへ音声で指示するSKIとは逆に、Claude CodeやCodexの作業状況を音声で把握したい場合は[Heard](/articles/heard-ai-review/)という選択肢もあります。
 
+AIが生成したコードそのものをレビューしたい場合は、CodexやClaude Codeと連携できる[CodeRabbit](/articles/coderabbit-review/)という選択肢もあります。
+
 ## まとめ｜SKIは「AIと話しながらコードを書く」を現実的にする新しいツール
 
 SKIは、Claude CodeやCodexなどのAIコーディングエージェントを音声操作するための新しいデスクトップツールです。
