@@ -163,6 +163,8 @@ officialUrl: "https://japantour.airtrip.jp/"
 
 航空券だけを比較したい場合は、[エアトリ国内航空券の記事](/articles/airtrip-domestic-flight-review/)も参考になります。
 
+沖縄・北海道などの国内ツアーを比較したい場合は、[ニーズツアーの記事](/articles/needstour-review/)も参考になります。
+
 ### 最安とは限らない
 
 エアトリに限らず、旅行予約サービスは旅行日、路線、ホテル、予約時期によって料金が変わります。

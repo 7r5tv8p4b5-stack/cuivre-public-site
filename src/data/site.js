@@ -2,7 +2,7 @@ export const siteNav = [
   { label: "記事", href: "/articles/" },
   { label: "比較ガイド", href: "/articles/#comparison" },
   { label: "カテゴリー", href: "/categories/" },
-  { label: "目的から探す", href: "/#purpose" },
+  { label: "悩み・目的から探す", href: "/#purpose" },
   { label: "運営者情報", href: "/about/" },
 ];
 
@@ -48,7 +48,7 @@ export const purposeCards = [
 ];
 
 export const categoryVisuals = {
-  "AIサービス": { icon: "mic", label: "AI議事録ツール" },
+  "AIサービス": { icon: "mic", label: "AIサービス" },
   "AI議事録": { icon: "mic", label: "AI議事録ツール" },
   "AI文字起こし": { icon: "language", label: "AI文字起こし" },
   "転職サービス": { icon: "briefcase", label: "転職サービス" },
