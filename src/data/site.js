@@ -2,7 +2,6 @@ export const siteNav = [
   { label: "記事", href: "/articles/" },
   { label: "比較ガイド", href: "/articles/#comparison" },
   { label: "カテゴリー", href: "/categories/" },
-  { label: "悩み・目的から探す", href: "/#purpose" },
   { label: "運営者情報", href: "/about/" },
 ];
 

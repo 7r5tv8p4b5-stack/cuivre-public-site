@@ -9,7 +9,6 @@ import {
   categoryCardsFrom,
   featuredArticleFrom,
   publicArticlesFromModules,
-  purposeCards,
   quickFactsFor,
 } from "../data/site.js";
 
@@ -87,38 +86,19 @@ const organizationJsonLd = {
         </a>
       </div>
     )}
-    <div class="home-panel" id="purpose">
-      <p class="section-kicker">PURPOSE</p>
-      <h2>悩み・目的から探す</h2>
-      <p>やりたいことや困っていることから、あなたに合うサービスや記事を探せます。</p>
-      <div class="purpose-grid">
-        {purposeCards.map((card) => (
-          <a href={card.href}>
-            <Icon name={card.icon} />
-            <span>{card.label}</span>
-            <small>{card.description}</small>
+    <div class="home-panel">
+      <p class="section-kicker">CATEGORIES</p>
+      <h2>人気カテゴリー</h2>
+      <p>よく読まれているカテゴリから、関連する記事をまとめて確認できます。</p>
+      <div class="category-grid category-grid--panel">
+        {categoryCards.map((card) => (
+          <a class="category-card" href={card.href}>
+            <span><Icon name={card.icon} /></span>
+            <strong>{card.label}</strong>
+            <small>{card.count}件の記事を見る</small>
           </a>
         ))}
       </div>
-    </div>
-  </section>
-
-  <section class="home-section">
-    <div class="section-heading">
-      <div>
-        <p class="section-kicker">CATEGORIES</p>
-        <h2>人気カテゴリー</h2>
-      </div>
-      <a href="/categories/">すべて見る</a>
-    </div>
-    <div class="category-grid">
-      {categoryCards.map((card) => (
-        <a class="category-card" href={card.href}>
-          <span><Icon name={card.icon} /></span>
-          <strong>{card.label}</strong>
-          <small>{card.count}件の記事を見る</small>
-        </a>
-      ))}
     </div>
   </section>
 
