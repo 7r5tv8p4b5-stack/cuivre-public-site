@@ -41,6 +41,36 @@ researchBriefId:
 articleBlueprintId:
 articleBlueprintVersion:
 goldStandardCandidate: false
+quickFacts:
+  -
+    icon: "compare"
+    label: "比較対象"
+    value: "Notta / Fathom / Fireflies.ai / Otter.ai / tl;dv"
+    note: "5サービス"
+  -
+    icon: "search"
+    label: "選び方"
+    value: "日本語・無料枠・Web会議対応・共有機能などで比較"
+    note: "本文より"
+  -
+    icon: "gift"
+    label: "無料で試したい"
+    value: "各サービスの無料プラン・無料枠を確認して選ぶ"
+    note: "公式情報ベース"
+  -
+    icon: "team"
+    label: "向いている人"
+    value: "自分に合うAI議事録ツールを短時間で比較したい人"
+    note: "比較記事"
+rankingSummary:
+  title: "比較しているAI議事録ツール"
+  services:
+    - "Notta"
+    - "Fathom"
+    - "Fireflies.ai"
+    - "Otter.ai"
+    - "tl;dv"
+  note: "無料プランやWeb会議対応など、本文内の確認済み情報をもとに比較しています。"
 ---
 
 # AI議事録ツールおすすめ5選を比較｜無料で使えるサービスと選び方【2026年版】

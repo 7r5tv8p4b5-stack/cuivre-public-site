@@ -163,6 +163,10 @@ export function quickFactsFor(frontmatter) {
       .filter((fact) => fact.label && fact.value)
       .slice(0, 5);
   }
+  const type = frontmatter.articleType || "";
+  if (type.includes("comparison") || type.includes("ranking")) {
+    return [];
+  }
   if (frontmatter.factChecked) {
     return [{ icon: "check", label: "公式情報", value: "確認済み", note: "公開時点の確認済み情報を整理" }];
   }
@@ -230,13 +234,7 @@ export function comparisonSummaryFor(frontmatter) {
   const type = frontmatter.articleType || "";
   if (!type.includes("comparison")) return null;
   if (frontmatter.comparisonSummary) return frontmatter.comparisonSummary;
-  const names = serviceNamesFor(frontmatter);
-  return {
-    title: names.length >= 2 ? `${names[0]} vs ${names[1]}` : "比較ガイド",
-    services: names.slice(0, 2),
-    points: ["無料プラン", "日本語", "料金", "おすすめユーザー"],
-    conclusion: "結論は本文の確認済み情報に沿って整理しています。",
-  };
+  return null;
 }
 
 export function rankingSummaryFor(frontmatter) {
