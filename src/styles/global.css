@@ -1356,7 +1356,7 @@ blockquote {
   }
 
   .home-feature {
-    grid-template-columns: minmax(0, 1fr) minmax(280px, 0.8fr);
+    grid-template-columns: minmax(0, 1fr);
     padding: 34px;
   }
 
@@ -1398,7 +1398,7 @@ blockquote {
 
   .home-feature {
     min-height: 300px;
-    grid-template-columns: minmax(0, 1.1fr) minmax(360px, 0.72fr);
+    grid-template-columns: minmax(0, 1fr);
     gap: 20px;
     padding: 26px;
   }
