@@ -1,0 +1,57 @@
+---
+const { recommendations = [], checks = [], evidence = [] } = Astro.props;
+---
+{recommendations.length > 0 && (
+  <section class="service-decision service-decision--recommend" aria-labelledby="service-recommend-heading">
+    <div class="service-decision__header">
+      <h2 id="service-recommend-heading">こんな人におすすめ</h2>
+      <p>※公開情報をもとにしたCuivreの編集上の判断です</p>
+    </div>
+    <div class="service-decision__grid service-decision__grid--recommend">
+      {recommendations.map((group) => (
+        <div class="service-decision-card">
+          <span class={`service-decision-card__mark service-decision-card__mark--${group.tone || "neutral"}`}>{group.mark}</span>
+          <div>
+            <h3>{group.title}</h3>
+            <ul>
+              {(group.items || []).map((item) => <li>{item}</li>)}
+            </ul>
+          </div>
+        </div>
+      ))}
+    </div>
+  </section>
+)}
+
+{checks.length > 0 && (
+  <section class="service-decision service-decision--check" aria-labelledby="service-check-heading">
+    <div class="service-decision__header">
+      <h2 id="service-check-heading">Cuivre Check</h2>
+      <p>公開情報をもとに、導入前に確認したいポイントを整理しています。</p>
+    </div>
+    <div class="service-check-grid">
+      {checks.map((item) => (
+        <div class="service-check-item">
+          <span>{item.label}</span>
+          <strong>{item.value}</strong>
+        </div>
+      ))}
+    </div>
+  </section>
+)}
+
+{evidence.length > 0 && (
+  <section class="service-decision service-decision--evidence" aria-labelledby="service-evidence-heading">
+    <div class="service-decision__header">
+      <h2 id="service-evidence-heading">情報の根拠</h2>
+    </div>
+    <div class="service-evidence-list">
+      {evidence.map((item) => (
+        <div class="service-evidence-item">
+          <strong>{item.label}</strong>
+          <span>{item.value}</span>
+        </div>
+      ))}
+    </div>
+  </section>
+)}

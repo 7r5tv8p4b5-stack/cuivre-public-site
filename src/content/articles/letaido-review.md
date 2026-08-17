@@ -71,6 +71,57 @@ serviceSummary:
     label: "料金"
     value: "月額99ドル"
 officialUrl: "https://letaido.com/"
+quickFactsTitle: "基本情報"
+serviceRecommendations:
+  -
+    mark: "◎"
+    tone: "strong"
+    title: "特におすすめ"
+    items:
+      - "Ahrefsをすでに使っている"
+      - "SEO業務を自動化したい"
+      - "マーケティングチームで活用したい"
+  -
+    mark: "△"
+    tone: "consider"
+    title: "用途によってはおすすめ"
+    items:
+      - "個人ブログで使いたい"
+  -
+    mark: "×"
+    tone: "caution"
+    title: "他のサービスも検討"
+    items:
+      - "無料だけで使えるAIを探している"
+cuivreCheck:
+  -
+    label: "日本語対応"
+    value: "対応"
+  -
+    label: "利用形態"
+    value: "Web"
+  -
+    label: "Ahrefs連携"
+    value: "対応"
+  -
+    label: "基本料金"
+    value: "月額99ドル"
+  -
+    label: "無料利用"
+    value: "Ahrefsユーザーに1か月無料招待が表示される場合あり"
+  -
+    label: "注意点"
+    value: "Ahrefsデータ利用には別途有料Ahrefs契約が必要な場合あり"
+informationSources:
+  -
+    label: "公式情報"
+    value: "Letaido / Ahrefs公式サイト・公式ドキュメントで確認した情報"
+  -
+    label: "第三者情報"
+    value: "外部レビューなどを参考にした情報"
+  -
+    label: "Cuivre判断"
+    value: "公開情報を整理したうえでのCuivreによる編集上の判断"
 ---
 
 # Letaidoとは？AhrefsのAIマーケティングエージェントでできること・料金・使い方を解説【2026年版】
