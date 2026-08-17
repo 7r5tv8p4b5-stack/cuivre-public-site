@@ -1,5 +1,10 @@
 ---
-const { recommendations = [], checks = [], evidence = [] } = Astro.props;
+const {
+  recommendations = [],
+  checks = [],
+  checkDescription = "公開情報をもとに、導入前に確認したいポイントを整理しています。",
+  evidence = [],
+} = Astro.props;
 ---
 {recommendations.length > 0 && (
   <section class="service-decision service-decision--recommend" aria-labelledby="service-recommend-heading">
@@ -27,7 +32,7 @@ const { recommendations = [], checks = [], evidence = [] } = Astro.props;
   <section class="service-decision service-decision--check" aria-labelledby="service-check-heading">
     <div class="service-decision__header">
       <h2 id="service-check-heading">Cuivre Check</h2>
-      <p>公開情報をもとに、導入前に確認したいポイントを整理しています。</p>
+      <p>{checkDescription}</p>
     </div>
     <div class="service-check-grid">
       {checks.map((item) => (

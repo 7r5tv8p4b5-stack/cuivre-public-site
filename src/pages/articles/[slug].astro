@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import ArticleCTA from "../../components/ArticleCTA.astro";
 import ArticleHero from "../../components/ArticleHero.astro";
 import ArticleTOC from "../../components/ArticleTOC.astro";
 import ComparisonSummary from "../../components/ComparisonSummary.astro";
@@ -58,6 +59,8 @@ const isRanking = Boolean(rankingSummary);
 const articleSubject = isComparison ? "比較ガイド" : isRanking ? "ランキングガイド" : serviceNameFor(frontmatter, slug);
 const quickFactsTitle = frontmatter.quickFactsTitle || (isComparison || isRanking ? "3秒でわかる要点" : `3秒でわかる ${serviceNameFor(frontmatter, slug)}`);
 const productionUrl = `/articles/${slug}/`;
+const officialCtaHref = frontmatter.officialCtaText ? frontmatter.officialUrl || frontmatter.official_url : "";
+const officialCtaText = frontmatter.officialCtaText || frontmatter.official_cta_text;
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "Article",
@@ -95,9 +98,11 @@ const structuredData = {
     <ServiceDecisionPanel
       recommendations={frontmatter.serviceRecommendations || []}
       checks={frontmatter.cuivreCheck || []}
+      checkDescription={frontmatter.cuivreCheckDescription}
       evidence={frontmatter.informationSources || []}
     />
     <QuickFacts title={quickFactsTitle} facts={quickFacts} />
+    {officialCtaHref && <ArticleCTA href={officialCtaHref} label={officialCtaText} />}
     <ComparisonSummary summary={comparisonSummary} />
     <RankingSummary summary={rankingSummary} />
 
@@ -105,6 +110,7 @@ const structuredData = {
       <ArticleTOC headings={headings} />
       <div class="article-main">
         <div class="article-body" set:html={articleBodyHtml} />
+        {officialCtaHref && <ArticleCTA href={officialCtaHref} label={officialCtaText} />}
       </div>
     </div>
 
