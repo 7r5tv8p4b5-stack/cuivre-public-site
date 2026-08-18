@@ -1,8 +1,24 @@
 ---
 import { articleCategory, articleDate } from "../data/site.js";
 const { frontmatter, articleSubject = "" } = Astro.props;
+const appIcon = frontmatter.appIcon || frontmatter.app_icon;
+const appPlatforms = frontmatter.appPlatforms || frontmatter.app_platforms || "";
+const appPricing = frontmatter.appPricing || frontmatter.app_pricing || "";
+const appPrice = frontmatter.appPrice || frontmatter.app_price || "";
+const appDisplayName = frontmatter.serviceName || frontmatter.serviceNames?.[0] || articleSubject || frontmatter.title;
 ---
 <header class="article-hero">
+  {appIcon?.src && (
+    <div class="app-hero">
+      <img src={appIcon.src} alt={appIcon.alt || `${appDisplayName}公式アイコン`} loading="eager" decoding="async" />
+      <div>
+        <strong>{appDisplayName}</strong>
+        {appPrice && <span>{appPrice}</span>}
+        {appPricing && <span>{appPricing}</span>}
+        {appPlatforms && <span>{appPlatforms}</span>}
+      </div>
+    </div>
+  )}
   <div class="article-meta-row">
     <span class="badge">{articleCategory(frontmatter)}</span>
     {articleDate(frontmatter) && <time class="article-date" datetime={articleDate(frontmatter)}>更新日: {articleDate(frontmatter)}</time>}

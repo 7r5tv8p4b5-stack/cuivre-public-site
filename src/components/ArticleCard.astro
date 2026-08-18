@@ -2,9 +2,16 @@
 import { articleCategory, articleDate, articleHref } from "../data/site.js";
 const { article, variant = "default" } = Astro.props;
 const { frontmatter } = article;
+const appIcon = frontmatter.appIcon || frontmatter.app_icon;
 ---
 <article class:list={["article-card", `article-card--${variant}`]}>
   <div class="article-card__body">
+    {appIcon?.src && (
+      <div class="article-card__app">
+        <img src={appIcon.src} alt={appIcon.alt || `${frontmatter.title}公式アイコン`} loading="lazy" decoding="async" />
+        <span>{frontmatter.serviceName || frontmatter.serviceNames?.[0] || frontmatter.title.split("は")[0]}</span>
+      </div>
+    )}
     <div class="article-card__meta">
       <span class="badge">{articleCategory(frontmatter)}</span>
       {articleDate(frontmatter) && <time datetime={articleDate(frontmatter)}>{articleDate(frontmatter)}</time>}

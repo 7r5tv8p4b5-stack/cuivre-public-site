@@ -161,7 +161,6 @@ export function quickFactsFor(frontmatter) {
         note: fact.note || fact.description,
       }))
       .filter((fact) => fact.label && fact.value)
-      .slice(0, 5);
   }
   const type = frontmatter.articleType || "";
   if (type.includes("comparison") || type.includes("ranking")) {
