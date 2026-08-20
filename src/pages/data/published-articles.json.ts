@@ -46,7 +46,10 @@ function articleEntries() {
 }
 
 export function GET() {
-  return new Response(JSON.stringify(articleEntries(), null, 2), {
+  const body = JSON.stringify(articleEntries(), null, 2).replace(/[^\x00-\x7F]/g, (character) =>
+    `\\u${character.charCodeAt(0).toString(16).padStart(4, "0")}`
+  );
+  return new Response(body, {
     headers: {
       "Content-Type": "application/json; charset=utf-8",
     },
