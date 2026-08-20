@@ -193,26 +193,26 @@ informationSources:
     title: "Cuivre判断"
     body: "購入価値や使い分けは公開情報を整理したCuivre編集判断です。Cuivreが実際に使用したレビューではありません。"
 appIcon:
-  src: "https://apps.apple.com/jp/app/%E5%8E%9F%E7%A8%BF%E3%83%97%E3%83%A9%E3%83%B3%E3%83%8A%E3%83%BC/id6759912958"
+  src: "/assets/apps/genko-planner-review/icon.jpg"
   alt: "原稿プランナー公式アプリアイコン"
   source: "App Store"
   sourceUrl: "https://apps.apple.com/jp/app/%E5%8E%9F%E7%A8%BF%E3%83%97%E3%83%A9%E3%83%B3%E3%83%8A%E3%83%BC/id6759912958"
   official: true
 officialScreenshots:
   -
-    src: "https://apps.apple.com/jp/app/%E5%8E%9F%E7%A8%BF%E3%83%97%E3%83%A9%E3%83%B3%E3%83%8A%E3%83%BC/id6759912958"
+    src: "/assets/apps/genko-planner-review/screenshot-1.jpg"
     alt: "原稿プランナー公式スクリーンショット 1"
     source: "App Store"
     sourceUrl: "https://apps.apple.com/jp/app/%E5%8E%9F%E7%A8%BF%E3%83%97%E3%83%A9%E3%83%B3%E3%83%8A%E3%83%BC/id6759912958"
     official: true
   -
-    src: "https://apps.apple.com/jp/app/%E5%8E%9F%E7%A8%BF%E3%83%97%E3%83%A9%E3%83%B3%E3%83%8A%E3%83%BC/id6759912958"
+    src: "/assets/apps/genko-planner-review/screenshot-2.jpg"
     alt: "原稿プランナー公式スクリーンショット 2"
     source: "App Store"
     sourceUrl: "https://apps.apple.com/jp/app/%E5%8E%9F%E7%A8%BF%E3%83%97%E3%83%A9%E3%83%B3%E3%83%8A%E3%83%BC/id6759912958"
     official: true
   -
-    src: "https://apps.apple.com/jp/app/%E5%8E%9F%E7%A8%BF%E3%83%97%E3%83%A9%E3%83%B3%E3%83%8A%E3%83%BC/id6759912958"
+    src: "/assets/apps/genko-planner-review/screenshot-3.jpg"
     alt: "原稿プランナー公式スクリーンショット 3"
     source: "App Store"
     sourceUrl: "https://apps.apple.com/jp/app/%E5%8E%9F%E7%A8%BF%E3%83%97%E3%83%A9%E3%83%B3%E3%83%8A%E3%83%BC/id6759912958"

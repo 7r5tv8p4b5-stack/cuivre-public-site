@@ -187,26 +187,26 @@ informationSources:
     label: "Cuivre判断"
     value: "「どんな人におすすめか」「800円を払う価値を感じやすい人」「無料アプリとの考え方」などは、公開情報を整理したうえでCuivreが編集上判断しています。Cuivreが実際に280blockerを使用したレビューではありません。"
 appIcon:
-  src: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/50/97/05/50970587-806e-7025-a3a1-4911253d6217/AppIcon-0-0-1x_U007epad-0-8-0-85-220.png/512x512bb.jpg"
+  src: "/assets/apps/280blocker-review/icon.jpg"
   alt: "280blocker公式アプリアイコン"
   source: "App Store"
   sourceUrl: "https://apps.apple.com/jp/app/280blocker/id1071235820"
   official: true
 officialScreenshots:
   -
-    src: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cc/03/da/cc03dab0-73e0-c705-fc49-594b90e0a33c/iPhone_6.9inch_1.png/320x480bb.jpg"
+    src: "/assets/apps/280blocker-review/screenshot-1.jpg"
     alt: "280blocker公式スクリーンショット 1"
     source: "App Store"
     sourceUrl: "https://apps.apple.com/jp/app/280blocker/id1071235820"
     official: true
   -
-    src: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ac/9a/cb/ac9acbcf-b49f-163b-0594-236b54522622/iPhone_6.9inch_2.png/320x480bb.jpg"
+    src: "/assets/apps/280blocker-review/screenshot-2.jpg"
     alt: "280blocker公式スクリーンショット 2"
     source: "App Store"
     sourceUrl: "https://apps.apple.com/jp/app/280blocker/id1071235820"
     official: true
   -
-    src: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/64/bf/b9/64bfb94e-4a87-c21b-26fc-eac93e1a1e4c/iPhone_6.9inch_3.png/320x480bb.jpg"
+    src: "/assets/apps/280blocker-review/screenshot-3.jpg"
     alt: "280blocker公式スクリーンショット 3"
     source: "App Store"
     sourceUrl: "https://apps.apple.com/jp/app/280blocker/id1071235820"

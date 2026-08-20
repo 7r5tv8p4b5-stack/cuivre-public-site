@@ -182,26 +182,26 @@ informationSources:
     title: "Cuivre判断"
     body: "購入価値や使い分けは公開情報を整理したCuivre編集判断です。Cuivreが実際に使用したレビューではありません。"
 appIcon:
-  src: "https://apps.apple.com/jp/app/berry%E3%83%95%E3%82%A3%E3%83%AB%E3%83%A0-%E9%9F%93%E5%9B%BD%E9%A2%A8%E3%82%BB%E3%83%AB%E3%83%95%E3%82%A3%E3%83%BC/id6741474933"
+  src: "/assets/apps/berry-film-review/icon.jpg"
   alt: "Berryフィルム公式アプリアイコン"
   source: "App Store"
   sourceUrl: "https://apps.apple.com/jp/app/berry%E3%83%95%E3%82%A3%E3%83%AB%E3%83%A0-%E9%9F%93%E5%9B%BD%E9%A2%A8%E3%82%BB%E3%83%AB%E3%83%95%E3%82%A3%E3%83%BC/id6741474933"
   official: true
 officialScreenshots:
   -
-    src: "https://apps.apple.com/jp/app/berry%E3%83%95%E3%82%A3%E3%83%AB%E3%83%A0-%E9%9F%93%E5%9B%BD%E9%A2%A8%E3%82%BB%E3%83%AB%E3%83%95%E3%82%A3%E3%83%BC/id6741474933"
+    src: "/assets/apps/berry-film-review/screenshot-1.jpg"
     alt: "Berryフィルム公式スクリーンショット 1"
     source: "App Store"
     sourceUrl: "https://apps.apple.com/jp/app/berry%E3%83%95%E3%82%A3%E3%83%AB%E3%83%A0-%E9%9F%93%E5%9B%BD%E9%A2%A8%E3%82%BB%E3%83%AB%E3%83%95%E3%82%A3%E3%83%BC/id6741474933"
     official: true
   -
-    src: "https://apps.apple.com/jp/app/berry%E3%83%95%E3%82%A3%E3%83%AB%E3%83%A0-%E9%9F%93%E5%9B%BD%E9%A2%A8%E3%82%BB%E3%83%AB%E3%83%95%E3%82%A3%E3%83%BC/id6741474933"
+    src: "/assets/apps/berry-film-review/screenshot-2.jpg"
     alt: "Berryフィルム公式スクリーンショット 2"
     source: "App Store"
     sourceUrl: "https://apps.apple.com/jp/app/berry%E3%83%95%E3%82%A3%E3%83%AB%E3%83%A0-%E9%9F%93%E5%9B%BD%E9%A2%A8%E3%82%BB%E3%83%AB%E3%83%95%E3%82%A3%E3%83%BC/id6741474933"
     official: true
   -
-    src: "https://apps.apple.com/jp/app/berry%E3%83%95%E3%82%A3%E3%83%AB%E3%83%A0-%E9%9F%93%E5%9B%BD%E9%A2%A8%E3%82%BB%E3%83%AB%E3%83%95%E3%82%A3%E3%83%BC/id6741474933"
+    src: "/assets/apps/berry-film-review/screenshot-3.jpg"
     alt: "Berryフィルム公式スクリーンショット 3"
     source: "App Store"
     sourceUrl: "https://apps.apple.com/jp/app/berry%E3%83%95%E3%82%A3%E3%83%AB%E3%83%A0-%E9%9F%93%E5%9B%BD%E9%A2%A8%E3%82%BB%E3%83%AB%E3%83%95%E3%82%A3%E3%83%BC/id6741474933"

@@ -1114,13 +1114,18 @@ p {
 }
 
 .article-cta strong,
-.article-cta span {
+.article-cta > div span {
   display: block;
 }
 
-.article-cta span {
+.article-cta > div span {
   color: var(--muted);
   font-size: 13px;
+}
+
+.article-cta .button-primary {
+  flex: 0 0 auto;
+  white-space: nowrap;
 }
 
 .article-cta--empty {
@@ -2201,11 +2206,46 @@ blockquote {
 
   .article-shell > .quick-facts {
     margin-bottom: 16px;
-    padding: 13px;
+    padding: 12px;
   }
 
   .article-shell > .quick-facts h2 {
     font-size: 17px;
+  }
+
+  .quick-facts__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px;
+  }
+
+  .quick-fact {
+    gap: 7px;
+    padding: 9px;
+  }
+
+  .quick-fact__icon {
+    flex-basis: 26px;
+    width: 26px;
+    height: 26px;
+  }
+
+  .quick-fact strong {
+    font-size: 12px;
+  }
+
+  .quick-fact span {
+    font-size: 13px;
+    line-height: 1.35;
+  }
+
+  .article-cta {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .article-cta .button-primary {
+    justify-content: center;
+    width: 100%;
   }
 
   .service-decision {

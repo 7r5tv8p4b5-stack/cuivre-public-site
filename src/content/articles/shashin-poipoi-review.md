@@ -195,26 +195,26 @@ informationSources:
     title: "Cuivre判断"
     body: "購入価値や使い分けは公開情報を整理したCuivre編集判断です。Cuivreが実際に使用したレビューではありません。"
 appIcon:
-  src: "https://apps.apple.com/jp/app/%E5%86%99%E7%9C%9F%E3%81%BD%E3%81%84%E3%81%BD%E3%81%84-%E5%86%99%E7%9C%9F%E6%95%B4%E7%90%86%E3%83%95%E3%82%A9%E3%83%88%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%8A%E3%83%BC%E3%82%A2%E3%83%97%E3%83%AA/id6744550524"
+  src: "/assets/apps/shashin-poipoi-review/icon.jpg"
   alt: "写真ぽいぽい公式アプリアイコン"
   source: "App Store"
   sourceUrl: "https://apps.apple.com/jp/app/%E5%86%99%E7%9C%9F%E3%81%BD%E3%81%84%E3%81%BD%E3%81%84-%E5%86%99%E7%9C%9F%E6%95%B4%E7%90%86%E3%83%95%E3%82%A9%E3%83%88%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%8A%E3%83%BC%E3%82%A2%E3%83%97%E3%83%AA/id6744550524"
   official: true
 officialScreenshots:
   -
-    src: "https://apps.apple.com/jp/app/%E5%86%99%E7%9C%9F%E3%81%BD%E3%81%84%E3%81%BD%E3%81%84-%E5%86%99%E7%9C%9F%E6%95%B4%E7%90%86%E3%83%95%E3%82%A9%E3%83%88%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%8A%E3%83%BC%E3%82%A2%E3%83%97%E3%83%AA/id6744550524"
+    src: "/assets/apps/shashin-poipoi-review/screenshot-1.jpg"
     alt: "写真ぽいぽい公式スクリーンショット 1"
     source: "App Store"
     sourceUrl: "https://apps.apple.com/jp/app/%E5%86%99%E7%9C%9F%E3%81%BD%E3%81%84%E3%81%BD%E3%81%84-%E5%86%99%E7%9C%9F%E6%95%B4%E7%90%86%E3%83%95%E3%82%A9%E3%83%88%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%8A%E3%83%BC%E3%82%A2%E3%83%97%E3%83%AA/id6744550524"
     official: true
   -
-    src: "https://apps.apple.com/jp/app/%E5%86%99%E7%9C%9F%E3%81%BD%E3%81%84%E3%81%BD%E3%81%84-%E5%86%99%E7%9C%9F%E6%95%B4%E7%90%86%E3%83%95%E3%82%A9%E3%83%88%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%8A%E3%83%BC%E3%82%A2%E3%83%97%E3%83%AA/id6744550524"
+    src: "/assets/apps/shashin-poipoi-review/screenshot-2.jpg"
     alt: "写真ぽいぽい公式スクリーンショット 2"
     source: "App Store"
     sourceUrl: "https://apps.apple.com/jp/app/%E5%86%99%E7%9C%9F%E3%81%BD%E3%81%84%E3%81%BD%E3%81%84-%E5%86%99%E7%9C%9F%E6%95%B4%E7%90%86%E3%83%95%E3%82%A9%E3%83%88%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%8A%E3%83%BC%E3%82%A2%E3%83%97%E3%83%AA/id6744550524"
     official: true
   -
-    src: "https://apps.apple.com/jp/app/%E5%86%99%E7%9C%9F%E3%81%BD%E3%81%84%E3%81%BD%E3%81%84-%E5%86%99%E7%9C%9F%E6%95%B4%E7%90%86%E3%83%95%E3%82%A9%E3%83%88%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%8A%E3%83%BC%E3%82%A2%E3%83%97%E3%83%AA/id6744550524"
+    src: "/assets/apps/shashin-poipoi-review/screenshot-3.jpg"
     alt: "写真ぽいぽい公式スクリーンショット 3"
     source: "App Store"
     sourceUrl: "https://apps.apple.com/jp/app/%E5%86%99%E7%9C%9F%E3%81%BD%E3%81%84%E3%81%BD%E3%81%84-%E5%86%99%E7%9C%9F%E6%95%B4%E7%90%86%E3%83%95%E3%82%A9%E3%83%88%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%8A%E3%83%BC%E3%82%A2%E3%83%97%E3%83%AA/id6744550524"

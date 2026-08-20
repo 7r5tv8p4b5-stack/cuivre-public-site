@@ -234,26 +234,26 @@ informationSources:
     title: "Cuivre判断"
     body: "「どんな人におすすめか」「標準カメラとの使い分け」「300円を払う価値を感じやすい人」などは公開情報を整理したうえでCuivreが編集上判断しています。Cuivreが実際にBlackVideoを使用したレビューではありません。"
 appIcon:
-  src: "https://apps.apple.com/jp/app/%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%E3%83%93%E3%83%87%E3%82%AA-blackvideo/id500676238"
+  src: "/assets/apps/blackvideo-review/icon.jpg"
   alt: "BlackVideo公式アプリアイコン"
   source: "App Store"
   sourceUrl: "https://apps.apple.com/jp/app/%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%E3%83%93%E3%83%87%E3%82%AA-blackvideo/id500676238"
   official: true
 officialScreenshots:
   -
-    src: "https://apps.apple.com/jp/app/%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%E3%83%93%E3%83%87%E3%82%AA-blackvideo/id500676238"
+    src: "/assets/apps/blackvideo-review/screenshot-1.jpg"
     alt: "BlackVideo公式スクリーンショット 1"
     source: "App Store"
     sourceUrl: "https://apps.apple.com/jp/app/%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%E3%83%93%E3%83%87%E3%82%AA-blackvideo/id500676238"
     official: true
   -
-    src: "https://apps.apple.com/jp/app/%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%E3%83%93%E3%83%87%E3%82%AA-blackvideo/id500676238"
+    src: "/assets/apps/blackvideo-review/screenshot-2.jpg"
     alt: "BlackVideo公式スクリーンショット 2"
     source: "App Store"
     sourceUrl: "https://apps.apple.com/jp/app/%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%E3%83%93%E3%83%87%E3%82%AA-blackvideo/id500676238"
     official: true
   -
-    src: "https://apps.apple.com/jp/app/%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%E3%83%93%E3%83%87%E3%82%AA-blackvideo/id500676238"
+    src: "/assets/apps/blackvideo-review/screenshot-3.jpg"
     alt: "BlackVideo公式スクリーンショット 3"
     source: "App Store"
     sourceUrl: "https://apps.apple.com/jp/app/%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%E3%83%93%E3%83%87%E3%82%AA-blackvideo/id500676238"

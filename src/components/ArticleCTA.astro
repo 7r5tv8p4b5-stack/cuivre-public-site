@@ -1,6 +1,11 @@
 ---
 import Icon from "./Icon.astro";
 const { href, label = "公式サイトを見る", note = "公式URLまたは承認済みAffiliate URLが設定された場合のみ表示します。" } = Astro.props;
+const buttonLabel = href?.includes("apps.apple.com")
+  ? "App Storeで見る"
+  : href?.includes("play.google.com")
+    ? "Google Playで見る"
+    : "公式サイトを見る";
 ---
 {href ? (
   <aside class="article-cta">
@@ -9,7 +14,7 @@ const { href, label = "公式サイトを見る", note = "公式URLまたは承�
       <span>最新情報は公式サイトで確認してください。</span>
     </div>
     <a class="button-primary" href={href} rel="nofollow noopener" target="_blank">
-      見る <Icon name="arrow" />
+      <span>{buttonLabel}</span> <Icon name="arrow" />
     </a>
   </aside>
 ) : (

@@ -5,6 +5,32 @@ const {
   checkDescription = "公開情報をもとに、導入前に確認したいポイントを整理しています。",
   evidence = [],
 } = Astro.props;
+const factLabels = new Set([
+  "価格", "料金", "料金形態", "基本価格", "基本料金", "対応", "対応端末", "必要OS", "OS", "watchOS",
+  "Developer", "デベロッパ", "言語", "日本語", "App Store評価", "評価", "iPhone", "iPad", "Android",
+  "Apple Watch", "Mac", "ファミリー共有", "アプリ内課金", "サブスクリプション", "追加課金", "広告",
+]);
+const normalizedChecks = checks
+  .map((item) => ({ label: item.label || item.title, value: item.value || item.body || item.text }))
+  .filter((item) => item.label && item.value && !factLabels.has(item.label));
+const derivedChecks = normalizedChecks.length > 0 ? normalizedChecks : [
+  recommendations[0]?.items?.[0] && { label: "買う価値", value: recommendations[0].items[0] },
+  recommendations[0]?.items?.[1] && { label: "一番の強み", value: recommendations[0].items[1] },
+  recommendations[2]?.items?.[0] && { label: "最大の注意点", value: recommendations[2].items[0] },
+].filter(Boolean);
+function evidenceLabelFor(label = "") {
+  if (label.includes("Cuivre")) return "Cuivre判断";
+  if (label.includes("レビュー") || label.includes("第三者") || label.includes("口コミ")) return "第三者情報";
+  if (label.includes("公式") || label.includes("App Store") || label.includes("Google Play")) return "公式情報";
+  return label;
+}
+
+const normalizedEvidence = evidence
+  .map((item) => ({
+    label: evidenceLabelFor(item.label || item.title),
+    value: item.value || item.body || item.text,
+  }))
+  .filter((item) => item.label && item.value);
 ---
 {recommendations.length > 0 && (
   <section class="service-decision service-decision--recommend" aria-labelledby="service-recommend-heading">
@@ -28,14 +54,14 @@ const {
   </section>
 )}
 
-{checks.length > 0 && (
+{derivedChecks.length > 0 && (
   <section class="service-decision service-decision--check" aria-labelledby="service-check-heading">
     <div class="service-decision__header">
       <h2 id="service-check-heading">Cuivre Check</h2>
       <p>{checkDescription}</p>
     </div>
     <div class="service-check-grid">
-      {checks.map((item) => (
+      {derivedChecks.map((item) => (
         <div class="service-check-item">
           <span>{item.label}</span>
           <strong>{item.value}</strong>
@@ -45,13 +71,13 @@ const {
   </section>
 )}
 
-{evidence.length > 0 && (
+{normalizedEvidence.length > 0 && (
   <section class="service-decision service-decision--evidence" aria-labelledby="service-evidence-heading">
     <div class="service-decision__header">
       <h2 id="service-evidence-heading">情報の根拠</h2>
     </div>
     <div class="service-evidence-list">
-      {evidence.map((item) => (
+      {normalizedEvidence.map((item) => (
         <div class="service-evidence-item">
           <strong>{item.label}</strong>
           <span>{item.value}</span>

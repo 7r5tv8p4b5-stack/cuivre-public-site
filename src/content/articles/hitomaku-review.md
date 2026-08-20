@@ -122,26 +122,26 @@ informationSources:
     title: "Cuivre判断"
     body: "購入価値や使い分けは公開情報を整理したCuivre編集判断です。Cuivreが実際に使用したレビューではありません。"
 appIcon:
-  src: "https://apps.apple.com/jp/app/%E3%81%B2%E3%81%A8%E3%81%BE%E3%81%8F-%E8%84%9A%E6%9C%AC-%E3%82%B7%E3%83%8A%E3%83%AA%E3%82%AA%E5%9F%B7%E7%AD%86-%E5%88%B6%E4%BD%9C%E7%AE%A1%E7%90%86/id6775343935"
+  src: "/assets/apps/hitomaku-review/icon.jpg"
   alt: "ひとまく公式アプリアイコン"
   source: "App Store"
   sourceUrl: "https://apps.apple.com/jp/app/%E3%81%B2%E3%81%A8%E3%81%BE%E3%81%8F-%E8%84%9A%E6%9C%AC-%E3%82%B7%E3%83%8A%E3%83%AA%E3%82%AA%E5%9F%B7%E7%AD%86-%E5%88%B6%E4%BD%9C%E7%AE%A1%E7%90%86/id6775343935"
   official: true
 officialScreenshots:
   -
-    src: "https://apps.apple.com/jp/app/%E3%81%B2%E3%81%A8%E3%81%BE%E3%81%8F-%E8%84%9A%E6%9C%AC-%E3%82%B7%E3%83%8A%E3%83%AA%E3%82%AA%E5%9F%B7%E7%AD%86-%E5%88%B6%E4%BD%9C%E7%AE%A1%E7%90%86/id6775343935"
+    src: "/assets/apps/hitomaku-review/screenshot-1.jpg"
     alt: "ひとまく公式スクリーンショット 1"
     source: "App Store"
     sourceUrl: "https://apps.apple.com/jp/app/%E3%81%B2%E3%81%A8%E3%81%BE%E3%81%8F-%E8%84%9A%E6%9C%AC-%E3%82%B7%E3%83%8A%E3%83%AA%E3%82%AA%E5%9F%B7%E7%AD%86-%E5%88%B6%E4%BD%9C%E7%AE%A1%E7%90%86/id6775343935"
     official: true
   -
-    src: "https://apps.apple.com/jp/app/%E3%81%B2%E3%81%A8%E3%81%BE%E3%81%8F-%E8%84%9A%E6%9C%AC-%E3%82%B7%E3%83%8A%E3%83%AA%E3%82%AA%E5%9F%B7%E7%AD%86-%E5%88%B6%E4%BD%9C%E7%AE%A1%E7%90%86/id6775343935"
+    src: "/assets/apps/hitomaku-review/screenshot-2.jpg"
     alt: "ひとまく公式スクリーンショット 2"
     source: "App Store"
     sourceUrl: "https://apps.apple.com/jp/app/%E3%81%B2%E3%81%A8%E3%81%BE%E3%81%8F-%E8%84%9A%E6%9C%AC-%E3%82%B7%E3%83%8A%E3%83%AA%E3%82%AA%E5%9F%B7%E7%AD%86-%E5%88%B6%E4%BD%9C%E7%AE%A1%E7%90%86/id6775343935"
     official: true
   -
-    src: "https://apps.apple.com/jp/app/%E3%81%B2%E3%81%A8%E3%81%BE%E3%81%8F-%E8%84%9A%E6%9C%AC-%E3%82%B7%E3%83%8A%E3%83%AA%E3%82%AA%E5%9F%B7%E7%AD%86-%E5%88%B6%E4%BD%9C%E7%AE%A1%E7%90%86/id6775343935"
+    src: "/assets/apps/hitomaku-review/screenshot-3.jpg"
     alt: "ひとまく公式スクリーンショット 3"
     source: "App Store"
     sourceUrl: "https://apps.apple.com/jp/app/%E3%81%B2%E3%81%A8%E3%81%BE%E3%81%8F-%E8%84%9A%E6%9C%AC-%E3%82%B7%E3%83%8A%E3%83%AA%E3%82%AA%E5%9F%B7%E7%AD%86-%E5%88%B6%E4%BD%9C%E7%AE%A1%E7%90%86/id6775343935"

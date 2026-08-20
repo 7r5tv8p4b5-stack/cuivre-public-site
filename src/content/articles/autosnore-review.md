@@ -222,26 +222,26 @@ informationSources:
     title: "Cuivre判断"
     body: "「どんな人におすすめか」「800円を払う価値を感じやすい人」「無料アプリやAutoSleepとの使い分け」などは公開情報を整理したうえでCuivreが編集上判断しています。Cuivreが実際にAutoSnoreを使用したレビューではありません。"
 appIcon:
-  src: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3e/61/3c/3e613c17-59a0-dcb3-a6c4-20aef69b5d9b/Slice_1.png/471x1024.webp"
+  src: "/assets/apps/autosnore-review/icon.jpg"
   alt: "AutoSnore公式アプリアイコン"
   source: "App Store"
   sourceUrl: "https://apps.apple.com/jp/app/autosnore-%E3%81%84%E3%81%B3%E3%81%8D%E3%83%AC%E3%82%B3%E3%83%BC%E3%83%80%E3%83%BC/id6746705608"
   official: true
 officialScreenshots:
   -
-    src: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3e/61/3c/3e613c17-59a0-dcb3-a6c4-20aef69b5d9b/Slice_1.png/471x1024.webp"
+    src: "/assets/apps/autosnore-review/screenshot-1.jpg"
     alt: "AutoSnore公式スクリーンショット 1"
     source: "App Store"
     sourceUrl: "https://apps.apple.com/jp/app/autosnore-%E3%81%84%E3%81%B3%E3%81%8D%E3%83%AC%E3%82%B3%E3%83%BC%E3%83%80%E3%83%BC/id6746705608"
     official: true
   -
-    src: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/89/e6/83/89e6837e-3877-eb0c-5722-41dbff3dd4f5/Slice_2.png/471x1024.webp"
+    src: "/assets/apps/autosnore-review/screenshot-2.jpg"
     alt: "AutoSnore公式スクリーンショット 2"
     source: "App Store"
     sourceUrl: "https://apps.apple.com/jp/app/autosnore-%E3%81%84%E3%81%B3%E3%81%8D%E3%83%AC%E3%82%B3%E3%83%BC%E3%83%80%E3%83%BC/id6746705608"
     official: true
   -
-    src: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/2f/02/61/2f026154-e988-e0e6-33ac-bdf70dd25d4c/Slice_5.png/471x1024.webp"
+    src: "/assets/apps/autosnore-review/screenshot-3.jpg"
     alt: "AutoSnore公式スクリーンショット 3"
     source: "App Store"
     sourceUrl: "https://apps.apple.com/jp/app/autosnore-%E3%81%84%E3%81%B3%E3%81%8D%E3%83%AC%E3%82%B3%E3%83%BC%E3%83%80%E3%83%BC/id6746705608"

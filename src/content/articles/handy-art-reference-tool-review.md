@@ -205,26 +205,26 @@ informationSources:
     title: "Cuivre判断"
     body: "「どんな人におすすめか」「300円を払う価値を感じやすい人」「無料アプリや他の3Dツールとの使い分け」などは、公開情報を整理したうえでCuivreが編集上判断しています。Cuivreが実際にHandy Art Reference Toolを使用したレビューではありません。"
 appIcon:
-  src: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8f/f8/47/8ff84754-26dc-7d05-e2f4-9112cbad2f02/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/512x512bb.jpg"
+  src: "/assets/apps/handy-art-reference-tool-review/icon.jpg"
   alt: "Handy Art Reference Tool公式アプリアイコン"
   source: "App Store"
   sourceUrl: "https://apps.apple.com/jp/app/handy-art-reference-tool/id478643661"
   official: true
 officialScreenshots:
   -
-    src: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource114/v4/89/58/1a/89581aef-f6cb-3388-4204-46ff6b460fe2/e0697223-da17-4a63-8016-fad4910f55d9_ScreenshotsFullLayout_39.png/392x696bb.png"
+    src: "/assets/apps/handy-art-reference-tool-review/screenshot-1.jpg"
     alt: "Handy Art Reference Tool公式スクリーンショット 1"
     source: "App Store"
     sourceUrl: "https://apps.apple.com/jp/app/handy-art-reference-tool/id478643661"
     official: true
   -
-    src: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource114/v4/89/58/1a/89581aef-f6cb-3388-4204-46ff6b460fe2/e0697223-da17-4a63-8016-fad4910f55d9_ScreenshotsFullLayout_39.png/576x1024bb.png"
+    src: "/assets/apps/handy-art-reference-tool-review/screenshot-2.jpg"
     alt: "Handy Art Reference Tool公式スクリーンショット 2"
     source: "App Store"
     sourceUrl: "https://apps.apple.com/jp/app/handy-art-reference-tool/id478643661"
     official: true
   -
-    src: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource114/v4/89/58/1a/89581aef-f6cb-3388-4204-46ff6b460fe2/e0697223-da17-4a63-8016-fad4910f55d9_ScreenshotsFullLayout_39.png/320x568bb.png"
+    src: "/assets/apps/handy-art-reference-tool-review/screenshot-3.jpg"
     alt: "Handy Art Reference Tool公式スクリーンショット 3"
     source: "App Store"
     sourceUrl: "https://apps.apple.com/jp/app/handy-art-reference-tool/id478643661"

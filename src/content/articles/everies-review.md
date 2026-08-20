@@ -196,26 +196,26 @@ informationSources:
     title: "Cuivre判断"
     body: "購入価値や使い分けは公開情報を整理したCuivre編集判断です。Cuivreが実際に使用したレビューではありません。"
 appIcon:
-  src: "https://apps.apple.com/jp/app/everies/id6504628174"
+  src: "/assets/apps/everies-review/icon.jpg"
   alt: "everies公式アプリアイコン"
   source: "App Store"
   sourceUrl: "https://apps.apple.com/jp/app/everies/id6504628174"
   official: true
 officialScreenshots:
   -
-    src: "https://apps.apple.com/jp/app/everies/id6504628174"
+    src: "/assets/apps/everies-review/screenshot-1.jpg"
     alt: "everies公式スクリーンショット 1"
     source: "App Store"
     sourceUrl: "https://apps.apple.com/jp/app/everies/id6504628174"
     official: true
   -
-    src: "https://apps.apple.com/jp/app/everies/id6504628174"
+    src: "/assets/apps/everies-review/screenshot-2.jpg"
     alt: "everies公式スクリーンショット 2"
     source: "App Store"
     sourceUrl: "https://apps.apple.com/jp/app/everies/id6504628174"
     official: true
   -
-    src: "https://apps.apple.com/jp/app/everies/id6504628174"
+    src: "/assets/apps/everies-review/screenshot-3.jpg"
     alt: "everies公式スクリーンショット 3"
     source: "App Store"
     sourceUrl: "https://apps.apple.com/jp/app/everies/id6504628174"

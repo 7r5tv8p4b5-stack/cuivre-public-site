@@ -182,30 +182,11 @@ informationSources:
     title: "Cuivre判断"
     body: "購入価値や使い分けは公開情報を整理したCuivre編集判断です。Cuivreが実際に使用したレビューではありません。"
 appIcon:
-  src: "https://apps.apple.com/jp/app/calcs-calendar-complications/id6499201223"
+  src: "/assets/apps/calcs-review/icon.jpg"
   alt: "CalCs公式アプリアイコン"
   source: "App Store"
   sourceUrl: "https://apps.apple.com/jp/app/calcs-calendar-complications/id6499201223"
   official: true
-officialScreenshots:
-  -
-    src: "https://apps.apple.com/jp/app/calcs-calendar-complications/id6499201223"
-    alt: "CalCs公式スクリーンショット 1"
-    source: "App Store"
-    sourceUrl: "https://apps.apple.com/jp/app/calcs-calendar-complications/id6499201223"
-    official: true
-  -
-    src: "https://apps.apple.com/jp/app/calcs-calendar-complications/id6499201223"
-    alt: "CalCs公式スクリーンショット 2"
-    source: "App Store"
-    sourceUrl: "https://apps.apple.com/jp/app/calcs-calendar-complications/id6499201223"
-    official: true
-  -
-    src: "https://apps.apple.com/jp/app/calcs-calendar-complications/id6499201223"
-    alt: "CalCs公式スクリーンショット 3"
-    source: "App Store"
-    sourceUrl: "https://apps.apple.com/jp/app/calcs-calendar-complications/id6499201223"
-    official: true
 ---
 
 # CalCsは買う価値ある？100円でApple Watchのカレンダー表示を便利にするアプリを解説【2026年版】
