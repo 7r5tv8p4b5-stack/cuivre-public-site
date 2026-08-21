@@ -126,65 +126,66 @@ const structuredData = {
   structuredData={structuredData}
 >
   <article class="article-shell">
-    <nav class="breadcrumbs" aria-label="パンくずリスト">
-      <a href="/">ホーム</a>
-      <span>/</span>
-      <a href={`/categories/${articleCategory(frontmatter)}/`}>{articleCategory(frontmatter)}</a>
-      <span>/</span>
-      <span>{articleSubject}</span>
-    </nav>
-
-    <ArticleHero frontmatter={frontmatter} articleSubject={articleSubject} hideDescription={hasFixedSections || frontmatter.hideHeroDescription} />
-
-    {hasFixedSections ? (
-      <>
-        {fixedSections.intro && <div class="article-intro article-body" set:html={fixedSections.intro} />}
-        {fixedSections.recommend && <div class="article-body" set:html={fixedSections.recommend} />}
-        {fixedSections.check && <div class="article-body" set:html={fixedSections.check} />}
-        {fixedSections.evidence && <div class="article-body" set:html={fixedSections.evidence} />}
-        {fixedSections.basic && <div class="article-body" set:html={fixedSections.basic} />}
-      </>
-    ) : (
-      articleIntroHtml && <div class="article-intro article-body" set:html={articleIntroHtml} />
-    )}
-
-    {!hasFixedSections && (
-      <ServiceDecisionPanel
-        recommendations={frontmatter.serviceRecommendations || []}
-        checks={frontmatter.cuivreCheck || []}
-        checkDescription={frontmatter.cuivreCheckDescription}
-        evidence={frontmatter.informationSources || []}
-      />
-    )}
-    {officialCtaHref && <ArticleCTA href={officialCtaHref} label={officialCtaText} />}
-    {officialScreenshots.length > 0 && (
-      <section class="app-screenshots" aria-labelledby="app-screenshots-heading">
-        <div class="service-decision__header">
-          <h2 id="app-screenshots-heading">公式スクリーンショット</h2>
-          <p>出典：{officialScreenshots[0]?.source || "公式情報"}</p>
-        </div>
-        <div class="app-screenshots__grid">
-          {officialScreenshots.map((image) => (
-            <figure>
-              <img src={image.src} alt={image.alt || `${articleSubject}公式スクリーンショット`} loading="lazy" decoding="async" />
-              {(image.source || image.sourceUrl) && <figcaption>出典：{image.source || image.sourceUrl}</figcaption>}
-            </figure>
-          ))}
-        </div>
-      </section>
-    )}
-    <ComparisonSummary summary={comparisonSummary} />
-    <RankingSummary summary={rankingSummary} />
-
     <div class="article-layout">
+      <div class="article-sidebar-spacer" aria-hidden="true"></div>
+      <div class="article-main article-main--lead">
+        <nav class="breadcrumbs" aria-label="パンくずリスト">
+          <a href="/">ホーム</a>
+          <span>/</span>
+          <a href={`/categories/${articleCategory(frontmatter)}/`}>{articleCategory(frontmatter)}</a>
+          <span>/</span>
+          <span>{articleSubject}</span>
+        </nav>
+
+        <ArticleHero frontmatter={frontmatter} articleSubject={articleSubject} hideDescription={hasFixedSections || frontmatter.hideHeroDescription} />
+
+        {hasFixedSections ? (
+          <>
+            {fixedSections.intro && <div class="article-intro article-body" set:html={fixedSections.intro} />}
+            {fixedSections.recommend && <div class="article-body" set:html={fixedSections.recommend} />}
+            {fixedSections.check && <div class="article-body" set:html={fixedSections.check} />}
+            {fixedSections.evidence && <div class="article-body" set:html={fixedSections.evidence} />}
+            {fixedSections.basic && <div class="article-body" set:html={fixedSections.basic} />}
+          </>
+        ) : (
+          articleIntroHtml && <div class="article-intro article-body" set:html={articleIntroHtml} />
+        )}
+
+        {!hasFixedSections && (
+          <ServiceDecisionPanel
+            recommendations={frontmatter.serviceRecommendations || []}
+            checks={frontmatter.cuivreCheck || []}
+            checkDescription={frontmatter.cuivreCheckDescription}
+            evidence={frontmatter.informationSources || []}
+          />
+        )}
+        {officialCtaHref && <ArticleCTA href={officialCtaHref} label={officialCtaText} />}
+        {officialScreenshots.length > 0 && (
+          <section class="app-screenshots" aria-labelledby="app-screenshots-heading">
+            <div class="service-decision__header">
+              <h2 id="app-screenshots-heading">公式スクリーンショット</h2>
+              <p>出典：{officialScreenshots[0]?.source || "公式情報"}</p>
+            </div>
+            <div class="app-screenshots__grid">
+              {officialScreenshots.map((image) => (
+                <figure>
+                  <img src={image.src} alt={image.alt || `${articleSubject}公式スクリーンショット`} loading="lazy" decoding="async" />
+                  {(image.source || image.sourceUrl) && <figcaption>出典：{image.source || image.sourceUrl}</figcaption>}
+                </figure>
+              ))}
+            </div>
+          </section>
+        )}
+        <ComparisonSummary summary={comparisonSummary} />
+        <RankingSummary summary={rankingSummary} />
+      </div>
       <ArticleTOC headings={tocHeadings} excludeTexts={topSectionTexts} />
       <div class="article-main">
         <div class="article-body" set:html={articleBodyHtml} />
         {officialCtaHref && <ArticleCTA href={officialCtaHref} label={officialCtaText} />}
+        <RelatedArticles articles={relatedArticles} />
       </div>
     </div>
-
-    <RelatedArticles articles={relatedArticles} />
   </article>
   <script is:inline>
     const tocDetails = document.querySelector(".article-toc details");

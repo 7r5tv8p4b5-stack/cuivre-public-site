@@ -1049,6 +1049,10 @@ p {
   margin-top: 20px;
 }
 
+.article-sidebar-spacer {
+  display: none;
+}
+
 .article-toc {
   align-self: start;
 }
@@ -2078,6 +2082,10 @@ blockquote {
   margin-top: 18px;
 }
 
+.article-sidebar-spacer {
+  display: block;
+}
+
 .article-main {
   min-width: 0;
   max-width: 920px;
@@ -2281,14 +2289,22 @@ blockquote {
     margin-top: 16px;
   }
 
+  .article-sidebar-spacer {
+    display: none;
+  }
+
   .article-toc {
     position: static;
-    order: 0;
+    order: 1;
   }
 
   .article-main {
-    order: 1;
+    order: 2;
     max-width: none;
+  }
+
+  .article-main--lead {
+    order: 0;
   }
 
   .article-body p,
