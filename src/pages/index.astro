@@ -3,10 +3,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import ArticleCard from "../components/ArticleCard.astro";
 import Icon from "../components/Icon.astro";
 import {
-  articleCategory,
-  articleDate,
   articleHref,
-  categoryCardsFrom,
   featuredArticleFrom,
   publicArticlesFromModules,
 } from "../data/site.js";
@@ -15,8 +12,17 @@ const modules = import.meta.glob("../content/articles/*.md", { eager: true });
 const publishedArticles = publicArticlesFromModules(modules);
 const featuredArticle = featuredArticleFrom(publishedArticles);
 const latestArticles = publishedArticles.filter((article) => article.slug !== featuredArticle?.slug).slice(0, 5);
-const comparisonArticle = publishedArticles.find((article) => (article.frontmatter.articleType || "").includes("comparison"));
-const categoryCards = categoryCardsFrom(publishedArticles).slice(0, 4);
+const popularSlugs = [
+  "perplexity-review",
+  "chatgpt-vs-claude-vs-gemini",
+  "best-ai-tools-10-comparison",
+  "blackvideo-review",
+  "olli-by-tinrocket",
+];
+const popularArticles = popularSlugs
+  .map((slug) => publishedArticles.find((article) => article.slug === slug))
+  .filter(Boolean)
+  .slice(0, latestArticles.length || 5);
 
 const title = "Cuivre｜まだ知らない、便利な選択肢を。";
 const description = "Cuivreは、AIサービスを中心に、特徴・料金・注意点・向いている人を整理する編集型メディアです。公式情報をもとに、自分に合うサービス選びをサポートします。";
@@ -61,34 +67,21 @@ const organizationJsonLd = {
     )}
   </section>
 
-  <section class="home-duo" id="comparison">
-    {comparisonArticle && (
-      <div class="home-panel">
-        <p class="section-kicker">COMPARISON</p>
-        <h2>比較から探す</h2>
-        <p>人気サービスを並べて、違いを短時間で確認できます。</p>
-        <a class="comparison-mini" href={articleHref(comparisonArticle)}>
-          <div>
-            <strong>{comparisonArticle.frontmatter.title}</strong>
-            <span>{articleCategory(comparisonArticle.frontmatter)}</span>
-          </div>
-        </a>
+  <section class="home-section">
+    <div class="section-heading">
+      <div>
+        <p class="section-kicker">POPULAR ARTICLES</p>
+        <h2>よく読まれている記事</h2>
+      </div>
+      <a href="/articles/">もっと見る</a>
+    </div>
+    {popularArticles.length === 0 ? (
+      <p class="empty-message">現在、集計準備中です。</p>
+    ) : (
+      <div class="latest-strip">
+        {popularArticles.map((article) => <ArticleCard article={article} />)}
       </div>
     )}
-    <div class="home-panel">
-      <p class="section-kicker">CATEGORIES</p>
-      <h2>人気カテゴリー</h2>
-      <p>よく読まれているカテゴリから、関連する記事をまとめて確認できます。</p>
-      <div class="category-grid category-grid--panel">
-        {categoryCards.map((card) => (
-          <a class="category-card" href={card.href}>
-            <span><Icon name={card.icon} /></span>
-            <strong>{card.label}</strong>
-            <small>{card.count}件の記事を見る</small>
-          </a>
-        ))}
-      </div>
-    </div>
   </section>
 
   <section class="home-section home-editorial">
