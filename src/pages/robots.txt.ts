@@ -1,5 +1,5 @@
 export function GET({ site }) {
-  const baseUrl = site?.toString().replace(/\/$/, "") || "https://cuivre.pages.dev";
+  const baseUrl = site?.toString().replace(/\/$/, "") || "https://cuivre-public-site.pages.dev";
   return new Response(
     [
       "User-agent: *",

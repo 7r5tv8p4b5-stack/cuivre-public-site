@@ -26,7 +26,7 @@ function articleEntries() {
 }
 
 export function GET({ site }) {
-  const baseUrl = site?.toString().replace(/\/$/, "") || "https://cuivre.pages.dev";
+  const baseUrl = site?.toString().replace(/\/$/, "") || "https://cuivre-public-site.pages.dev";
   const articles = articleEntries();
   const categories = Array.from(new Set(articles.map((entry) => entry.category).filter(Boolean))).map((category) => `/categories/${category}/`);
   const urls = [
