@@ -28,10 +28,10 @@ categoryTags:
   - "AIリサーチ比較"
 title: "NotebookLM・Perplexity・Geminiを比較｜AIで調べ物をするならどれがおすすめ？違いを用途別に解説【2026年版】"
 description: "AIで調べ物をするとき、候補に入りやすいのがNotebookLM、Perplexity、Geminiです。"
-updatedAt: "2026-08-21"
+updatedAt: "2026-08-22"
 ogTitle: "NotebookLM・Perplexity・Geminiを比較｜AIで調べ物をするならどれがおすすめ？違いを用途別に解説【2026年版】"
 ogDescription: "AIで調べ物をするとき、候補に入りやすいのがNotebookLM、Perplexity、Geminiです。"
-humanWriter: "Cuivre AI comparison final pack"
+humanWriter: "Cuivre 2026-08-22 final pack"
 ---
 AIで調べ物をするとき、候補に入りやすいのがNotebookLM、Perplexity、Geminiです。
 
@@ -47,7 +47,7 @@ GeminiはGoogle検索を使ったDeep Researchに加え、Gmail、Googleドラ�
 
 この記事では、NotebookLM・Perplexity・Geminiを、情報源、Web検索、Deep Research、出典確認、資料整理、Google連携、無料利用、どんな人に向いているかという観点から比較します。
 
-※情報は2026年8月21日時点を基準にしています。AIサービスは名称、モデル、利用上限、提供機能が頻繁に変更されるため、利用時には各公式サイトの最新情報も確認してください。
+※情報は2026年8月22日時点を基準にしています。AIサービスは名称、モデル、利用上限、提供機能が頻繁に変更されるため、利用時には各公式サイトの最新情報も確認してください。
 
 ## こんな人におすすめ
 
@@ -133,6 +133,30 @@ Cuivreでは、**調べたい情報がどこに存在するか、調査結果か
 - NotebookLM / Gemini Notebook：https://notebooklm.google.com/
 - Perplexity：https://www.perplexity.ai/
 - Gemini：https://gemini.google.com/
+
+### 公式サイト
+
+- [NotebookLM / Gemini Notebook公式サイトを見る](https://notebooklm.google.com/)
+- [Perplexity公式サイトを見る](https://www.perplexity.ai/)
+- [Gemini公式サイトを見る](https://gemini.google.com/)
+
+## 目次
+
+- [NotebookLM・Perplexity・Geminiの一番大きな違い](#notebooklmperplexitygeminiの一番大きな違い)
+- [手元のPDFや資料を調べるならNotebookLM](#手元のpdfや資料を調べるならnotebooklm)
+- [Web上の最新情報ならPerplexity](#web上の最新情報ならperplexity)
+- [Gmail・Googleドライブも含めるならGemini](#gmailgoogleドライブも含めるならgemini)
+- [Deep Researchはどれがいい？](#deep-researchはどれがいい)
+- [出典を追いやすいのはどれ？](#出典を追いやすいのはどれ)
+- [学習用途ならNotebookLMが強い](#学習用途ならnotebooklmが強い)
+- [NotebookLMは2026年にGemini Notebookへ](#notebooklmは2026年にgemini-notebookへ)
+- [3サービスを併用するのはあり？](#3サービスを併用するのはあり)
+- [NotebookLMがおすすめな人](#notebooklmがおすすめな人)
+- [Perplexityがおすすめな人](#perplexityがおすすめな人)
+- [Geminiがおすすめな人](#geminiがおすすめな人)
+- [結局どれを選べばいい？](#結局どれを選べばいい)
+- [よくある質問](#よくある質問)
+- [まとめ](#まとめ)
 
 ## NotebookLM・Perplexity・Geminiの一番大きな違い
 
@@ -428,3 +452,11 @@ NotebookLM・Perplexity・Geminiは、どれもAIを使った調査に役立ち�
 - NotebookLM / Gemini Notebook：https://notebooklm.google.com/
 - Perplexity：https://www.perplexity.ai/
 - Gemini：https://gemini.google.com/
+
+## 公式サイト・関連導線
+
+- [NotebookLM / Gemini Notebook公式サイトを見る](https://notebooklm.google.com/)
+- [Perplexity公式サイトを見る](https://www.perplexity.ai/)
+- [Gemini公式サイトを見る](https://gemini.google.com/)
+
+各サービスの個別レビュー記事がある場合は、比較からさらに深掘りできるよう内部リンクを接続します。

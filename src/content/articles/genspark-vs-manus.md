@@ -28,10 +28,10 @@ categoryTags:
   - "AIエージェント比較"
 title: "Genspark・Manusを比較｜AIエージェントならどっちがおすすめ？違い・料金・向いている人を解説【2026年版】"
 description: "AIに質問へ答えてもらうだけでなく、実際の作業まで任せたい人が増える中で、候補に入りやすいのがGensparkとManusです。"
-updatedAt: "2026-08-21"
+updatedAt: "2026-08-22"
 ogTitle: "Genspark・Manusを比較｜AIエージェントならどっちがおすすめ？違い・料金・向いている人を解説【2026年版】"
 ogDescription: "AIに質問へ答えてもらうだけでなく、実際の作業まで任せたい人が増える中で、候補に入りやすいのがGensparkとManusです。"
-humanWriter: "Cuivre AI comparison final pack"
+humanWriter: "Cuivre 2026-08-22 final pack"
 ---
 AIに質問へ答えてもらうだけでなく、実際の作業まで任せたい人が増える中で、候補に入りやすいのがGensparkとManusです。
 
@@ -45,7 +45,7 @@ Gensparkは、AI Chat、Slides、Docs、Sheets、Code、画像・動画生成な
 
 この記事では、GensparkとManusの違いを、AIエージェント機能、作業範囲、資料作成、複数モデル、料金、無料利用、クレジット、どんな人に向いているかという観点から比較します。
 
-※情報は2026年8月21日時点を基準にしています。AIサービスは料金、モデル、利用上限、提供機能が頻繁に変更されるため、契約前には各公式サイトの最新情報も確認してください。
+※情報は2026年8月22日時点を基準にしています。AIサービスは料金、モデル、利用上限、提供機能が頻繁に変更されるため、契約前には各公式サイトの最新情報も確認してください。
 
 ## こんな人におすすめ
 
@@ -128,6 +128,28 @@ Cuivreでは、**AIへ仕事を渡した後、どこまで自動で進めたい�
 
 - Genspark：https://www.genspark.ai/
 - Manus：https://manus.im/
+
+### 公式サイト
+
+- [Genspark公式サイトを見る](https://www.genspark.ai/)
+- [Manus公式サイトを見る](https://manus.im/)
+
+## 目次
+
+- [GensparkとManusの一番大きな違い](#gensparkとmanusの一番大きな違い)
+- [AIエージェントとしての使い方はどう違う？](#aiエージェントとしての使い方はどう違う)
+- [資料作成ならGensparkが分かりやすい](#資料作成ならgensparkが分かりやすい)
+- [タスクを丸ごと任せたいならManus](#タスクを丸ごと任せたいならmanus)
+- [複数のAIモデルを使いたいならGenspark](#複数のaiモデルを使いたいならgenspark)
+- [無料版ならどちらが試しやすい？](#無料版ならどちらが試しやすい)
+- [料金を比較](#料金を比較)
+- [クレジット制はどう考える？](#クレジット制はどう考える)
+- [Gensparkがおすすめな人](#gensparkがおすすめな人)
+- [Manusがおすすめな人](#manusがおすすめな人)
+- [GensparkとManusを併用するのはあり？](#gensparkとmanusを併用するのはあり)
+- [結局どっちを選べばいい？](#結局どっちを選べばいい)
+- [よくある質問](#よくある質問)
+- [まとめ](#まとめ)
 
 ## GensparkとManusの一番大きな違い
 
@@ -434,3 +456,10 @@ GensparkとManusは、どちらもAIエージェント時代の代表的な選�
 
 - Genspark：https://www.genspark.ai/
 - Manus：https://manus.im/
+
+## 公式サイト・関連導線
+
+- [Genspark公式サイトを見る](https://www.genspark.ai/)
+- [Manus公式サイトを見る](https://manus.im/)
+
+今後、Cuivre内の個別レビュー記事が揃った段階で、それぞれの詳細レビューへ内部リンクを追加します。
