@@ -410,3 +410,9 @@ Gamma・Canva AI・Napkin AIは、すべてAIを使って資料作成を効率�
 - Gamma：https://gamma.app/ja
 - Canva：https://www.canva.com/ja_jp/
 - Napkin AI：https://www.napkin.ai/
+
+## 関連記事
+
+- [Gammaの詳しいレビュー](/articles/gamma-review/)
+- [Canva AIの詳しいレビュー](/articles/canva-ai-review/)
+- [Napkin AIの詳しいレビュー](/articles/napkin-ai-review/)

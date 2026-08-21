@@ -355,3 +355,8 @@ Zinleyは、現在のAIエージェント競争の中でもかなり分かりや
 [Zinley公式サイトを見る](https://zinley.com/)
 
 今後、Cuivre内のAIエージェント・AI秘書・音声AI関連の記事とも内部リンクを接続します。
+
+## 関連記事
+
+- [GensparkとManusの比較](/articles/genspark-vs-manus/)
+- [おすすめAIツール10選の比較](/articles/best-ai-tools-10-comparison/)

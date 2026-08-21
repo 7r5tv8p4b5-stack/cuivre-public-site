@@ -350,3 +350,8 @@ AIエージェントを本当の業務へ入れると必ず必要になる部分
 [Naïve公式サイトを見る](https://usenaive.ai/)
 
 今後、Cuivre内のAIエージェント・Manus・Genspark・自律型AI関連の記事とも内部リンクを接続します。
+
+## 関連記事
+
+- [GensparkとManusの比較](/articles/genspark-vs-manus/)
+- [おすすめAIツール10選の比較](/articles/best-ai-tools-10-comparison/)

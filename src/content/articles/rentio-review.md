@@ -780,3 +780,8 @@ informationSources:
 「どんな人におすすめか」「長期利用なら購入と比較すべきか」「レンティオの価値は安さより購入前の試用にある」といった部分は、公開情報を整理したうえでCuivreが判断しています。
 
 Cuivreが実際にレンティオを利用したレビューではありません。
+
+## 関連記事
+
+- [subsclifeのレビュー](/articles/subsclife-review/)
+- [HomeServeのレビュー](/articles/homeserve-review/)

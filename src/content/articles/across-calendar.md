@@ -427,3 +427,8 @@ Acrossは、予定を保存するために課金するカレンダーではあ�
 [AcrossをApp Storeで確認する](https://apps.apple.com/jp/app/across-%E3%82%AB%E3%83%AC%E3%83%B3%E3%83%80%E3%83%BC-%E8%87%AA%E5%88%86%E4%BB%95%E6%A7%98%E3%81%AE%E4%BA%88%E5%AE%9A%E7%AE%A1%E7%90%86/id6444851827)
 
 今後、Cuivre内のカレンダー・仕事効率化アプリ比較記事とも内部リンクを接続します。
+
+## 関連記事
+
+- [AutoSleepのレビュー](/articles/autosleep-review/)
+- [Just Press Recordのレビュー](/articles/just-press-record-review/)

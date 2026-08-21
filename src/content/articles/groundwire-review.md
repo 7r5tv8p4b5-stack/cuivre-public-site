@@ -787,3 +787,8 @@ Groundwireは、**iPhoneを本格的なSIPソフトフォンとして使うた�
 [GroundwireをApp Storeで確認する](https://apps.apple.com/jp/app/groundwire-voip-sip-softphone/id378503081)
 
 ---
+
+## 関連記事
+
+- [Just Press Recordのレビュー](/articles/just-press-record-review/)
+- [Acrossカレンダーのレビュー](/articles/across-calendar/)

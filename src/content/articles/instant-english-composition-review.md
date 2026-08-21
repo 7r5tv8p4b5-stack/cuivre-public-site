@@ -1124,3 +1124,8 @@ App Storeでは本体1,300円の有料アプリ＋追加教材という形です
 ### 公式CTA
 
 [どんどん話すための瞬間英作文トレーニングをApp Storeで確認する](https://apps.apple.com/jp/app/%E3%81%A9%E3%82%93%E3%81%A9%E3%82%93%E8%A9%B1%E3%81%99%E3%81%9F%E3%82%81%E3%81%AE%E7%9E%AC%E9%96%93%E8%8B%B1%E4%BD%9C%E6%96%87%E3%83%88%E3%83%AC%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0/id443332137)
+
+## 関連記事
+
+- [AnkiMobileのレビュー](/articles/ankimobile-review/)
+- [LisPassのレビュー](/articles/lispass-review/)

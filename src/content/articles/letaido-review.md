@@ -323,3 +323,8 @@ SEOデータを調べるだけでなく、
 
 Letaido公式サイトを見る:
 https://letaido.com/
+
+## 関連記事
+
+- [HomeServeのレビュー](/articles/homeserve-review/)
+- [Rentioのレビュー](/articles/rentio-review/)

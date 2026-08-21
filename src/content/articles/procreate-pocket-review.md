@@ -1363,3 +1363,9 @@ Procreate Pocketの1,000円は、
 ### 公式CTA
 
 [Procreate PocketをApp Storeで確認する](https://apps.apple.com/jp/app/procreate-pocket/id916366645)
+
+## 関連記事
+
+- [AnyFontのレビュー](/articles/anyfont-review/)
+- [Koala Samplerのレビュー](/articles/koala-sampler-review/)
+- [Handy Art Reference Toolのレビュー](/articles/handy-art-reference-tool-review/)

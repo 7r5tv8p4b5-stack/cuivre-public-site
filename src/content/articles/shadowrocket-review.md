@@ -1119,3 +1119,8 @@ Shadowrocketの500円は、
 ### 公式CTA
 
 [ShadowrocketをApp Storeで確認する](https://apps.apple.com/jp/app/shadowrocket/id932747118)
+
+## 関連記事
+
+- [AdGuard Proのレビュー](/articles/adguard-pro-review/)
+- [280blockerのレビュー](/articles/280blocker-review/)

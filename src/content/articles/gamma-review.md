@@ -406,3 +406,7 @@ Gammaの面白さは、**そこまでAIに任せられること**です。
 で判断するのがいいでしょう。
 
 [Gammaを無料で試す](https://gamma.app/ja)
+
+## 関連記事
+
+- [Gamma・Canva AI・Napkin AIの比較](/articles/gamma-vs-canva-ai-vs-napkin-ai/)

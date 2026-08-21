@@ -377,3 +377,8 @@ Deep Research。
 それがGeminiを使うかどうかの分かりやすい判断基準です。
 
 [Geminiを試す](https://gemini.google.com/)
+
+## 関連記事
+
+- [ChatGPT・Claude・Geminiの比較](/articles/chatgpt-vs-claude-vs-gemini/)
+- [NotebookLM・Perplexity・Geminiの比較](/articles/notebooklm-vs-perplexity-vs-gemini/)

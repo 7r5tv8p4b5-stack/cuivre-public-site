@@ -733,3 +733,8 @@ iPhoneとiPadに対応し、ライフスタイルカテゴリの有料ランキ�
 **予定を記録したいかではなく、制作ペースの計算をアプリに任せたいか**
 
 で判断するといいでしょう。
+
+## 関連記事
+
+- [ひとまくのレビュー](/articles/hitomaku-review/)
+- [Everiesのレビュー](/articles/everies-review/)

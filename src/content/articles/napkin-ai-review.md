@@ -504,3 +504,7 @@ AIに作らせる。
 **5分、10分、30分と時間を短縮できるなら、それがNapkin AIを使う一番大きな理由です。**
 
 [Napkin AIを無料で試す](https://www.napkin.ai/)
+
+## 関連記事
+
+- [Gamma・Canva AI・Napkin AIの比較](/articles/gamma-vs-canva-ai-vs-napkin-ai/)

@@ -349,3 +349,8 @@ Google Workspaceの情報を扱う。
 その結果でClaudeを使う価値を判断する方が、生成AIの本当の違いが見えやすいでしょう。
 
 [Claudeを試す](https://claude.ai/)
+
+## 関連記事
+
+- [ChatGPT・Claude・Geminiの比較](/articles/chatgpt-vs-claude-vs-gemini/)
+- [おすすめAIツール10選の比較](/articles/best-ai-tools-10-comparison/)

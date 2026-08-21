@@ -447,3 +447,8 @@ GensparkとManusは、どちらもAIエージェント時代の代表的な選�
 - [Manus公式サイトを見る](https://manus.im/)
 
 今後、Cuivre内の個別レビュー記事が揃った段階で、それぞれの詳細レビューへ内部リンクを追加します。
+
+## 関連記事
+
+- [Gensparkの詳しいレビュー](/articles/genspark-review/)
+- [Manusの詳しいレビュー](/articles/manus-review/)

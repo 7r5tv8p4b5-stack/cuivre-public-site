@@ -1301,3 +1301,8 @@ CarPlayについても、2026年8月21日時点では専用CarPlayアプリと�
 ### 公式CTA
 
 [オービスガイドをApp Storeで確認する](https://apps.apple.com/jp/app/%E3%82%AA%E3%83%BC%E3%83%93%E3%82%B9%E3%82%AC%E3%82%A4%E3%83%89-%E7%A7%BB%E5%8B%95%E5%BC%8F%E3%82%AA%E3%83%BC%E3%83%93%E3%82%B9-%E3%83%8D%E3%82%BA%E3%83%9F%E6%8D%95%E3%82%8A%E5%AF%BE%E5%BF%9C/id1179959829)
+
+## 関連記事
+
+- [看護師国試関連図のレビュー](/articles/nursing-related-diagram-review/)
+- [Acrossカレンダーのレビュー](/articles/across-calendar/)

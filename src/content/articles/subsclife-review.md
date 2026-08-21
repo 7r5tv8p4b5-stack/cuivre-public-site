@@ -793,3 +793,8 @@ FLOS、Vitra、Artemide、Herman Millerなど、国内外のブランド商品�
 「どんな人におすすめか」「Rentioとの違い」「サブスクライフは安さより初期費用を抑えて高級家具を導入することに価値がある」といった部分は、公開情報を整理したうえでCuivreが判断しています。
 
 Cuivreが実際にサブスクライフを利用したレビューではありません。
+
+## 関連記事
+
+- [Rentioのレビュー](/articles/rentio-review/)
+- [foodableのレビュー](/articles/foodable-review/)

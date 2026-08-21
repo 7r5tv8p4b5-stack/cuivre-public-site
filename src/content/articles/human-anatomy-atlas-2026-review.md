@@ -1161,3 +1161,8 @@ NOなら、まず無料3Dアプリで十分です。
 ### 公式CTA
 
 [ヒューマン・アナトミー・アトラス2026をApp Storeで確認する](https://apps.apple.com/jp/app/%E3%83%92%E3%83%A5%E3%83%BC%E3%83%9E%E3%83%B3-%E3%82%A2%E3%83%8A%E3%83%88%E3%83%9F%E3%83%BC-%E3%82%A2%E3%83%88%E3%83%A9%E3%82%B92026/id1117998129)
+
+## 関連記事
+
+- [看護師国試関連図のレビュー](/articles/nursing-related-diagram-review/)
+- [有機化学 大学受験のレビュー](/articles/organic-chemistry-university-exam-review/)

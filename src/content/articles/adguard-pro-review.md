@@ -1035,3 +1035,8 @@ Safariでは最大30万のフィルタリングルールを利用でき、日本
 ### 公式CTA
 
 [AdGuard ProをApp Storeで確認する](https://apps.apple.com/jp/app/adguard-pro-%E6%9C%AC%E6%A0%BC%E7%9A%84%E3%81%AA%E5%BA%83%E5%91%8A%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF/id1126386264)
+
+## 関連記事
+
+- [280blockerのレビュー](/articles/280blocker-review/)
+- [Shadowrocketのレビュー](/articles/shadowrocket-review/)

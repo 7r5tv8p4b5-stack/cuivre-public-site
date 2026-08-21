@@ -956,3 +956,8 @@ Apple M1以降のMacで利用できます。 [App Store](https://apps.apple.com/
 ### 公式CTA
 
 **英検®準1級 でた単をApp Storeで確認する**
+
+## 関連記事
+
+- [AnkiMobileのレビュー](/articles/ankimobile-review/)
+- [LisPassのレビュー](/articles/lispass-review/)

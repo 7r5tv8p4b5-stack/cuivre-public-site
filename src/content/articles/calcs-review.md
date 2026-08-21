@@ -677,3 +677,8 @@ iPhoneと同期している予定やリマインダーを、
 **Apple Watchの文字盤を少し便利にする小さなカスタマイズ**
 
 として試しやすいでしょう。
+
+## 関連記事
+
+- [Acrossカレンダーのレビュー](/articles/across-calendar/)
+- [Just Press Recordのレビュー](/articles/just-press-record-review/)

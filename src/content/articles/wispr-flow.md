@@ -348,3 +348,8 @@ Wispr Flowは、音声認識そのものを新しくしたサービスという�
 [Wispr Flow公式サイトを見る](https://wisprflow.ai/)
 
 今後、Cuivre内の音声入力AI・議事録AI・生産性AI比較記事とも内部リンクを接続します。
+
+## 関連記事
+
+- [おすすめAIツール10選の比較](/articles/best-ai-tools-10-comparison/)
+- [Claudeのレビュー](/articles/claude-review/)

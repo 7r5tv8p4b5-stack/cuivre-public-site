@@ -396,3 +396,8 @@ Olli by Tinrocketは、単なる写真フィルターとして見ると600円を
 [Olli by TinrocketをApp Storeで確認する](https://apps.apple.com/jp/app/olli-by-tinrocket/id1039012834)
 
 今後、Cuivre内の写真・カメラアプリ比較記事とも内部リンクを接続します。
+
+## 関連記事
+
+- [YoungPhotoのレビュー](/articles/youngphoto-review/)
+- [NightCapカメラのレビュー](/articles/nightcap-camera/)

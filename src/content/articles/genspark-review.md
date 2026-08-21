@@ -378,3 +378,8 @@ Gensparkが狙っているのは、この間をAIエージェントでつなぐ�
 そこでどれだけ人間の作業が減るかを見るのが、Gensparkを評価する一番分かりやすい方法です。
 
 [Gensparkを試す](https://www.genspark.ai/)
+
+## 関連記事
+
+- [GensparkとManusの比較](/articles/genspark-vs-manus/)
+- [Perplexity・Genspark・Geminiの比較](/articles/perplexity-vs-genspark-vs-gemini/)

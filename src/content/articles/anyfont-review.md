@@ -967,3 +967,8 @@ AnyFontに払う300円は、
 **AnyFontをApp Storeで確認する**
 
 ---
+
+## 関連記事
+
+- [Procreate Pocketのレビュー](/articles/procreate-pocket-review/)
+- [Koala Samplerのレビュー](/articles/koala-sampler-review/)

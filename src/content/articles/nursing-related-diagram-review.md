@@ -927,3 +927,8 @@ Google Play版があります。 [Google Play](https://play.google.com/store/app
 という使い方が一番合っています。
 
 [看護学生必携!関連図アプリをApp Storeで確認する](https://apps.apple.com/jp/app/%E7%9C%8B%E8%AD%B7%E5%AD%A6%E7%94%9F%E5%BF%85%E6%90%BA-%E9%96%A2%E9%80%A3%E5%9B%B3%E3%82%A2%E3%83%97%E3%83%AA/id1623037993)
+
+## 関連記事
+
+- [Human Anatomy Atlas 2026のレビュー](/articles/human-anatomy-atlas-2026-review/)
+- [オービスガイドのレビュー](/articles/orbis-guide-review/)

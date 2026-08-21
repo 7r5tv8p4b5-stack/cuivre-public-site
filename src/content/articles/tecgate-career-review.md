@@ -465,3 +465,8 @@ Tecgate転職は、株式会社セルバが運営する転職支援サービス�
 転職サービスは、知名度だけで選ぶのではなく、自分の希望条件やキャリアに合っているかが重要です。
 
 Tecgate転職が気になる場合は、この記事で紹介したチェックリストを参考にしながら、自分に合うサービスかどうかを判断してみてください。
+
+## 関連記事
+
+- [Tecgate転職とユニゾンキャリアの比較](/articles/tecgate-unison-career-comparison/)
+- [就職・転職サービス比較](/articles/job-change-service-comparison-v1/)

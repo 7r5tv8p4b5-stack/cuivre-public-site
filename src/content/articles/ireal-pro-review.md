@@ -1345,3 +1345,8 @@ iReal Proの3,500円は、
 ### 公式CTA
 
 [iReal ProをApp Storeで確認する](https://apps.apple.com/jp/app/ireal-pro/id298206806)
+
+## 関連記事
+
+- [Koala Samplerのレビュー](/articles/koala-sampler-review/)
+- [AnyFontのレビュー](/articles/anyfont-review/)

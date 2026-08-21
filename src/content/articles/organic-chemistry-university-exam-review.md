@@ -700,3 +700,8 @@ DNA塩基
 **2,000円が高いか安いかではなく、3本すべてを受験勉強で使うか**
 
 で考えると分かりやすいです。
+
+## 関連記事
+
+- [Human Anatomy Atlas 2026のレビュー](/articles/human-anatomy-atlas-2026-review/)
+- [看護師国試関連図のレビュー](/articles/nursing-related-diagram-review/)

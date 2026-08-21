@@ -882,3 +882,8 @@ NOなら、必要ありません。
 ### 公式CTA
 
 **NoirをApp Storeで確認する**
+
+## 関連記事
+
+- [280blockerのレビュー](/articles/280blocker-review/)
+- [AdGuard Proのレビュー](/articles/adguard-pro-review/)

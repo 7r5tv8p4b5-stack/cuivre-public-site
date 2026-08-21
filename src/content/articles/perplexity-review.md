@@ -409,3 +409,8 @@ Perplexityの便利さは、検索窓がAIになったことだけではあり�
 それだけで、自分に必要なサービスか判断しやすいでしょう。
 
 [Perplexityを無料で試す](https://www.perplexity.ai/)
+
+## 関連記事
+
+- [Perplexity・Genspark・Geminiの比較](/articles/perplexity-vs-genspark-vs-gemini/)
+- [NotebookLM・Perplexity・Geminiの比較](/articles/notebooklm-vs-perplexity-vs-gemini/)

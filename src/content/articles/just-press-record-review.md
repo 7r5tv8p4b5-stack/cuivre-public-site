@@ -920,3 +920,9 @@ Just Press Recordは、単なる有料ボイスレコーダーではありませ
 **Just Press RecordをApp Storeで確認する**
 
 ---
+
+## 関連記事
+
+- [Acrossカレンダーのレビュー](/articles/across-calendar/)
+- [Calcsのレビュー](/articles/calcs-review/)
+- [Groundwireのレビュー](/articles/groundwire-review/)

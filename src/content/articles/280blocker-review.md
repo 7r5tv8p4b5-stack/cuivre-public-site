@@ -783,3 +783,8 @@ https://apps.apple.com/jp/app/280blocker/id1071235820
 CTA:
 
 App Storeで280blockerを確認する
+
+## 関連記事
+
+- [AdGuard Proのレビュー](/articles/adguard-pro-review/)
+- [Noirのレビュー](/articles/noir-review/)

@@ -1270,3 +1270,8 @@ AutoSleepの1,000円は、
 ### 公式CTA
 
 [AutoSleepをApp Storeで確認する](https://apps.apple.com/jp/app/autosleep-%E7%9D%A1%E7%9C%A0%E3%81%AE%E8%BF%BD%E8%B7%A1%E3%82%92watch%E3%81%A7/id1164801111)
+
+## 関連記事
+
+- [AutoSnoreのレビュー](/articles/autosnore-review/)
+- [Acrossカレンダーのレビュー](/articles/across-calendar/)

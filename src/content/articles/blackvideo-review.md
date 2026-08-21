@@ -753,3 +753,8 @@ BlackVideoの魅力は、機能の数だけではありません。
 **高性能カメラアプリが欲しいかではなく、「録画開始までの時間を短くしたいか」**
 
 で考えると判断しやすいでしょう。
+
+## 関連記事
+
+- [StageCameraPro2のレビュー](/articles/stagecamerapro2-review/)
+- [NightCapカメラのレビュー](/articles/nightcap-camera/)

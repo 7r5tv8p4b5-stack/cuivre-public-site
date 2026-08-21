@@ -719,3 +719,8 @@ YouTubeドラマ
 **900円で小規模な映像制作の管理環境をまとめる**
 
 と考えると、購入価値を判断しやすいでしょう。
+
+## 関連記事
+
+- [Everiesのレビュー](/articles/everies-review/)
+- [原稿プランナーのレビュー](/articles/genko-planner-review/)

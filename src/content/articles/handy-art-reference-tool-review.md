@@ -784,3 +784,8 @@ https://apps.apple.com/jp/app/handy-art-reference-tool/id478643661
 CTA:
 
 Handy Art Reference ToolをApp Storeで確認する
+
+## 関連記事
+
+- [Procreate Pocketのレビュー](/articles/procreate-pocket-review/)
+- [AnyFontのレビュー](/articles/anyfont-review/)

@@ -1103,3 +1103,8 @@ AnkiWebも無料。
 ### 公式CTA
 
 [AnkiMobile FlashcardsをApp Storeで確認する](https://apps.apple.com/jp/app/ankimobile-flashcards/id373493387)
+
+## 関連記事
+
+- [英検準1級 でた単のレビュー](/articles/eiken-pre1-detatan-review/)
+- [瞬間英作文のレビュー](/articles/instant-english-composition-review/)

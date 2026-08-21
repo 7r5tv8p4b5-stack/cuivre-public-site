@@ -625,3 +625,13 @@ AIをほとんど使ったことがない場合、いきなり10個を試す必�
 - Canva AI：https://cuivre-public-site.pages.dev/articles/canva-ai-review/
 - Napkin AI：https://cuivre-public-site.pages.dev/articles/napkin-ai-review/
 - Suno：https://cuivre-public-site.pages.dev/articles/suno-review/
+
+## 関連記事
+
+- [ChatGPT・Claude・Geminiの比較](/articles/chatgpt-vs-claude-vs-gemini/)
+- [AI検索ツールの比較](/articles/perplexity-vs-genspark-vs-gemini/)
+- [資料作成AIの比較](/articles/gamma-vs-canva-ai-vs-napkin-ai/)
+- [Wispr Flowのレビュー](/articles/wispr-flow/)
+- [Writesonicのレビュー](/articles/writesonic-review/)
+- [Naïveのレビュー](/articles/naive-ai/)
+- [Zinleyのレビュー](/articles/zinley/)

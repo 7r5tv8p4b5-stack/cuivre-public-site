@@ -436,3 +436,9 @@ ChatGPT・Claude・Geminiは、2026年現在いずれも幅広い用途に対応
 - ChatGPT：https://chatgpt.com/
 - Claude：https://claude.ai/
 - Gemini：https://gemini.google.com/
+
+## 関連記事
+
+- [Claudeの詳しいレビュー](/articles/claude-review/)
+- [Geminiの詳しいレビュー](/articles/gemini-review/)
+- [おすすめAIツール10選の比較](/articles/best-ai-tools-10-comparison/)

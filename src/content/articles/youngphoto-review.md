@@ -1123,3 +1123,8 @@ YoungPhotoの350円は、
 ### 公式CTA
 
 [YoungPhotoをApp Storeで確認する](https://apps.apple.com/jp/app/youngphoto-%E3%82%A8%E3%83%A2%E3%81%84%E6%A7%8B%E5%9B%B3%E3%82%AB%E3%83%A1%E3%83%A9/id6763737180)
+
+## 関連記事
+
+- [Olli by Tinrocketのレビュー](/articles/olli-by-tinrocket/)
+- [NightCapカメラのレビュー](/articles/nightcap-camera/)

@@ -1279,3 +1279,8 @@ Koala Samplerの800円は、
 ### 公式CTA
 
 [Koala SamplerをApp Storeで確認する](https://apps.apple.com/jp/app/koala-sampler/id1449584007)
+
+## 関連記事
+
+- [iReal Proのレビュー](/articles/ireal-pro-review/)
+- [Procreate Pocketのレビュー](/articles/procreate-pocket-review/)

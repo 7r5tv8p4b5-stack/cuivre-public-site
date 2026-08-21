@@ -477,3 +477,8 @@ Web会議中心で無料枠を重視するならFathom。
 → **[Fathomの特徴・無料プランを詳しく見る](/articles/fathom-review/)**
 
 → **[NottaとFathomを直接比較する](/articles/notta-vs-fathom/)**
+
+## 関連記事
+
+- [Krispのレビュー](/articles/krisp-review/)
+- [MeetGeekのレビュー](/articles/meetgeek-review/)

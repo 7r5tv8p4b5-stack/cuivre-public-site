@@ -403,3 +403,7 @@ AIへ質問する。
 それが一番分かりやすい使い方です。
 
 [NotebookLMを試す](https://notebooklm.google.com/)
+
+## 関連記事
+
+- [NotebookLM・Perplexity・Geminiの比較](/articles/notebooklm-vs-perplexity-vs-gemini/)

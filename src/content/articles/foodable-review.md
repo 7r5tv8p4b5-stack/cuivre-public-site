@@ -501,3 +501,8 @@ foodableを調べて一番重要だと感じたのは、**月額料金だけで�
 **料金だけではなく「最低利用期間・解約・買取」まで確認して選ぶ。**
 
 これがfoodableを検討するときの一番重要なポイントです。
+
+## 関連記事
+
+- [Rentioのレビュー](/articles/rentio-review/)
+- [subsclifeのレビュー](/articles/subsclife-review/)

@@ -246,3 +246,8 @@ Zoom Appも用意されていますが、利用条件や機能制限がありま
 Fathomの最新情報や料金、対応環境は公式サイトで確認してください。
 
 https://www.fathom.ai/
+
+## 関連記事
+
+- [NottaとFathomの比較](/articles/notta-vs-fathom/)
+- [AI議事録ツール5選](/articles/ai-meeting-minutes-tools/)

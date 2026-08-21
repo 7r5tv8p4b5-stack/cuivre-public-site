@@ -1027,3 +1027,8 @@ EE35の300円は、
 **EE35 フィルムカメラをApp Storeで確認する**
 
 ---
+
+## 関連記事
+
+- [Berryフィルムのレビュー](/articles/berry-film-review/)
+- [YoungPhotoのレビュー](/articles/youngphoto-review/)

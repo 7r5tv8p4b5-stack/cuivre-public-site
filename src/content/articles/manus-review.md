@@ -394,3 +394,8 @@ ManusのようなAIエージェントが目指しているのは、
 それがAIエージェントを評価する一番分かりやすい方法です。
 
 [Manusを試す](https://manus.im/)
+
+## 関連記事
+
+- [GensparkとManusの比較](/articles/genspark-vs-manus/)
+- [おすすめAIツール10選の比較](/articles/best-ai-tools-10-comparison/)

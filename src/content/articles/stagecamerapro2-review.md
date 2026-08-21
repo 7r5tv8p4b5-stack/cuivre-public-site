@@ -1121,3 +1121,8 @@ StageCameraPro2の850円は、
 ### 公式CTA
 
 **StageCameraPro2をApp Storeで確認する**
+
+## 関連記事
+
+- [NightCapカメラのレビュー](/articles/nightcap-camera/)
+- [BlackVideoのレビュー](/articles/blackvideo-review/)

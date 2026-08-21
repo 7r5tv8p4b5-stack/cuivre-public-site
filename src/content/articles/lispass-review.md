@@ -1044,3 +1044,8 @@ App Storeレビューでも、紙とスマホを照らし合わせる必要が�
 ### 公式CTA
 
 **リスパスをApp Storeで確認する**
+
+## 関連記事
+
+- [英検準1級 でた単のレビュー](/articles/eiken-pre1-detatan-review/)
+- [瞬間英作文のレビュー](/articles/instant-english-composition-review/)

@@ -514,3 +514,7 @@ Canva Code 2.0。
 で判断するのがいいでしょう。
 
 [Canvaを無料で試す](https://www.canva.com/ja_jp/)
+
+## 関連記事
+
+- [Gamma・Canva AI・Napkin AIの比較](/articles/gamma-vs-canva-ai-vs-napkin-ai/)

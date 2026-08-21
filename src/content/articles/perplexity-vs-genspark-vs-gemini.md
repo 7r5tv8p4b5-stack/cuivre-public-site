@@ -463,3 +463,9 @@ Perplexity・Genspark・Geminiは、すべてAIを使った検索・調査に利
 - [Gemini公式サイトを見る](https://gemini.google.com/)
 
 比較だけでなく個別サービスの特徴を詳しく確認したい場合は、Cuivre内の各レビュー記事も順次内部リンクで接続します。
+
+## 関連記事
+
+- [Perplexityの詳しいレビュー](/articles/perplexity-review/)
+- [Gensparkの詳しいレビュー](/articles/genspark-review/)
+- [Geminiの詳しいレビュー](/articles/gemini-review/)

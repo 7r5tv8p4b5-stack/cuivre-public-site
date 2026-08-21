@@ -522,3 +522,8 @@ eラーニングでどのレベルまで学べるか
 - [明光グローバルエンジニアHub公式ページ](https://meiko-career.jp/lp2/engineer/)
 
 - [株式会社明光キャリアパートナーズ会社情報](https://meiko-career.jp/company/)
+
+## 関連記事
+
+- [就職・転職サービス比較](/articles/job-change-service-comparison-v1/)
+- [Tecgate転職のレビュー](/articles/tecgate-career-review/)

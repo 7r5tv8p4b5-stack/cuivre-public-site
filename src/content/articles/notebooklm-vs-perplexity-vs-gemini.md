@@ -443,3 +443,9 @@ NotebookLM・Perplexity・Geminiは、どれもAIを使った調査に役立ち�
 - [Gemini公式サイトを見る](https://gemini.google.com/)
 
 各サービスの個別レビュー記事がある場合は、比較からさらに深掘りできるよう内部リンクを接続します。
+
+## 関連記事
+
+- [NotebookLMの詳しいレビュー](/articles/notebooklm-review/)
+- [Perplexityの詳しいレビュー](/articles/perplexity-review/)
+- [Geminiの詳しいレビュー](/articles/gemini-review/)
