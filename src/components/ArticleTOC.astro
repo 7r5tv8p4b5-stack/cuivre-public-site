@@ -1,10 +1,12 @@
 ---
-const { headings = [] } = Astro.props;
+const { headings = [], excludeTexts = [] } = Astro.props;
+const excluded = new Set(excludeTexts);
 const stripChildPrefix = (text = "") =>
   text.replace(/^\s*(?:[0-9０-９]+)[\.\．、\)\）]\s*/, "").trim();
 
 const toc = [];
 for (const heading of headings.filter((item) => item.depth === 2 || item.depth === 3)) {
+  if (excluded.has(heading.text) || heading.depth !== 2) continue;
   if (heading.depth === 2) {
     if (toc.length >= 14) continue;
     toc.push({ ...heading, children: [] });
