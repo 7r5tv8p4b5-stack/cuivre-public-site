@@ -60,7 +60,7 @@ const topSectionTexts = ["こんな人におすすめ", "Cuivre Check", "情報�
 const basicInfoHeading = headings.find((heading) => heading.depth === 2 && heading.text.includes("基本情報"))?.text;
 if (basicInfoHeading) topSectionTexts.push(basicInfoHeading);
 topSectionTexts.push(...headings.filter((heading) => heading.text.includes("3秒でわかる")).map((heading) => heading.text));
-function splitPaidAppArticle(html) {
+function splitFixedArticleSections(html) {
   const h2Pattern = /<h2\b[^>]*>[\s\S]*?<\/h2>/gi;
   const matches = [...html.matchAll(h2Pattern)];
   const sections = {};
@@ -79,15 +79,22 @@ function splitPaidAppArticle(html) {
   sections.body = basicIndex >= 0 ? html.slice(nextStart(basicIndex)) : html;
   return sections;
 }
-const paidAppSections = isPaidAppDraft ? splitPaidAppArticle(articleHtml) : null;
+const fixedSections = splitFixedArticleSections(articleHtml);
+const hasFixedSections = Boolean(fixedSections.intro && (fixedSections.recommend || fixedSections.check || fixedSections.evidence || fixedSections.basic));
 const hasServiceDecision = Boolean(
   frontmatter.serviceRecommendations?.length ||
   frontmatter.cuivreCheck?.length ||
   frontmatter.informationSources?.length
 );
-const firstSectionIndex = !isPaidAppDraft && hasServiceDecision ? articleHtml.search(/\s*<h2\b/i) : -1;
+const firstSectionIndex = !hasFixedSections && hasServiceDecision ? articleHtml.search(/\s*<h2\b/i) : -1;
 const articleIntroHtml = firstSectionIndex > -1 ? articleHtml.slice(0, firstSectionIndex) : "";
-const articleBodyHtml = isPaidAppDraft ? paidAppSections.body : firstSectionIndex > -1 ? articleHtml.slice(firstSectionIndex) : articleHtml;
+const articleBodyHtml = hasFixedSections ? fixedSections.body : firstSectionIndex > -1 ? articleHtml.slice(firstSectionIndex) : articleHtml;
+function headingsFromHtml(html) {
+  return [...html.matchAll(/<h2\b[^>]*id="([^"]+)"[^>]*>([\s\S]*?)<\/h2>/gi)]
+    .map((match) => ({ depth: 2, slug: match[1], text: match[2].replace(/<[^>]+>/g, "").trim() }))
+    .filter((heading) => !["関連記事", "公式スクリーンショット"].includes(heading.text));
+}
+const tocHeadings = headingsFromHtml(articleBodyHtml);
 const comparisonSummary = comparisonSummaryFor(frontmatter);
 const rankingSummary = rankingSummaryFor(frontmatter);
 const isComparison = Boolean(comparisonSummary);
@@ -127,21 +134,21 @@ const structuredData = {
       <span>{articleSubject}</span>
     </nav>
 
-    <ArticleHero frontmatter={frontmatter} articleSubject={articleSubject} hideDescription={isPaidAppDraft || frontmatter.hideHeroDescription} />
+    <ArticleHero frontmatter={frontmatter} articleSubject={articleSubject} hideDescription={hasFixedSections || frontmatter.hideHeroDescription} />
 
-    {isPaidAppDraft ? (
+    {hasFixedSections ? (
       <>
-        {paidAppSections.intro && <div class="article-intro article-body" set:html={paidAppSections.intro} />}
-        {paidAppSections.recommend && <div class="article-body" set:html={paidAppSections.recommend} />}
-        {paidAppSections.check && <div class="article-body" set:html={paidAppSections.check} />}
-        {paidAppSections.evidence && <div class="article-body" set:html={paidAppSections.evidence} />}
-        {paidAppSections.basic && <div class="article-body" set:html={paidAppSections.basic} />}
+        {fixedSections.intro && <div class="article-intro article-body" set:html={fixedSections.intro} />}
+        {fixedSections.recommend && <div class="article-body" set:html={fixedSections.recommend} />}
+        {fixedSections.check && <div class="article-body" set:html={fixedSections.check} />}
+        {fixedSections.evidence && <div class="article-body" set:html={fixedSections.evidence} />}
+        {fixedSections.basic && <div class="article-body" set:html={fixedSections.basic} />}
       </>
     ) : (
       articleIntroHtml && <div class="article-intro article-body" set:html={articleIntroHtml} />
     )}
 
-    {!isPaidAppDraft && (
+    {!hasFixedSections && (
       <ServiceDecisionPanel
         recommendations={frontmatter.serviceRecommendations || []}
         checks={frontmatter.cuivreCheck || []}
@@ -170,7 +177,7 @@ const structuredData = {
     <RankingSummary summary={rankingSummary} />
 
     <div class="article-layout">
-      <ArticleTOC headings={headings} excludeTexts={topSectionTexts} />
+      <ArticleTOC headings={tocHeadings} excludeTexts={topSectionTexts} />
       <div class="article-main">
         <div class="article-body" set:html={articleBodyHtml} />
         {officialCtaHref && <ArticleCTA href={officialCtaHref} label={officialCtaText} />}

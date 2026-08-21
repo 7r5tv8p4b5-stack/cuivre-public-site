@@ -2039,17 +2039,21 @@ blockquote {
 
 .app-screenshots__grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(150px, max-content));
+  justify-content: start;
   gap: 14px;
 }
 
 .app-screenshots figure {
+  width: fit-content;
+  max-width: 100%;
   margin: 0;
 }
 
 .app-screenshots img {
   display: block;
-  width: 100%;
+  width: auto;
+  max-width: 100%;
   border: 1px solid #e5dfd3;
   border-radius: 8px;
   background: #f7f3ec;
