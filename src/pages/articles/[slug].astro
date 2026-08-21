@@ -161,7 +161,7 @@ const structuredData = {
     <RankingSummary summary={rankingSummary} />
 
     <div class="article-layout">
-      <ArticleTOC headings={headings} excludeTexts={isPaidAppDraft || isAiTypeCFinalDraft ? topSectionTexts : []} />
+      <ArticleTOC headings={headings} excludeTexts={topSectionTexts} />
       <div class="article-main">
         <div class="article-body" set:html={articleBodyHtml} />
         {officialCtaHref && <ArticleCTA href={officialCtaHref} label={officialCtaText} />}
