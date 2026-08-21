@@ -44,6 +44,17 @@ appIcon:
   source: "App Store"
   sourceUrl: "https://apps.apple.com/jp/app/nightcap%E3%82%AB%E3%83%A1%E3%83%A9/id754105884"
   official: true
+officialScreenshots:
+  - src: "/assets/apps/nightcap-camera/screenshot-1.jpg"
+    alt: "NightCapカメラの公式スクリーンショット1"
+    source: "App Store"
+    sourceUrl: "https://apps.apple.com/jp/app/nightcap%E3%82%AB%E3%83%A1%E3%83%A9/id754105884"
+    official: true
+  - src: "/assets/apps/nightcap-camera/screenshot-2.jpg"
+    alt: "NightCapカメラの公式スクリーンショット2"
+    source: "App Store"
+    sourceUrl: "https://apps.apple.com/jp/app/nightcap%E3%82%AB%E3%83%A1%E3%83%A9/id754105884"
+    official: true
 ---
 iPhoneの標準カメラにはナイトモードがあります。
 
@@ -218,14 +229,6 @@ NightCapは公式にアストロノミーモードを案内しており、星・
 都会の明るい場所で手持ち撮影して、天文写真のような結果を期待するとギャップが出ます。
 
 
-<section class="app-screenshots" aria-label="App Store公式スクリーンショット">
-<div class="app-screenshots__grid">
-  <figure>
-    <img src="/assets/apps/nightcap-camera/screenshot-1.jpg" alt="NightCapカメラの公式スクリーンショット1" loading="lazy" decoding="async">
-    <figcaption>NightCapは星空・暗所撮影向けの機能を備える<br>出典：App Store</figcaption>
-  </figure>
-</div>
-</section>
 
 ## 長時間露光で何ができる？
 
@@ -243,14 +246,6 @@ NightCapは公式にアストロノミーモードを案内しており、星・
 スマホを「記録するカメラ」から「光を使って遊ぶカメラ」に変えられるのがNightCapの面白さです。
 
 
-<section class="app-screenshots" aria-label="App Store公式スクリーンショット">
-<div class="app-screenshots__grid">
-  <figure>
-    <img src="/assets/apps/nightcap-camera/screenshot-2.jpg" alt="NightCapカメラの公式スクリーンショット2" loading="lazy" decoding="async">
-    <figcaption>NightCapは長時間露光や光跡撮影向けの撮影モードを備える<br>出典：App Store</figcaption>
-  </figure>
-</div>
-</section>
 
 ## 三脚は必要？
 

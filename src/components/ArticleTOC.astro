@@ -1,21 +1,9 @@
 ---
 const { headings = [], excludeTexts = [] } = Astro.props;
 const excluded = new Set(excludeTexts);
-const stripChildPrefix = (text = "") =>
-  text.replace(/^\s*(?:[0-9０-９]+)[\.\．、\)\）]\s*/, "").trim();
-
-const toc = [];
-for (const heading of headings.filter((item) => item.depth === 2 || item.depth === 3)) {
-  if (excluded.has(heading.text) || heading.depth !== 2) continue;
-  if (heading.depth === 2) {
-    if (toc.length >= 14) continue;
-    toc.push({ ...heading, children: [] });
-    continue;
-  }
-  const parent = toc[toc.length - 1];
-  if (!parent) continue;
-  parent.children.push({ ...heading, text: stripChildPrefix(heading.text) });
-}
+const toc = headings
+  .filter((heading) => heading.depth === 2 && !excluded.has(heading.text))
+  .slice(0, 14);
 ---
 {toc.length > 0 && (
   <aside class="article-toc" aria-label="この記事の目次">
@@ -25,15 +13,6 @@ for (const heading of headings.filter((item) => item.depth === 2 || item.depth =
         {toc.map((heading) => (
           <li class="toc-depth-2">
             <a href={`#${heading.slug}`}>{heading.text}</a>
-            {heading.children.length > 0 && (
-              <ul>
-                {heading.children.map((child) => (
-                  <li class="toc-depth-3">
-                    <a href={`#${child.slug}`}>{child.text}</a>
-                  </li>
-                ))}
-              </ul>
-            )}
           </li>
         ))}
       </ol>

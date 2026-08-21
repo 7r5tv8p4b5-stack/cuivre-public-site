@@ -4,7 +4,7 @@ const { article, variant = "default" } = Astro.props;
 const { frontmatter } = article;
 const appIcon = frontmatter.appIcon || frontmatter.app_icon;
 ---
-<article class:list={["article-card", `article-card--${variant}`]}>
+<a class:list={["article-card", `article-card--${variant}`]} href={articleHref(article)}>
   <div class="article-card__body">
     {appIcon?.src && (
       <div class="article-card__app">
@@ -16,7 +16,7 @@ const appIcon = frontmatter.appIcon || frontmatter.app_icon;
       <span class="badge">{articleCategory(frontmatter)}</span>
       {articleDate(frontmatter) && <time datetime={articleDate(frontmatter)}>{articleDate(frontmatter)}</time>}
     </div>
-    <h3><a href={articleHref(article)}>{frontmatter.title}</a></h3>
+    <h3>{frontmatter.title}</h3>
     {variant === "large" && frontmatter.description && <p>{frontmatter.description}</p>}
   </div>
-</article>
+</a>
