@@ -116,7 +116,7 @@ const structuredData = {
       <span>{articleSubject}</span>
     </nav>
 
-    <ArticleHero frontmatter={frontmatter} articleSubject={articleSubject} hideDescription={isPaidAppDraft} />
+    <ArticleHero frontmatter={frontmatter} articleSubject={articleSubject} hideDescription={isPaidAppDraft || frontmatter.hideHeroDescription} />
 
     {isPaidAppDraft ? (
       <>
