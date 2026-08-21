@@ -37,6 +37,12 @@ categoryTags:
   - "iPhone"
   - "買い切りアプリ"
   - "写真・動画"
+appIcon:
+  src: "/assets/apps/olli-by-tinrocket/icon.jpg"
+  alt: "Olli by Tinrocketの公式アイコン"
+  source: "App Store"
+  sourceUrl: "https://apps.apple.com/jp/app/olli-by-tinrocket/id1039012834"
+  official: true
 ---
 写真加工アプリは無料でもかなり多くあります。
 
@@ -196,6 +202,16 @@ Olliでは、撮影画面そのものが手描き表現になります。
 
 加工結果を予測しながら撮る必要がないので、エフェクト自体が撮影体験の一部になります。
 
+
+<section class="app-screenshots" aria-label="App Store公式スクリーンショット">
+<div class="app-screenshots__grid">
+  <figure>
+    <img src="/assets/apps/olli-by-tinrocket/screenshot-1.png" alt="Olli by Tinrocketの公式スクリーンショット1" loading="lazy" decoding="async">
+    <figcaption>Olliは撮影前からエフェクトをライブプレビューできる<br>出典：App Store</figcaption>
+  </figure>
+</div>
+</section>
+
 ## 写真だけでなく動画にも使える？
 
 使えます。
@@ -205,6 +221,16 @@ App Storeでは、最新のiPhoneでクリップ録画時間30秒、インポー
 映画のような長編動画を作るアプリではありませんが、SNS用の短い動画、子どもやペットのワンシーン、街歩きの短いクリップなどには使いやすい範囲です。
 
 Live PhotosやアニメーションGIFにも対応しています。
+
+
+<section class="app-screenshots" aria-label="App Store公式スクリーンショット">
+<div class="app-screenshots__grid">
+  <figure>
+    <img src="/assets/apps/olli-by-tinrocket/screenshot-2.png" alt="Olli by Tinrocketの公式スクリーンショット2" loading="lazy" decoding="async">
+    <figcaption>Olliは写真だけでなく動画にも手描き風エフェクトを適用できる<br>出典：App Store</figcaption>
+  </figure>
+</div>
+</section>
 
 ## 過去に撮った写真も加工できる？
 
@@ -230,6 +256,16 @@ Live PhotosやアニメーションGIFにも対応しています。
 色味を少し変えるだけの大量フィルターよりも、**Olliらしい描画表現の中でスタイルを切り替える**アプリです。
 
 「とにかく選択肢が多い方がいい」という人には物足りない可能性があります。
+
+
+<section class="app-screenshots" aria-label="App Store公式スクリーンショット">
+<div class="app-screenshots__grid">
+  <figure>
+    <img src="/assets/apps/olli-by-tinrocket/screenshot-3.png" alt="Olli by Tinrocketの公式スクリーンショット3" loading="lazy" decoding="async">
+    <figcaption>Olliは複数のスタイルで見た目を切り替えられる<br>出典：App Store</figcaption>
+  </figure>
+</div>
+</section>
 
 ## 無料のAI画像加工アプリとの違い
 

@@ -37,6 +37,12 @@ categoryTags:
   - "iPhone"
   - "カレンダー"
   - "予定管理"
+appIcon:
+  src: "/assets/apps/across-calendar/icon.jpg"
+  alt: "Acrossカレンダーの公式アイコン"
+  source: "App Store"
+  sourceUrl: "https://apps.apple.com/jp/app/across-%E3%82%AB%E3%83%AC%E3%83%B3%E3%83%80%E3%83%BC-%E8%87%AA%E5%88%86%E4%BB%95%E6%A7%98%E3%81%AE%E4%BA%88%E5%AE%9A%E7%AE%A1%E7%90%86/id6444851827"
+  official: true
 ---
 Acrossは、AppleカレンダーやGoogleカレンダーの予定を、自分好みの表示・操作方法で管理できるカレンダーアプリです。
 
@@ -210,6 +216,16 @@ Acrossでは、
 
 逆に、毎日カレンダーを見るたびに「もう少しこう表示したい」と感じる人には価値があります。
 
+
+<section class="app-screenshots" aria-label="App Store公式スクリーンショット">
+<div class="app-screenshots__grid">
+  <figure>
+    <img src="/assets/apps/across-calendar/screenshot-1.jpg" alt="Acrossカレンダーの公式スクリーンショット1" loading="lazy" decoding="async">
+    <figcaption>Acrossは複数のカレンダービューを切り替えられる<br>出典：App Store</figcaption>
+  </figure>
+</div>
+</section>
+
 ## Googleカレンダーの予定も使える？
 
 使えます。
@@ -240,6 +256,16 @@ Acrossは予定だけでなくタスクも同じ環境で管理できます。
 カレンダーアプリとToDoアプリを往復するのが面倒な人には便利です。
 
 Appleリマインダーとの連携もあるため、既存のタスク資産を活かしやすいです。
+
+
+<section class="app-screenshots" aria-label="App Store公式スクリーンショット">
+<div class="app-screenshots__grid">
+  <figure>
+    <img src="/assets/apps/across-calendar/screenshot-2.jpg" alt="Acrossカレンダーの公式スクリーンショット2" loading="lazy" decoding="async">
+    <figcaption>Acrossは予定とタスクを同じ画面で管理しやすい<br>出典：App Store</figcaption>
+  </figure>
+</div>
+</section>
 
 ## 無料版でどこまで使える？
 
