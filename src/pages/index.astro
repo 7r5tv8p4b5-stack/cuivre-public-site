@@ -9,7 +9,6 @@ import {
   categoryCardsFrom,
   featuredArticleFrom,
   publicArticlesFromModules,
-  quickFactsFor,
 } from "../data/site.js";
 
 const modules = import.meta.glob("../content/articles/*.md", { eager: true });
@@ -18,9 +17,6 @@ const featuredArticle = featuredArticleFrom(publishedArticles);
 const latestArticles = publishedArticles.filter((article) => article.slug !== featuredArticle?.slug).slice(0, 5);
 const comparisonArticle = publishedArticles.find((article) => (article.frontmatter.articleType || "").includes("comparison"));
 const categoryCards = categoryCardsFrom(publishedArticles).slice(0, 4);
-const featuredFacts = featuredArticle
-  ? quickFactsFor(featuredArticle.frontmatter).filter((fact) => fact.label !== "公式情報").slice(0, 4)
-  : [];
 
 const title = "Cuivre｜まだ知らない、便利な選択肢を。";
 const description = "Cuivreは、AIサービスを中心に、特徴・料金・注意点・向いている人を整理する編集型メディアです。公式情報をもとに、自分に合うサービス選びをサポートします。";
@@ -44,13 +40,6 @@ const organizationJsonLd = {
         <a class="button-primary" href={articleHref(featuredArticle)}>
           記事を読む <Icon name="arrow" />
         </a>
-        {featuredFacts.length > 0 && (
-          <div class="feature-pills">
-            {featuredFacts.map((fact) => (
-              <span><Icon name={fact.icon} /> {fact.label}</span>
-            ))}
-          </div>
-        )}
       </div>
     </section>
   )}

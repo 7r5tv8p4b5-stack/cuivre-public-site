@@ -4,7 +4,6 @@ import ArticleCTA from "../../components/ArticleCTA.astro";
 import ArticleHero from "../../components/ArticleHero.astro";
 import ArticleTOC from "../../components/ArticleTOC.astro";
 import ComparisonSummary from "../../components/ComparisonSummary.astro";
-import QuickFacts from "../../components/QuickFacts.astro";
 import RankingSummary from "../../components/RankingSummary.astro";
 import RelatedArticles from "../../components/RelatedArticles.astro";
 import ServiceDecisionPanel from "../../components/ServiceDecisionPanel.astro";
@@ -13,7 +12,6 @@ import {
   comparisonSummaryFor,
   normalizeArticle,
   publicArticlesFromModules,
-  quickFactsFor,
   rankingSummaryFor,
   serviceNameFor,
 } from "../../data/site.js";
@@ -42,12 +40,26 @@ const { frontmatter } = article;
 const slug = frontmatter.slug || Astro.params.slug;
 const headings = typeof article.getHeadings === "function" ? article.getHeadings() : normalizeArticle(`/articles/${slug}.md`, article).headings;
 const compiledContent = typeof article.compiledContent === "function" ? await article.compiledContent() : "";
-const articleHtml = compiledContent.replace(/^\s*<h1\b[^>]*>[\s\S]*?<\/h1>\s*/i, "");
+function removeQuickSummarySections(html) {
+  const h2Pattern = /<h2\b[^>]*>[\s\S]*?<\/h2>/gi;
+  const matches = [...html.matchAll(h2Pattern)];
+  let output = "";
+  let cursor = 0;
+  for (let index = 0; index < matches.length; index += 1) {
+    const headingText = matches[index][0].replace(/<[^>]+>/g, "").trim();
+    if (!headingText.includes("3秒でわかる")) continue;
+    output += html.slice(cursor, matches[index].index);
+    cursor = matches[index + 1]?.index ?? html.length;
+  }
+  return output + html.slice(cursor);
+}
+const articleHtml = removeQuickSummarySections(compiledContent.replace(/^\s*<h1\b[^>]*>[\s\S]*?<\/h1>\s*/i, ""));
 const isPaidAppDraft = frontmatter.humanWriter === "Cuivre paid app draft pack";
 const isAiTypeCFinalDraft = frontmatter.humanWriter === "Cuivre AI Type C final draft pack";
 const topSectionTexts = ["こんな人におすすめ", "Cuivre Check", "情報の根拠"];
 const basicInfoHeading = headings.find((heading) => heading.depth === 2 && heading.text.includes("基本情報"))?.text;
 if (basicInfoHeading) topSectionTexts.push(basicInfoHeading);
+topSectionTexts.push(...headings.filter((heading) => heading.text.includes("3秒でわかる")).map((heading) => heading.text));
 function splitPaidAppArticle(html) {
   const h2Pattern = /<h2\b[^>]*>[\s\S]*?<\/h2>/gi;
   const matches = [...html.matchAll(h2Pattern)];
@@ -76,13 +88,11 @@ const hasServiceDecision = Boolean(
 const firstSectionIndex = !isPaidAppDraft && hasServiceDecision ? articleHtml.search(/\s*<h2\b/i) : -1;
 const articleIntroHtml = firstSectionIndex > -1 ? articleHtml.slice(0, firstSectionIndex) : "";
 const articleBodyHtml = isPaidAppDraft ? paidAppSections.body : firstSectionIndex > -1 ? articleHtml.slice(firstSectionIndex) : articleHtml;
-const quickFacts = isPaidAppDraft ? [] : quickFactsFor(frontmatter);
 const comparisonSummary = comparisonSummaryFor(frontmatter);
 const rankingSummary = rankingSummaryFor(frontmatter);
 const isComparison = Boolean(comparisonSummary);
 const isRanking = Boolean(rankingSummary);
 const articleSubject = isComparison ? "比較ガイド" : isRanking ? "ランキングガイド" : serviceNameFor(frontmatter, slug);
-const quickFactsTitle = frontmatter.quickFactsTitle || (isComparison || isRanking ? "3秒でわかる要点" : `3秒でわかる ${serviceNameFor(frontmatter, slug)}`);
 const productionUrl = `/articles/${slug}/`;
 const officialCtaHref = frontmatter.officialCtaText ? frontmatter.officialUrl || frontmatter.official_url : "";
 const officialCtaText = frontmatter.officialCtaText || frontmatter.official_cta_text;
@@ -139,7 +149,6 @@ const structuredData = {
         evidence={frontmatter.informationSources || []}
       />
     )}
-    <QuickFacts title={quickFactsTitle} facts={quickFacts} />
     {officialCtaHref && <ArticleCTA href={officialCtaHref} label={officialCtaText} />}
     {officialScreenshots.length > 0 && (
       <section class="app-screenshots" aria-labelledby="app-screenshots-heading">
