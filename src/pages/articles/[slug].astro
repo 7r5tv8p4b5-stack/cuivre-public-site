@@ -44,6 +44,7 @@ const headings = typeof article.getHeadings === "function" ? article.getHeadings
 const compiledContent = typeof article.compiledContent === "function" ? await article.compiledContent() : "";
 const articleHtml = compiledContent.replace(/^\s*<h1\b[^>]*>[\s\S]*?<\/h1>\s*/i, "");
 const isPaidAppDraft = frontmatter.humanWriter === "Cuivre paid app draft pack";
+const isAiTypeCFinalDraft = frontmatter.humanWriter === "Cuivre AI Type C final draft pack";
 const topSectionTexts = ["こんな人におすすめ", "Cuivre Check", "情報の根拠"];
 const basicInfoHeading = headings.find((heading) => heading.depth === 2 && heading.text.includes("基本情報"))?.text;
 if (basicInfoHeading) topSectionTexts.push(basicInfoHeading);
@@ -160,7 +161,7 @@ const structuredData = {
     <RankingSummary summary={rankingSummary} />
 
     <div class="article-layout">
-      <ArticleTOC headings={headings} excludeTexts={isPaidAppDraft ? topSectionTexts : []} />
+      <ArticleTOC headings={headings} excludeTexts={isPaidAppDraft || isAiTypeCFinalDraft ? topSectionTexts : []} />
       <div class="article-main">
         <div class="article-body" set:html={articleBodyHtml} />
         {officialCtaHref && <ArticleCTA href={officialCtaHref} label={officialCtaText} />}
