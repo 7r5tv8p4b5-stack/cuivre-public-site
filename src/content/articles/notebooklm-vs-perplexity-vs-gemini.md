@@ -140,23 +140,6 @@ Cuivreでは、**調べたい情報がどこに存在するか、調査結果か
 - [Perplexity公式サイトを見る](https://www.perplexity.ai/)
 - [Gemini公式サイトを見る](https://gemini.google.com/)
 
-## 目次
-
-- [NotebookLM・Perplexity・Geminiの一番大きな違い](#notebooklmperplexitygeminiの一番大きな違い)
-- [手元のPDFや資料を調べるならNotebookLM](#手元のpdfや資料を調べるならnotebooklm)
-- [Web上の最新情報ならPerplexity](#web上の最新情報ならperplexity)
-- [Gmail・Googleドライブも含めるならGemini](#gmailgoogleドライブも含めるならgemini)
-- [Deep Researchはどれがいい？](#deep-researchはどれがいい)
-- [出典を追いやすいのはどれ？](#出典を追いやすいのはどれ)
-- [学習用途ならNotebookLMが強い](#学習用途ならnotebooklmが強い)
-- [NotebookLMは2026年にGemini Notebookへ](#notebooklmは2026年にgemini-notebookへ)
-- [3サービスを併用するのはあり？](#3サービスを併用するのはあり)
-- [NotebookLMがおすすめな人](#notebooklmがおすすめな人)
-- [Perplexityがおすすめな人](#perplexityがおすすめな人)
-- [Geminiがおすすめな人](#geminiがおすすめな人)
-- [結局どれを選べばいい？](#結局どれを選べばいい)
-- [よくある質問](#よくある質問)
-- [まとめ](#まとめ)
 
 ## NotebookLM・Perplexity・Geminiの一番大きな違い
 

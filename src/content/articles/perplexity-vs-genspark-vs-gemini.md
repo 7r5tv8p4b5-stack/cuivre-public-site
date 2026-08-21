@@ -135,23 +135,6 @@ Cuivreでは「検索結果の見た目」ではなく、実際の調査フロ�
 - [Genspark公式サイトを見る](https://www.genspark.ai/)
 - [Gemini公式サイトを見る](https://gemini.google.com/)
 
-## 目次
-
-- [Perplexity・Genspark・Geminiの違いを先に比較](#perplexitygensparkgeminiの違いを先に比較)
-- [AI検索として一番分かりやすいのはPerplexity](#ai検索として一番分かりやすいのはperplexity)
-- [深いリサーチなら3サービスとも対応](#深いリサーチなら3サービスとも対応)
-- [出典の追いやすさならPerplexityが強い](#出典の追いやすさならperplexityが強い)
-- [調査した後に資料まで作るならGenspark](#調査した後に資料まで作るならgenspark)
-- [Googleサービスを使っているならGemini](#googleサービスを使っているならgemini)
-- [複数のAIモデルを使いたいなら？](#複数のaiモデルを使いたいなら)
-- [無料版ならどれから試す？](#無料版ならどれから試す)
-- [有料プランの違い](#有料プランの違い)
-- [Perplexityがおすすめな人](#perplexityがおすすめな人)
-- [Gensparkがおすすめな人](#gensparkがおすすめな人)
-- [Geminiがおすすめな人](#geminiがおすすめな人)
-- [結局どれを選べばいい？](#結局どれを選べばいい)
-- [よくある質問](#よくある質問)
-- [まとめ](#まとめ)
 
 ## Perplexity・Genspark・Geminiの違いを先に比較
 
