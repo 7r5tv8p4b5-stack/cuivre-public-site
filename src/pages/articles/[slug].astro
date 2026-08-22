@@ -69,7 +69,7 @@ function splitFixedArticleSections(html) {
   const recommendIndex = findIndex((text) => text === "こんな人におすすめ");
   const checkIndex = findIndex((text) => text === "Cuivre Check");
   const evidenceIndex = findIndex((text) => text === "情報の根拠");
-  const basicIndex = findIndex((text) => text.includes("基本情報"));
+  const basicIndex = findIndex((text) => text.includes("基本情報") || text.includes("基本比較") || text === "4社比較");
   const nextStart = (index) => (index >= 0 && matches[index + 1] ? matches[index + 1].index : html.length);
   sections.intro = recommendIndex >= 0 ? html.slice(0, matches[recommendIndex].index) : "";
   sections.recommend = recommendIndex >= 0 ? html.slice(matches[recommendIndex].index, nextStart(recommendIndex)) : "";
@@ -101,8 +101,13 @@ const isComparison = Boolean(comparisonSummary);
 const isRanking = Boolean(rankingSummary);
 const articleSubject = isComparison ? "比較ガイド" : isRanking ? "ランキングガイド" : serviceNameFor(frontmatter, slug);
 const productionUrl = `/articles/${slug}/`;
-const officialCtaHref = frontmatter.officialCtaText ? frontmatter.officialUrl || frontmatter.official_url : "";
-const officialCtaText = frontmatter.officialCtaText || frontmatter.official_cta_text;
+const officialLinks = Array.isArray(frontmatter.officialLinks)
+  ? frontmatter.officialLinks
+  : frontmatter.officialCtaText
+    ? [{ href: frontmatter.officialUrl || frontmatter.official_url, label: frontmatter.officialCtaText || frontmatter.official_cta_text }]
+    : [];
+const officialCtaHref = officialLinks[0]?.href || "";
+const officialCtaText = officialLinks[0]?.label || "";
 const officialScreenshots = frontmatter.officialScreenshots || frontmatter.official_screenshots || [];
 const structuredData = {
   "@context": "https://schema.org",
@@ -159,7 +164,7 @@ const structuredData = {
             evidence={frontmatter.informationSources || []}
           />
         )}
-        {officialCtaHref && <ArticleCTA href={officialCtaHref} label={officialCtaText} />}
+        {officialLinks.map((link) => link.href && <ArticleCTA href={link.href} label={link.label} />)}
         {officialScreenshots.length > 0 && (
           <section class="app-screenshots" aria-labelledby="app-screenshots-heading">
             <div class="service-decision__header">
@@ -182,7 +187,7 @@ const structuredData = {
       <ArticleTOC headings={tocHeadings} excludeTexts={topSectionTexts} />
       <div class="article-main">
         <div class="article-body" set:html={articleBodyHtml} />
-        {officialCtaHref && <ArticleCTA href={officialCtaHref} label={officialCtaText} />}
+        {officialLinks.map((link) => link.href && <ArticleCTA href={link.href} label={link.label} />)}
         <RelatedArticles articles={relatedArticles} />
       </div>
     </div>
