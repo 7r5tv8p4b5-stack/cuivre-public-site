@@ -71,16 +71,19 @@ function splitFixedArticleSections(html) {
   const evidenceIndex = findIndex((text) => text === "情報の根拠");
   const basicIndex = findIndex((text) => text.includes("基本情報") || text.includes("基本比較") || text === "4社比較");
   const nextStart = (index) => (index >= 0 && matches[index + 1] ? matches[index + 1].index : html.length);
-  sections.intro = recommendIndex >= 0 ? html.slice(0, matches[recommendIndex].index) : "";
+  const fixedIndexes = [recommendIndex, checkIndex, evidenceIndex, basicIndex].filter((index) => index >= 0);
+  const firstFixedIndex = fixedIndexes.length > 0 ? Math.min(...fixedIndexes) : -1;
+  sections.intro = firstFixedIndex >= 0 ? html.slice(0, matches[firstFixedIndex].index) : "";
   sections.recommend = recommendIndex >= 0 ? html.slice(matches[recommendIndex].index, nextStart(recommendIndex)) : "";
   sections.check = checkIndex >= 0 ? html.slice(matches[checkIndex].index, nextStart(checkIndex)) : "";
   sections.evidence = evidenceIndex >= 0 ? html.slice(matches[evidenceIndex].index, nextStart(evidenceIndex)) : "";
   sections.basic = basicIndex >= 0 ? html.slice(matches[basicIndex].index, nextStart(basicIndex)) : "";
-  sections.body = basicIndex >= 0 ? html.slice(nextStart(basicIndex)) : html;
+  const lastFixedIndex = fixedIndexes.length > 0 ? Math.max(...fixedIndexes) : -1;
+  sections.body = lastFixedIndex >= 0 ? html.slice(nextStart(lastFixedIndex)) : html;
   return sections;
 }
 const fixedSections = splitFixedArticleSections(articleHtml);
-const hasFixedSections = Boolean(fixedSections.intro && (fixedSections.recommend || fixedSections.check || fixedSections.evidence || fixedSections.basic));
+const hasFixedSections = Boolean(fixedSections.recommend || fixedSections.check || fixedSections.evidence || fixedSections.basic);
 const hasServiceDecision = Boolean(
   frontmatter.serviceRecommendations?.length ||
   frontmatter.cuivreCheck?.length ||
@@ -145,41 +148,9 @@ const structuredData = {
         <ArticleHero frontmatter={frontmatter} articleSubject={articleSubject} hideDescription={hasFixedSections || frontmatter.hideHeroDescription} />
 
         {hasFixedSections ? (
-          <>
-            {fixedSections.intro && <div class="article-intro article-body" set:html={fixedSections.intro} />}
-            {fixedSections.recommend && <div class="article-body" set:html={fixedSections.recommend} />}
-            {fixedSections.check && <div class="article-body" set:html={fixedSections.check} />}
-            {fixedSections.evidence && <div class="article-body" set:html={fixedSections.evidence} />}
-            {fixedSections.basic && <div class="article-body" set:html={fixedSections.basic} />}
-          </>
+          fixedSections.intro && <div class="article-intro article-body" set:html={fixedSections.intro} />
         ) : (
           articleIntroHtml && <div class="article-intro article-body" set:html={articleIntroHtml} />
-        )}
-
-        {!hasFixedSections && (
-          <ServiceDecisionPanel
-            recommendations={frontmatter.serviceRecommendations || []}
-            checks={frontmatter.cuivreCheck || []}
-            checkDescription={frontmatter.cuivreCheckDescription}
-            evidence={frontmatter.informationSources || []}
-          />
-        )}
-        {officialLinks.map((link) => link.href && <ArticleCTA href={link.href} label={link.label} />)}
-        {officialScreenshots.length > 0 && (
-          <section class="app-screenshots" aria-labelledby="app-screenshots-heading">
-            <div class="service-decision__header">
-              <h2 id="app-screenshots-heading">公式スクリーンショット</h2>
-              <p>出典：{officialScreenshots[0]?.source || "公式情報"}</p>
-            </div>
-            <div class="app-screenshots__grid">
-              {officialScreenshots.map((image) => (
-                <figure>
-                  <img src={image.src} alt={image.alt || `${articleSubject}公式スクリーンショット`} loading="lazy" decoding="async" />
-                  {(image.source || image.sourceUrl) && <figcaption>出典：{image.source || image.sourceUrl}</figcaption>}
-                </figure>
-              ))}
-            </div>
-          </section>
         )}
         <ComparisonSummary summary={comparisonSummary} />
         <RankingSummary summary={rankingSummary} />
