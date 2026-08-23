@@ -1166,9 +1166,10 @@ p {
 
 .article-toc ol {
   display: grid;
-  gap: 8px;
+  gap: 6px;
   margin: 0;
-  padding: 0 14px 14px 32px;
+  padding: 0 12px 14px 16px;
+  list-style-position: inside;
 }
 
 .article-toc ul {
@@ -1183,6 +1184,11 @@ p {
   color: #59655d;
   font-size: 13px;
   line-height: 1.55;
+}
+
+.article-toc li::marker {
+  color: #8a98a8;
+  font-weight: 850;
 }
 
 .article-toc .toc-depth-3 {
@@ -2750,14 +2756,31 @@ a:hover {
 .article-toc a {
   display: block;
   border-left: 2px solid transparent;
-  padding: 2px 0 2px 8px;
+  margin-top: 2px;
+  padding: 6px 8px 6px 10px;
+  border-radius: 7px;
+  line-height: 1.55;
 }
 
 .article-toc a:hover,
-.article-toc a:focus {
+.article-toc a:focus,
+.article-toc a.is-active,
+.article-toc a[aria-current="true"] {
   border-left-color: var(--color-brand);
   color: var(--color-brand);
   background: linear-gradient(90deg, rgba(0, 103, 177, 0.06), transparent 70%);
+}
+
+.article-toc li:has(a.is-active)::marker,
+.article-toc li:has(a[aria-current="true"])::marker {
+  color: var(--color-brand);
+}
+
+.article-toc a.is-active,
+.article-toc a[aria-current="true"] {
+  background: linear-gradient(90deg, rgba(0, 95, 198, 0.1), rgba(0, 95, 198, 0.025) 72%, transparent);
+  color: #0e315c;
+  font-weight: 850;
 }
 
 .article-cta {

@@ -201,5 +201,31 @@ const structuredData = {
         slot.classList.add("cw-diagram-slot--hidden");
       });
     }
+
+    const tocLinks = Array.from(document.querySelectorAll(".article-toc a[href^='#']"));
+    const sectionHeadings = tocLinks
+      .map((link) => document.getElementById(decodeURIComponent(link.getAttribute("href").slice(1))))
+      .filter(Boolean);
+    const setActiveToc = (id) => {
+      tocLinks.forEach((link) => {
+        const isActive = decodeURIComponent(link.getAttribute("href").slice(1)) === id;
+        link.classList.toggle("is-active", isActive);
+        if (isActive) {
+          link.setAttribute("aria-current", "true");
+        } else {
+          link.removeAttribute("aria-current");
+        }
+      });
+    };
+    if (sectionHeadings.length > 0) {
+      setActiveToc(sectionHeadings[0].id);
+      const observer = new IntersectionObserver((entries) => {
+        const visible = entries
+          .filter((entry) => entry.isIntersecting)
+          .sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top)[0];
+        if (visible?.target?.id) setActiveToc(visible.target.id);
+      }, { rootMargin: "-22% 0px -64% 0px", threshold: 0 });
+      sectionHeadings.forEach((heading) => observer.observe(heading));
+    }
   </script>
 </BaseLayout>
