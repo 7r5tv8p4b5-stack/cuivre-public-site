@@ -158,6 +158,27 @@ const structuredData = {
       </div>
       <ArticleTOC headings={tocHeadings} excludeTexts={topSectionTexts} />
       <div class="article-main">
+        {officialLinks.length > 0 && frontmatter.appIcon && officialScreenshots.length > 0 && (
+          <div class="article-prebody-media">
+            {officialLinks.map((link) => link.href && <ArticleCTA href={link.href} label={link.label} />)}
+            <section class="app-screenshots" aria-label="公式スクリーンショット">
+              <div class="section-heading">
+                <div>
+                  <p class="section-kicker">APP STORE</p>
+                  <h2>公式スクリーンショット</h2>
+                </div>
+              </div>
+              <div class="app-screenshots__grid">
+                {officialScreenshots.slice(0, 4).map((shot) => (
+                  <figure>
+                    <img src={shot.src} alt={shot.alt || `${frontmatter.title}公式スクリーンショット`} loading="lazy" decoding="async" />
+                    <figcaption>出典: {shot.source || "App Store"}</figcaption>
+                  </figure>
+                ))}
+              </div>
+            </section>
+          </div>
+        )}
         <div class="article-body" set:html={articleBodyHtml} />
         {officialLinks.map((link) => link.href && <ArticleCTA href={link.href} label={link.label} />)}
         <RelatedArticles articles={relatedArticles} />

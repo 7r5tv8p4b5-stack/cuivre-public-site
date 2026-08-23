@@ -27,358 +27,78 @@ categoryTags:
   - "AIサービス"
   - "AI"
   - "生成AI"
-title: "生成AI「Gemini」とは？無料で何ができる？Google連携・Deep Researchまで徹底解説【2026年版】"
-description: "Google検索。 Gmail。 Google Drive。 Google Docs。 Google Maps。 YouTube。 Android。 普段からGoogleのサービスを使っている人は非常に多いでしょう。 そのGoogleが展開する生成AIがGeminiです。"
-updatedAt: "2026-08-21"
-ogTitle: "生成AI「Gemini」とは？無料で何ができる？Google連携・Deep Researchまで徹底解説【2026年版】"
-ogDescription: "Google検索。 Gmail。 Google Drive。 Google Docs。 Google Maps。 YouTube。 Android。 普段からGoogleのサービスを使っている人は非常に多いでしょう。 そのGoogleが展開する生成AIがGeminiです。"
+title: "Geminiとは？使い方・料金・どんな人に向いているかをわかりやすく解説"
+description: "Geminiは、Googleが提供する生成AIサービスです。質問への回答や文章作成だけでなく、ファイルの読み取り、画像生成、Deep Research、Gemini Liveなどを利用でき、GmailやGoogleドキュメントなどGoogleのサービスとも連携できます。"
+updatedAt: "2026-08-23"
+ogTitle: "Geminiとは？使い方・料金・どんな人に向いているかをわかりやすく解説"
+ogDescription: "Geminiは、Googleが提供する生成AIサービスです。質問への回答や文章作成だけでなく、ファイルの読み取り、画像生成、Deep Research、Gemini Liveなどを利用でき、GmailやGoogleドキュメントなどGoogleのサービスとも連携できます。"
 officialUrl: "https://gemini.google.com/"
 humanWriter: "Cuivre AI Type C final draft pack"
 officialCtaText: "Gemini公式サイトを見る"
 ---
 
-Google検索。
+# Geminiとは？使い方・料金・どんな人に向いているかをわかりやすく解説
 
-Gmail。
+Geminiは、Googleが提供する生成AIサービスです。質問への回答や文章作成だけでなく、ファイルの読み取り、画像生成、Deep Research、Gemini Liveなどを利用でき、GmailやGoogleドキュメントなどGoogleのサービスとも連携できます。
 
-Google Drive。
+ブラウザから利用できるほか、AndroidとiPhone・iPad向けのモバイルアプリもあります。無料でも使えますが、現在はGoogle AI Plus、Google AI Pro、Google AI Ultraといった有料プランが用意され、利用上限や使えるモデル、Googleサービスとの連携範囲が段階的に広がる仕組みです。
 
-Google Docs。
+この記事では、2026年8月23日時点の公式情報をもとに、Geminiがどんなサービスなのか、PCやスマホでどう使うのか、無料版とGoogle AIプランで何が変わるのか、そのうえでどんな人に向いているのかまで整理します。
 
-Google Maps。
+## Geminiとはどんなサービス？
 
-YouTube。
+Geminiは、Googleアカウントで使えるAIアシスタントです。文章を作る、質問に答える、画像やファイルを読み取るといった一般的な生成AIの機能に加えて、Google検索やGoogle Workspaceとのつながりが強いのが特徴です。
 
-Android。
+調べものではDeep Researchを使って複数の情報源からレポートを作成できます。長いテーマを一度に調査したいときに、検索結果を一つずつ開くより先に全体像を作る用途で使えます。
 
-普段からGoogleのサービスを使っている人は非常に多いでしょう。
+また、Gemini Liveでは音声で会話できます。スマートフォンでカメラや画面を共有しながら話す使い方もあり、文字入力だけでは説明しにくい状況でも利用できます。
 
-そのGoogleが展開する生成AIが**Gemini**です。
+Google AIの有料プランでは、Gemini in GmailやGoogleドキュメント、Googleスプレッドシートなど、普段使っているGoogleアプリ内でAIを使える範囲も広がります。メールの内容をもとに文章を作ったり、文書や表を整理したりできるため、**単体のAIチャットというよりGoogleのサービス全体へAIを広げる入口**として見るとGeminiの立ち位置が分かりやすいです。
 
-Geminiは文章生成や質問回答だけでなく、Googleのサービス群、Deep Research、画像・動画などの生成、さまざまなAIモデルと結びつきながら進化しています。
+## Geminiはどうやって使う？
 
-2026年現在、Google AIの有料プランではGemini 3.1 ProやDeep Researchへのアクセス拡大、Googleアプリ内のGemini、画像・音楽・動画生成モデルへのアクセス拡大などが案内されています。
+パソコンではWebブラウザからGeminiへアクセスします。Googleアカウントでログインすれば、文章入力、ファイルアップロード、Deep Researchなどをそのまま利用できます。専用ソフトを必ずインストールする必要はありません。
 
-つまりGeminiの強みは、
+スマートフォンではAndroid版とiPhone・iPad版のGeminiアプリがあります。AndroidではGoogleアシスタントの代わりにGeminiを使う場面も増えており、音声やカメラを使ったGemini Liveとの相性がいい使い方です。
 
-**「Googleが作ったChatGPTのようなもの」**
+iPhoneでも専用アプリからGeminiを利用できるので、Android専用サービスではありません。PCで調査を始め、外出先でスマホから続きを確認することもできます。
 
-だけではありません。
+有料プランに加入すると、GeminiアプリだけでなくGmailやGoogleドキュメントなどのGoogleサービスにもAI機能が広がります。普段の仕事がGoogle Workspace中心なら、Geminiのチャット画面だけを見るより、各アプリの中でどれだけ使えるかを見た方が価値を判断しやすいでしょう。
 
-**普段使っているGoogle環境そのものへAIが入ってくること**
+基本はブラウザとスマホアプリだけで始められます。Googleの各サービスへAIを組み込む必要が出てきたら、有料プランを含めて使う範囲を広げる形です。
 
-が大きな特徴です。
+## Geminiの料金について
 
-この記事ではGeminiとは何なのか、無料版で何ができるのか、ChatGPTとの違い、Deep Research、有料のGoogle AIプランが必要になる人まで整理します。
+GeminiはGoogle AIプランへ加入しなくても無料で利用できます。ただし、モデルやDeep Research、ファイルアップロードなどには利用上限があり、有料プランではこの上限が広がります。
 
-※機能・プラン・利用上限は**2026年8月21日時点**で確認しています。
+現在の個人向けGoogle AIプランにはPlus、Pro、Ultraがあります。Google AI PlusはAIプラン未加入時よりGeminiの利用枠が2倍、Google AI Proは4倍に拡大します。UltraはProよりさらに大きな利用枠が用意され、Deep Thinkなど上位機能も利用できます。
 
-## こんな人におすすめ
+Google Oneの公式プラン表示では、Google AI Plusは月9.99ドル、Google AI Proは月19.99ドルとして案内されています。価格は地域や契約画面によって現地通貨表示になるため、日本で契約する場合は実際のGoogle One画面で最終価格を確認する必要があります。
 
-Geminiが向いているのは、
+Proには5TBのGoogle Oneストレージが含まれ、GeminiのProモデル、Deep Research、Googleアプリ内のGeminiなどの利用範囲が広がります。つまり料金はGeminiアプリだけに払うのではなく、ストレージやGoogle各サービスのAI機能も含めたサブスクリプションです。
 
-- Googleサービスをよく使う
-- GmailやDocsでもAIを使いたい
-- Google検索とAIを組み合わせたい
-- 最新情報をDeep Researchしたい
-- 長い資料を分析したい
-- AIで画像や動画も作りたい
-- Androidを使っている
-- ChatGPT以外の生成AIも比較したい
-- GoogleのAIエコシステムをまとめて使いたい
+そのため、時々AIへ質問するだけなら無料版で十分です。利用上限が気になる、Deep Researchを頻繁に使う、GmailやGoogleドキュメントの中でもGeminiを使いたいという段階になったらPlusやProを考える方が自然です。
 
-という人です。
+Ultraはさらに高い利用量と最上位機能を必要とする人向けで、一般的な個人利用ならまず無料版とProまでを比較すれば十分でしょう。
 
-特に、
+## Geminiはどんな使い方に向いている？
 
-**すでに仕事や生活がGoogle中心になっている人**
+Geminiが特に向いているのは、普段からGoogleのサービスを多く使っている人です。
 
-ほど導入メリットを感じやすいでしょう。
+Gmail、Googleドキュメント、Googleドライブ、Googleフォトなどを日常的に使っているなら、別のAIサービスへ情報を移すより、同じGoogleアカウントの中でAIを使える方が自然な場面があります。特に有料プランでは、Gemini単体ではなくGoogleアプリの中で使えることが大きな意味になります。
 
-## Cuivre Check
+調査用途でも使いやすいでしょう。Deep Researchでテーマ全体を調べ、必要な部分だけ原文へ戻るという使い方なら、検索を何度も繰り返す時間を減らせます。
 
-### 使う価値
+スマホ中心の人にも相性があります。Gemini Liveを使えば文字入力だけでなく会話形式でAIを利用でき、カメラや画面を見せながら相談できる場面もあります。
 
-**Googleアカウントを普段から使っているなら、一度試しておきたい生成AI。**
+一方、Googleのサービスをほとんど使わず、AIチャットだけを単体で利用したいなら、Geminiを選ぶ理由は少し弱くなります。有料プランの価値も、ストレージやGoogleアプリ連携を使わなければ活かしきれません。
 
-別のサービスを一から構築するというより、すでに使っているGoogle環境の延長として利用できます。
+Geminiは、**AI単体の性能だけで選ぶというより、Googleの検索・メール・文書・スマホ環境の中へAIを組み込みたい人**ほど使う意味が出やすいサービスです。
 
-### 一番の強み
+## まとめ｜GeminiはGoogleのサービスごとAI化したい人に向いている
 
-**Gemini単体ではなく、Googleのサービス・検索・AIモデル群とつながっていること。**
+Geminiは、文章作成、調査、ファイル分析、画像生成、音声会話などを扱えるGoogleの生成AIです。PCではブラウザ、スマホではAndroidとiPhone・iPadのアプリから利用できます。
 
-### 最大の注意点
+無料でも始められるため、まずはGeminiアプリだけで十分です。有料プランの価値が出るのは、利用量を増やしたいときだけでなく、Deep ResearchやProモデルを頻繁に使いたい、GmailやGoogleドキュメントなどの中でもAIを使いたいときです。
 
-**無料・有料・地域・アカウントによって使えるモデルや機能、上限がかなり違います。**
-
-「Geminiで使える」と書かれている機能でも、自分のプランでは利用できない場合があります。
-
-### 向いている人
-
-**Googleを日常的に使い、その中へAIを組み込みたい人。**
-
-## 情報の根拠
-
-### 公式情報
-
-Google公式のGemini Apps HelpおよびGoogle AIプラン情報から、
-
-- Geminiアプリ
-- Google AIプラン
-- Proモデル
-- Deep Research
-- Googleアプリとの統合
-- 画像・音楽・動画生成
-- 使用量上限
-
-などを確認しています。
-
-### 第三者情報
-
-Geminiはモデル・プラン・利用上限の更新が速いため、具体的な上限は契約時に公式画面を確認するのが安全です。
-
-### Cuivre判断
-
-Geminiは単純なモデル性能だけでなく、
-
-**「自分がGoogleをどれだけ使っているか」**
-
-を含めて評価した方がいいサービスです。
-
-## Geminiの基本情報
-
-| 項目 | 内容 |
-|---|---|
-| サービス名 | Gemini |
-| 提供 | Google |
-| 種類 | 生成AI / AIアシスタント |
-| 無料利用 | あり |
-| 有料プラン | Google AI各プラン |
-| Proモデル | 対応プランあり |
-| Deep Research | 対応 |
-| Gmail等との統合 | 対応 |
-| 画像生成 | 対応 |
-| 動画生成 | 対応プランあり |
-| 音楽生成 | 対応範囲あり |
-| 利用上限 | プラン・機能で異なる |
-
-[Gemini公式サイトを見る](https://gemini.google.com/)
-
-## Geminiとは？
-
-GeminiはGoogleの生成AIです。
-
-チャット画面で質問すると、
-
-文章を書く。
-
-情報を整理する。
-
-アイデアを出す。
-
-要約する。
-
-調査する。
-
-画像などを扱う。
-
-といった作業ができます。
-
-ただしGeminiの特徴は、単独のチャット画面だけにありません。
-
-GoogleはGeminiを自社のさまざまな製品へ組み込んでいます。
-
-## ChatGPTとは何が違う？
-
-基本的な生成AIとしての用途は重なっています。
-
-どちらでも、
-
-質問  
-文章作成  
-要約  
-アイデア  
-調査  
-コード
-
-などを扱えます。
-
-Geminiを選ぶ理由として分かりやすいのは、**Googleのサービスとのつながり**です。
-
-Google環境をほとんど使わないならモデルそのものを比較する。
-
-Google環境を毎日使うなら連携まで含めて比較する。
-
-この考え方がいいでしょう。
-
-## GmailでもAIを使える？
-
-Google AIプランでは、GmailなどGoogleアプリに統合されたGeminiが提供されています。
-
-メールを書くためだけに別のAIへ文章をコピーし、戻すという作業を減らせるのがメリットです。
-
-## Deep Researchって何？
-
-通常のチャット回答より深く情報を調査し、複数ページのレポートのような形へまとめる機能です。
-
-Google AIプランではGeminiのDeep Researchへのアクセス拡大が案内されています。
-
-たとえば、
-
-「AI議事録サービス市場を調べて」
-
-と聞くだけではなく、
-
-競合  
-価格  
-特徴  
-市場動向  
-情報源
-
-まで含めた調査を任せたいときに向いています。
-
-## 画像も作れる？
-
-対応しています。
-
-Google AIプランではGeminiやGoogle検索における画像生成モデルへのアクセス拡大が案内されています。
-
-文章AIと画像AIを別サービスに分けず使いたい人には便利です。
-
-## 動画も作れる？
-
-対応するGoogle AIプランでは動画生成モデルへのアクセスも提供されています。
-
-ただし利用可能なモデル・回数・品質はプランによって異なります。
-
-## 無料で使える？
-
-Geminiアプリには無料利用があります。
-
-ただし、モデルや機能にはコンピューティング量に基づく使用上限があります。
-
-Googleは2026年5月から利用上限の仕組みを変更しており、プロンプトの複雑さ、モデル、機能、チャット長などによって消費量が変わると説明しています。
-
-つまり単純な、
-
-**「1日○回まで」**
-
-だけでは考えにくくなっています。
-
-## 有料プランにすると何が変わる？
-
-Google AIプランでは、
-
-- Geminiの利用上限拡大
-- Proモデルへのアクセス
-- Deep Researchの拡張
-- Googleアプリ内のGemini
-- 画像・音楽・動画生成へのアクセス拡大
-- ストレージ
-
-などが組み合わされています。
-
-GeminiだけではなくGoogle Oneのストレージなども含まれるため、単純なAI月額料金だけで比較しない方がいいでしょう。
-
-## Google AI Plusは？
-
-日本向け公式ページではGoogle AI Plusが案内され、400GBストレージ、Geminiの使用量上限拡大、Proモデル、Deep Research、Googleアプリ内のAIなどが含まれています。
-
-Google DriveやGoogle Photosのストレージも必要な人なら、AI以外の価値も含めて検討できます。
-
-## 利用上限はどうなっている？
-
-Gemini Appsでは計算量ベースの使用上限が採用されています。
-
-公式説明では、プロンプトの複雑さ、使用モデル・機能、チャットの長さなどを考慮して利用量が決まります。
-
-そのため重いAI機能を大量に使う人ほど、有料プランの意味が大きくなります。
-
-## Geminiを使わなくてもいい人
-
-Googleサービスをほとんど使わない人。
-
-すでに別の生成AIだけで作業が完結している人。
-
-AIをたまにしか使わない人。
-
-こうした場合は無理にサービスを増やす必要はありません。
-
-逆に、
-
-Gmail  
-Drive  
-Docs  
-検索  
-Android
-
-などを日常的に使っているなら、Geminiは単独AI以上の価値が出やすくなります。
-
-## よくある疑問
-
-### Geminiは無料？
-
-無料で利用できます。有料Google AIプランでは上限や機能が拡張されます。
-
-### 日本語でも使える？
-
-日本語で利用できます。
-
-### Deep Researchは使える？
-
-対応しています。
-
-### Gmailでも使える？
-
-Google AIプランではGoogleアプリへ統合されたGeminiが提供されています。
-
-### 画像や動画も作れる？
-
-対応するモデル・プランがあります。
-
-### ChatGPTとどっちがいい？
-
-Google連携を重視するならGeminiは有力です。最終的には自分の実作業で比較するのが確実です。
-
-## まとめ：Geminiは「Googleを使う人」ほど価値が大きくなるAI
-
-Geminiだけを単独のチャットAIとして見ると、
-
-ChatGPT  
-Claude  
-Gemini
-
-の違いは分かりにくくなります。
-
-でも、
-
-Google検索。
-
-Gmail。
-
-Drive。
-
-Docs。
-
-Android。
-
-画像生成。
-
-動画生成。
-
-Deep Research。
-
-まで一つのGoogle環境として見ると、Geminiの立ち位置が分かります。
-
-すでにGoogleのサービスを毎日使っているなら、まず無料のGeminiで**普段別のAIにやらせている仕事を一つそのまま試してみる**。
-
-そこでGoogle環境とのつながりが便利だと感じるか。
-
-それがGeminiを使うかどうかの分かりやすい判断基準です。
-
-[Geminiを試す](https://gemini.google.com/)
-
-## 関連記事
-
-- [ChatGPT・Claude・Geminiの比較](/articles/chatgpt-vs-claude-vs-gemini/)
-- [NotebookLM・Perplexity・Geminiの比較](/articles/notebooklm-vs-perplexity-vs-gemini/)
+Googleのサービスを普段から使っている人ほど、AIチャット一つを追加するというより、いつもの作業環境そのものへGeminiを広げられます。そこが他の生成AIと比べたときの大きな判断軸になります。
