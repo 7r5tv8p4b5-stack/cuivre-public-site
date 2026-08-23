@@ -2259,7 +2259,8 @@ blockquote {
   content: counter(article-section) ".";
   position: absolute;
   left: 0;
-  top: 19px;
+  top: 50%;
+  transform: translateY(-50%);
   width: 46px;
   color: var(--color-brand);
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -2519,7 +2520,6 @@ blockquote {
   }
 
   .article-body h2::before {
-    top: 16px;
     width: 34px;
     font-size: 21px;
   }
@@ -2756,8 +2756,8 @@ a:hover {
 
 .article-toc a {
   display: grid;
-  grid-template-columns: 2.25em minmax(0, 1fr);
-  column-gap: 8px;
+  grid-template-columns: 1.75em minmax(0, 1fr);
+  column-gap: 4px;
   align-items: start;
   border-left: 2px solid transparent;
   margin-top: 2px;
