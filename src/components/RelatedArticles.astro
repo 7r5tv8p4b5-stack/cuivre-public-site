@@ -1,12 +1,12 @@
 ---
 import ArticleCard from "./ArticleCard.astro";
-const { articles = [] } = Astro.props;
+const { articles = [], title = "関連記事", kicker = "RELATED", compact = false } = Astro.props;
 ---
-<section class="related-articles" aria-label="関連記事">
+<section class:list={["related-articles", compact && "related-articles--compact"]} aria-label={title}>
   <div class="section-heading">
     <div>
-      <p class="section-kicker">RELATED</p>
-      <h2>関連記事</h2>
+      <p class="section-kicker">{kicker}</p>
+      <h2>{title}</h2>
     </div>
   </div>
   {articles.length > 0 ? (

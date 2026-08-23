@@ -21,7 +21,7 @@ export async function getStaticPaths() {
   const publicArticles = publicArticlesFromModules(modules);
   return publicArticles.map((current) => {
     const currentTags = new Set(current.frontmatter.categoryTags || []);
-    const relatedArticles = publicArticles
+    const scoredRelatedArticles = publicArticles
       .filter((article) => article.slug !== current.slug)
       .map((article) => {
         const sharedTags = (article.frontmatter.categoryTags || []).filter((tag) => currentTags.has(tag)).length;
@@ -29,13 +29,14 @@ export async function getStaticPaths() {
         return { ...article, score: sharedTags + categoryScore };
       })
       .filter((article) => article.score > 0)
-      .sort((a, b) => b.score - a.score)
-      .slice(0, 3);
-    return { params: { slug: current.slug }, props: { article: modules[`../../content/articles/${current.slug}.md`], relatedArticles } };
+      .sort((a, b) => b.score - a.score);
+    const relatedArticles = scoredRelatedArticles.slice(0, 3);
+    const recommendedArticles = scoredRelatedArticles.slice(0, 4);
+    return { params: { slug: current.slug }, props: { article: modules[`../../content/articles/${current.slug}.md`], relatedArticles, recommendedArticles } };
   });
 }
 
-const { article, relatedArticles = [] } = Astro.props;
+const { article, relatedArticles = [], recommendedArticles = [] } = Astro.props;
 const { frontmatter } = article;
 const slug = frontmatter.slug || Astro.params.slug;
 const headings = typeof article.getHeadings === "function" ? article.getHeadings() : normalizeArticle(`/articles/${slug}.md`, article).headings;
@@ -161,6 +162,9 @@ const structuredData = {
         {officialLinks.map((link) => link.href && <ArticleCTA href={link.href} label={link.label} />)}
         <RelatedArticles articles={relatedArticles} />
       </div>
+      <aside class="article-recommendations" aria-label="おすすめ記事">
+        <RelatedArticles articles={recommendedArticles} title="おすすめ記事" kicker="RECOMMENDED" compact />
+      </aside>
     </div>
   </article>
   <script is:inline>
