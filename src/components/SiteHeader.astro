@@ -57,49 +57,65 @@ const searchArticles = publicArticlesFromModules(modules).map((article) => {
   </div>
 </header>
 <script type="application/json" id="site-search-index" set:html={JSON.stringify(searchArticles)}></script>
-<script>
-  const root = document.querySelector("[data-site-search]");
-  const input = root?.querySelector("[data-search-input]");
-  const results = root?.querySelector("[data-search-results]");
-  const toggle = root?.querySelector("[data-search-toggle]");
-  const indexNode = document.getElementById("site-search-index");
-  const articles = indexNode ? JSON.parse(indexNode.textContent || "[]") : [];
+<script is:inline>
+  (() => {
+    const root = document.querySelector("[data-site-search]");
+    const form = root?.querySelector(".site-search__panel");
+    const input = root?.querySelector("[data-search-input]");
+    const results = root?.querySelector("[data-search-results]");
+    const toggle = root?.querySelector("[data-search-toggle]");
+    const indexNode = document.getElementById("site-search-index");
+    const articles = indexNode ? JSON.parse(indexNode.textContent || "[]") : [];
 
-  const normalize = (value) => String(value || "").trim().toLowerCase();
-  const closeResults = () => {
-    if (results) results.innerHTML = "";
-  };
-  const renderResults = () => {
-    if (!input || !results) return;
-    const query = normalize(input.value);
-    if (!query) {
-      closeResults();
-      return;
-    }
-    const matches = articles
-      .filter((article) => article.text.includes(query))
-      .slice(0, 8);
-    results.innerHTML = matches.length
-      ? matches.map((article) => `
-          <a class="site-search__result" href="${article.href}" role="option">
-            <span class="site-search__result-category">${article.category}</span>
-            <strong>${article.title}</strong>
-            <small>${article.description || article.slug}</small>
-          </a>
-        `).join("")
-      : '<p class="site-search__empty">該当する記事がありません</p>';
-  };
+    const normalize = (value) => String(value || "").trim().toLowerCase();
+    const escapeHtml = (value) => String(value || "").replace(/[&<>"']/g, (char) => ({
+      "&": "&amp;",
+      "<": "&lt;",
+      ">": "&gt;",
+      '"': "&quot;",
+      "'": "&#39;",
+    })[char]);
+    const closeResults = () => {
+      if (results) results.innerHTML = "";
+    };
+    const renderResults = () => {
+      if (!input || !results) return;
+      const query = normalize(input.value);
+      if (!query) {
+        closeResults();
+        return;
+      }
+      const matches = articles
+        .filter((article) => article.text.includes(query))
+        .slice(0, 8);
+      results.innerHTML = matches.length
+        ? matches.map((article) => `
+            <a class="site-search__result" href="${escapeHtml(article.href)}" role="option">
+              <span class="site-search__result-category">${escapeHtml(article.category)}</span>
+              <strong>${escapeHtml(article.title)}</strong>
+              <small>${escapeHtml(article.description || article.slug)}</small>
+            </a>
+          `).join("")
+        : '<p class="site-search__empty">該当する記事がありません</p>';
+    };
 
-  toggle?.addEventListener("click", () => {
-    root?.classList.toggle("is-open");
-    if (root?.classList.contains("is-open")) input?.focus();
-  });
-  input?.addEventListener("input", renderResults);
-  input?.addEventListener("focus", renderResults);
-  document.addEventListener("click", (event) => {
-    if (root && !root.contains(event.target)) {
-      root.classList.remove("is-open");
-      closeResults();
-    }
-  });
+    toggle?.addEventListener("click", () => {
+      root?.classList.toggle("is-open");
+      if (root?.classList.contains("is-open")) input?.focus();
+    });
+    input?.addEventListener("input", renderResults);
+    input?.addEventListener("focus", renderResults);
+    form?.addEventListener("submit", (event) => {
+      if (!input?.value.trim()) {
+        event.preventDefault();
+        input?.focus();
+      }
+    });
+    document.addEventListener("click", (event) => {
+      if (root && !root.contains(event.target)) {
+        root.classList.remove("is-open");
+        closeResults();
+      }
+    });
+  })();
 </script>
