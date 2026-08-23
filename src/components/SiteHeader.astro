@@ -1,6 +1,34 @@
 ---
 import Icon from "./Icon.astro";
-import { siteNav } from "../data/site.js";
+import { articleCategory, articleHref, publicArticlesFromModules, serviceNamesFor, siteNav } from "../data/site.js";
+
+const modules = import.meta.glob("../content/articles/*.md", { eager: true });
+const searchArticles = publicArticlesFromModules(modules).map((article) => {
+  const frontmatter = article.frontmatter;
+  const tags = [
+    articleCategory(frontmatter),
+    ...(frontmatter.categoryTags || []),
+    ...(frontmatter.tags || []),
+  ].filter(Boolean);
+  const serviceNames = serviceNamesFor(frontmatter);
+  return {
+    title: frontmatter.title,
+    slug: article.slug,
+    href: articleHref(article),
+    description: frontmatter.description || "",
+    category: articleCategory(frontmatter),
+    tags,
+    serviceNames,
+    text: [
+      frontmatter.title,
+      article.slug,
+      frontmatter.description,
+      articleCategory(frontmatter),
+      ...tags,
+      ...serviceNames,
+    ].filter(Boolean).join(" ").toLowerCase(),
+  };
+});
 ---
 <header class="site-header">
   <a class="brand" href="/" aria-label="Cuivre ホーム">Cuivre</a>
@@ -8,9 +36,16 @@ import { siteNav } from "../data/site.js";
     {siteNav.map((item) => <a href={item.href}>{item.label}</a>)}
   </nav>
   <div class="header-actions">
-    <a class="header-search" href="/articles/" aria-label="記事を探す">
-      <Icon name="search" />
-    </a>
+    <div class="site-search" data-site-search>
+      <button class="site-search__toggle" type="button" aria-label="記事検索を開く" data-search-toggle>
+        <Icon name="search" />
+      </button>
+      <div class="site-search__panel">
+        <label class="site-search__label" for="site-article-search">記事検索</label>
+        <input id="site-article-search" class="site-search__input" type="search" placeholder="記事を検索" autocomplete="off" data-search-input />
+        <div class="site-search__results" data-search-results role="listbox" aria-label="記事検索結果"></div>
+      </div>
+    </div>
     <details class="mobile-menu">
       <summary aria-label="メニューを開く">
         <Icon name="menu" />
@@ -21,3 +56,50 @@ import { siteNav } from "../data/site.js";
     </details>
   </div>
 </header>
+<script type="application/json" id="site-search-index" set:html={JSON.stringify(searchArticles)}></script>
+<script>
+  const root = document.querySelector("[data-site-search]");
+  const input = root?.querySelector("[data-search-input]");
+  const results = root?.querySelector("[data-search-results]");
+  const toggle = root?.querySelector("[data-search-toggle]");
+  const indexNode = document.getElementById("site-search-index");
+  const articles = indexNode ? JSON.parse(indexNode.textContent || "[]") : [];
+
+  const normalize = (value) => String(value || "").trim().toLowerCase();
+  const closeResults = () => {
+    if (results) results.innerHTML = "";
+  };
+  const renderResults = () => {
+    if (!input || !results) return;
+    const query = normalize(input.value);
+    if (!query) {
+      closeResults();
+      return;
+    }
+    const matches = articles
+      .filter((article) => article.text.includes(query))
+      .slice(0, 8);
+    results.innerHTML = matches.length
+      ? matches.map((article) => `
+          <a class="site-search__result" href="${article.href}" role="option">
+            <span class="site-search__result-category">${article.category}</span>
+            <strong>${article.title}</strong>
+            <small>${article.description || article.slug}</small>
+          </a>
+        `).join("")
+      : '<p class="site-search__empty">該当する記事がありません</p>';
+  };
+
+  toggle?.addEventListener("click", () => {
+    root?.classList.toggle("is-open");
+    if (root?.classList.contains("is-open")) input?.focus();
+  });
+  input?.addEventListener("input", renderResults);
+  input?.addEventListener("focus", renderResults);
+  document.addEventListener("click", (event) => {
+    if (root && !root.contains(event.target)) {
+      root.classList.remove("is-open");
+      closeResults();
+    }
+  });
+</script>
