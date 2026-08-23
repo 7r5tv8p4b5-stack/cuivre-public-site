@@ -40,11 +40,11 @@ const searchArticles = publicArticlesFromModules(modules).map((article) => {
       <button class="site-search__toggle" type="button" aria-label="記事検索を開く" data-search-toggle>
         <Icon name="search" />
       </button>
-      <div class="site-search__panel">
+      <form class="site-search__panel" action="/search/" method="get" role="search">
         <label class="site-search__label" for="site-article-search">記事検索</label>
-        <input id="site-article-search" class="site-search__input" type="search" placeholder="記事を検索" autocomplete="off" data-search-input />
+        <input id="site-article-search" class="site-search__input" name="q" type="search" placeholder="記事を検索" autocomplete="off" data-search-input />
         <div class="site-search__results" data-search-results role="listbox" aria-label="記事検索結果"></div>
-      </div>
+      </form>
     </div>
     <details class="mobile-menu">
       <summary aria-label="メニューを開く">
