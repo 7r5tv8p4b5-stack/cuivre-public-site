@@ -22,6 +22,11 @@ function searchableText(article) {
 const searchItems = articles.map((article) => ({
   article,
   text: searchableText(article),
+  tags: Array.from(new Set([
+    articleCategory(article.frontmatter),
+    ...(article.frontmatter.categoryTags || []),
+    ...(article.frontmatter.tags || []),
+  ].filter(Boolean))),
 }));
 const title = "記事検索 | Cuivre";
 const description = "Cuivreで公開している記事を、サービス名・記事タイトル・カテゴリ・タグから検索できます。";
@@ -50,7 +55,7 @@ const description = "Cuivreで公開している記事を、サービス名・�
     <p class="empty-message" data-search-empty>検索ワードを入力してください。</p>
     <div class="article-list search-results-grid" data-search-results hidden>
       {searchItems.map((item, index) => (
-        <div data-search-card data-search-text={item.text} data-search-fallback={index < 6 ? "true" : "false"} hidden>
+        <div data-search-card data-search-text={item.text} data-search-tags={item.tags.join("|||")} data-search-fallback={index < 6 ? "true" : "false"} hidden>
           <ArticleCard article={item.article} variant="large" />
         </div>
       ))}
@@ -69,10 +74,12 @@ const description = "Cuivreで公開している記事を、サービス名・�
       const cards = Array.from(page?.querySelectorAll("[data-search-card]") || []);
       const params = new URLSearchParams(window.location.search);
       const query = (params.get("q") || "").trim();
+      const tag = (params.get("tag") || "").trim();
+      const mode = tag ? "tag" : query ? "query" : "";
 
       if (input) input.value = query;
 
-      if (!query) {
+      if (!mode) {
         if (heading) heading.textContent = "検索結果";
         if (count) count.textContent = "0件";
         if (empty) empty.textContent = "検索ワードを入力してください。";
@@ -80,15 +87,18 @@ const description = "Cuivreで公開している記事を、サービス名・�
         cards.forEach((card) => { card.hidden = true; });
       } else {
         const normalizedQuery = query.toLowerCase();
-        const matchedCards = cards.filter((card) => card.dataset.searchText.includes(normalizedQuery));
+        const matchedCards = mode === "tag"
+          ? cards.filter((card) => (card.dataset.searchTags || "").split("|||").includes(tag))
+          : cards.filter((card) => card.dataset.searchText.includes(normalizedQuery));
         const visibleCards = matchedCards.length > 0
           ? matchedCards
           : cards.filter((card) => card.dataset.searchFallback === "true");
-        if (heading) heading.textContent = matchedCards.length > 0 ? `「${query}」の検索結果` : "おすすめ記事";
+        const label = mode === "tag" ? `タグ「${tag}」の記事` : `「${query}」の検索結果`;
+        if (heading) heading.textContent = matchedCards.length > 0 ? label : "おすすめ記事";
         if (kicker) kicker.textContent = matchedCards.length > 0 ? "RESULTS" : "RECOMMENDED";
         if (count) count.textContent = `${matchedCards.length}件`;
         if (empty) {
-          empty.textContent = matchedCards.length > 0 ? "" : "該当する記事はありません。別のキーワードで検索してください。";
+          empty.textContent = matchedCards.length > 0 ? "" : "該当する記事はありません。別のキーワードやタグを試してください。";
           empty.hidden = matchedCards.length > 0;
         }
         if (results) results.hidden = false;

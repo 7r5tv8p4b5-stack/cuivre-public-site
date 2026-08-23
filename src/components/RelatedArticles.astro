@@ -1,6 +1,7 @@
 ---
 import ArticleCard from "./ArticleCard.astro";
 const { articles = [], title = "関連記事", kicker = "RELATED", compact = false } = Astro.props;
+const cardVariant = compact ? "compact" : "standard";
 ---
 <section class:list={["related-articles", compact && "related-articles--compact"]} aria-label={title}>
   <div class="section-heading">
@@ -11,7 +12,7 @@ const { articles = [], title = "関連記事", kicker = "RELATED", compact = fal
   </div>
   {articles.length > 0 ? (
     <div class="related-grid">
-      {articles.map((item) => <ArticleCard article={item} />)}
+      {articles.map((item) => <ArticleCard article={item} variant={cardVariant} />)}
     </div>
   ) : (
     <p class="related-empty">関連する公開記事は準備中です。</p>

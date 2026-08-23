@@ -3,8 +3,11 @@ import { articleCategory, articleDate, articleHref } from "../data/site.js";
 const { article, variant = "default" } = Astro.props;
 const { frontmatter } = article;
 const appIcon = frontmatter.appIcon || frontmatter.app_icon;
+const category = articleCategory(frontmatter);
+const cardVariant = variant === "large" ? "standard" : variant;
+const tagHref = `/search/?tag=${encodeURIComponent(category)}`;
 ---
-<a class:list={["article-card", `article-card--${variant}`]} href={articleHref(article)}>
+<article class:list={["article-card", `article-card--${cardVariant}`]}>
   <div class="article-card__body">
     {appIcon?.src && (
       <div class="article-card__app">
@@ -13,10 +16,13 @@ const appIcon = frontmatter.appIcon || frontmatter.app_icon;
       </div>
     )}
     <div class="article-card__meta">
-      <span class="badge">{articleCategory(frontmatter)}</span>
+      <a class="badge article-card__tag" href={tagHref} aria-label={`${category}の記事を見る`}>{category}</a>
       {articleDate(frontmatter) && <time datetime={articleDate(frontmatter)}>{articleDate(frontmatter)}</time>}
     </div>
-    <h3>{frontmatter.title}</h3>
-    {variant === "large" && frontmatter.description && <p>{frontmatter.description}</p>}
+    <a class="article-card__link" href={articleHref(article)}>
+      <h3>{frontmatter.title}</h3>
+      {cardVariant === "standard" && frontmatter.description && <p>{frontmatter.description}</p>}
+      <span class="article-card__arrow" aria-hidden="true">→</span>
+    </a>
   </div>
-</a>
+</article>
