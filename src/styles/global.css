@@ -2249,7 +2249,7 @@ blockquote {
   counter-increment: article-section;
   margin-top: 58px;
   padding: 18px 0 14px 70px;
-  border-top: 1px solid rgba(0, 95, 198, 0.16);
+  border-top: 0;
   color: #102033;
   font-size: 27px;
   line-height: 1.42;
