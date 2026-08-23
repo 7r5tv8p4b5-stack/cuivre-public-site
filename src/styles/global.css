@@ -2198,20 +2198,12 @@ blockquote {
 }
 
 .related-articles--compact .related-grid {
-  gap: 12px;
+  grid-template-columns: 1fr;
+  gap: 16px;
 }
 
 .related-articles--compact .article-card {
-  box-shadow: 0 6px 18px rgba(72, 58, 42, 0.05);
-}
-
-.related-articles--compact .article-card__body {
-  padding: 12px;
-}
-
-.related-articles--compact .article-card h3 {
-  font-size: 14px;
-  line-height: 1.45;
+  width: 100%;
 }
 
 .article-recommendations {
