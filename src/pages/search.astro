@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import { articleCategory, articleDate, articleHref, publicArticlesFromModules, serviceNamesFor } from "../data/site.js";
+import ArticleCard from "../components/ArticleCard.astro";
+import { articleCategory, publicArticlesFromModules, serviceNamesFor } from "../data/site.js";
 
 const modules = import.meta.glob("../content/articles/*.md", { eager: true });
 const articles = publicArticlesFromModules(modules);
@@ -18,22 +19,10 @@ function searchableText(article) {
   ].filter(Boolean).join(" ").toLowerCase();
 }
 
-const searchItems = articles.map((article) => {
-  const frontmatter = article.frontmatter;
-  const appIcon = frontmatter.appIcon || frontmatter.app_icon;
-  return {
-    title: frontmatter.title,
-    slug: article.slug,
-    description: frontmatter.description,
-    category: articleCategory(frontmatter),
-    date: articleDate(frontmatter),
-    href: articleHref(article),
-    appIconSrc: appIcon?.src || "",
-    appIconAlt: appIcon?.alt || `${frontmatter.title}公式アイコン`,
-    serviceLabel: frontmatter.serviceName || frontmatter.serviceNames?.[0] || frontmatter.title.split("は")[0],
-    text: searchableText(article),
-  };
-});
+const searchItems = articles.map((article) => ({
+  article,
+  text: searchableText(article),
+}));
 const title = "記事検索 | Cuivre";
 const description = "Cuivreで公開している記事を、サービス名・記事タイトル・カテゴリ・タグから検索できます。";
 ---
@@ -59,14 +48,17 @@ const description = "Cuivreで公開している記事を、サービス名・�
       <span class="search-count" data-search-count>0件</span>
     </div>
     <p class="empty-message" data-search-empty>検索ワードを入力してください。</p>
-    <div class="article-list search-results-grid" data-search-results></div>
+    <div class="article-list search-results-grid" data-search-results hidden>
+      {searchItems.map((item, index) => (
+        <div data-search-card data-search-text={item.text} data-search-fallback={index < 6 ? "true" : "false"} hidden>
+          <ArticleCard article={item.article} variant="large" />
+        </div>
+      ))}
+    </div>
   </section>
 
-  <script type="application/json" id="search-article-data" set:html={JSON.stringify(searchItems)}></script>
   <script is:inline>
     (() => {
-      const dataElement = document.getElementById("search-article-data");
-      const articles = dataElement ? JSON.parse(dataElement.textContent || "[]") : [];
       const page = document.querySelector("[data-search-page]");
       const input = document.querySelector("[data-search-page-input]");
       const heading = page?.querySelector("[data-search-heading]");
@@ -74,27 +66,9 @@ const description = "Cuivreで公開している記事を、サービス名・�
       const count = page?.querySelector("[data-search-count]");
       const empty = page?.querySelector("[data-search-empty]");
       const results = page?.querySelector("[data-search-results]");
+      const cards = Array.from(page?.querySelectorAll("[data-search-card]") || []);
       const params = new URLSearchParams(window.location.search);
       const query = (params.get("q") || "").trim();
-
-      function escapeHtml(value) {
-        return String(value || "").replace(/[&<>"']/g, (char) => ({
-          "&": "&amp;",
-          "<": "&lt;",
-          ">": "&gt;",
-          '"': "&quot;",
-          "'": "&#39;",
-        })[char]);
-      }
-
-      function card(article) {
-        const icon = article.appIconSrc
-          ? `<div class="article-card__app"><img src="${escapeHtml(article.appIconSrc)}" alt="${escapeHtml(article.appIconAlt)}" loading="lazy" decoding="async"><span>${escapeHtml(article.serviceLabel)}</span></div>`
-          : "";
-        const date = article.date ? `<time datetime="${escapeHtml(article.date)}">${escapeHtml(article.date)}</time>` : "";
-        const description = article.description ? `<p>${escapeHtml(article.description)}</p>` : "";
-        return `<a class="article-card article-card--large" href="${escapeHtml(article.href)}"><div class="article-card__body">${icon}<div class="article-card__meta"><span class="badge">${escapeHtml(article.category)}</span>${date}</div><h3>${escapeHtml(article.title)}</h3>${description}</div></a>`;
-      }
 
       if (input) input.value = query;
 
@@ -102,18 +76,28 @@ const description = "Cuivreで公開している記事を、サービス名・�
         if (heading) heading.textContent = "検索結果";
         if (count) count.textContent = "0件";
         if (empty) empty.textContent = "検索ワードを入力してください。";
+        if (results) results.hidden = true;
+        cards.forEach((card) => { card.hidden = true; });
       } else {
         const normalizedQuery = query.toLowerCase();
-        const matched = articles.filter((article) => article.text.includes(normalizedQuery));
-        const visible = matched.length > 0 ? matched : articles.slice(0, 6);
-        if (heading) heading.textContent = matched.length > 0 ? `「${query}」の検索結果` : "おすすめ記事";
-        if (kicker) kicker.textContent = matched.length > 0 ? "RESULTS" : "RECOMMENDED";
-        if (count) count.textContent = `${matched.length}件`;
+        const matchedCards = cards.filter((card) => card.dataset.searchText.includes(normalizedQuery));
+        const visibleCards = matchedCards.length > 0
+          ? matchedCards
+          : cards.filter((card) => card.dataset.searchFallback === "true");
+        if (heading) heading.textContent = matchedCards.length > 0 ? `「${query}」の検索結果` : "おすすめ記事";
+        if (kicker) kicker.textContent = matchedCards.length > 0 ? "RESULTS" : "RECOMMENDED";
+        if (count) count.textContent = `${matchedCards.length}件`;
         if (empty) {
-          empty.textContent = matched.length > 0 ? "" : "該当する記事はありません。別のキーワードで検索してください。";
-          empty.hidden = matched.length > 0;
+          empty.textContent = matchedCards.length > 0 ? "" : "該当する記事はありません。別のキーワードで検索してください。";
+          empty.hidden = matchedCards.length > 0;
         }
-        if (results) results.innerHTML = visible.map(card).join("");
+        if (results) results.hidden = false;
+        cards.forEach((card) => {
+          card.hidden = !visibleCards.includes(card);
+        });
+        if (visibleCards.length === 0 && results) {
+          results.hidden = true;
+        }
       }
     })();
   </script>
