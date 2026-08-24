@@ -1169,7 +1169,7 @@ p {
   display: grid;
   gap: 6px;
   margin: 0;
-  padding: 0 12px 14px;
+  padding: 0 12px 14px 0;
   list-style: none;
 }
 
@@ -2248,7 +2248,7 @@ blockquote {
   position: relative;
   counter-increment: article-section;
   margin-top: 58px;
-  padding: 18px 0 14px 56px;
+  padding: 18px 0 14px;
   border-top: 0;
   color: #102033;
   font-size: 27px;
@@ -2258,10 +2258,9 @@ blockquote {
 .article-body h2::before {
   content: counter(article-section) ".";
   position: absolute;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 30px;
+  left: -58px;
+  top: 18px;
+  width: 34px;
   color: var(--color-brand);
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: 26px;
@@ -2273,7 +2272,7 @@ blockquote {
 
 .article-body h2::after {
   position: absolute;
-  left: 40px;
+  left: -14px;
   top: 17px;
   width: 3px;
   height: calc(100% - 28px);
@@ -2515,11 +2514,13 @@ blockquote {
   .article-body h2 {
     margin-top: 46px;
     padding-top: 16px;
-    padding-left: 46px;
+    padding-left: 42px;
     font-size: 22px;
   }
 
   .article-body h2::before {
+    left: 0;
+    top: 16px;
     width: 24px;
     font-size: 21px;
   }
@@ -2755,12 +2756,11 @@ a:hover {
 
 .article-toc a {
   display: grid;
-  grid-template-columns: 1.32em minmax(0, 1fr);
+  grid-template-columns: 1.15em minmax(0, 1fr);
   column-gap: 2px;
   align-items: start;
-  border-left: 2px solid transparent;
   margin-top: 2px;
-  padding: 6px 8px 6px 10px;
+  padding: 6px 8px 6px 0;
   border-radius: 7px;
   line-height: 1.55;
 }
@@ -2776,7 +2776,6 @@ a:hover {
 .article-toc a:focus,
 .article-toc a.is-active,
 .article-toc a[aria-current="true"] {
-  border-left-color: var(--color-brand);
   color: var(--color-brand);
   background: linear-gradient(90deg, rgba(0, 103, 177, 0.06), transparent 70%);
 }
@@ -3258,6 +3257,19 @@ main {
     grid-row: 1 / span 2;
   }
 
+  .article-toc details {
+    display: flex;
+    flex-direction: column;
+    height: 807px;
+    max-height: none;
+  }
+
+  .article-toc ol {
+    min-height: 0;
+    padding-left: 0;
+    overflow-y: auto;
+  }
+
   .article-main {
     grid-column: 2;
   }
@@ -3644,5 +3656,20 @@ main {
   .article-card:hover,
   .article-card:focus-within {
     transform: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .article-body h2 {
+    padding-left: 42px;
+  }
+
+  .article-body h2::before {
+    left: 0;
+    top: 16px;
+  }
+
+  .article-body h2::after {
+    left: 34px;
   }
 }
