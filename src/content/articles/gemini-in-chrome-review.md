@@ -1,8 +1,8 @@
 ---
-title: "Gemini in Chromeとは？日本提供・最大10タブ共有・Google連携を解説【2026年版】"
-description: "Gemini in Chromeの日本展開、現在タブ・最大10タブ共有、Gmail・Maps・Calendar・YouTube連携、段階提供を整理します。"
+title: "Gemini in Chromeとは？使い方・料金・自動ブラウジングで何ができるかを解説"
+description: "Gemini in Chromeは、Google Chromeの中からGeminiを呼び出し、今見ているWeb Pageや複数TabをContextに質問したり、Web上のTaskを代わりに進めてもらったりできるAI機能です。"
 publishedAt: "2026-08-22"
-updatedAt: "2026-08-22"
+updatedAt: "2026-08-24"
 category: "AIブラウザ"
 parentCategory: "AIブラウザ"
 primaryCategory: "AIブラウザ"
@@ -14,8 +14,8 @@ draft: false
 slug: "gemini-in-chrome-review"
 noindex: false
 canonical: "https://cuivre-public-site.pages.dev/articles/gemini-in-chrome-review/"
-ogTitle: "Gemini in Chromeとは？日本提供・最大10タブ共有・Google連携を解説【2026年版】"
-ogDescription: "Gemini in Chromeの日本展開、現在タブ・最大10タブ共有、Gmail・Maps・Calendar・YouTube連携、段階提供を整理します。"
+ogTitle: "Gemini in Chromeとは？使い方・料金・自動ブラウジングで何ができるかを解説"
+ogDescription: "Gemini in Chromeは、Google Chromeの中からGeminiを呼び出し、今見ているWeb Pageや複数TabをContextに質問したり、Web上のTaskを代わりに進めてもらったりできるAI機能です。"
 targetKeyword: "Gemini in Chrome"
 searchIntent: "review"
 serviceName: "Gemini in Chrome"
@@ -36,118 +36,130 @@ companyIds: []
 affiliateProgramIds: []
 categoryTags: ["AIブラウザ", "Gemini in Chrome", "AI"]
 ---
-# Gemini in Chromeとは？Chromeを変えずにAIブラウザ化できる？できること・利用条件を解説【2026年版】
+# Gemini in Chromeとは？使い方・料金・自動ブラウジングで何ができるかを解説
 
-Gemini in Chromeは、Google Chromeの中からGeminiを直接使える機能です。
+Gemini in Chromeは、Google Chromeの中からGeminiを呼び出し、今見ているWeb Pageや複数TabをContextに質問したり、Web上のTaskを代わりに進めてもらったりできるAI機能です。
 
-別のAIブラウザへ乗り換えなくても、今見ているページについて質問したり、複数タブをまとめて比較したり、ブラウザ上の作業をGeminiへ任せたりできるようになっています。
+Googleは2026年4月、日本を含むアジア太平洋地域へGemini in Chromeを拡大しました。単なるSide PanelのAI Chatから、Gmail・Calendar・Maps・YouTubeとの連携やAuto Browseまで、Browserの作業そのものを支援する方向へ広がっています。
 
-この記事では、2026年8月時点のGemini in Chromeで実際に何ができるのかを、普通のGeminiとの違いから見ていきます。最大10タブを使った比較、ブラウザ操作を任せる機能、Googleサービスとのつながり、利用条件や段階提供の注意点まで確認したうえで、CometのようなAI専用ブラウザへ乗り換えなくても十分なのかを整理します。
+この記事では、2026年8月24日時点のGoogle公式情報をもとに、Gemini in Chromeが何をする機能なのか、どう使うのか、無料で使える部分とGoogle AI Pro / Ultraが必要になる部分、自動ブラウジングで気をつけたい点まで整理します。
 
-## 普通のGeminiと一番違うのは、今見ているChromeの中身がそのまま文脈になること
+## Gemini in Chromeはどんな機能？
 
-Gemini自体は、ブラウザとは別に以前から利用できます。
+Gemini in Chromeは、Chromeを離れずに現在のPageについてGeminiへ質問できる機能です。
 
-それでもChromeへ直接入る意味があるのは、質問するたびにページのURLや文章をGeminiへ渡す必要がなくなるからです。
+たとえば長い記事を開いたまま要点をまとめてもらったり、分からない用語を説明してもらったりできます。
 
-Gemini in Chromeでは、現在開いているタブの内容を使って質問できます。
+Desktopでは最大10個の開いているTabをGeminiと共有できます。
 
-長い記事を読んでいる途中なら、その場で要点を聞く。知らない言葉が出てきたら、そのページの文脈のまま説明してもらう。商品ページを見ているなら、「この商品の弱点は？」と聞く。
+旅行先候補を複数Tabで開いて比較する、複数の記事から共通点を探す、といった作業で一つずつURLをChatへ貼る必要がありません。
 
-ブラウザで見ているものとAIの会話が切れません。
+Google製品との統合も特徴です。
 
-小さな違いに見えますが、毎日使うとコピー＆ペーストやタブ切り替えが減ることの方が大きく感じやすいです。
+Gemini in ChromeからCalendarへ予定を追加したり、Mapsの場所情報を確認したり、Gmailの下書きを作ったり、YouTube Videoについて質問したりできます。
 
-## 最大10タブをまとめてGeminiへ渡せると、比較がかなり楽になる
+2026年4月の日本向け発表では、Nano Banana 2を使い、Web上の画像をSide PanelからText Promptで編集する機能も案内されています。
 
-Gemini in Chromeでは、パソコン上で最大10個の開いているタブを共有できます。
+さらにAuto Browseでは、GeminiがWeb Siteを移動して複数StepのTaskを進めます。
 
-たとえばノートPCを買う時に、メーカーの商品ページを5つ開いているとします。
+宿泊先を条件から探す、Restaurant予約、Event Ticket検索、Shopping比較、Calendar整理、Receipt取得など、単に情報を返すだけでなくPage操作まで行います。
 
-従来なら各ページを見比べながら、価格、重量、バッテリー、端子などを自分で整理します。
+ただしこの機能は、普通のChatより権限が大きくなります。
 
-Geminiへタブをまとめて渡せれば、その5ページを材料に比較できます。
+ログイン済みSiteへアクセスし、個人情報をTaskに利用する場合があるため、送信、Data変更、Form Submit、Calendar追加など重要な操作では確認を求める仕組みがあります。
 
-ホテル、保険、通信プラン、SaaS、論文、ニュース記事。複数ページを開いて判断するものなら使い道があります。
+つまりGemini in Chromeは、**ChromeにGeminiの回答機能を足すだけでなく、Tab Context、Google App連携、Web操作まで一つのBrowser Assistantへまとめる機能**です。
 
-検索結果をAIにまとめてもらうのとは少し違います。自分が「これを比較したい」と選んだページを、そのまま材料にできるからです。
+## Gemini in Chromeはどうやって使う？
 
-## Geminiはページを読むだけでなく、ブラウザ操作まで進めるようになっている
+Desktopでは最新VersionのChromeへSign inし、上部の「Geminiに相談」から起動します。
 
-Gemini in Chromeは要約専用ではありません。
+現在の公式条件では、Chromebook Plus、Mac、Windowsに対応しています。
 
-現在は、複数ステップのブラウザ操作をGeminiに進めてもらう機能も案内されています。
+13歳以上など地域ごとの年齢条件があり、対応地域・Languageで利用する必要があります。Incognito Modeでは利用できません。
 
-ここまで来ると、「Chromeにチャットボットが付いた」という説明では足りません。
+仕事用・学校用Google AccountではAdministratorによる有効化が必要な場合があります。
 
-自分でサイトを開いて一つずつ操作していたところを、AIへ依頼する方向に進んでいます。
+またGemini in Chromeは段階的にRolloutされているため、条件を満たしていてもすべてのUserへ同時に表示されるわけではありません。
 
-ただし、操作系の機能は要約より慎重に使う必要があります。
+通常の質問なら、Pageを開いてGemini Iconを押し、そのPageについて聞くだけです。
 
-情報を読み違えても、要約なら回答を捨てれば済みます。購入、予約、送信などを間違えると実際の影響が出ます。
+複数Tabを使いたい場合は共有するTabを選びます。
 
-便利だから全部任せるというより、AIに途中まで進めてもらい、確定前に人間が見る使い方が現実的です。
+Auto Browseでは、やってほしいTaskを入力すると、Geminiが実行Planを提示します。内容を確認してStartするとTask用Tabで操作を進めます。
 
-## GmailやGoogleのサービスを普段から使う人は、Chromeに残る理由が強い
+必要な場合は人間がTake overでき、Sensitive Actionでは確認が入ります。
 
-Gemini in Chromeの大きな強みは、Googleがブラウザだけを作っている会社ではないことです。
+Chrome SettingsのAI Innovationsから、Precise Location、Microphone、Current Tab Sharing、GeminiによるBrowsingなどのPermissionを個別に管理できます。
 
-Gemini in Chromeでは、Gmailのメッセージ作成を助けたり、Google Photosの過去の写真を探したりする機能も案内されています。
+AIがWeb上で操作する機能だからこそ、便利さだけでなく「どこまで任せるか」を設定できることも重要です。
 
-普段からGmail、Google Drive、Google Calendar、Google Photosなどを使っている人なら、AIブラウザのためにCometなどへ移るより、Chromeがそのまま賢くなる方が楽です。
+## Gemini in Chromeの料金について
 
-ブラウザは機能単体ではなく、自分が普段使っているサービスとのつながりで選ぶものになってきています。
+Gemini in Chromeには、Chrome利用者へ段階的に提供される基本機能と、Google AI Planによって上限や利用できる機能が広がる部分があります。
 
-## 使える国でも、全員に同時に表示されるわけではない
+Page要約や質問などを試すために、必ずしも最上位Planが必要というわけではありません。
 
-Gemini in Chromeで注意したいのは、提供が段階的だということです。
+ただしGoogle AI Pro / Ultraへ加入すると、Gemini全体の利用上限が増え、より高度な機能へ優先的にアクセスできます。
 
-対応地域に入っていても、すべてのユーザーに同時に機能が表示されるとは限りません。
+日本ではGoogle AI Proが月2,900円で提供されています。
 
-2026年8月時点では日本も対応地域に含まれていますが、Chromeへログインしていること、対応OSやChromeのバージョン、言語など条件があります。
+Google AI UltraはProより大きな利用枠と上位機能を持つPlanです。Google Oneの現行案内ではUltra 5x / 20xの利用枠が用意され、Proより5倍・20倍の利用量を利用できます。
 
-シークレットモードでは利用できません。
+Auto BrowseのMulti-step TaskにはPlanごとのDaily Limitがあります。
 
-仕事用・学校用Googleアカウントでは、管理者側の設定が必要になる場合もあります。
+Google公式Helpでは、Google AI Proで1日最大20 Request、Google AI Ultraで最大200 Requestと案内されています。
 
-「日本対応と書いてあるのに自分のChromeには出てこない」ということはあり得ます。
+そのため料金を判断するときは、「Gemini in Chromeを使えるか」より、**Browserに実際のTaskをどれだけ代行させたいか**を見る方が分かりやすいです。
 
-## Cometへ乗り換えるより、Gemini in Chromeを待った方がいい？
+Page要約や軽い質問が中心なら基本利用で十分な場合があります。
 
-Chromeを長年使っていて特に不満がないなら、Gemini in Chromeはかなり有力です。
+毎日複数のAuto Browse Taskを走らせ、GmailやCalendarなども含めてBrowser作業を大量に任せるならGoogle AI Pro / Ultraの利用枠が意味を持ちます。
 
-ブックマーク、パスワード、拡張機能、Googleアカウント、会社の管理設定などを全部そのままにして、AI機能だけ追加できます。
+## Auto Browseはどこまで任せていい？
 
-ブラウザ移行のコストがほぼありません。
+Auto Browseは、Gemini in Chromeの中でも特に便利ですが、最も注意が必要な機能です。
 
-Cometの良さは、Perplexity検索やComet Assistantを中心に、ブラウザの使い方そのものをAI向けに組み直しているところです。
+GeminiはTaskを完了するため、開いているTabだけでなく必要なWeb Siteを自分で選んで移動できます。
 
-対してGemini in Chromeは、「これまでのChromeを捨てずにAI化する」ことが最大の魅力です。
+またGoogle WorkspaceなどConnected Appの情報を使い、その内容を必要なSiteへ入力する場合があります。
 
-ブラウザで大量の調査をして、検索から操作までAI中心に変えたいならComet。
+Googleは、送信、Data変更、Web Form提出、Event作成、Sensitiveな金融・健康SiteへのAccessなどでは確認を求める設計にしています。
 
-Chromeは好きなので、そのままAIを強くしてほしいならGemini in Chrome。
+Password ManagerからLoginする場合も、GeminiへPasswordそのものを渡すのではなく、User Permissionを得てLogin処理を支援します。
 
-## AI機能を使う時ほど、共有しているタブを意識した方がいい
+それでも、Agentic BrowserにはPrompt InjectionなどのRiskがあります。
 
-Gemini in Chromeは、現在のタブや自分で選んだタブをAIへ共有して使います。
+Google自身も、悪意あるWeb PageがAI Agentへ誤ったInstructionを与え、個人情報を外部へ送ろうとする可能性をHelpで説明しています。
 
-便利ですが、何を共有しているかは意識した方がいいです。
+そのため、金融取引、重要な契約、機密Dataの変更などは完全自動化を前提にせず、実行Planと確認画面を読む方が安全です。
 
-個人的な情報、会社の管理画面、顧客データ、ログイン後にしか見られない資料。
+Auto Browseは「Browserを勝手に操作させる機能」ではなく、**人間が目的と重要Actionを確認しながら、途中のWeb操作をAIへ渡す機能**として使う方が現実的です。
 
-ブラウザには、普通のAIチャットより多くの情報が表示されています。
+## Gemini in Chromeはどんな人に向いている？
 
-最大10タブをまとめて共有できることは便利であると同時に、意図していないページを含めないよう確認する必要があります。
+Chromeを普段から使い、Gmail、Calendar、Maps、YouTubeなどGoogle Serviceを多く使う人には入りやすい機能です。
 
-## まとめ
+新しいBrowserへ乗り換えなくても、今までのChrome EnvironmentへAIを足せます。
 
-Gemini in Chromeは、Chromeを別物へ置き換えるのではなく、これまで使ってきたChromeの中へGeminiを入れる機能です。
+複数Tabを比較するResearch、Articleの要約、Meeting Schedule、Shopping、旅行計画など、Browserで情報を集めて次のActionへ進む仕事と相性があります。
 
-ページ要約だけでなく、複数タブの比較やブラウザ上の作業まで範囲が広がっており、かなりAIブラウザに近い使い方ができます。
+一方、AIのためにBrowserそのものを作り変えたCometやDiaとは方向性が違います。
 
-特にGoogleサービスを普段から使っている人にとっては、ブラウザを乗り換えずにそのままAI化できることが大きなメリットです。
+Gemini in Chromeは「Chromeを捨ててAI Browserへ移る」のではなく、既存ChromeへAI Agent機能を追加する選択肢です。
 
-反対に、検索そのものをPerplexityへ移したい人や、AIを中心にブラウザ体験を作り直したい人ならCometの方が面白いでしょう。
+そのためExtensionやBookmark、Google Account環境を維持したい人ほど使いやすいでしょう。
 
-2026年は「AIブラウザへ乗り換えるか」だけでなく、「今のChromeがそのままAIブラウザになるのを選ぶか」という選択肢も現実的になっています。
+ただし段階Rolloutなので、自分のAccountで利用可能かは実際のChrome Settingsで確認する必要があります。
+
+## まとめ｜Gemini in Chromeは今のChromeをそのままAI Browserへ近づけたい人向け
+
+Gemini in Chromeは、現在のPageや最大10TabをContextにGeminiへ質問し、Google App連携やAuto Browseまで使えるChromeのAI機能です。
+
+日本でも2026年4月から展開され、Mac、Windows、Chromebook Plusなどで利用できます。ただし機能は段階的にRolloutされています。
+
+Page要約だけでなく、Auto Browseでは複数Siteを移動してTaskを進められます。
+
+Google AI ProではMulti-step Taskが1日最大20 Request、Ultraでは最大200 Requestと案内されています。
+
+新しいAI Browserへ移行するより、今のChrome、Google Account、GmailやCalendarをそのまま使いながらAIの支援を増やしたい人に向いています。

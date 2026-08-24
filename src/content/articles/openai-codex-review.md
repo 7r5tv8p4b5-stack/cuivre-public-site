@@ -1,8 +1,8 @@
 ---
-title: "OpenAI Codexとは？デスクトップ・CLI・クラウド・並列エージェントを解説【2026年版】"
-description: "OpenAI Codexのデスクトップアプリ、CLI、IDE、クラウド、複数エージェント、Sites、プラグイン、2026年の利用拡大を整理します。"
+title: "OpenAI Codexとは？使い方・料金・CLIやアプリで何ができるかを解説"
+description: "OpenAI Codexは、コードについて質問するだけでなく、Repositoryを調べ、ファイルを編集し、CommandやTestを実行しながら開発作業そのものを進めるCoding Agentです。"
 publishedAt: "2026-08-22"
-updatedAt: "2026-08-22"
+updatedAt: "2026-08-24"
 category: "AIコーディングエージェント"
 parentCategory: "AIコーディングエージェント"
 primaryCategory: "AIコーディングエージェント"
@@ -14,8 +14,8 @@ draft: false
 slug: "openai-codex-review"
 noindex: false
 canonical: "https://cuivre-public-site.pages.dev/articles/openai-codex-review/"
-ogTitle: "OpenAI Codexとは？デスクトップ・CLI・クラウド・並列エージェントを解説【2026年版】"
-ogDescription: "OpenAI Codexのデスクトップアプリ、CLI、IDE、クラウド、複数エージェント、Sites、プラグイン、2026年の利用拡大を整理します。"
+ogTitle: "OpenAI Codexとは？使い方・料金・CLIやアプリで何ができるかを解説"
+ogDescription: "OpenAI Codexは、コードについて質問するだけでなく、Repositoryを調べ、ファイルを編集し、CommandやTestを実行しながら開発作業そのものを進めるCoding Agentです。"
 targetKeyword: "OpenAI Codex"
 searchIntent: "review"
 serviceName: "OpenAI Codex"
@@ -36,150 +36,130 @@ companyIds: []
 affiliateProgramIds: []
 categoryTags: ["AIコーディングエージェント", "OpenAI Codex", "AI"]
 ---
-# OpenAI Codexとは？ChatGPTでコードを書くのと何が違う？できること・使い方・注意点を解説【2026年版】
+# OpenAI Codexとは？使い方・料金・CLIやアプリで何ができるかを解説
 
-OpenAI Codexは、コードを提案するだけではなく、リポジトリを読み、ファイルを編集し、コマンドやテストを実行しながら開発タスクを進められるコーディングエージェントです。
+OpenAI Codexは、コードについて質問するだけでなく、Repositoryを調べ、ファイルを編集し、CommandやTestを実行しながら開発作業そのものを進めるCoding Agentです。
 
-ChatGPTにもコードは書けるので、「Codexを別で使う意味はあるのか」「CursorやClaude Codeと何が違うのか」「どこまで仕事を丸ごと任せられるのか」は分かりにくいところです。2026年のCodexは、CLIやIDEだけでなくデスクトップアプリとクラウドにも広がり、複数のエージェントへ別々の仕事を渡して並行処理する使い方がかなり前面に出ています。
+現在はTerminalのCodex CLIだけではありません。Codex App、IDE Extension、Web / Cloud、GitHub Code Review、ChatGPT Mobileなど複数の場所から同じ開発作業へアクセスできます。
 
-この記事では、2026年8月時点のCodexでできることを、普通のAIチャットとの違いから見ていきます。ローカルでの作業、Codexアプリ、複数エージェント、長時間タスク、レビューの仕方まで確認したうえで、どんな開発スタイルならCodexを選ぶ価値があるのかを整理します。
+この記事では、2026年8月24日時点のOpenAI公式情報をもとに、現在のCodexが何をするサービスなのか、CLI・App・Cloudをどう使い分けるのか、料金とCredit消費をどう考えるべきか、どんな開発で使う意味があるのかまで整理します。
 
-## Codexを使う意味は「コードを書いてもらえる」ことではない
+## Codexはどんなサービス？
 
-ChatGPTへ「この関数を書いて」と頼めば、コード自体はすぐに出てきます。
+Codexは、プログラムの一部分を補完するAIより一段広い範囲を担当します。
 
-Codexが違うのは、そのコードを返して終わりではなく、実際のリポジトリを見ながら変更作業を進められるところです。
+「この関数を書いて」と頼むだけでなく、「このBugの原因を調べて修正して」「この仕様をRepositoryへ実装して」「Testを追加して」「このPull RequestをReviewして」といったTask単位で仕事を任せられます。
 
-たとえば「この画面の表示崩れを直して、既存APIは変えず、テストまで通して」と渡した場合、必要なファイルを探し、関連コードを読み、編集し、コマンドを実行して結果を確認するところまで一連の仕事として扱えます。
+AgentはRepository内のFileを読み、必要な変更を行い、Terminal CommandやTestを実行して結果を確認します。そのため、人間が毎回「次にこのFileを開いて、この行を直して」と指示する必要がありません。
 
-人間側は、コードを一行ずつ生成させるより、何を完成させたいかと、何を変えてはいけないかを決める役に移ります。
+Codexの特徴は、同じAgentを複数の場所から使えることです。
 
-この違いは、小さな関数を書かせる時より、複数ファイルにまたがる修正や、原因調査を含むタスクで大きくなります。
+Codex CLIならTerminalでLocal Repositoryと一緒に作業できます。
 
-## Codexアプリは、1人のAIと会話するためではなく複数の仕事を管理するためにある
+IDE ExtensionならVS CodeやCursorなどのEditor内で、開いているFileや選択したCodeをContextとして使いながら変更できます。
 
-2026年2月にmacOS向けCodexアプリが登場し、3月にはWindowsにも対応しました。
+Codex CloudではTaskをRemote Environmentへ渡し、自分のPCで別の作業をしている間に進めてもらえます。
 
-アプリの特徴は、複数のエージェントを別スレッドで動かし、同じプロジェクトの違う仕事を並行して進められることです。
+Codex Appは、こうした複数Agentをまとめて管理するCommand Centerです。macOSに加えて2026年3月からWindowsでも利用できます。
 
-一つのエージェントにはバグ修正。
+AppではTaskをThreadごとに分け、複数Agentを並列で動かせます。Worktreeにも対応しているため、同じRepositoryに対して複数の変更を隔離環境で進められます。
 
-別のエージェントにはテスト追加。
+さらにGitHubではPull RequestのCode ReviewをCodexへ任せられます。PRの意図とDiff、Repository全体を見ながら問題を探し、必要ならTestを実行します。
 
-もう一つにはドキュメント更新。
+つまり現在のCodexは、**コードを生成するAIというより、Local・Cloud・GitHubをまたいで開発Taskを任せられるSoftware Engineering Agent**です。
 
-こういう分け方ができます。
+## Codexはどうやって使う？
 
-それぞれが隔離された作業領域で進むため、同じリポジトリを複数エージェントに触らせる時の衝突も抑えやすくなっています。
+一番直接的なのはCodex CLIです。
 
-AIコーディングが「自分の横に1人のペアプログラマを置く」形から、「複数人の作業を監督する」形へ移っていることが分かりやすい機能です。
+TerminalからCodexを起動し、現在のRepositoryでやってほしいことを伝えます。
 
-## CLI・IDE・アプリは、どれか一つを選ぶというより仕事で使い分ける
+たとえば「Login後にこのErrorが出る原因を調べて修正して」と頼むと、関連Fileを探し、変更し、TestやCommandを実行しながら進めます。
 
-CodexはCLI、IDE拡張、デスクトップアプリ、クラウドで使えます。
+普段VS Code系Editorを使うならIDE Extensionでも同じように作業できます。Editorでは開いているFileや選択範囲をContextにできるため、小さな修正やコード相談はCLIより直感的なことがあります。
 
-短い修正なら、今作業しているターミナルやIDEからそのまま頼む方が早いです。
+時間のかかるTaskはCloudへ渡せます。
 
-一方、数十分以上かかる調査や、別件を並行して進めたい時にはアプリやクラウドへ仕事を渡す意味が出てきます。
+Cloud Agentは隔離されたEnvironmentでRepositoryを扱い、Taskを進めます。完了後にDiff、Terminal Log、Test Resultなどを確認し、Localへ取り込めます。
 
-たとえば、自分は画面側を触りながら、Codexにはバックエンドのテスト修正を任せておく。
+Codex Appを使うと、こうしたTaskを複数並行で管理できます。一つのAgentへBackend修正、別のAgentへTest追加、別のAgentへUI改善を任せ、それぞれのDiffを確認できます。
 
-終わったら差分を確認して取り込む。
+2026年5月からはChatGPT MobileでもCodex Taskを確認・操作できるようになっています。PCを離れていても進行中Taskへ返答したり、方向を変えたりできます。
 
-この使い方なら、AIに自分のキーボードを奪われる感覚がありません。
+Codexは「AIに全部任せて結果だけ受け取る」使い方だけではありません。Localで一緒に細かく作業するPair Programmingと、Cloudへ長いTaskをDelegationする使い方を同じ製品で行き来できます。
 
-Codexを一つのエディタとして見るより、作業の種類に応じて入口を変えられるエージェント環境として見る方が実態に近いです。
+## Codexの料金について
 
-## 長いタスクを任せるほど、最初の指示で「完成条件」を決めた方がいい
+CodexはChatGPT Plus、Pro、Business、Enterprise、Eduなど対象Planで利用できます。
 
-Codexは長い作業を進められますが、自律性が高いほど指示の曖昧さも結果に響きます。
+利用量はChatGPT Planに含まれる枠に加え、必要に応じてCreditを追加する仕組みです。
 
-「いい感じに直して」だけでは、必要以上にファイルを触ったり、こちらが残したかった仕様まで変えたりする可能性があります。
+2026年4月2日以降、CodexのCredit消費は以前のMessage単位ではなく、API Token Usageに合わせたToken-based pricingへ変更されています。
 
-反対に、
+現在のRate Cardでは、GPT-5.6 Solは100万Input Tokenあたり125 Credits、Cached Inputは12.5 Credits、Outputは750 Creditsです。
 
-対象画面はここだけ。
+GPT-5.6 TerraはInput 50、Cached Input 5、Output 300 Credits。
 
-既存APIは変更しない。
+GPT-5.6 LunaはInput 5、Cached Input 0.5、Output 30 Creditsです。
 
-新しい依存関係は追加しない。
+同じTaskでも使うModelによってCredit消費はかなり変わります。
 
-buildと既存テストが通れば完了。
+OpenAIは、GPT-5.6 Solを使う通常のCodex Taskでは1 Taskあたり5〜40 Credits程度になる場合があると案内しています。
 
-変更ファイルは必要最小限。
+もちろんTaskの長さやRepository Contextによって変わるため、「1回○円」と固定して考えることはできません。
 
-といった条件を最初に渡すと、レビューしやすくなります。
+また、GPT-5.4とGPT-5.4 miniは2026年8月31日にChatGPT Loginで使うCodexから提供終了予定で、代替としてGPT-5.6 TerraとGPT-5.6 Lunaが案内されています。
 
-AIエージェントでは、プロンプトを長く書くことより、終わったと判断できる基準を明確にする方が効きます。
+Codexを継続的に使う場合は、Message数ではなく、どのModelへどれだけ大きなRepository ContextとOutputを処理させているかを見る必要があります。
 
-これはCodexを日常的に使うほど重要になります。
+## PlusとProではどう考えればいい？
 
-## 複数エージェントを動かせるからといって、何でも並列にすれば速いわけではない
+Codexだけに独立した一般個人向け月額Planがあるというより、ChatGPT Planに含まれるCodex利用枠を使う形が基本です。
 
-Codexアプリの魅力の一つが並列作業です。
+そのため個人の場合は、CodexだけでなくChatGPT全体をどれくらい使うかでPlus / Proを考えることになります。
 
-ただし、同じコードの同じ部分を複数エージェントへ触らせれば、後で差分を統合する手間が増えます。
+軽い修正、数回の実装、コード相談などが中心ならPlusの範囲でも利用できます。
 
-並列化しやすいのは、責任範囲を分けられる仕事です。
+一方、複数Repositoryで毎日のようにAgentへ長いTaskを任せると利用量は増えます。特にCodex Appで複数Agentを並列に動かすと、一人で順番にTaskを投げるより作業量そのものが増えます。
 
-バックエンドのバグ調査。
+その場合は上位Planや追加Creditを検討することになります。
 
-別ディレクトリのUI修正。
+Team利用ではさらに考え方が変わります。Business / Enterpriseでは管理者向けのControl、Analytics、Environment管理などがあり、Codexを個人の補助ツールではなく組織の開発Workflowへ組み込めます。
 
-テスト追加。
+2026年4月にはTeam向けのToken消費ベース従量課金も導入されましたが、Businessの新規Codex-only pay-as-you-go Seatは6月24日から停止されています。既存Seatには影響しません。
 
-ドキュメント作成。
+料金体系が変化しているため、導入時はOpenAIの最新Rate Cardを確認するのが安全です。
 
-こうした仕事は分けやすいです。
+## Codexはどんな開発に向いている？
 
-逆に、一つの大きなリファクタリングを細かく分解しすぎると、全体設計を理解している人がいなくなります。
+Codexが向いているのは、すでにCode Repositoryがあり、そこへ実際の変更を加えてほしい開発です。
 
-Codexで複数エージェントを使う時は、AIの数を増やすことより、仕事の境界をきれいに切れるかの方が大事です。
+Bug Fix、Refactoring、Test追加、Feature実装、Dependency更新、Code Reviewなど、Repository全体のContextが必要なTaskと相性があります。
 
-## Codexへ任せる範囲が広がるほど、Gitと権限管理が重要になる
+新しいProjectをゼロから作ることもできますが、LovableやBolt.newのように「非エンジニアが画面を見ながらWebアプリを作る」ことだけに最適化されたServiceではありません。
 
-ファイルを編集し、コマンドを実行できるエージェントには、当然リスクもあります。
+CodexはTerminal、IDE、GitHub、Worktree、Testなど、通常のSoftware Development WorkflowへAI Agentを入れる方向が強いです。
 
-特に本番環境、秘密鍵、データ削除、外部サービスへの送信などは、通常のコード生成とは重みが違います。
+そのため、コードを全く見ずにWebサービスを一発生成したい人より、AIへ大きな作業を任せつつDiffやTestを確認して開発を進めたい人に向いています。
 
-Codexを使うなら、まず変更を戻せる状態にしておくこと。
+また、Code Reviewを自動化したいTeamにも特徴があります。
 
-Gitで作業前の状態を残す。
+CodexはPRのDiffだけでなく、RepositoryのContextやDependencyを見て問題を探し、必要に応じてTestも実行します。
 
-秘密情報を不用意に読ませない。
+ただし、OpenAI自身もAgentが作った変更やCode Reviewを人間が確認することを推奨しています。
 
-本番への直接変更を避ける。
+Codexを「人間の開発者を完全に置き換えるもの」と考えるより、**調査・実装・Test・Reviewに使う時間をAgentへ移し、人間は仕様判断と最終確認へ集中するための開発基盤**として使う方が現実的です。
 
-大きな操作は人間が最後に確認する。
+## まとめ｜Codexは既存の開発WorkflowそのものへAI Agentを入れたい人向け
 
-こうした基本が、AIエージェントではさらに重要になります。
+OpenAI Codexは、Repositoryを理解し、File編集、Command実行、Test、Code Reviewまで行うCoding Agentです。
 
-「AIが賢いから安全」ではなく、「間違えても戻せるから任せられる」という状態を作った方がいいです。
+CLI、IDE Extension、Cloud、Codex App、GitHub、Mobileから同じ開発作業へアクセスでき、Codex Appでは複数AgentをWorktreeで並列に動かせます。
 
-## Claude CodeやCursorではなくCodexを選ぶ理由はどこにある？
+Codexは対象のChatGPT Planに含まれ、2026年4月以降の追加利用はToken-based Creditで計算されます。
 
-Claude CodeもCursorも、コードベースを読み、ファイルを編集し、コマンドを実行できます。
+現在のRate CardではGPT-5.6 Sol、Terra、LunaなどでCredit消費が異なるため、単純な「何Messageまで」という料金ではありません。
 
-なので、「エージェントがコードを書く」だけではCodex独自の強みにはなりません。
+Webアプリを画面だけ見ながら作りたいならAI App Builderの方が簡単な場合があります。
 
-2026年のCodexで目立つのは、CLIやIDEでの一対一の作業から、アプリ上で複数エージェントを管理し、長い仕事を並行して進めるところまで同じ製品としてつながっていることです。
-
-ターミナル中心で深く作業したいならClaude Codeが合う人もいます。
-
-エディタそのものをAI中心にしたいならCursorが使いやすい人も多いです。
-
-Codexは、自分がコードを書く時間を減らし、複数の仕事をAIへ振ってレビューする側へ回りたい人との相性がいいです。
-
-## まとめ
-
-OpenAI Codexは、コードを生成するAIというより、実際の開発作業を渡せるエージェント環境です。
-
-リポジトリを読み、変更し、テストし、必要なら複数エージェントを並行して動かす。
-
-そのため、人間側の仕事も「何を書かせるか」から「何を任せ、どう確認するか」へ変わります。
-
-小さな修正を一つずつAIと相談するだけなら、他のツールでも十分です。
-
-複数の作業を同時に進めたい、長いタスクを任せたい、実装そのものよりレビューや設計へ時間を使いたい。
-
-そういう開発スタイルに近づくほど、Codexの良さが出やすくなります。
+既存Repositoryへ本格的な変更を加え、TestやReviewまで含めてAIへTaskを任せたいなら、Codexの強みが最も分かりやすくなります。

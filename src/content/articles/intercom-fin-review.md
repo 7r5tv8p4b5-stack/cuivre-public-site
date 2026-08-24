@@ -1,8 +1,8 @@
 ---
-title: "Intercom Finとは？AI Agent・1成果0.99ドル・既存helpdesk連携を解説【2026年版】"
-description: "Intercom Fin AI Agentの0.99ドル/Outcome、Intercomプラン、Salesforce等既存helpdesk利用、chat/email/voice、Procedureを整理します。"
+title: "Intercom Finとは？AIカスタマーサポートの使い方・料金・1件0.99ドルの「Outcome」を解説"
+description: "Finは、Intercomが提供するカスタマーサービス向けAIエージェントです。"
 publishedAt: "2026-08-23"
-updatedAt: "2026-08-23"
+updatedAt: "2026-08-24"
 category: "AIカスタマーサポート"
 parentCategory: "AIカスタマーサポート"
 primaryCategory: "AIカスタマーサポート"
@@ -14,8 +14,8 @@ draft: false
 slug: "intercom-fin-review"
 noindex: false
 canonical: "https://cuivre-public-site.pages.dev/articles/intercom-fin-review/"
-ogTitle: "Intercom Finとは？AI Agent・1成果0.99ドル・既存helpdesk連携を解説【2026年版】"
-ogDescription: "Intercom Fin AI Agentの0.99ドル/Outcome、Intercomプラン、Salesforce等既存helpdesk利用、chat/email/voice、Procedureを整理します。"
+ogTitle: "Intercom Finとは？AIカスタマーサポートの使い方・料金・1件0.99ドルの「Outcome」を解説"
+ogDescription: "Finは、Intercomが提供するカスタマーサービス向けAIエージェントです。"
 targetKeyword: "Intercom Fin"
 searchIntent: "review"
 serviceName: "Intercom Fin"
@@ -36,212 +36,128 @@ companyIds: []
 affiliateProgramIds: []
 categoryTags: ["AIカスタマーサポート", "Intercom Fin", "AI"]
 ---
-# Intercom Finとは？AIカスタマーサポートは本当に0.99ドル/件？料金・機能・既存helpdeskでの使い方を解説【2026年版】
+# Intercom Finとは？AIカスタマーサポートの使い方・料金・1件0.99ドルの「Outcome」を解説
 
-Finは、Intercomが提供するカスタマーサービス向けAI Agentです。
+Finは、Intercomが提供するカスタマーサービス向けAIエージェントです。
 
-企業のヘルプ記事やナレッジを使って顧客の質問へ回答するだけでなく、外部システムへ処理を行うProcedures、有人サポートへの引き継ぎ、メール・チャット・電話など複数チャネルへ広がっています。
+ヘルプセンターの記事をもとに質問へ答えるだけでなく、Procedureに沿って外部システムで処理を行ったり、必要な場合は人間のサポート担当者へ会話の文脈ごと引き継いだりできます。
 
-この記事では、2026年8月時点のFinで何ができるのかを、Intercomを新しく導入する場合と、既存helpdeskへFinだけ追加する場合に分けて見ていきます。0.99ドル/outcomeの意味、seat料金、無料トライアル、有人サポートとの役割分担まで確認し、SierraやAdaのような大企業向けAI Agentと比べてFinが向く会社を整理します。
+現在はIntercomのHelpdeskと一体で使う方法に加え、Salesforce、HubSpot、Freshdeskなど既存のHelpdeskを残したままFinだけ導入する方法もあります。
 
-## Finは「答えを出すAI」から、Procedureを実行するAgentへ広がっている
+この記事では、2026年8月24日時点のIntercom公式情報をもとに、Finが何をするAIなのか、どう導入するのか、1 Outcome 0.99ドルという料金が何を意味するのか、どんなサポートチームに向いているのかまで整理します。
 
-Finの基本は、顧客の質問を理解し、企業のKnowledgeから回答することです。
+## FinはどんなAIエージェント？
 
-以前のAIサポートでもここまではできました。
+Finは、企業のKnowledgeを使って顧客からの問い合わせへ回答し、必要なら実際の処理まで進めるAIエージェントです。
 
-今のFinは、回答だけで終わらずProcedureを実行できます。
+以前のサポートBotは、「このキーワードならこのFAQを表示する」といった案内が中心でした。
 
-たとえば、
+Finは顧客の質問を理解し、Help Centerや接続したKnowledge Sourceから必要な情報を探し、会話として回答します。解決できない場合は、これまでのやり取りと顧客情報を引き継いで人間の担当者へ渡せます。
 
-注文状況を確認する。
+Intercom上で使う場合、Finと人間のサポート担当者が同じInboxとCustomer Recordを使うのが大きな特徴です。
 
-条件に応じて返金フローを進める。
+AI用の別システムを横に置き、エスカレーション時に顧客へ同じ説明をやり直してもらうのではなく、AIがどこまで対応したかをそのまま人間が確認できます。
 
-顧客情報を取得する。
+Finは回答だけでなくProcedureも実行できます。
 
-必要なら有人チームへ適切な情報を渡して引き継ぐ。
+Procedureは、特定の顧客リクエストに対してFinがどう行動するかを定める仕組みです。外部システムから情報を取得し、条件に従って処理し、必要なら人間やWorkflowへHandoffできます。
 
-こうした処理を組み込めます。
+たとえば「注文状況を確認したい」という問い合わせなら、一般的な配送日数を回答するだけでなく、顧客の注文データを取得して現在の状態に合わせて案内できます。
 
-問い合わせ解決率を上げるには、FAQを増やすだけでは限界があります。
+現在のFinはSupportだけでなく、見込み客のQualificationにも広がっています。
 
-「その手続きはこちらからお願いします」とURLを案内するのではなく、会話の中で実際に処理できるようになると、人間へ転送される件数を減らしやすくなります。
+設定した条件に合わないProspectをDisqualifyしたり、条件に合う相手をQualificationして営業チームやCRMへRoutingしたりできます。
 
-## Intercomを使っていなくても、Finだけ既存helpdeskへ追加できる
+つまりFinは、**FAQ回答を自動化するチャットボットから、サポートや初期営業のOutcomeまで担当するAIエージェント**へ広がっています。
 
-Finの大きな特徴の一つが、Intercomへ全面移行しなくても使えることです。
+## Finはどうやって導入する？
 
-公式では、Salesforceなど既存helpdesk上でFin AI Agentだけを利用するプランを用意しています。
+Intercomをすでに使っている場合は、Helpdesk内でFinを有効にし、Knowledgeを接続して設定します。
 
-企業のサポート基盤を変更するのは大きな仕事です。
+Help Centerなど既存のコンテンツを利用できるため、最初から巨大な決定木を作る必要はありません。
 
-チケット履歴。
+まずFinに答えさせるKnowledgeを整え、どんな問い合わせならAIで解決できるかを確認します。
 
-マクロ。
+次に、回答だけでは終わらない業務へProcedureを設定します。顧客情報を取得する、外部システムで処理する、人間へ引き継ぐといったActionを組み込みます。
 
-権限。
+重要なのは、最初からすべての問い合わせをFinへ渡さないことです。
 
-レポート。
+返品、パスワード、配送状況など件数が多く正解を定義しやすい問い合わせから始めると、Outcome数とResolution Rateを確認しやすくなります。
 
-社内運用。
+Finが解決できない場合は人間へHandoffします。Intercomでは同じConversation上で履歴を共有できるため、人間はAIとのやり取りを見たうえで対応を続けられます。
 
-全部をIntercomへ移すだけで数か月かかることもあります。
+既に別のHelpdeskを使っている会社は、Intercom全体へ移行しなくてもFinを導入できます。
 
-Finだけを既存環境へ追加できれば、「AI Agentを試すためにhelpdeskまで入れ替える」というリスクを減らせます。
+公式にはSalesforceなど既存HelpdeskでFinを利用でき、Seat料金やSetup / Integration / Platform feeなしでFinだけ契約する形が案内されています。ただしMinimum Commitmentがあり、セルフサービス契約ではなくSalesへの問い合わせが必要です。
 
-すでに別のサポートツールが定着している会社ほど、この導入方法は魅力があります。
+このため「Finを使うにはサポート基盤を全部Intercomへ乗り換える必要がある」というわけではありません。
 
-## 0.99ドル/outcomeは「AIが一回返事するたび」ではない
+## Finの料金について
 
-2026年8月時点で、Finの基本料金は1 outcomeあたり0.99ドルからです。
+Finの料金を理解するうえで一番重要なのがOutcomeです。
 
-ここで重要なのがoutcomeの意味です。
+Intercom上のFinは、単純なメッセージ数やAIが返答した回数ではなく、Finが価値のある結果を出したOutcomeに対して課金されます。
 
-AIが一回メッセージを送るたびに0.99ドルではありません。
+現在、通常のFin Outcomeは1件0.99ドルです。
 
-Intercomでは、一つの会話の中でFinが複数回答しても、課金対象outcomeは原則一回です。
+0.99ドルになるOutcomeには主に3種類あります。
 
-たとえば、Finの最後の回答後に顧客が追加のサポートを求めなかった場合はResolution outcome。
+Resolutionは、Finの最後のAI回答後に顧客が追加の助けを求めず、問い合わせが解決したと判定された場合です。
 
-Procedureを実行して有人サポートへ正しく引き継いだ場合もoutcomeとして数えられます。
+Procedure Handoffは、Finが設定されたProcedureを正常に実行し、そのProcedureの設計どおり人間またはWorkflowへ引き継いだ場合です。
 
-2026年の新料金では、見込み客を条件に応じてdisqualifyした場合は0.99ドル、qualificationして営業へルーティングする場合は9.99ドルという別outcomeもあります。
+Disqualificationは、Prospectが設定した営業条件に合わないとFinが判断し、正しくDisqualifyした場合です。
 
-単純な「解決1件＝0.99ドル」より少し広い料金体系になっています。
+一方、営業条件に合うProspectをQualificationし、Sales TeamやCRMなどへRoutingした場合は1 Qualification 9.99ドルです。
 
-## Intercom本体も使うなら、seat料金とFin outcome料金の両方を見る
+一つのConversationでFinが複数のActionを行っても、通常はOutcomeは一回だけ課金されます。
 
-FinとIntercomをセットで使う場合、AI料金だけではありません。
+ここは「Finが人間へ渡したら必ず無料」という理解には注意が必要です。単純に解決できずEscalateしただけならResolutionではありませんが、Procedureとして定義したHandoffを正常に完了した場合は0.99ドルのOutcomeになります。
 
-2026年8月時点の年払い価格では、
+## Intercom本体の料金とは別に考える
 
-Essentialが1 seatあたり月29ドル。
+FinをIntercom Helpdesk上で使う場合は、Fin OutcomeだけでなくIntercomのSeat料金があります。
 
-Advancedが85ドル。
+現在の月払いはEssentialが1 Full Seat月39ドル、Advancedが99ドル、Expertが139ドルです。年払いではそれぞれ月換算29ドル、85ドル、132ドルです。
 
-Expertが132ドルです。
+すべてのPlanでFin AI Agentへアクセスでき、そこへFinのOutcome料金が加わります。
 
-すべてのプランでFinへアクセスでき、Finは別途outcome単位で課金されます。
+つまり「Finは月39ドル」という料金ではありません。
 
-つまり10人のサポートチームなら、
+たとえばEssentialを一人で使い、月100件の通常Fin Outcomeが発生すれば、Seat 39ドルにFin 99ドル相当が加わる考え方になります。実際には他のChannel利用料などもあり得ます。
 
-Intercomのseat料金  
-＋ Fin outcomes  
-＋ 必要に応じてPhone、WhatsAppなどの従量料金
+逆に既存Helpdesk向けFinならIntercom Seatは不要で、Finは0.99ドル/Outcomeから。Minimum Commitmentはありますが、Intercomへ全面移行せずAI Agentだけ追加できます。
 
-で総額を考える必要があります。
+Fin Voiceも提供されていますが、チャット・メールの0.99ドルOutcomeと同じ料金だと決めつけてはいけません。Intercom公式はVoiceの利用・価格についてSalesへの問い合わせを案内しています。
 
-一方、既存helpdeskでFinだけ使う場合はseat料金なしで、outcome料金と最低利用条件が中心になります。
+Finを比較するときは、**Intercom Helpdeskも一緒に使うのか、既存HelpdeskへFinだけ足すのか**を先に決めると料金が分かりやすくなります。
 
-同じFinでも導入方法によって費用構造がかなり違います。
+## Finはどんなサポートチームに向いている？
 
-## 14日無料で試せるので、まず自社の問い合わせで解決率を見るべき
+IntercomをすでにHelpdeskとして使っているチームには最も導入しやすいAI Agentの一つです。
 
-Intercomは14日間の無料トライアルを用意しており、クレジットカードなしで始められます。
+Knowledge、Inbox、Customer Record、人間へのHandoffが同じ製品内にあるため、別のAIサポート基盤を新たに統合する工程が少なくなります。
 
-Finはセットアップとテストをしただけではトライアルが始まらず、実際にliveへ出したタイミングから期間が始まると案内されています。
+FAQ件数が多い会社だけでなく、外部システムで処理まで行いたい会社にもProcedureが効きます。
 
-これは試す時に使いやすいです。
+注文状況、契約情報、アカウント変更など、顧客固有のデータを使う問い合わせをAIで完了できれば、人間が毎回管理画面を開く作業を減らせます。
 
-最初にKnowledgeを整える。
+既存Helpdeskを変えたくない企業でもFinだけ導入できるため、「Intercomを使っていないから対象外」とは限りません。
 
-よくある問い合わせをテストする。
+一方、小規模サイトで月に数件しか問い合わせがない場合は、Outcome単価よりHelpdesk全体の運用が必要かを考えた方がいいでしょう。
 
-有人引き継ぎ条件を作る。
+また、AIの業務手順をAOPのような形で細かく設計・検証し、複数Channelへ大規模展開したい企業では、DecagonやSierraのようなエンタープライズ専用プラットフォームも比較対象になります。
 
-準備ができてから一部顧客へliveにする。
+Finの強みは、**AI Agent単体の研究的な自由度より、実際のサポートチームと同じHelpdeskへ入り、すぐ人間と分担できること**です。
 
-この順番で進められます。
+## まとめ｜FinはAIと人間を同じサポート運用へ入れたいチームに分かりやすい
 
-AIサポートはデモ環境での正答率より、実際の問い合わせで何％が人間に戻らず終わるかを見る方が重要です。
+Intercom Finは、企業のKnowledgeを使って顧客対応を行い、Procedureで外部システムの処理まで進められるAIエージェントです。
 
-14日間で、問い合わせ量、解決率、誤回答、有人転送後の負担まで計測すると導入判断しやすくなります。
+Intercom上では人間のサポート担当者と同じInbox・Customer Recordを使い、解決できない会話も文脈を残したまま引き継げます。既存HelpdeskへFinだけ追加する方法もあります。
 
-## Finが画像を理解できると、エラー画面のサポートがかなり変わる
+通常のFin Outcomeは1件0.99ドル。Resolution、Procedure Handoff、Disqualificationが対象で、Qualificationは1件9.99ドルです。
 
-Finは、顧客がチャットやメールで送った画像を理解する機能も提供しています。
+Intercom本体を使う場合はSeat料金が別にあり、Essentialは月払い39ドル/Seatから。既存Helpdesk向けFinならSeat料金はありませんがMinimum Commitmentがあります。
 
-テキスト。
-
-UI要素。
-
-ハイライト。
-
-参照番号。
-
-アクティベーションコード。
-
-エラーメッセージ。
-
-商品情報。
-
-こうした内容を画像から読み取り、回答へ使えます。
-
-ソフトウェアサポートでは、「この画面で止まった」とスクリーンショットが送られてくることがよくあります。
-
-従来なら人間が画像を見て状況を判断していました。
-
-AI Agentが画像まで読めれば、テキストだけで解決できなかった問い合わせも自動化できます。
-
-ただし、新機能はworkspaceによって未提供の場合があると公式FAQに記載されているため、利用前に自分の環境で確認が必要です。
-
-## 有人チームをなくすより、Finが簡単な問い合わせを受け持つ形が現実的
-
-Finには有人サポートへのhandoffがあります。
-
-AIで解決できないケースを人間へ渡し、その時に会話文脈も引き継ぎます。
-
-これは「AIの解決率が100％でなければ意味がない」という考えを避けるうえで重要です。
-
-パスワードリセット。
-
-一般的な使い方。
-
-注文状況。
-
-簡単なプラン変更。
-
-こうした大量の問い合わせはFinへ任せる。
-
-複雑な契約、例外対応、感情的なクレームは人間。
-
-この役割分担でも、人間のサポート量はかなり減らせます。
-
-AI Agent導入では、人をゼロにするより「人間へ来る問い合わせの難易度を上げる」と考えた方が成功しやすいです。
-
-## SierraやDecagonよりFinが入りやすいのは、既存helpdeskにAIを早く追加したい会社
-
-SierraやDecagonは、企業の顧客体験全体をAI Agent中心へ作り直す方向が強いです。
-
-Voice、Memory、業務処理、複数チャネル、継続的な改善まで大規模に設計します。
-
-Finは、そこまで大きなCX変革をしなくても始めやすいです。
-
-既存helpdeskへFinを追加する。
-
-Knowledgeを接続する。
-
-一部の問い合わせからAI解決を始める。
-
-outcome単位で効果を見る。
-
-この導入の軽さがあります。
-
-中小〜成長企業や、すでにIntercomを使っているチームには特に分かりやすいです。
-
-大規模企業でも使えますが、最初のAI Agent導入として比較的始めやすいことがFinの強みです。
-
-## まとめ
-
-Intercom Finは、AIでFAQへ回答するだけではなく、Procedures、画像理解、有人handoffなどを使って問い合わせを実際に解決するAI Agentへ広がっています。
-
-料金は1 outcomeあたり0.99ドルからです。
-
-ただし、AIが一回返信するごとの料金ではなく、一つの会話で価値ある結果を出した時に課金する考え方です。
-
-Intercom本体を使うならseat料金もあり、既存helpdeskへFinだけ追加する場合は別の費用構造になります。
-
-大規模なCX基盤を一気に作り直すより、今あるサポート環境へAIを足して効果を測りたい。
-
-そんな会社には、Finがかなり現実的な入口になります。
+単なるFAQ Botではなく、AIができる問い合わせはFinに完了させ、難しいものだけ人間へ自然に戻す。この分担を既存のサポート運用へ組み込みたいチームほどFinを使う意味が出ます。

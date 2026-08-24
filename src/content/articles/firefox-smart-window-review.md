@@ -1,8 +1,8 @@
 ---
-title: "Firefox Smart Windowとは？AIブラウザ・モデル選択・プライバシーを解説【2026年版】"
-description: "Firefox Smart Windowの早期ベータ、タブ・履歴AI、Memories、モデル選択、Exa連携、プライバシー、日本での提供状況を整理します。"
+title: "Firefox Smart Windowとは？AIブラウザの特徴・使い方・日本で使えるかを解説"
+description: "Firefox Smart Windowは、通常のFirefoxとは別に開ける、AI Assistantを組み込んだ新しいWindow Modeです。"
 publishedAt: "2026-08-22"
-updatedAt: "2026-08-22"
+updatedAt: "2026-08-24"
 category: "AIブラウザ"
 parentCategory: "AIブラウザ"
 primaryCategory: "AIブラウザ"
@@ -14,8 +14,8 @@ draft: false
 slug: "firefox-smart-window-review"
 noindex: false
 canonical: "https://cuivre-public-site.pages.dev/articles/firefox-smart-window-review/"
-ogTitle: "Firefox Smart Windowとは？AIブラウザ・モデル選択・プライバシーを解説【2026年版】"
-ogDescription: "Firefox Smart Windowの早期ベータ、タブ・履歴AI、Memories、モデル選択、Exa連携、プライバシー、日本での提供状況を整理します。"
+ogTitle: "Firefox Smart Windowとは？AIブラウザの特徴・使い方・日本で使えるかを解説"
+ogDescription: "Firefox Smart Windowは、通常のFirefoxとは別に開ける、AI Assistantを組み込んだ新しいWindow Modeです。"
 targetKeyword: "Firefox Smart Window"
 searchIntent: "review"
 serviceName: "Firefox Smart Window"
@@ -36,118 +36,170 @@ companyIds: []
 affiliateProgramIds: []
 categoryTags: ["AIブラウザ", "Firefox Smart Window", "AI"]
 ---
-# Firefox Smart Windowとは？MozillaのAIブラウザは何が違う？できること・プライバシー・提供状況を解説【2026年版】
+# Firefox Smart Windowとは？AIブラウザの特徴・使い方・日本で使えるかを解説
 
-Firefox Smart Windowは、MozillaがFirefoxに追加しているAI搭載の新しいウィンドウです。
+Firefox Smart Windowは、通常のFirefoxとは別に開ける、AI Assistantを組み込んだ新しいWindow Modeです。
 
-CometやDiaのように別のAIブラウザへ乗り換えるのではなく、Firefoxの中で通常のウィンドウとSmart Windowを使い分けられる設計になっています。しかも、AIモデルを一つに固定するのではなく、モデルを選んだり、自分で用意したAIモデルを接続したりできるのが特徴です。
+今開いているTabやBrowsing HistoryをContextとして使い、複数Pageの整理、比較、過去に見たPageの再発見などをAIへ頼めます。
 
-この記事では、2026年8月時点のFirefox Smart Windowで何ができるのかを、通常のFirefoxとの違いから見ていきます。AIアシスタント、履歴やMemory、モデル選択、ローカルモデル、AIを使いたくない場合の設定、現在の提供地域まで確認したうえで、CometやGemini in Chromeとは何が違うのかを整理します。
+CometやDiaのようにAIを前提としたBrowserへ丸ごと乗り換えるのではなく、Firefoxの中で必要なときだけSmart Windowへ切り替えられるのが特徴です。
 
-## FirefoxはAIブラウザへ全面移行するのではなく、「AIを使う窓」を分けた
+ただし、2026年8月24日時点ではEarly Betaです。米国・カナダのFirefox Userから段階的に提供されており、日本で誰でもすぐ使える正式機能ではありません。
 
-Smart Windowでまず面白いのは、Firefox全体を強制的にAIブラウザへ変えていないことです。
+この記事では、Mozilla / Firefoxの公式情報をもとに、Smart Windowがどんな機能なのか、通常のFirefoxとの違い、AIが何を見ているのか、現時点で日本から使えるのかまで整理します。
 
-Firefoxには通常のブラウザウィンドウがあり、そのほかにSmart Windowを使う形です。
+## Firefox Smart Windowはどんな機能？
 
-AIが必要な時はSmart Window。普通にWebを見るだけなら従来のFirefox。
+Smart Windowは、Firefoxに用意されたAI強化型のWindowです。
 
-この分け方はMozillaらしいです。
+通常のFirefoxでWebを見るClassic Windowはそのまま残り、AIを使いたいときだけSmart Windowを開けます。
 
-他のAIブラウザでは、AI Assistantがブラウザの中心になることが増えています。
+この設計は、AI Browserへ完全移行する製品とは少し違います。
 
-Firefoxは「AIを使いたくない人もいる」ことを前提に作っています。
+Smart Windowでは、現在のTabだけではなく、複数のTabやBrowsing HistoryをAI AssistantがContextとして扱えます。
 
-新機能の便利さだけでなく、使わない選択肢まで製品設計に入っていることが、Smart Windowを見るうえで一番大きな違いです。
+たとえば旅行の候補を複数Tabで調べているなら、開いている情報を整理して比較する。以前調べていた製品をもう一度探したいなら、Browsing Historyを自然な言葉で検索する、といった使い方ができます。
 
-## Smart Windowでは、タブや履歴についてAIへそのまま聞ける
+MozillaはSmart Windowを「最初の検索から最後のStepまで一緒に作業する」Windowとして位置付けています。
 
-Smart WindowにはAIアシスタントが組み込まれています。
+大量のTabを単に開いておくのではなく、内容を整理し、比較し、優先順位をつけ、次に何をすべきか判断しやすくする方向です。
 
-開いているページについて聞いたり、ブラウザ内の情報を使って作業したりできます。
+Smart WindowにはMemoriesもあります。
 
-またMemoryの仕組みもあり、過去の閲覧文脈を利用する方向へ広がっています。
+これはBrowsingのContextからAssistantを使いやすくする仕組みで、Mozilla公式ではMemoriesをDevice上へ保存すると説明しています。内容を確認したり、不要なMemoryを削除したり、機能自体をOffにしたりできます。
 
-以前どこかで見たものを探す。調べかけだったテーマへ戻る。大量のタブを整理する。
+さらにSmart WindowではAI Modelを選択できます。
 
-こうした「ブラウザに溜まっている情報」を使えるようになります。
+Firefox公式Helpでは3つのModelと、上級User向けに自分のModelを持ち込む選択肢を案内しています。
 
-従来の履歴がURLの記録だったのに対して、AIブラウザでは履歴そのものが検索可能な知識に近づいていきます。
+つまりSmart Windowは、**Firefoxへ一つの固定AIを埋め込むというより、FirefoxのTabとHistoryを理解するAI Workspaceを必要なときだけ開く仕組み**です。
 
-## 使うAIモデルをFirefox側に固定されないのがかなり珍しい
+## 通常のFirefoxにあるAI機能とは何が違う？
 
-Smart Windowの特徴として特に面白いのが、AIモデルを選べることです。
+ここはSmart Windowを理解するときに少し紛らわしい部分です。
 
-2026年8月時点では、Firefoxが用意した複数のモデルから選択できるほか、上級者向けには自分でAIモデルのエンドポイントを指定する仕組みもあります。
+FirefoxにはSmart Windowとは別に、通常のBrowser側にもAI機能があります。
 
-つまり「Firefoxを使いたいなら、この会社のAIを使うしかない」という構成ではありません。
+Firefox 133以降ではSidebarからAI Chatbotを利用でき、ChatGPT、Claude、Gemini、Le Chat Mistral、CopilotなどからProviderを選べます。
 
-Firefox Smart Windowは、ブラウザとAIモデルをある程度切り離して考えています。
+読んでいるPageの文章を選択して質問したり、Pageを要約したりできます。
 
-どのモデルが一番優秀かという話より、「自分が使うAIを自分で選びたい」という人には、この設計自体が大きな意味を持ちます。
+AI Enhanced Tab Groups、Link Previewの要点表示、PDF画像へのAlt Text提案などもFirefoxのAI機能です。
 
-## ローカルAIまでつなげられるのは、他のAIブラウザとかなり違う
+これらはClassic Firefoxの中へ個別に追加された機能です。
 
-さらにSmart Windowでは、OpenAI API互換のエンドポイントを使って独自モデルを接続できます。
+Smart Windowはそれらとは違い、AI Assistantと一緒にBrowsingすること自体を一つのWindow Modeとしてまとめています。
 
-リモートのモデルだけでなく、Ollamaなどを利用してローカル環境で動かす構成も案内されています。
+「今のFirefoxへAI ChatbotのSidebarだけ足したい」ならSmart Windowを待つ必要はありません。
 
-これは一般ユーザー全員に必要な機能ではありません。
+一方で、複数TabやHistoryまで含めてAIに作業Contextを持たせたいならSmart Windowの方が本命です。
 
-ただ、会社の機密情報を外部モデルへ渡したくない場合や、自分のPCでモデルを動かしたい人にとっては大きな選択肢です。
+## Smart Windowはどうやって使う？
 
-AIブラウザは便利になるほど、ブラウザ内の情報を大量に扱います。
+Smart WindowはFirefox Desktopで利用する機能です。
 
-そのため「AIが何をできるか」だけでなく「その情報をどのAIへ送るか」を選べることには意味があります。
+Firefox公式Helpでは、利用にMozilla AccountへのSign inが必要と案内しています。
 
-## 「FirefoxにAIなんていらない」という人にも設定を用意している
+対象Userに機能が提供されると、Classic WindowとSmart Windowを切り替えられます。
 
-MozillaはFirefoxにAI Controlsを用意しています。
+Firefox 151.0.2以降では、Smart Windowを利用できるUserはDefault Windowとして設定することもできます。
 
-生成AI関連機能を個別に管理したり、まとめてブロックしたりできます。
+DefaultにするとFirefox起動時、再起動時、他ApplicationからLinkを開いたときにSmart Windowが開きます。
 
-ブラウザは、AIサービスと違ってWebを見るための基盤です。
+Smart Windowが利用できない、または無効になっている場合はClassic WindowへFallbackします。
 
-AIを使いたくない人まで、ブラウザを更新しただけで強制的にAI機能へ巻き込まれるのは困ります。
+AIを使いたくない場面ではClassic Windowへ戻せるため、Browser全体を常にAI Modeにする必要はありません。
 
-Firefoxは、AIを増やしながら同時にオフにする方法も目立つ場所へ置いています。
+またFirefoxにはAI Controlsがあります。
 
-## 日本からすぐ使える機能として紹介するのはまだ早い
+AI Chatbot、AI Enhanced Tab Groupなど個別の生成AI機能をBlockできるほか、「Block AI enhancements」を使えば現在および今後の生成AI機能をまとめて非表示にできます。
 
-Smart Windowは2026年8月時点でも初期ベータの位置づけです。
+Smart WindowもOptional / Opt-inとして設計されています。
 
-Firefox 150から米国・カナダのユーザーを起点に段階提供されており、地域によって利用可否が異なります。
+AIを積極的に使いたい人だけ有効にし、従来のFirefoxを使い続けたい人はClassic Experienceを維持できるのがMozillaらしい部分です。
 
-そのため、日本のユーザーがこの記事を読んで「Firefoxを入れればすぐSmart Windowが使える」と考えない方がいいです。
+## Smart Windowは日本で使える？
 
-今は完成済みの一般機能というより、MozillaがAIブラウザをどう作ろうとしているかを見る段階でもあります。
+現時点では、日本のFirefox Userへ一般提供された機能として考えない方がいいです。
 
-## CometやChromeではなくFirefox Smart Windowを選ぶ理由はある？
+Firefox公式Helpでは、Smart WindowはEarly Betaで、Firefox 150から米国・カナダのUserを対象に段階的に提供すると説明しています。
 
-今すぐ使える機能数だけなら、Smart Windowを積極的に選ぶ理由はまだ限られます。
+フランスはFirefox 155から提供予定です。
 
-でも、方向性はかなり違います。
+さらに現在のHelpには、Smart Windowはen-US / en-CA Userのみ利用可能という注記があります。
 
-CometはPerplexityをブラウザの中心に置く。ChromeはGeminiとGoogleサービスを統合していく。Diaはブラウザ上の仕事の文脈をAIと共有する。
+そのため、日本語環境のFirefoxをInstallすればすぐSmart Windowが表示される、という状態ではありません。
 
-Firefoxは、AIを使うかどうか、どのモデルを使うかまでユーザー側に残そうとしています。
+Early Access ProgramのWaitlistも案内されていますが、地域やLanguageによる提供条件があります。
 
-一番賢いAIを求めるなら、Firefoxが最有力とは限りません。
+一方、通常FirefoxのSidebar AI ChatbotなどはSmart Windowとは別機能です。
 
-AIの選択権やプライバシー、ブラウザを一社のAIへ固定したくないことを重視するなら、Smart Windowはかなり独自性があります。
+「FirefoxでAIを使いたい」という目的なら、Smart Windowの日本提供を待たなくても、現在利用可能なAI機能から試せます。
 
-## まとめ
+Smart Windowの記事を見るときは、**FirefoxにAI機能があることと、Smart Window自体が日本で一般提供されていることを混同しない**のが重要です。
 
-Firefox Smart Windowは、「Firefox版のComet」を作ろうとしているわけではありません。
+## Smart Windowの料金について
 
-AIを使う専用ウィンドウを用意し、使うモデルを選べるようにし、必要なら独自モデルやローカルモデルまで接続する。
+MozillaはSmart WindowをFirefoxのOptionalなAI-enhanced Windowとして提供しており、現時点の公式案内ではSmart Window単体の月額料金を提示していません。
 
-さらにAI自体を使わない選択肢も残す。
+ただし現在はEarly Betaなので、「正式版も将来ずっと完全無料」と断定する段階ではありません。
 
-この設計思想が一番の特徴です。
+またSmart Windowで選択するAI ModelやBring Your Own Modelの使い方によっては、外部Provider側の契約条件が関係する可能性があります。
 
-2026年8月時点ではまだ初期ベータで、地域によってはすぐ使えません。
+通常FirefoxのSidebar Chatbotも同様で、FirefoxからProviderへアクセスする入口は用意されますが、各AI Serviceにはそれぞれ無料Planと有料Planがあります。
 
-それでも、ブラウザのAI化が「GoogleかPerplexityか」という二択にならないことには意味があります。
+そのため今は料金より、Smart Windowそのものが自分の地域・Firefox Version・Languageで利用対象になっているかを先に確認する機能です。
 
-AIを便利だから受け入れるだけでなく、自分で選びたい人にとって、Firefox Smart Windowは今後かなり面白い存在になりそうです。
+正式展開が広がった段階で、Modelごとの利用条件や料金体系が変わる可能性もあります。
+
+## Smart Windowのプライバシーはどう考えればいい？
+
+MozillaがSmart Windowで強く打ち出しているのがPrivacyとUser Controlです。
+
+Smart Windowは完全なOpt-inです。
+
+Classic Windowを使い続けることもでき、AI機能をSettingsからBlockすることもできます。
+
+MozillaのSmart Window Privacy Noticeでは、AI-enhanced機能を提供するためBrowsing Activityに関する一部Dataを処理すると説明しています。
+
+一方、公式SiteではChat TranscriptをMozillaが保持したり、ConversationをModel Trainingや広告に利用したりしないと案内しています。
+
+MemoriesはDevice上に保存され、User自身が内容を確認・削除・Offにできます。
+
+ただしAI AssistantへPage Contextを渡す以上、「AIだから何もDataを扱わない」という意味ではありません。
+
+通常FirefoxのSidebar Chatbotでも、Page要約を選ぶとPage Content、Prompt、Page Titleなどが選択したProviderへ送られます。
+
+Smart Windowを含め、AI Browserでは「どの情報をAIへ渡すか」を理解したうえで使うことが重要です。
+
+Mozillaはその選択権をSettingsとWindowの切り替えとしてUser側へ残す設計を取っています。
+
+## Smart Windowはどんな人に向いている？
+
+Firefoxを使い続けたいが、AI Browserの便利さも取り入れたい人にはかなり相性が良さそうです。
+
+CometやDiaへBrowserを丸ごと移すのではなく、Classic FirefoxとAI Windowを同じBrowser内で使い分けられます。
+
+特に、調べ物でTabを大量に開く人、以前見たPageをHistoryから探すことが多い人、AIに複数Pageを整理してもらいたい人にはSmart Windowの方向性が分かりやすいでしょう。
+
+PrivacyやAI機能のOn / Offを自分で細かく決めたい人にもFirefoxらしい選択肢です。
+
+反対に、日本で今すぐ完成したAI Browserを使いたい人にはまだ向きません。
+
+Smart WindowはEarly Betaで提供地域も限定されています。
+
+すぐAI Browserを使いたいなら、すでに一般提供されているCometやGemini in Chromeなどと比較した方が現実的です。
+
+Smart Windowは、**今すぐ誰にでも勧める完成品というより、FirefoxがAI Browserをどう作ろうとしているのかが見えてきた段階の機能**として見るのが適切です。
+
+## まとめ｜Smart WindowはFirefoxをAIブラウザ化する「別ウィンドウ」という考え方が特徴
+
+Firefox Smart Windowは、FirefoxのClassic Experienceを残したまま、AI Assistantと一緒にBrowsingするためのWindow Modeです。
+
+Tab、Browsing History、MemoriesなどをContextとして使い、調査や比較、過去に見た情報の再発見を支援します。
+
+AIを使わないときはClassic Windowへ戻せ、AI Controlsから生成AI機能をBlockできる点も特徴です。
+
+ただし2026年8月24日時点ではEarly Betaで、米国・カナダを中心とした限定的な段階提供です。日本向けの一般提供済み機能として紹介するのは早い状態です。
+
+Firefoxを維持しながらAI Browserの機能だけ取り入れたい人にとって、今後の正式展開を注目する価値がある機能です。

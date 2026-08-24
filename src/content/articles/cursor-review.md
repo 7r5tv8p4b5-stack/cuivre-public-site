@@ -1,8 +1,8 @@
 ---
-title: "Cursorとは？AIエージェント・Cloud Agents・CLI・Composerを解説【2026年版】"
-description: "CursorのAI IDE、Agent、Cloud Agents、CLI、Composer、複数モデル、ブラウザ操作、2026年8月の常時稼働エージェントを整理します。"
+title: "Cursorとは？AIコードエディタの使い方・料金・Proにする意味を解説"
+description: "Cursorは、コードを書くEditorそのものにAI Agentを組み込み、現在のRepositoryを読みながら質問、修正、実装、Command実行まで進められるAI Code Editorです。"
 publishedAt: "2026-08-22"
-updatedAt: "2026-08-22"
+updatedAt: "2026-08-24"
 category: "AIコーディングエージェント"
 parentCategory: "AIコーディングエージェント"
 primaryCategory: "AIコーディングエージェント"
@@ -14,8 +14,8 @@ draft: false
 slug: "cursor-review"
 noindex: false
 canonical: "https://cuivre-public-site.pages.dev/articles/cursor-review/"
-ogTitle: "Cursorとは？AIエージェント・Cloud Agents・CLI・Composerを解説【2026年版】"
-ogDescription: "CursorのAI IDE、Agent、Cloud Agents、CLI、Composer、複数モデル、ブラウザ操作、2026年8月の常時稼働エージェントを整理します。"
+ogTitle: "Cursorとは？AIコードエディタの使い方・料金・Proにする意味を解説"
+ogDescription: "Cursorは、コードを書くEditorそのものにAI Agentを組み込み、現在のRepositoryを読みながら質問、修正、実装、Command実行まで進められるAI Code Editorです。"
 targetKeyword: "Cursor"
 searchIntent: "review"
 serviceName: "Cursor"
@@ -36,174 +36,132 @@ companyIds: []
 affiliateProgramIds: []
 categoryTags: ["AIコーディングエージェント", "Cursor", "AI"]
 ---
-# Cursorとは？普通のVS Codeと何が違う？Agent・Cloud Agents・料金の考え方を解説【2026年版】
+# Cursorとは？AIコードエディタの使い方・料金・Proにする意味を解説
 
-Cursorは、AIを前提に作られたコードエディタ兼コーディングエージェントです。
+Cursorは、コードを書くEditorそのものにAI Agentを組み込み、現在のRepositoryを読みながら質問、修正、実装、Command実行まで進められるAI Code Editorです。
 
-以前は「VS Codeに強いAI補完を足したエディタ」と説明しても大きく外れていませんでしたが、2026年のCursorはかなり変わっています。Agentがコードベースを調べ、ファイルを編集し、ターミナルを実行するだけでなく、Cloud Agentsへ仕事を渡してバックグラウンドで進めたり、複数エージェントを管理したりする方向へ広がっています。
+一般的なAI Chatへコードを貼り付けるのではなく、普段コードを書く画面の中でAIを使えるため、「相談する場所」と「実際に変更する場所」が分かれません。
 
-この記事では、2026年8月時点のCursorで何ができるのかを、普通のエディタとの違いから見ていきます。Agent、Plan Mode、Cloud Agents、モデル選択、ブラウザ操作まで確認し、CodexやClaude CodeではなくCursorを選ぶ理由がどこにあるのかを整理します。
+この記事では、2026年8月24日時点のCursor公式情報をもとに、Cursorがどんな開発Toolなのか、AgentとCloud Agentsをどう使うのか、無料のHobbyと月20ドルのProで何が変わるのか、どんな人に向いているのかまで整理します。
 
-## Cursorを使う一番の理由は、AIとコードを見る場所が最初から同じこと
+## Cursorはどんなサービス？
 
-Cursorはエディタなので、AIが別画面にいません。
+Cursorは、AI機能を追加したCode Editorという説明だけでは現在の特徴を捉えきれません。
 
-コードを見ながら質問する。
+中心にあるのはAgentです。
 
-選択した箇所を直す。
+Agentへ「この画面に検索機能を追加して」と頼むと、Repositoryを検索し、関連Fileを読み、複数Fileを変更し、必要ならTerminal Commandを実行しながらTaskを進めます。
 
-Agentへ複数ファイルの変更を任せる。
+人間がコードの一部を選択して補完させるだけではなく、目的を伝えてまとまった開発作業を任せられます。
 
-差分をそのまま確認する。
+一方でEditorなので、AIが変更したコードはその場で確認できます。
 
-この流れが一つの画面にまとまっています。
+自分で直接Codeを書きながら必要なところだけAgentへ任せることもでき、「全部AIに作らせる」と「従来通り自分で書く」の中間を取りやすいのがCursorの強みです。
 
-AIエージェントの性能が上がっても、最終的には人間がコードを見る場面があります。
+現在はLocal AgentだけでなくCloud Agentsもあります。
 
-その時に、チャットからエディタへ移る必要がないのは単純ですが大きいです。
+Cloud AgentはCursorが用意したRemote Environmentで独立して作業します。自分のPCで別の作業をしている間にTaskを任せたり、複数Agentを並行して動かしたりできます。
 
-特に、自分でもコードを書く時間がまだ多い人には、AIへ全部委任するサービスよりCursorの方が自然に入れます。
+DesktopだけでなくMobileなどからCloud Agentを起動し、後で結果をReviewする使い方もできます。
 
-## Agentは、補完ではなくコードベース全体を使って仕事を進める
+2026年8月にはCloud Agent Buildsも導入されました。
 
-CursorのAgentは、コードベースを検索し、必要なファイルを読み、編集し、ターミナルコマンドを実行できます。
+Repository CloneやDependency Installを毎回最初から行うのではなく、準備済みEnvironmentを定期的に作っておき、Agentがそこから起動します。CursorによるとTime to First Tokenは従来より3倍高速化し、Build自体はCloud Agentsに追加料金なしで含まれます。
 
-「このボタンを追加して」のような単純な変更だけでなく、
+つまりCursorは、**人間がコードを書くEditorと、自律的にTaskを進めるLocal / Cloud Agentを同じ開発環境へまとめたTool**になっています。
 
-「このバグを再現して原因を探して」
+## Cursorはどうやって使う？
 
-「この機能の実装場所を調べて、既存パターンに合わせて追加して」
+まずCursorをPCへInstallし、普段のCode Editorと同じようにProject FolderやRepositoryを開きます。
 
-といった複数ステップの仕事を任せられます。
+既存Projectをそのまま扱えるので、Cursor専用形式へ作り直す必要はありません。
 
-Cursorが以前から持っていたTab補完は、今書いているコードの続きを速くする機能です。
+小さな相談なら現在のCodeについて質問し、その場で修正案を出してもらえます。
 
-Agentは、自分が手を動かす前提ではなく、タスクそのものを渡す機能です。
+まとまった変更ではAgentへ目的を伝えます。
 
-この二つを同じエディタで切り替えられるため、「ここは自分で書く」「ここから先はAgentへ任せる」という使い分けがしやすいです。
+「この一覧に検索と絞り込みを追加」「Login処理のError Handlingを整理」「このTestが落ちる原因を調査」のようにTaskを渡すと、Agentが必要なFileを探して作業します。
 
-## Plan Modeを使うと、大きな変更でいきなりコードを書かせずに済む
+変更後はDiffを確認し、必要なら追加修正を頼みます。
 
-AIエージェントへ大きな機能を頼む時、怖いのは最初から大量のファイルを変更されることです。
+長時間かかるTaskや、自分のPCを占有させたくない作業はCloud Agentへ渡せます。
 
-CursorにはPlan Modeがあり、実装前にコードベースを調べて、どこをどう変えるかを整理させられます。
+Cloud Agentは独自VM上でRepositoryを扱うため、Local Agentとは別に作業を進められます。複数のTaskを並列に走らせることもできます。
 
-ここで計画を確認してから実装へ進めば、方向が違うことに早い段階で気づけます。
+MCP、Skills、Hooksなどを使えば、ProjectやTeamのWorkflowへさらに深く組み込めます。
 
-特に既存サービスでは、動くコードを書くことより「既存設計を壊さないこと」の方が重要です。
+Cursorを使うときは、AIへ全部書かせる必要はありません。
 
-新規アプリの試作なら勢いで作らせてもいいですが、運用中のリポジトリではPlan Modeを挟む価値が大きいです。
+自分で主要な設計を行い、単純実装だけAgentへ渡すこともできますし、逆にAgentへ大きな実装を任せ、人間はDiff Reviewへ集中することもできます。
 
-AIコーディングが強くなるほど、実装前の合意が重要になるのは人間の開発と同じです。
+## Cursorの料金について
 
-## Cloud Agentsを使うと、エディタを閉じても仕事を進められる
+個人向けにはHobby、Pro、Pro+、Ultraがあります。
 
-CursorはローカルのAgentだけではありません。
+Hobbyは無料です。
 
-Cloud Agentsは専用の開発環境を持ち、リポジトリをセットアップしてタスクを進めます。
+Credit Cardなしで始められ、Agent Requestには制限がありますが、Cursor自体とComposerを試せます。
 
-自分のPCを使い続けながら、別の仕事をクラウド側へ渡せます。
+Proは月20ドルです。
 
-2026年にはCloud Agentsが自分のコンピュータ環境を操作し、変更したソフトウェアを実際に試し、スクリーンショットやログなどの成果物を残す方向まで進んでいます。
+HobbyよりAgent Limitが広がり、Frontier Models、MCP、Skills、Hooks、Cloud Agentsなどを利用できます。
 
-さらにWeb、モバイル、デスクトップ、Slack、GitHubなど複数の場所からAgentへ仕事を渡せます。
+Pro+はProの3倍のAgent Limitを持つ上位Planです。
 
-「AIエディタ」というより、エディタを中心にローカルとクラウドの開発エージェントをまとめる製品になってきています。
+UltraはProの20倍のAgent Limitがあり、新機能へのPriority Accessなども加わります。
 
-## モデルを一つに固定しないのがCursorの大きな特徴
+Team向けStandardは1Userあたり月40ドルです。
 
-Cursorでは、複数のAIモデルからタスクに応じて選べます。
+Individualの機能に加えてCentralized Billing、Team Marketplace、BugbotによるAgentic Code Review、Team Contextを使うCloud Agents / Automations、Usage Analytics、Team-wide Privacy Mode、SAML/OIDC SSOなどが加わります。
 
-2026年8月時点でも、Anthropic、OpenAI、Google、xAI系など複数のモデルが選択肢に入っています。
+Enterpriseは個別料金です。
 
-これは、AIコーディングツールを長く使う時に意外と重要です。
+Cloud Agentsの利用では料金の見方に注意が必要です。
 
-コード調査が得意なモデル。
+公式DocsではCloud Agentsは選択したModelのAPI Pricingで計算され、Context Windowを大きくするとToken UsageとCostも増えると説明されています。初回利用時にはSpend Limitの設定を求められます。
 
-UI変更で相性がいいモデル。
+Cloud Agentを大量に並列実行する場合は、月額Planだけを見ずUsageも確認した方が安全です。
 
-速くて安いモデル。
+## 無料版からProにする意味はどこにある？
 
-難しいバグで使いたいモデル。
+Cursorを「AI付きEditorとして触ってみる」だけならHobbyから始められます。
 
-一つのモデルがすべての作業で一番とは限りません。
+自分でCodeを書く時間が中心で、Agentをたまに使う程度なら、まず無料枠で操作感を確認できます。
 
-Cursorはモデル提供会社そのものではないため、エディタを変えずにモデルだけ切り替えられることが強みになります。
+Proの意味が大きくなるのは、Agentへ実装そのものを任せる回数が増えたときです。
 
-逆に、「どれを選べばいいか考えたくない」人には選択肢が多すぎると感じることもあります。
+月20ドルでAgent Limitが広がり、Frontier ModelやMCP、Skills、Hooks、Cloud Agentsへアクセスできるため、Cursorを日常の開発環境として使いやすくなります。
 
-## ブラウザまでAgentに見せると、UI修正のやり取りがかなり変わる
+さらにPro+やUltraへ上げる判断は、機能を解放するというよりAgent Usageを増やす意味合いが強くなります。
 
-Web開発では、コードだけ見てもUIの問題が分からないことがあります。
+Pro+は3倍、Ultraは20倍なので、毎日の開発でAgentが制限に当たるようになってから検討すれば十分です。
 
-Cursorはブラウザを使ったAgent作業にも広がっており、Webページを見ながら変更を進められます。
+特にCloud Agentsで複数Taskを並行させると、人間一人がLocalで順番に作業するよりAIの処理量自体が増えます。
 
-2026年にはDesign Modeで、ブラウザ上の見た目を指示しながら裏側のコードをAgentに編集させる使い方も強化されています。
+Cursorの料金は「Editorに月20ドル払うか」ではなく、**どれだけ実装時間をAgentへ移すか**で考えると判断しやすくなります。
 
-「この余白を少し狭く」
+## Cursorはどんな人に向いている？
 
-「このカードをここへ移動」
+Cursorが向いているのは、AIを使いたいが、Code EditorとGitを中心にした従来の開発Flowも維持したい人です。
 
-といった変更は、ファイル名やCSSセレクタを説明するより、実際の画面を見せた方が速いです。
+既存Repositoryを開き、自分でCodeを書き、必要なTaskだけAgentへ渡すという使い方が自然にできます。
 
-AIコーディングがコードだけの世界から、完成したソフトウェアを見ながら直す世界へ進んでいることが分かりやすい部分です。
+Claude CodeやCodexのようなCoding Agentと用途は重なりますが、CursorはEditor自体が製品の中心にあるため、File Tree、Code編集、Diff確認、AIへの依頼を一つのUIで行いたい人に分かりやすいでしょう。
 
-## Cursorへ任せる範囲が広がるほど、ルールと承認設定を雑にしない方がいい
+一方、コードをほぼ見ず、文章からWebアプリを完成させたい人にはLovableやBolt.newのようなApp Builderの方が簡単です。
 
-Cursor Agentはファイル編集やターミナル実行ができます。
+また、Cursorを導入したから設計やReviewが不要になるわけではありません。
 
-Cloud Agentsならさらに独立した環境で長く作業できます。
+Agentが複数Fileを高速に変更できるほど、どこまで任せ、何を人間が確認するかが重要になります。
 
-便利ですが、権限が広いほど意図しない変更の可能性も増えます。
+Cursorは「AIがコードを書いてくれるEditor」から一歩進み、**自分がEditorで作業しながら、横で複数のAI開発者にも仕事を渡せる環境**として考えると現在の特徴が分かりやすくなります。
 
-Cursorは、機密性の高い操作に承認を求める仕組みや、特定ファイルへのアクセスを制限する設定などを用意しています。
+## まとめ｜CursorはEditorとAI Agentを一つの開発環境にまとめたい人向け
 
-それでも、最終的な安全性は使い方にも左右されます。
+Cursorは、Repositoryを理解するAI AgentをCode Editorへ組み込み、質問、複数Fileの修正、Command実行、Cloudでの並列作業まで行える開発Toolです。
 
-バージョン管理を使う。
+無料のHobbyから試せ、Proは月20ドル。さらにAgent Usageが多い人向けにPro+とUltraがあります。
 
-秘密情報を直接置かない。
+Cloud Agentsを使えばLocal PCとは別にTaskを進められ、2026年8月のBuilds導入でEnvironmentの起動も高速化されています。
 
-本番操作を無条件に許可しない。
-
-大きな変更は差分を見る。
-
-AIが強くなるほど、こうした普通の開発習慣がむしろ大事になります。
-
-## CodexやClaude CodeではなくCursorを選ぶなら「自分もコードを書くか」で考える
-
-Codexは複数エージェントへの委任が強く、Claude Codeはターミナル中心でコードベースへ深く入れます。
-
-Cursorの良さは、その中間にあります。
-
-AIへ仕事を任せられる一方で、人間も常に同じエディタ上でコードを触れます。
-
-自分で数行直す。
-
-Agentに大きな修正を任せる。
-
-戻って差分を見る。
-
-また自分で調整する。
-
-この行き来が非常に自然です。
-
-今後ほとんど実装を自分で触らず、AIを監督する側へ移りたいならCodexのアプリ型運用が合う人もいます。
-
-ターミナルから離れたくないならClaude Codeも強いです。
-
-自分とAIの両方が同じエディタで作業する形を残したいならCursorが分かりやすいです。
-
-## まとめ
-
-Cursorは、AI補完付きのエディタから、ローカルとクラウドのコーディングエージェントを扱う開発環境へ広がっています。
-
-Agentにタスクを任せ、Plan Modeで大きな変更を整理し、必要ならCloud Agentsへ長い作業を渡す。
-
-その一方で、人間は同じエディタ上でコードを直接触れます。
-
-この「任せる」と「自分で書く」の切り替えやすさがCursorの一番の強みです。
-
-AIに全部任せることが目的ではなく、自分でコードを書く時間も残しながら開発速度を上げたい。
-
-そういう人には、2026年でもかなり使いやすい選択肢です。
+自分でもCodeを書きながらAIへまとまった実装を任せたい人には、CursorのEditorとAgentが一体になった設計が使いやすいでしょう。

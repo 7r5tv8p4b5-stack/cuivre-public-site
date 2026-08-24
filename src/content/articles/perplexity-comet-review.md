@@ -1,8 +1,8 @@
 ---
-title: "Perplexity Cometとは？AIブラウザ・Assistant・履歴検索・Chrome拡張を解説【2026年版】"
-description: "Perplexity CometのChromium基盤、AI検索、Comet Assistant、Personal Search、Gmail連携、Chrome拡張互換を整理します。"
+title: "Perplexity Cometとは？AIブラウザの使い方・無料で何ができるかを解説"
+description: "Cometは、Perplexityの検索・回答機能とAI Assistantをブラウザそのものへ組み込んだAI Browserです。"
 publishedAt: "2026-08-22"
-updatedAt: "2026-08-22"
+updatedAt: "2026-08-24"
 category: "AIブラウザ"
 parentCategory: "AIブラウザ"
 primaryCategory: "AIブラウザ"
@@ -14,8 +14,8 @@ draft: false
 slug: "perplexity-comet-review"
 noindex: false
 canonical: "https://cuivre-public-site.pages.dev/articles/perplexity-comet-review/"
-ogTitle: "Perplexity Cometとは？AIブラウザ・Assistant・履歴検索・Chrome拡張を解説【2026年版】"
-ogDescription: "Perplexity CometのChromium基盤、AI検索、Comet Assistant、Personal Search、Gmail連携、Chrome拡張互換を整理します。"
+ogTitle: "Perplexity Cometとは？AIブラウザの使い方・無料で何ができるかを解説"
+ogDescription: "Cometは、Perplexityの検索・回答機能とAI Assistantをブラウザそのものへ組み込んだAI Browserです。"
 targetKeyword: "Perplexity Comet"
 searchIntent: "review"
 serviceName: "Perplexity Comet"
@@ -36,142 +36,106 @@ companyIds: []
 affiliateProgramIds: []
 categoryTags: ["AIブラウザ", "Perplexity Comet", "AI"]
 ---
-# Perplexity Cometとは？Chromeから乗り換える価値はある？できること・料金・注意点を解説【2026年版】
+# Perplexity Cometとは？AIブラウザの使い方・無料で何ができるかを解説
 
-Perplexity Cometは、PerplexityのAIをブラウザそのものに組み込んだChromiumベースのWebブラウザです。
+Cometは、Perplexityの検索・回答機能とAI Assistantをブラウザそのものへ組み込んだAI Browserです。
 
-Perplexityを普段から使っている人なら気になる存在ですが、「ChromeでPerplexityを開くのと何が違うのか」「AIがページを読んでくれるだけなのか」「ブラウザ操作まで任せられるのか」「普段使いのChromeから本当に乗り換える価値があるのか」は、実際に選ぶうえで分かりにくいところです。
+普通のブラウザでもAI Chatを別Tabで開けば質問できます。Cometの違いは、今見ているPageや複数TabのContextをそのままAssistantへ渡し、調査、要約、比較、フォーム入力などをブラウジングの流れの中で進められることです。
 
-この記事では、2026年8月時点のCometでできることを、普通のブラウザとの違いから順番に見ていきます。検索、開いているページへの質問、履歴の活用、ブラウザ操作を任せるComet Assistant、Chrome拡張機能との互換性まで確認したうえで、最後にChromeを置き換えるほどのメリットがあるのかを整理します。
+この記事では、2026年8月24日時点のPerplexity公式情報をもとに、CometがどんなBrowserなのか、Chromeとの違い、実際の使い方、無料でどこまで使えるのか、そのうえでどんな人に向いているのかまで整理します。
 
-## Cometを使う意味は「Perplexityを横に置ける」ことではない
+## Cometはどんなブラウザ？
 
-Cometを見て最初に思うのは、「Chromeの横にPerplexityのチャット欄が付いただけでは？」ということかもしれません。
+CometはChromiumをベースにしたBrowserです。
 
-もしそれだけなら、ChromeでPerplexityを別タブに開いても大きくは変わりません。
+そのためBookmarks、Page Translation、Chrome Extensionなど、普通のBrowserとして必要な機能を持ちながら、PerplexityのAI SearchとComet Assistantが最初から組み込まれています。
 
-Cometの違いは、AIがブラウザの外からWebページを見るのではなく、ブラウザの中で今見ているページやタブ、履歴とつながっているところにあります。
+大きな特徴は、検索と閲覧とAIへの質問が分離していないことです。
 
-長い記事を開いて、そのページについて質問する。複数の候補を調べながら違いを整理する。少し前に見たサイトを「昨日見ていたあのサービス」のような曖昧な記憶から探す。
+たとえば複数の旅行Pageを開いた状態で、「この中から駅に近くて朝食付きのHotelだけ比較して」と頼めます。記事を読んでいる最中なら、そのPageの内容を要約したり、書かれている内容について追加質問したりできます。
 
-こういう作業を、検索欄とタブを何度も行き来せず進められます。
+Comet Assistantは、単に現在のPageへ答えるだけではありません。
 
-PerplexityをWeb検索の代わりとして使ってきた人にとっては、検索結果をAI化した次の段階として、閲覧そのものをAIと一緒に行う感覚に近いです。
+必要に応じて新しいTabを開き、Webを調べ、Taskを進められます。公式ではResearch、Meeting Preparation、Coding、E-commerceなど幅広い作業へ使えると説明されています。
 
-## Chromeから移っても、普段のWebサイトや拡張機能は使える？
+Personal SearchではBrowsing Historyから過去に見た情報を探せます。「先週見ていたあの製品Page」のようにURLを覚えていなくても、過去の閲覧Contextから探しやすくなります。
 
-CometはChromiumベースです。
+Gmail Connectorを接続すれば、EmailやCalendarの情報を使った質問もできます。
 
-そのため、Webサイトとの互換性はChromeにかなり近く、ブックマークやページ翻訳といった通常のブラウザ機能も備えています。Chrome拡張機能についても、多くのものを利用できます。
+2025年10月にはCometが世界向けに無料公開され、2026年3月にはiOS版も公開されました。Desktopで始めたResearchをiPhoneへ引き継ぎ、ThreadとPage ContextをDevice間で続ける使い方もできます。
 
-ここはAI機能以上に大事です。
+つまりCometは、**BrowserにAIを追加したというより、検索・閲覧・調査・Actionを一つのAssistantへまとめることを前提に設計されたBrowser**です。
 
-どれだけAIが便利でも、普段使っているパスワード管理、広告ブロック、開発ツールなどが全部使えなくなるなら、メインブラウザへの移行はかなり面倒です。
+## Cometはどうやって使う？
 
-Cometは「AIを使う時だけ開く専用アプリ」というより、普段のブラウザをそのまま置き換えることを狙った作りになっています。
+DesktopではCometをDownloadしてInstallします。
 
-もちろんChromiumベースだからといって、Chromeと完全に同じではありません。
+公式HelpではWindows 10 / 11、macOS 13以降をDesktop対応環境として案内しています。Windowsはx64とARM64、MacはIntelとApple Siliconに対応します。
 
-Googleアカウントとの統合を最優先したい人や、会社でChromeを管理されている人なら、簡単に置き換えられない場合もあります。
+Comet自体はPerplexity Accountなしでも利用でき、基本的なBrowser機能とAI機能を試せます。
 
-ただ、個人利用でChromeから移るハードルは、ゼロから別のブラウザ環境を作るよりかなり低いです。
+ただしSign inするとChat History、Browsing Sync、より高いAI Limitなどを使えるため、複数Deviceで使うならAccountを作る方が便利です。
 
-## Comet Assistantには何を任せられる？
+ChromeなどからBookmarksやBrowser DataをImportし、Default Browserへ変更できます。
 
-Cometが普通の「AI付きブラウザ」と違って見えてくるのが、Assistantを使った時です。
+使い方は普通のBrowserと大きく変わりません。Pageを開いた状態でAssistant Panelから質問する、検索結果をPerplexity形式で確認する、複数Tabの内容をまとめる、といった形です。
 
-ページを要約したり質問に答えたりするだけなら、すでに多くのブラウザや拡張機能でもできます。
+iOS版ではVoice Modeもあり、開いているTabについて音声で質問できます。Deep ResearchもMobileから利用できます。
 
-Cometではその先に、ブラウザ上の作業そのものをAIへ任せる方向があります。
+CometはTaskを代行できますが、重要な操作まで無条件に任せるのではなく、個人情報や決済、Account操作などは内容を確認しながら使う方が安全です。
 
-たとえば複数ページを調べて情報を集める。条件に合う候補を探す。Web上で必要な操作を進める。
+## Cometの料金について
 
-この時、AIは単に回答文を作っているのではなく、ブラウザを使って仕事を進める役になります。
+Comet Browser自体は無料で利用できます。
 
-とはいえ、何でも完全自動で任せられると考えない方がいいです。
+2025年10月2日にPerplexityが一般公開し、誰でも無料でDownloadできるようになりました。
 
-予約、購入、ログイン後の操作など、間違った時の影響が大きい作業は最終確認を人間側に残しておく方が安心です。
+そのため「AI Browserを試すためだけに月額契約が必要」という製品ではありません。
 
-AIブラウザが便利になるほど、「何を答えさせるか」より「どこまで操作させるか」の方が大事になってきます。
+Accountなしでも基本機能を試せますが、Sign inするとSaved Chat、History、Device Sync、より高度なAI機能や高い利用上限を利用できます。
 
-## 履歴をAIに使わせると、以前見たページを探す感覚が変わる
+ここでComet Browserの料金とPerplexityの有料Subscriptionは分けて考える必要があります。
 
-Cometには、閲覧履歴を利用して過去に見た情報を探す仕組みがあります。
+Browserを使うこと自体は無料でも、Perplexity側の高度なModel、Research、利用上限などは契約Planによって差があります。
 
-普通のブラウザ履歴は、日付やページタイトルを覚えていないと意外と探しにくいものです。
+つまり無料版でまず確認したいのは、「AIがBrowser Contextを読んでくれること自体に価値があるか」です。
 
-「先週見た青いロゴのAIサービス」
+日常的にResearchや複数Tab比較を大量に使い、Perplexity側のLimitが先に問題になったときに有料Planを検討すればよいでしょう。
 
-「昨日比較していたホテル」
+## Chromeから乗り換える意味はある？
 
-のような覚え方では、通常の履歴検索ではなかなか見つかりません。
+CometはChromium-basedなので、Chromeから完全に別世界へ移るという感覚ではありません。
 
-AIが履歴の文脈を扱えるようになると、この部分が変わります。
+一般的なWeb閲覧、Extension、Bookmarkなどはかなり近い状態で使えます。
 
-ブラウザ履歴が単なる訪問URLの一覧ではなく、自分が以前調べた情報をもう一度呼び出すための記憶に近づきます。
+違いが出るのは、Browser内の情報をAIへ渡す回数が多い人です。
 
-調査量が多い人ほど便利です。
+通常のChromeでは、Page内容をAIへ相談するために文章をCopyしたり、URLを別Chatへ貼ったりする場面があります。
 
-逆に、履歴をAIに利用させること自体に抵抗がある人もいるはずです。
+Cometなら今見ているPageや複数TabをそのままContextとして使えるため、調査中の操作を減らせます。
 
-Cometをメインブラウザにするなら、便利さだけでなく、どのデータを使わせるかという設定も一度見ておいた方がいいでしょう。
+一方、AIへほとんど質問せず、Web Pageを開くことが中心なら、Cometへ乗り換えても差は小さくなります。
 
-## 無料で使えるCometと、有料プランで使うCometは同じではない
+Cometを選ぶ理由は「Chromeより表示が速いか」ではなく、**Browserで見た情報をその場でAIへ理解させ、次のActionまで進めたいか**です。
 
-Cometそのものは、Perplexityアカウントを作らなくてもブラウザとして利用でき、基本的なAI機能を試せます。
+## Cometはどんな人に向いている？
 
-ただ、本格的にComet Assistantを使うところまで考えると、Perplexityのプラン差が出てきます。
+調べ物でTabを大量に開く人には相性があります。
 
-無料版のPerplexityと、有料のProやMaxでは、高度なモデルやブラウザエージェントの利用範囲が同じではありません。
+製品比較、旅行計画、競合Research、就職活動など、複数Pageを行き来して最後に情報を整理する仕事ではComet Assistantの価値が分かりやすくなります。
 
-特にMaxでは、Comet向けのMax Assistantも提供されています。
+Perplexityを普段から使っている人にも自然です。
 
-なので、「Cometは無料だから全部無料で使える」と考えるより、まずブラウザ自体を無料で試して、Assistantを日常的に使いたくなったところでPerplexityのプランを検討する方が分かりやすいです。
+検索結果を確認して終わるのではなく、そのままPageを読み、追加調査し、別Tabへ広げる流れを一つのBrowserで続けられます。
 
-普段からPerplexity Proを契約している人なら、Cometを試す意味はかなり大きくなります。
+一方、会社の業務が特定のChrome Environmentへ依存している人や、Linux / ChromeOS Desktopを使っている人は対応状況を確認した方がよいでしょう。
 
-## Google ChromeにGeminiがあるなら、わざわざCometへ移る必要はある？
+## まとめ｜CometはWebを見る作業とAIへの相談を分けたくない人向け
 
-ここは2026年のCometを考えるうえで避けられません。
+Perplexity Cometは、Chromium BrowserへPerplexity SearchとComet Assistantを統合したAI Browserです。
 
-Google ChromeにもGeminiが入り、今見ているページの要約や複数タブの比較、ブラウザ操作をAIに任せる機能まで広がっています。
+Pageの要約、複数Tabの比較、Browsing Historyからの検索、Web上のTask実行などをBrowser内で進められます。
 
-つまり、「ブラウザにAIがいる」というだけではComet独自の強みとは言えなくなっています。
+Browser自体は無料で、Accountなしでも基本機能を試せます。Sign inするとHistory Syncやより高度なAI機能を使いやすくなります。
 
-違いは、ブラウザの中心に何を置いているかです。
-
-Chromeは、これまでのChromeを使いながらGeminiを追加していく考え方です。
-
-Cometは最初からPerplexity検索とAI Assistantを中心に設計されています。
-
-Google検索やGmail、Googleサービスを中心に生活しているならChrome＋Geminiの方が自然な人も多いでしょう。
-
-反対に、普段の検索自体をPerplexityへかなり置き換えていて、「検索してページを開いて、また検索する」という流れそのものを変えたいならCometの方が面白いです。
-
-## Cometへ完全移行するより、まず調査用ブラウザとして使うのもあり
-
-ブラウザは毎日使うものなので、いきなり全部を乗り換える必要はありません。
-
-ChromeやSafariを普段使いに残しながら、調査する時だけCometを使う方法でも十分価値があります。
-
-複数の商品を比べる。競合サービスを調べる。旅行先を調べる。資料を集めながら文章を書く。
-
-こういう「何タブも開く作業」では、AIがブラウザの文脈を持っている効果が分かりやすいです。
-
-逆に、毎日決まった数サイトしか見ない人なら、AIブラウザへ乗り換えても変化はそれほど大きくありません。
-
-Cometの価値は、Webを見る時間そのものより、Webで調べものをする時間が長い人ほど出やすいです。
-
-## まとめ
-
-Perplexity Cometは、ChromeにAIチャットを足しただけのブラウザではありません。
-
-Perplexity検索、今見ているページ、タブ、閲覧履歴、ブラウザ操作を一つにつなげて、Webで調べる作業そのものを短くしようとしているブラウザです。
-
-Chromeとの互換性をある程度保ちながら移行できるので、すでにPerplexityを検索の中心にしている人なら試す価値はかなりあります。
-
-ただ、Chrome＋Geminiも急速に同じ領域へ入っています。
-
-Googleのサービスを中心に使っているならChromeをそのまま使う方が自然ですし、Web検索と調査をPerplexity中心へ変えたいならCometの方が面白い。
-
-「AIブラウザだから乗り換える」のではなく、自分が毎日ブラウザで何に時間を使っているかで選ぶのがよさそうです。
+Chromeから乗り換える価値があるかは、普通のWeb閲覧より、調査・比較・ActionをAIへ任せる回数が多いかで決まります。
