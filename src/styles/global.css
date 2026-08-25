@@ -2246,10 +2246,13 @@ blockquote {
 }
 
 .article-body h2 {
-  position: relative;
   counter-increment: article-section;
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  align-items: baseline;
+  column-gap: 10px;
   margin-top: 58px;
-  padding: 18px 0 30px;
+  padding: 18px 0 0;
   border-top: 0;
   color: #102033;
   font-size: 27px;
@@ -2258,10 +2261,6 @@ blockquote {
 
 .article-body h2::before {
   content: counter(article-section) ".";
-  position: absolute;
-  left: -46px;
-  top: 18px;
-  width: 40px;
   color: var(--color-brand);
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: 26px;
@@ -2273,13 +2272,13 @@ blockquote {
 }
 
 .article-body h2::after {
-  position: absolute;
-  right: 0;
-  bottom: 14px;
-  left: 0;
-  height: 1px;
+  display: block;
+  grid-column: 1 / -1;
+  width: 100%;
+  height: 2px;
+  margin-top: 6px;
   border-radius: 999px;
-  background: rgba(0, 103, 177, 0.82);
+  background: linear-gradient(90deg, var(--color-brand), rgba(77, 163, 255, 0.72), rgba(77, 163, 255, 0.18));
   content: "";
 }
 
@@ -3682,17 +3681,16 @@ main {
 
 @media (max-width: 767px) {
   .article-body h2 {
-    padding: 16px 0 26px 42px;
+    column-gap: 8px;
+    padding-top: 16px;
+    font-size: 24px;
   }
 
   .article-body h2::before {
-    left: 0;
-    top: 16px;
+    font-size: 23px;
   }
 
   .article-body h2::after {
-    right: 0;
-    bottom: 12px;
-    left: 42px;
+    margin-top: 5px;
   }
 }
