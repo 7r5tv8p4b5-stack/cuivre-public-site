@@ -87,6 +87,12 @@ export function articleDate(frontmatter) {
   return frontmatter.updatedAt || frontmatter.publishedAt || "";
 }
 
+export function sortByLatestActivity(a, b) {
+  const dateCompare = String(articleDate(b.frontmatter)).localeCompare(String(articleDate(a.frontmatter)));
+  if (dateCompare !== 0) return dateCompare;
+  return String(a.slug).localeCompare(String(b.slug));
+}
+
 export function articleCategory(frontmatter) {
   return frontmatter.primaryCategory || frontmatter.category || frontmatter.parentCategory || "未分類";
 }

@@ -1169,8 +1169,9 @@ p {
   display: grid;
   gap: 6px;
   margin: 0;
-  padding: 0 12px 14px 0;
+  padding: 0 8px 14px 0;
   list-style: none;
+  scrollbar-gutter: stable;
 }
 
 .article-toc ul {
@@ -3266,8 +3267,26 @@ main {
 
   .article-toc ol {
     min-height: 0;
+    padding-right: 8px;
     padding-left: 0;
     overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(138, 152, 168, 0.55) transparent;
+  }
+
+  .article-toc ol::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  .article-toc ol::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .article-toc ol::-webkit-scrollbar-thumb {
+    border: 2px solid transparent;
+    border-radius: 999px;
+    background: rgba(138, 152, 168, 0.5);
+    background-clip: content-box;
   }
 
   .article-main {

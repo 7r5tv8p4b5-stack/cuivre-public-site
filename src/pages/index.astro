@@ -6,12 +6,16 @@ import {
   articleHref,
   featuredArticleFrom,
   publicArticlesFromModules,
+  sortByLatestActivity,
 } from "../data/site.js";
 
 const modules = import.meta.glob("../content/articles/*.md", { eager: true });
 const publishedArticles = publicArticlesFromModules(modules);
 const featuredArticle = featuredArticleFrom(publishedArticles);
-const latestArticles = publishedArticles.filter((article) => article.slug !== featuredArticle?.slug).slice(0, 5);
+const latestArticles = [...publishedArticles]
+  .filter((article) => article.slug !== featuredArticle?.slug)
+  .sort(sortByLatestActivity)
+  .slice(0, 5);
 const popularSlugs = [
   "perplexity-review",
   "chatgpt-vs-claude-vs-gemini",
