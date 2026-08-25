@@ -30,7 +30,7 @@ export async function getStaticPaths() {
       })
       .filter((article) => article.score > 0)
       .sort((a, b) => b.score - a.score);
-    const relatedArticles = scoredRelatedArticles.slice(0, 3);
+    const relatedArticles = scoredRelatedArticles.slice(0, 6);
     const recommendedArticles = scoredRelatedArticles.slice(0, 4);
     return { params: { slug: current.slug }, props: { article: modules[`../../content/articles/${current.slug}.md`], relatedArticles, recommendedArticles } };
   });

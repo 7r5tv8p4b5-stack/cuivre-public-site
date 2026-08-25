@@ -56,7 +56,7 @@ const description = "Cuivreで公開している記事を、サービス名・�
     <div class="article-list search-results-grid" data-search-results hidden>
       {searchItems.map((item, index) => (
         <div data-search-card data-search-text={item.text} data-search-tags={item.tags.join("|||")} data-search-fallback={index < 6 ? "true" : "false"} hidden>
-          <ArticleCard article={item.article} variant="large" />
+          <ArticleCard article={item.article} />
         </div>
       ))}
     </div>

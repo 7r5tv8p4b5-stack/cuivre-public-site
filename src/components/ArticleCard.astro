@@ -4,7 +4,7 @@ const { article, variant = "default" } = Astro.props;
 const { frontmatter } = article;
 const appIcon = frontmatter.appIcon || frontmatter.app_icon;
 const category = articleCategory(frontmatter);
-const cardVariant = variant === "large" ? "standard" : variant;
+const cardVariant = variant === "large" ? "compact" : variant;
 const tagHref = `/search/?tag=${encodeURIComponent(category)}`;
 const visibleTitle = articleDisplayTitle(frontmatter);
 const subtitle = articleSubtitle(frontmatter);

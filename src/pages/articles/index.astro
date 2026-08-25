@@ -16,7 +16,7 @@ const comparisonArticles = articles.filter((article) => (article.frontmatter.art
     <p class="empty-message">現在、公開準備中です。</p>
   ) : (
     <div class="article-list">
-      {articles.map((article) => <ArticleCard article={article} variant="large" />)}
+      {articles.map((article) => <ArticleCard article={article} />)}
     </div>
   )}
   {comparisonArticles.length > 0 && (
@@ -28,7 +28,7 @@ const comparisonArticles = articles.filter((article) => (article.frontmatter.art
         </div>
       </div>
       <div class="article-list">
-        {comparisonArticles.map((article) => <ArticleCard article={article} variant="large" />)}
+        {comparisonArticles.map((article) => <ArticleCard article={article} />)}
       </div>
     </section>
   )}

@@ -30,7 +30,7 @@ const articles = Object.entries(modules)
     <p class="empty-message">現在、公開準備中です。</p>
   ) : (
     <div class="article-list">
-      {articles.map((article) => <ArticleCard article={article} variant="large" />)}
+      {articles.map((article) => <ArticleCard article={article} />)}
     </div>
   )}
 </BaseLayout>
