@@ -2249,7 +2249,7 @@ blockquote {
   position: relative;
   counter-increment: article-section;
   margin-top: 58px;
-  padding: 18px 0 14px;
+  padding: 18px 0 30px;
   border-top: 0;
   color: #102033;
   font-size: 27px;
@@ -2274,13 +2274,12 @@ blockquote {
 
 .article-body h2::after {
   position: absolute;
-  left: -4px;
-  top: 17px;
-  width: 3px;
-  height: calc(100% - 28px);
-  min-height: 30px;
+  right: 0;
+  bottom: 14px;
+  left: 0;
+  height: 1px;
   border-radius: 999px;
-  background: linear-gradient(180deg, var(--color-brand), rgba(77, 163, 255, 0.38));
+  background: rgba(0, 103, 177, 0.82);
   content: "";
 }
 
@@ -3683,7 +3682,7 @@ main {
 
 @media (max-width: 767px) {
   .article-body h2 {
-    padding-left: 42px;
+    padding: 16px 0 26px 42px;
   }
 
   .article-body h2::before {
@@ -3692,6 +3691,8 @@ main {
   }
 
   .article-body h2::after {
-    left: 34px;
+    right: 0;
+    bottom: 12px;
+    left: 42px;
   }
 }
