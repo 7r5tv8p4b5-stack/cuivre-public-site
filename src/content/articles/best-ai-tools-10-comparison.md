@@ -178,7 +178,7 @@ Gensparkは複数AI・生成機能をまとめたワークスペース寄り、M
 
 歌詞や曲のイメージから音楽そのものを生成したいならSunoが候補です。
 
-## 1. Perplexity｜AI検索・調査なら第一候補
+## Perplexity｜AI検索・調査なら第一候補
 
 Perplexityは、AI検索を使いたい人に分かりやすいサービスです。
 
@@ -203,7 +203,7 @@ Researchでは、通常検索よりも深い調査をAIに任せることもで�
 **詳しく見る：**
 https://cuivre-public-site.pages.dev/articles/perplexity-review/
 
-## 2. Claude｜文章・コード・長い作業に強い総合AI
+## Claude｜文章・コード・長い作業に強い総合AI
 
 ClaudeはAnthropicが提供する生成AIです。
 
@@ -229,7 +229,7 @@ ClaudeはAnthropicが提供する生成AIです。
 **詳しく見る：**
 https://cuivre-public-site.pages.dev/articles/claude-review/
 
-## 3. Gemini｜GoogleサービスとAIをつなげたい人向け
+## Gemini｜GoogleサービスとAIをつなげたい人向け
 
 GeminiはGoogleの生成AIです。
 
@@ -252,7 +252,7 @@ Googleサービスをほとんど使わない場合は、Geminiの連携メリ�
 **詳しく見る：**
 https://cuivre-public-site.pages.dev/articles/gemini-review/
 
-## 4. NotebookLM｜PDF・資料を読み込ませるなら強い
+## NotebookLM｜PDF・資料を読み込ませるなら強い
 
 NotebookLMは、自分で追加した資料を中心にAIと対話できるGoogleのサービスです。
 
@@ -278,7 +278,7 @@ Audio Overviewなど、資料を別形式へ変換して理解する機能も特
 **詳しく見る：**
 https://cuivre-public-site.pages.dev/articles/notebooklm-review/
 
-## 5. Genspark｜複数のAIツールをまとめたい人向け
+## Genspark｜複数のAIツールをまとめたい人向け
 
 GensparkはAI検索からスタートし、2026年現在はAIワークスペースへ大きく広がっています。
 
@@ -302,7 +302,7 @@ AI Chat、Slides、Docs、Sheets、Code、画像、動画、Super Agentなど、
 **詳しく見る：**
 https://cuivre-public-site.pages.dev/articles/genspark-review/
 
-## 6. Manus｜仕事をAIエージェントへ任せたい人向け
+## Manus｜仕事をAIエージェントへ任せたい人向け
 
 ManusはAIエージェントを中心としたサービスです。
 
@@ -325,7 +325,7 @@ ManusはAIエージェントを中心としたサービスです。
 **詳しく見る：**
 https://cuivre-public-site.pages.dev/articles/manus-review/
 
-## 7. Gamma｜プレゼン資料をAIで一気に作る
+## Gamma｜プレゼン資料をAIで一気に作る
 
 Gammaは、AIを使ってプレゼンテーション、ドキュメント、Webページなどを生成できるサービスです。
 
@@ -348,7 +348,7 @@ PDFやPPTXを読み込み、既存資料を作り直すこともできます。
 **詳しく見る：**
 https://cuivre-public-site.pages.dev/articles/gamma-review/
 
-## 8. Canva AI｜デザイン制作全体をAI化したい人向け
+## Canva AI｜デザイン制作全体をAI化したい人向け
 
 Canva AIは、Canvaに統合されたAI制作機能です。
 
@@ -372,7 +372,7 @@ Canva AI 2.0では、会話しながらデザインを生成・修正し、生�
 **詳しく見る：**
 https://cuivre-public-site.pages.dev/articles/canva-ai-review/
 
-## 9. Napkin AI｜文章を図解へ変えるなら便利
+## Napkin AI｜文章を図解へ変えるなら便利
 
 Napkin AIは、文章から図解やビジュアルを作ることに特化したAIサービスです。
 
@@ -395,7 +395,7 @@ PowerPointで図形や矢印を手作業している人には、特に時間短�
 **詳しく見る：**
 https://cuivre-public-site.pages.dev/articles/napkin-ai-review/
 
-## 10. Suno｜AIで音楽を作りたい人向け
+## Suno｜AIで音楽を作りたい人向け
 
 SunoはAI音楽生成サービスです。
 
