@@ -12,18 +12,15 @@ const cardSummary = subtitle || frontmatter.description;
 ---
 <article class:list={["article-card", `article-card--${cardVariant}`]}>
   <div class="article-card__body">
-    {appIcon?.src && (
-      <div class="article-card__app">
-        <img src={appIcon.src} alt={appIcon.alt || `${frontmatter.title}公式アイコン`} loading="lazy" decoding="async" />
-        <span>{frontmatter.serviceName || frontmatter.serviceNames?.[0] || frontmatter.title.split("は")[0]}</span>
-      </div>
-    )}
     <div class="article-card__meta">
       <a class="badge article-card__tag" href={tagHref} aria-label={`${category}の記事を見る`}>{category}</a>
       {articleDate(frontmatter) && <time datetime={articleDate(frontmatter)}>{articleDate(frontmatter)}</time>}
     </div>
     <a class="article-card__link" href={articleHref(article)}>
-      <h3>{visibleTitle}</h3>
+      <div class:list={["article-card__title", appIcon?.src && "article-card__title--with-icon"]}>
+        {appIcon?.src && <img class="article-card__title-icon" src={appIcon.src} alt="" aria-hidden="true" loading="lazy" decoding="async" />}
+        <h3>{visibleTitle}</h3>
+      </div>
       {cardSummary && <p>{cardSummary}</p>}
       <span class="article-card__arrow" aria-hidden="true">→</span>
     </a>
