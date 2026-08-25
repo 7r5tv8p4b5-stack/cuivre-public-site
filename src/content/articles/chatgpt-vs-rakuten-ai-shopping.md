@@ -1,5 +1,7 @@
 ---
 title: "ChatGPTショッピングとRakuten AIを比較｜Web横断と楽天市場内、どっちが買い物に向く？【2026年版】"
+displayTitle: "ChatGPTショッピングとRakuten AIを比較"
+subtitle: "Web横断と楽天市場内の商品探し・比較・購入導線の違いを比較"
 description: "ChatGPTショッピングと楽天市場Rakuten AIを、商品範囲、会話検索、画像、比較、購入導線、楽天経済圏で比較します。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-22"

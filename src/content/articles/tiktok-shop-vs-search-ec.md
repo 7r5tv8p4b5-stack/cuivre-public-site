@@ -1,5 +1,7 @@
 ---
 title: "TikTok ShopとAmazon・楽天型ECは何が違う？ディスカバリーECと検索ECを比較【2026年版】"
+displayTitle: "TikTok ShopとAmazon・楽天型ECを比較"
+subtitle: "商品発見・検索・LIVE・価格確認・買い方の違いを比較"
 description: "TikTok ShopのディスカバリーECとAmazon・楽天など検索型ECを、商品発見、比較、LIVE、価格確認、買い方で比較します。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-22"

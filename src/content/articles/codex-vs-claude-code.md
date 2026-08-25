@@ -1,5 +1,7 @@
 ---
 title: "CodexとClaude Codeを比較｜デスクトップ・CLI・クラウド・長時間開発はどっち？【2026年版】"
+displayTitle: "CodexとClaude Codeを比較"
+subtitle: "デスクトップ・CLI・クラウド・長時間開発の違いを比較"
 description: "OpenAI CodexとClaude Codeをデスクトップ、CLI、クラウド、モデル、並列エージェント、ターミナル開発、権限管理で比較します。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-22"

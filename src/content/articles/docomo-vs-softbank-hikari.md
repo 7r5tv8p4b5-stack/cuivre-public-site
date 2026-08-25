@@ -1,5 +1,7 @@
 ---
 title: "ドコモ光とSoftBank 光を比較｜1ギガ料金・スマホ割・工事・解約はどっち？【2026年版】"
+displayTitle: "ドコモ光とSoftBank 光を比較"
+subtitle: "1ギガ料金・スマホ割・工事費・契約条件の違いを比較"
 description: "ドコモ光とSoftBank 光を戸建・マンション1ギガ料金、スマホセット割、工事費、2年契約で比較します。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-22"

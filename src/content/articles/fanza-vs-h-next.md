@@ -1,5 +1,7 @@
 ---
 title: "FANZA vs H-NEXT｜成人向け見放題はどっちがいい？料金・作品数・使い方の違いを比較【2026年版】"
+displayTitle: "FANZAとH-NEXTを比較"
+subtitle: "成人向け見放題の料金・作品数・使い方の違いを比較"
 description: "FANZAとH-NEXTはどちらが向いているのか。料金、見放題の仕組み、作品数、一般向け動画とのセット利用、家族利用、使い分けまで整理して比較します。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-22"

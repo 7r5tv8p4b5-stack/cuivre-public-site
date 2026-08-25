@@ -1,5 +1,7 @@
 ---
 title: "ahamoとpovoを比較｜30GB料金・通話・海外・トッピングはどっち？【2026年版】"
+displayTitle: "ahamoとpovoを比較"
+subtitle: "30GB料金・通話・海外利用・トッピングの違いを比較"
 description: "ahamo30GB2,970円とpovo30GB30日2,780円等を、5分通話、海外、トッピング、回線、管理の手間で比較します。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-22"

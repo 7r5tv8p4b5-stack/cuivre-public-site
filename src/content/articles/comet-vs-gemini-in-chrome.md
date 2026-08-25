@@ -1,5 +1,7 @@
 ---
 title: "CometとGemini in Chromeを比較｜AI検索・タブ・履歴・Google連携はどっち？【2026年版】"
+displayTitle: "CometとGemini in Chromeを比較"
+subtitle: "AI検索・タブ・履歴・Google連携の違いを比較"
 description: "Perplexity CometとGemini in Chromeをブラウザ基盤、検索、タブ共有、履歴、拡張機能、Google連携、移行のしやすさで比較します。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-22"

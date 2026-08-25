@@ -1,5 +1,7 @@
 ---
 title: "SierraとDecagonを比較｜AIカスタマーサポート・成果課金・自己改善はどっち？【2026年版】"
+displayTitle: "SierraとDecagonを比較"
+subtitle: "AI Agent・成果課金・自己改善・有人支援の違いを比較"
 description: "SierraとDecagonをAI Agent、オムニチャネル、Outcome pricing、Horizon、Duet Autopilot、human assistで比較します。"
 publishedAt: "2026-08-23"
 updatedAt: "2026-08-23"

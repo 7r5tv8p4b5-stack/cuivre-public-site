@@ -1,5 +1,7 @@
 ---
 title: "Temu vs AliExpress｜どっちがいい？安さ・品揃え・返品・配送の違いを比較【2026年版】"
+displayTitle: "TemuとAliExpressを比較"
+subtitle: "安さ・品揃え・返品・配送の違いを比較"
 description: "TemuとAliExpressはどちらが向いているのか。安さ、品揃え、返品、価格調整、Choice、配送まで比較します。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-22"

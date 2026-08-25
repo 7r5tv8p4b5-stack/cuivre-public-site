@@ -1,5 +1,7 @@
 ---
 title: "ChatGPT deep researchとGemini Deep Researchを比較｜ソース・Google連携・使い分け【2026年版】"
+displayTitle: "ChatGPT deep researchとGemini Deep Researchを比較"
+subtitle: "ソース・Google連携・ファイル調査・使い分けを比較"
 description: "ChatGPT deep researchとGemini Deep Researchを公開Web、特定サイト、Gmail/Drive、ファイル、調査計画、出力で比較します。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-22"

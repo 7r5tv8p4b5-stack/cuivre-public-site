@@ -1,5 +1,7 @@
 ---
 title: "n8nとGumloopを比較｜AI Agent・ワークフロー・セルフホスト・料金はどっち？【2026年版】"
+displayTitle: "n8nとGumloopを比較"
+subtitle: "AI Agent・ワークフロー・セルフホスト・料金単位の違いを比較"
 description: "n8nとGumloopをAI Agent、ノード型ワークフロー、セルフホスト、Evals、料金単位、企業運用で比較します。"
 publishedAt: "2026-08-23"
 updatedAt: "2026-08-23"

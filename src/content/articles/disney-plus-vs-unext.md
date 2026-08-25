@@ -1,5 +1,7 @@
 ---
 title: "Disney+とU-NEXTはどっちがいい？料金・作品・使い方の違いを比較"
+displayTitle: "Disney+とU-NEXTを比較"
+subtitle: "料金・作品ジャンル・使い方の違いを比較"
 description: "Disney+とU-NEXTは、どちらも映画・ドラマ・アニメを楽しめる動画配信サービスです。"
 publishedAt: "2026-08-25"
 updatedAt: "2026-08-25"

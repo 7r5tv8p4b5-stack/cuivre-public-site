@@ -1,5 +1,7 @@
 ---
 title: "VapiとRetell AIを比較｜AI電話の料金・モデル・テスト・運用はどっち？【2026年版】"
+displayTitle: "VapiとRetell AIを比較"
+subtitle: "AI電話の料金・モデル自由度・テスト・運用機能の違いを比較"
 description: "VapiとRetell AIを料金構造、同時通話、モデル自由度、シミュレーション、分析、開発者向け度で比較します。"
 publishedAt: "2026-08-23"
 updatedAt: "2026-08-23"

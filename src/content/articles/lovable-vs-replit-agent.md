@@ -1,5 +1,7 @@
 ---
 title: "LovableとReplit Agent 4を比較｜AIアプリ開発・デザイン・バックエンド・公開はどっち？"
+displayTitle: "LovableとReplit Agent 4を比較"
+subtitle: "AIアプリ開発・デザイン・バックエンド・公開方法の違いを比較"
 description: "LovableとReplit Agent 4を自然言語開発、デザイン、Cloud、実行環境、並列タスク、チーム共同開発で比較します。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-22"
