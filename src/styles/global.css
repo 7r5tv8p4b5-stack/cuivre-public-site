@@ -3267,7 +3267,8 @@ main {
 
   .article-toc ol {
     min-height: 0;
-    padding-right: 8px;
+    margin-right: 32px;
+    padding-right: 6px;
     padding-left: 0;
     overflow-y: auto;
     scrollbar-width: thin;
