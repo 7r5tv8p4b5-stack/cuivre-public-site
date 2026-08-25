@@ -1,5 +1,7 @@
 ---
 title: "ICOCAとは？カード・モバイルICOCA・デポジット・WESTERポイントを解説【2026年版】"
+displayTitle: "ICOCA"
+subtitle: "カード・モバイルICOCA・デポジット・WESTERポイントを解説【2026年版】"
 description: "ICOCAのカード2,000円・デポジット500円、モバイルICOCA、Apple Pay、WESTERポイント、全国相互利用を整理します。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-22"

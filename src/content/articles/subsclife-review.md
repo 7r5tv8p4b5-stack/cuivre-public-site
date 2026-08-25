@@ -1,5 +1,7 @@
 ---
 title: "subsclifeとは？家具・家電サブスクの仕組み・料金・購入との違いを解説"
+displayTitle: "subsclife"
+subtitle: "家具・家電サブスクの仕組み・料金・購入との違いを解説"
 description: "subsclife by TOKYOROOMS（サブスクライフ）は、家具や家電を月額で利用できるサブスクリプション型のサービスです。ソファ、チェア、テーブル、照明、冷蔵庫、洗濯機など、デザイン家具から大型家電まで幅広く扱っています。"
 publishedAt: "2026-08-18"
 updatedAt: "2026-08-23"

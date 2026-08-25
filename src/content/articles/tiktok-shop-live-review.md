@@ -1,5 +1,7 @@
 ---
 title: "TikTok Shop LIVEとは？始め方・商品追加・売り方のコツまで解説"
+displayTitle: "TikTok Shop LIVE"
+subtitle: "始め方・商品追加・売り方のコツまで解説"
 description: "TikTok Shop LIVEは、TikTokのLIVE配信を見ているユーザーへ商品を紹介し、そのままTikTok Shopで購入してもらえるライブコマース機能です。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-24"

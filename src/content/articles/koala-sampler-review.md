@@ -1,5 +1,7 @@
 ---
 title: "Koala Samplerとは？使い方・料金・追加課金までわかりやすく解説"
+displayTitle: "Koala Sampler"
+subtitle: "使い方・料金・追加課金までわかりやすく解説"
 description: "Koala Samplerは、iPhoneやiPadのマイクで身の回りの音を録音し、その音を切り刻んだりエフェクトをかけたりしながらビートや楽曲を作れるサンプラーアプリです。専用のサンプラー機材がなくても、スマートフォンだけでサンプリングから曲作りまで進められます。"
 publishedAt: "2026-08-21"
 updatedAt: "2026-08-23"

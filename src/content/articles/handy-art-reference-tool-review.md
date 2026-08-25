@@ -1,5 +1,7 @@
 ---
 title: "Handy Art Reference Toolは買う価値ある？300円で使える3Dデッサン資料アプリを解説【2026年版】"
+displayTitle: "Handy Art Reference Tool"
+subtitle: "買う価値・300円で使える3Dデッサン資料アプリを解説【2026年版】"
 description: "Handy Art Reference Toolは買う価値がある？300円の買い切り価格、手・頭の3D資料、ライティング、追加課金、評判まで2026年最新情報をもとに解説します。"
 publishedAt: "2026-08-18"
 updatedAt: "2026-08-18"

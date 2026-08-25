@@ -1,5 +1,7 @@
 ---
 title: "Agoda（アゴダ）の評判・口コミは？安い理由とメリット・デメリット、予約前の注意点"
+displayTitle: "Agoda（アゴダ）"
+subtitle: "評判・口コミ、安い理由とメリット・デメリット、予約前の注意点"
 description: "Agoda（アゴダ）の評判・口コミ、安い理由、メリット・デメリット、予約前の注意点を公式情報・オリコン・Trustpilotをもとに整理します。"
 publishedAt: "2026-08-15"
 updatedAt: "2026-08-15"

@@ -1,5 +1,7 @@
 ---
 title: "BlackVideoは買う価値ある？300円で素早く無音録画できるカメラアプリを解説【2026年版】"
+displayTitle: "BlackVideo"
+subtitle: "買う価値・300円で素早く無音録画できるカメラアプリを解説【2026年版】"
 description: "BlackVideoは買う価値がある？300円の買い切り価格、起動後すぐ録画、無音撮影、4K、Wi-Fi転送、標準カメラとの違いまで解説します。"
 publishedAt: "2026-08-19"
 updatedAt: "2026-08-19"

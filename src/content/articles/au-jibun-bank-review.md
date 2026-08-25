@@ -1,5 +1,7 @@
 ---
 title: "auじぶん銀行とは？金利・手数料・au PAYとの連携まで解説"
+displayTitle: "auじぶん銀行"
+subtitle: "金利・手数料・au PAYとの連携まで解説"
 description: "auじぶん銀行は、スマートフォンを中心に使えるネット銀行です。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-24"

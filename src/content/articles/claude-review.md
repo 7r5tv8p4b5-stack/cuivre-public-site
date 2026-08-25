@@ -28,6 +28,8 @@ categoryTags:
   - "AI"
   - "生成AI"
 title: "Claudeとは？できること・使い方・無料版とPro・Maxの違いをわかりやすく解説"
+displayTitle: "Claude"
+subtitle: "できること・使い方・無料版とPro・Maxの違いをわかりやすく解説"
 description: "Claudeは、Anthropicが提供するAIアシスタントです。"
 updatedAt: "2026-08-24"
 ogTitle: "Claudeとは？できること・使い方・無料版とPro・Maxの違いをわかりやすく解説"

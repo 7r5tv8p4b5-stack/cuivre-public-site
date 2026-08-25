@@ -1,5 +1,7 @@
 ---
 title: "Kling AIとは？Kling 3.0・料金・無料枠・クレジット・商用利用を解説【2026年版】"
+displayTitle: "Kling AI"
+subtitle: "Kling 3.0・料金・無料枠・クレジット・商用利用を解説【2026年版】"
 description: "Kling AIのKling VIDEO 3.0、料金、無料枠、クレジット、Text to Video・Image to Video、4K、商用利用まで2026年の公式情報で整理します。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-22"

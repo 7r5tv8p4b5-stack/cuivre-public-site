@@ -1,5 +1,7 @@
 ---
 title: "Replit Agentとは？Agent 4の使い方・料金・Lovableとの違いを考える前に知りたい特徴"
+displayTitle: "Replit Agent"
+subtitle: "Agent 4の使い方・料金・Lovableとの違いを考える前に知りたい特徴"
 description: "Replit Agentは、作りたいアプリやWebサイトを自然な言葉で伝えると、設計、コード作成、データベース、テスト、公開まで進めてくれるAI開発エージェントです。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-24"

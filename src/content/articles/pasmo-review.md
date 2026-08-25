@@ -1,5 +1,7 @@
 ---
 title: "PASMOとは？カード・モバイルPASMO・デポジット・オートチャージを解説【2026年版】"
+displayTitle: "PASMO"
+subtitle: "カード・モバイルPASMO・デポジット・オートチャージを解説【2026年版】"
 description: "PASMOのカード、モバイルPASMO、デポジット500円、オートチャージ、定期券、Suicaとの違いを2026年情報で整理します。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-22"

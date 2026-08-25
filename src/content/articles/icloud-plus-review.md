@@ -1,5 +1,7 @@
 ---
 title: "iCloud+とは？料金・写真保存・バックアップと他社クラウドとの違いを解説"
+displayTitle: "iCloud+"
+subtitle: "料金・写真保存・バックアップと他社クラウドとの違いを解説"
 description: "iCloud+は、Appleが提供している有料のクラウドサービスです。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-25"

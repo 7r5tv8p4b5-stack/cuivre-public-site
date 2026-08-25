@@ -1,5 +1,7 @@
 ---
 title: "NURO 光とは？料金・2ギガと10ギガの違い・開通前の注意点まで解説"
+displayTitle: "NURO 光"
+subtitle: "料金・2ギガと10ギガの違い・開通前の注意点まで解説"
 description: "NURO 光は、ソニーネットワークコミュニケーションズが提供する光回線サービスです。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-25"

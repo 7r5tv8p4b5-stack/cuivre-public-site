@@ -1,5 +1,7 @@
 ---
 title: "コスモウォーターはどんなウォーターサーバー？料金・smartプラスNext・解約金まで解説"
+displayTitle: "コスモウォーター"
+subtitle: "どんなウォーターサーバーか、料金・smartプラスNext・解約金まで解説"
 description: "コスモウォーターは、採水した天然水を定期的に自宅へ届ける宅配型ウォーターサーバーです。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-24"

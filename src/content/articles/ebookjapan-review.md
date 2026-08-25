@@ -1,5 +1,7 @@
 ---
 title: "ebookjapanとは？使い方・料金・どんな人に向いているかをわかりやすく解説"
+displayTitle: "ebookjapan"
+subtitle: "使い方・料金・どんな人に向いているかをわかりやすく解説"
 description: "ebookjapanは、Yahoo! JAPAN IDで利用できる電子書籍サービスです。マンガを中心に、小説やライトノベル、実用書などをWebやスマートフォンアプリから読むことができます。無料作品も用意されていて、作品を購入するときはクレジットカードだけでなくPayPayも使えます。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-23"

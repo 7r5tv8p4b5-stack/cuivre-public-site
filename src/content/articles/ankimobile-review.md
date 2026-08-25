@@ -1,5 +1,7 @@
 ---
 title: "AnkiMobileとは？4,000円を払う意味とPC・Android版との違いをわかりやすく解説"
+displayTitle: "AnkiMobile Flashcards"
+subtitle: "4,000円を払う意味とPC・Android版との違いをわかりやすく解説"
 description: "AnkiMobile Flashcardsは、間隔反復を使って暗記カードを学習できるAnkiのiPhone・iPad向け公式アプリです。語学、資格、医学、受験など、繰り返し覚える必要がある内容をカード化し、「忘れそうなタイミング」に合わせて復習できます。"
 publishedAt: "2026-08-21"
 updatedAt: "2026-08-23"

@@ -1,5 +1,7 @@
 ---
 title: "YoungPhotoとは？構図ガイドの使い方・料金・350円払う意味を解説"
+displayTitle: "YoungPhoto"
+subtitle: "構図ガイドの使い方・料金・350円払う意味を解説"
 description: "YoungPhotoは、撮影画面に構図ガイドを表示し、そのガイドを見ながら雰囲気のある写真を撮れるiPhone向けカメラアプリです。日本のApp Store価格は350円です。"
 publishedAt: "2026-08-21"
 updatedAt: "2026-08-23"

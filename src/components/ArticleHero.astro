@@ -1,11 +1,13 @@
 ---
-import { articleCategory, articleDate } from "../data/site.js";
+import { articleCategory, articleDate, articleDisplayTitle, articleSubtitle } from "../data/site.js";
 const { frontmatter, articleSubject = "", hideDescription = false } = Astro.props;
 const appIcon = frontmatter.appIcon || frontmatter.app_icon;
 const appPlatforms = frontmatter.appPlatforms || frontmatter.app_platforms || "";
 const appPricing = frontmatter.appPricing || frontmatter.app_pricing || "";
 const appPrice = frontmatter.appPrice || frontmatter.app_price || "";
 const appDisplayName = frontmatter.serviceName || frontmatter.serviceNames?.[0] || articleSubject || frontmatter.title;
+const visibleTitle = articleDisplayTitle(frontmatter);
+const subtitle = articleSubtitle(frontmatter);
 ---
 <header class="article-hero">
   {appIcon?.src && (
@@ -23,7 +25,8 @@ const appDisplayName = frontmatter.serviceName || frontmatter.serviceNames?.[0] 
     <span class="badge">{articleCategory(frontmatter)}</span>
     {articleDate(frontmatter) && <time class="article-date" datetime={articleDate(frontmatter)}>更新日: {articleDate(frontmatter)}</time>}
   </div>
-  <h1>{frontmatter.title}</h1>
+  <h1>{visibleTitle}</h1>
+  {subtitle && <p class="article-subtitle">{subtitle}</p>}
   {frontmatter.description && !hideDescription && <p class="article-summary">{frontmatter.description}</p>}
   {frontmatter.affiliateDisclosure && <p class="article-disclosure">この記事にはアフィリエイト広告を含む場合があります。掲載有無にかかわらず、公式情報を優先して整理しています。</p>}
   {articleSubject && <span class="article-subject">{articleSubject}</span>}

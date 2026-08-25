@@ -28,6 +28,8 @@ categoryTags:
   - "AI"
   - "生成AI"
 title: "Geminiとは？できること・使い方・無料版とGoogle AI Pro・Ultraの違いを解説"
+displayTitle: "Gemini"
+subtitle: "できること・使い方・無料版とGoogle AI Pro・Ultraの違いを解説"
 description: "Geminiは、Googleが提供する生成AIサービスです。"
 updatedAt: "2026-08-24"
 ogTitle: "Geminiとは？できること・使い方・無料版とGoogle AI Pro・Ultraの違いを解説"

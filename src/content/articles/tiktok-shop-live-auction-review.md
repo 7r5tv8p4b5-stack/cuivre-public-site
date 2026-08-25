@@ -1,5 +1,7 @@
 ---
 title: "TikTok Shop LIVEオークションとは？入札の仕組み・出品方法・注意点を解説"
+displayTitle: "TikTok Shop LIVEオークション"
+subtitle: "入札の仕組み・出品方法・注意点を解説"
 description: "TikTok ShopのLIVEオークションは、LIVE配信を見ているユーザーがリアルタイムで商品へ入札し、終了時点で最も高い価格を提示した人が購入できる販売機能です。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-24"

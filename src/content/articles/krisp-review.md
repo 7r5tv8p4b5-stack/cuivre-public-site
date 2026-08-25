@@ -1,5 +1,7 @@
 ---
 title: "Krispとは？ノイズ除去・AI議事録の使い方と料金をわかりやすく解説"
+displayTitle: "Krisp"
+subtitle: "ノイズ除去・AI議事録の使い方と料金をわかりやすく解説"
 description: "Krispは、オンライン会議のノイズをリアルタイムで除去しながら、録音・文字起こし・AI議事録までまとめて行えるミーティングツールです。"
 publishedAt: "2026-08-12"
 updatedAt: "2026-08-24"

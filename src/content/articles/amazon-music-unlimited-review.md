@@ -1,5 +1,7 @@
 ---
 title: "Amazon Music Unlimitedとは？料金・Primeとの違い・HD・空間オーディオを解説【2026年版】"
+displayTitle: "Amazon Music Unlimited"
+subtitle: "料金・Primeとの違い・HD・空間オーディオを解説【2026年版】"
 description: "Amazon Music Unlimitedの個人月額1,180円、プライム会員1,080円、1億曲以上、HD・空間オーディオ、オーディオブック、Prime Musicとの違いを2026年公式情報で整理します。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-22"

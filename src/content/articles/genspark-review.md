@@ -28,6 +28,8 @@ categoryTags:
   - "AI"
   - "AIエージェント"
 title: "Gensparkとは？AIワークスペースの使い方・料金・無料版でどこまでできるかを解説"
+displayTitle: "Genspark"
+subtitle: "AIワークスペースの使い方・料金・無料版でどこまでできるかを解説"
 description: "Gensparkは、AI検索だけでなく、調査、スライド・文書・表計算の作成、画像・動画・音楽生成、コーディング、メール処理などを一つの環境で進められるAIワークスペースです。"
 updatedAt: "2026-08-24"
 ogTitle: "Gensparkとは？AIワークスペースの使い方・料金・無料版でどこまでできるかを解説"

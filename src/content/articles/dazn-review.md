@@ -1,5 +1,7 @@
 ---
 title: "DAZNとは？料金・DAZN BASEBALL・見られるスポーツ・注意点を解説【2026年版】"
+displayTitle: "DAZN"
+subtitle: "料金・DAZN BASEBALL・見られるスポーツ・注意点を解説【2026年版】"
 description: "DAZNの料金、DAZN StandardとDAZN BASEBALLの違い、プロ野球の配信範囲、同時視聴、年間契約の注意点まで2026年の公式情報をもとに整理します。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-22"

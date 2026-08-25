@@ -1,5 +1,7 @@
 ---
 title: "MeetGeekとは？無料版とPro・Businessの違い、使い方をわかりやすく解説"
+displayTitle: "MeetGeek"
+subtitle: "無料版とPro・Businessの違い、使い方をわかりやすく解説"
 description: "MeetGeekは、Zoom、Google Meet、Microsoft Teamsなどの会議を録音・文字起こしし、AIで要約、アクションアイテム、分析まで自動化できるAI議事録サービスです。"
 publishedAt: "2026-08-13"
 updatedAt: "2026-08-23"

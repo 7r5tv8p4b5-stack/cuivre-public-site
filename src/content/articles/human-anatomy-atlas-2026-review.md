@@ -1,5 +1,7 @@
 ---
 title: "Human Anatomy Atlas 2026とは？使い方・料金・どんな人に向いているかをわかりやすく解説"
+displayTitle: "Human Anatomy Atlas 2026"
+subtitle: "使い方・料金・どんな人に向いているかをわかりやすく解説"
 description: "Human Anatomy Atlas 2026は、人体を3Dモデルで確認しながら解剖学を学べるVisible Bodyのアプリです。骨格、筋肉、臓器、血管、神経などを立体的に回転・拡大し、教科書の平面図だけでは分かりにくい位置関係を確認できます。"
 publishedAt: "2026-08-21"
 updatedAt: "2026-08-23"

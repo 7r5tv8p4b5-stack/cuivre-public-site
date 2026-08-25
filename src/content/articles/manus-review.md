@@ -28,6 +28,8 @@ categoryTags:
   - "AI"
   - "AIエージェント"
 title: "Manusとは？AIエージェントの使い方・料金・無料版でどこまでできるかを解説"
+displayTitle: "Manus"
+subtitle: "AIエージェントの使い方・料金・無料版でどこまでできるかを解説"
 description: "Manusは、質問に答えるだけでなく、調査、Web操作、ファイル作成、スライド生成、Webサイト制作など、依頼した仕事を複数の手順に分けて実行できるAIエージェントです。"
 updatedAt: "2026-08-24"
 ogTitle: "Manusとは？AIエージェントの使い方・料金・無料版でどこまでできるかを解説"

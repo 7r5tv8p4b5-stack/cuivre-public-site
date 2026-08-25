@@ -1,5 +1,7 @@
 ---
 title: "Amazon Prime Videoとは？料金・Amazonプライム・広告・レンタル・特典を解説【2026年版】"
+displayTitle: "Amazon Prime Video"
+subtitle: "料金・Amazonプライム・広告・レンタル・特典を解説【2026年版】"
 description: "Amazon Prime VideoのAmazonプライム月600円・年5,900円、動画見放題、広告、レンタル・購入、Prime Videoチャンネル、配送特典との関係を整理します。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-22"

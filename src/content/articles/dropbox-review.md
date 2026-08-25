@@ -1,5 +1,7 @@
 ---
 title: "Dropboxとは？料金・使い方・Google Driveなど他のクラウドストレージとの違いを解説"
+displayTitle: "Dropbox"
+subtitle: "料金・使い方・Google Driveなど他のクラウドストレージとの違いを解説"
 description: "Dropboxは、インターネット上にファイルを保存できるクラウドストレージサービスです。パソコンやスマートフォンに保存している写真、書類、動画などをオンライン上へ保存し、複数の端末から同じファイルへアクセスできます。クラウドストレージに"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-25"

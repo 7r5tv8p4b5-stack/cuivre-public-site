@@ -1,5 +1,7 @@
 ---
 title: "Suicaとは？カード・モバイルSuica・デポジット・オートチャージ・JRE POINTを解説【2026年版】"
+displayTitle: "Suica"
+subtitle: "カード・モバイルSuica・デポジット・オートチャージ・JRE POINTを解説【2026年版】"
 description: "Suicaのカードタイプ、デポジット500円、モバイルSuica、ビューカードの1.5％還元、全国相互利用、定期券まで整理します。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-22"

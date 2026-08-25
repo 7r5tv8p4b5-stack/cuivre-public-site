@@ -1,5 +1,7 @@
 ---
 title: "au PAYとは？還元率・Pontaポイント・チャージ・請求書払いを解説【2026年版】"
+displayTitle: "au PAY"
+subtitle: "還元率・Pontaポイント・チャージ・請求書払いを解説【2026年版】"
 description: "au PAYの基本還元率0.5％、Pontaポイント、残高チャージ、クレジットカード、銀行口座、auかんたん決済、請求書払い、Pontaパス連携まで2026年公式情報で整理します。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-22"

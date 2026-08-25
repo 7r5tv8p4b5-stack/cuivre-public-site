@@ -1,5 +1,7 @@
 ---
 title: "AEON Payとは？WAON POINT・イオンカード・WAONタッチ・チャージ払いを解説【2026年版】"
+displayTitle: "AEON Pay"
+subtitle: "WAON POINT・イオンカード・WAONタッチ・チャージ払いを解説【2026年版】"
 description: "AEON Payのイオンカード払い、チャージ払い、WAONタッチ、WAON POINT、イオングループでのポイント、iAEONとの関係を2026年公式情報で整理します。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-22"

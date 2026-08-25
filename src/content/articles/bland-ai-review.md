@@ -1,5 +1,7 @@
 ---
 title: "Bland AIとは？電話AIのPathways・使い方・料金をわかりやすく解説"
+displayTitle: "Bland AI"
+subtitle: "電話AIのPathways・使い方・料金をわかりやすく解説"
 description: "Bland AIは、企業の電話対応をAIへ任せるためのVoice AIプラットフォームです。"
 publishedAt: "2026-08-23"
 updatedAt: "2026-08-24"

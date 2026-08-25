@@ -1,5 +1,7 @@
 ---
 title: "Google Drive・Google Oneとは？料金・容量追加の仕組みと他社クラウドストレージとの違いを解説"
+displayTitle: "Google Drive / Google One"
+subtitle: "料金・容量追加の仕組みと他社クラウドストレージとの違いを解説"
 description: "Google Driveは、Googleが提供しているオンラインストレージサービスです。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-25"

@@ -1,5 +1,7 @@
 ---
 title: "楽天モバイルとは？料金・Rakuten Link・無制限で使うときの注意点まで解説"
+displayTitle: "楽天モバイル"
+subtitle: "料金・Rakuten Link・無制限で使うときの注意点まで解説"
 description: "楽天モバイルは、毎月のデータ利用量に応じて料金が変わる「Rakuten最強プラン」を中心に提供している携帯キャリアです。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-24"

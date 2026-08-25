@@ -1,5 +1,7 @@
 ---
 title: "Procreate Pocketとは？使い方・料金・iPad版Procreateとの違いをわかりやすく解説"
+displayTitle: "Procreate Pocket"
+subtitle: "使い方・料金・iPad版Procreateとの違いをわかりやすく解説"
 description: "Procreate Pocketは、iPhoneだけで本格的なイラストやスケッチ、アニメーションを作れる買い切り型の描画アプリです。iPadで人気のProcreateと同じシリーズですが、PocketはiPhone向けに画面や操作を最適化した別アプリです。"
 publishedAt: "2026-08-21"
 updatedAt: "2026-08-23"

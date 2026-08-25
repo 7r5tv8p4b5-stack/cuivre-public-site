@@ -1,5 +1,7 @@
 ---
 title: "Rakuten TVの成人向け動画とは？AV見放題・レンタル・購入終了後の使い方を解説【2026年版】"
+displayTitle: "Rakuten TV成人向け"
+subtitle: "AV見放題・レンタル・購入終了後の使い方を解説【2026年版】"
 description: "Rakuten TVの成人向け動画サービスについて、AV見放題、レンタル、2025年末に終了した購入コンテンツ、楽天市場の履歴との分離、利用方法や注意点まで整理して解説します。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-22"

@@ -1,5 +1,7 @@
 ---
 title: "Lovableとは？AIでWebアプリを作る方法・料金・無料版でどこまで試せるかを解説"
+displayTitle: "Lovable"
+subtitle: "AIでWebアプリを作る方法・料金・無料版でどこまで試せるかを解説"
 description: "Lovableは、作りたいWebサイトやWebアプリを自然な言葉で説明すると、AIがコードを書き、画面・データベース・認証・公開まで進めてくれるAIソフトウェア開発サービスです。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-24"

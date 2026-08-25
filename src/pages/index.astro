@@ -3,7 +3,9 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import ArticleCard from "../components/ArticleCard.astro";
 import Icon from "../components/Icon.astro";
 import {
+  articleDisplayTitle,
   articleHref,
+  articleSubtitle,
   featuredArticleFrom,
   publicArticlesFromModules,
   sortByLatestActivity,
@@ -27,6 +29,8 @@ const popularArticles = popularSlugs
   .map((slug) => publishedArticles.find((article) => article.slug === slug))
   .filter(Boolean)
   .slice(0, latestArticles.length || 5);
+const featuredTitle = featuredArticle ? articleDisplayTitle(featuredArticle.frontmatter) : "";
+const featuredSummary = featuredArticle ? articleSubtitle(featuredArticle.frontmatter) || featuredArticle.frontmatter.description : "";
 
 const title = "Cuivre｜まだ知らない、便利な選択肢を。";
 const description = "Cuivreは、AIサービスを中心に、特徴・料金・注意点・向いている人を整理する編集型メディアです。公式情報をもとに、自分に合うサービス選びをサポートします。";
@@ -45,8 +49,8 @@ const organizationJsonLd = {
     <section class="home-feature">
       <div class="home-feature__copy">
         <span class="spotlight-label">今週の注目</span>
-        <h1>{featuredArticle.frontmatter.title}</h1>
-        <p>{featuredArticle.frontmatter.description}</p>
+        <h1>{featuredTitle}</h1>
+        <p>{featuredSummary}</p>
         <a class="button-primary" href={articleHref(featuredArticle)}>
           記事を読む <Icon name="arrow" />
         </a>

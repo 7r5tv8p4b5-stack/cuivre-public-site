@@ -1,5 +1,7 @@
 ---
 title: "Read AIとは？使い方・料金・どんな人に向いているかをわかりやすく解説"
+displayTitle: "Read AI"
+subtitle: "使い方・料金・どんな人に向いているかをわかりやすく解説"
 description: "Read AIの使い方、料金、対応端末、Zoom・Google Meet・Microsoft Teams対応、対面録音、どんな人に向いているかを公式情報をもとに整理します。"
 publishedAt: "2026-08-23"
 updatedAt: "2026-08-23"

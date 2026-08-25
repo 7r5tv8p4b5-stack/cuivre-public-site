@@ -1,5 +1,7 @@
 ---
 title: "eBayとは？日本から買う方法・安全性・関税・返品・マネーバック保証を解説【2026年版】"
+displayTitle: "eBay"
+subtitle: "日本から買う方法・安全性・関税・返品・マネーバック保証を解説【2026年版】"
 description: "eBayとはどんな海外通販・マーケットプレイスなのか。日本からの購入、国際配送、関税、eBay Money Back Guarantee、真贋保証まで整理します。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-22"

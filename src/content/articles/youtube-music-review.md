@@ -1,5 +1,7 @@
 ---
 title: "YouTube Musicとは？無料版・Premium料金・バックグラウンド再生・YouTube Premiumとの違いを解説【2026年版】"
+displayTitle: "YouTube Music"
+subtitle: "無料版・Premium料金・バックグラウンド再生・YouTube Premiumとの違いを解説【2026年版】"
 description: "YouTube Musicの無料版、YouTube Music Premiumの個人月額1,080円、学生580円、ファミリー1,680円、オフライン再生、バックグラウンド再生、YouTube Premiumとの違いを整理します。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-22"

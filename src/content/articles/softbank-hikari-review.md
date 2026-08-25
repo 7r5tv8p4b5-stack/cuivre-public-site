@@ -1,5 +1,7 @@
 ---
 title: "ソフトバンク光とは？料金・IPv6・スマホ割や他社光回線との違いを解説"
+displayTitle: "SoftBank 光"
+subtitle: "料金・IPv6・スマホ割、他社光回線との違いを解説"
 description: "ソフトバンク光は、ソフトバンクが提供している家庭向けの光回線サービスです。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-25"

@@ -87,6 +87,14 @@ export function articleDate(frontmatter) {
   return frontmatter.updatedAt || frontmatter.publishedAt || "";
 }
 
+export function articleDisplayTitle(frontmatter) {
+  return frontmatter.displayTitle || frontmatter.display_title || frontmatter.title || "";
+}
+
+export function articleSubtitle(frontmatter) {
+  return frontmatter.subtitle || frontmatter.displaySubtitle || frontmatter.display_subtitle || "";
+}
+
 export function sortByLatestActivity(a, b) {
   const dateCompare = String(articleDate(b.frontmatter)).localeCompare(String(articleDate(a.frontmatter)));
   if (dateCompare !== 0) return dateCompare;

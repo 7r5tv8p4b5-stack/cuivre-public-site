@@ -1,5 +1,7 @@
 ---
 title: "Groundwireとは？使い方・料金・買い切りで使う意味をわかりやすく解説"
+displayTitle: "Groundwire"
+subtitle: "使い方・料金・買い切りで使う意味をわかりやすく解説"
 description: "Groundwireは、iPhoneやAndroidスマートフォンでSIP通話を使うためのVoIPソフトフォンアプリです。電話番号そのものを提供するサービスではなく、SIP対応のIP電話サービスやPBXと組み合わせて、スマホを内線端末やIP電話機として使うためのアプリです。"
 publishedAt: "2026-08-21"
 updatedAt: "2026-08-23"

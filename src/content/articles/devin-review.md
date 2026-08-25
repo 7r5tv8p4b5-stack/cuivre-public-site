@@ -1,5 +1,7 @@
 ---
 title: "Devinとは？AIソフトウェアエンジニアの使い方・料金・月20ドルで何ができるかを解説"
+displayTitle: "Devin"
+subtitle: "AIソフトウェアエンジニアの使い方・料金・月20ドルで何ができるかを解説"
 description: "Devinは、Cognitionが提供するAI Software Engineerです。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-24"

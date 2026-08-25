@@ -1,5 +1,7 @@
 ---
 title: "Pikaとは？Pika 2.5・料金・無料枠・Pikaffects・商用利用を解説【2026年版】"
+displayTitle: "Pika"
+subtitle: "2.5・料金・無料枠・Pikaffects・商用利用を解説【2026年版】"
 description: "Pika 2.5の料金、無料枠、クレジット、Text to Video・Image to Video、Pikaffects、Pikaframes、商用利用まで2026年の公式情報で整理します。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-22"

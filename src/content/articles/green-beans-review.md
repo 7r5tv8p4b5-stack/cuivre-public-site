@@ -1,5 +1,7 @@
 ---
 title: "Green Beans（グリーンビーンズ）とは？送料・最低注文金額・配送時間・WAON POINTを解説【2026年版】"
+displayTitle: "Green Beans"
+subtitle: "送料・最低注文金額・配送時間・WAON POINTを解説【2026年版】"
 description: "Green Beansの税抜4,000円の最低購入金額、0〜1,100円の配送料、12,000円以上送料無料、配送時間、WAON POINT、配送エリアを2026年公式情報で整理します。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-22"

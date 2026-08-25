@@ -1,5 +1,7 @@
 ---
 title: "ahamoとは？料金・使い方とドコモの他プランとの違いを解説"
+displayTitle: "ahamo"
+subtitle: "料金・使い方とドコモの他プランとの違いを解説"
 description: "ahamoは、NTTドコモが提供するスマートフォン向けの料金プランです。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-25"

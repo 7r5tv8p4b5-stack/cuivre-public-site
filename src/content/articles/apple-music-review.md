@@ -1,5 +1,7 @@
 ---
 title: "Apple Musicとは？料金・ロスレス・空間オーディオ・学割・ファミリーを解説【2026年版】"
+displayTitle: "Apple Music"
+subtitle: "料金・ロスレス・空間オーディオ・学割・ファミリーを解説【2026年版】"
 description: "Apple Musicの個人月額1,180円、学生680円、ファミリー1,980円、ロスレス、空間オーディオ、Apple Music Classical、対応デバイスを2026年公式情報で整理します。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-22"

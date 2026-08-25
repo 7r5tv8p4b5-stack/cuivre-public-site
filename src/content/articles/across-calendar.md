@@ -1,5 +1,7 @@
 ---
 title: "Across Calendarとは？無料版とPremiumの違い・料金・使い方をわかりやすく解説"
+displayTitle: "Acrossカレンダー"
+subtitle: "無料版とPremiumの違い・料金・使い方をわかりやすく解説"
 description: "Across: Calendar, Your Wayは、Appleカレンダー・リマインダー・Googleカレンダーの予定をまとめて見やすくし、自分好みに表示方法を作り込めるカレンダーアプリです。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-23"

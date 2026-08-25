@@ -1,5 +1,7 @@
 ---
 title: "Zapier Agentsとは？普通のZapとの違い・使い方・料金をわかりやすく解説"
+displayTitle: "Zapier Agents"
+subtitle: "普通のZapとの違い・使い方・料金をわかりやすく解説"
 description: "Zapier Agentsは、Zapierが持つ9,000以上のアプリ連携を使い、AIへ実際の仕事を任せるためのエージェント機能です。"
 publishedAt: "2026-08-23"
 updatedAt: "2026-08-24"

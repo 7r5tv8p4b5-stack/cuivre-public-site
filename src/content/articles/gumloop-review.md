@@ -1,5 +1,7 @@
 ---
 title: "Gumloopとは？AIエージェントとワークフローの違い・使い方・料金を解説"
+displayTitle: "Gumloop"
+subtitle: "AIエージェントとワークフローの違い・使い方・料金を解説"
 description: "Gumloopは、AIを使った業務自動化を、ワークフローとAIエージェントの両方から作れるサービスです。"
 publishedAt: "2026-08-23"
 updatedAt: "2026-08-24"

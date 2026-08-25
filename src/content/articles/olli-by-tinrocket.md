@@ -1,5 +1,7 @@
 ---
 title: "Olli by Tinrocketとは？使い方・料金・600円でどこまでできるかをわかりやすく解説"
+displayTitle: "Olli by Tinrocket"
+subtitle: "使い方・料金・600円でどこまでできるかをわかりやすく解説"
 description: "Olli by Tinrocketは、iPhoneのカメラ映像や写真・動画を、手描きイラストやアニメーションのような見た目へ変換できるカメラアプリです。日本のApp Storeでは600円の買い切りで、現在はアプリ内課金なしで26種類のプリセットスタイルを利用できます。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-23"

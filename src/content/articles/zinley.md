@@ -1,5 +1,7 @@
 ---
 title: "Zinleyとは？何を任せられる？無料版とPlus・Proの違いをわかりやすく解説"
+displayTitle: "Zinley"
+subtitle: "何を任せられる？無料版とPlus・Proの違いをわかりやすく解説"
 description: "Zinleyは、質問に答えるだけのAIチャットではなく、自分専用の電話番号、メールアドレス、コンピューターを持ち、電話対応、メール、調整、調査、ファイル作業などを本人のルール内で代行する「パーソナルAI代表」です。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-23"

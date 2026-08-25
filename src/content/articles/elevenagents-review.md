@@ -1,5 +1,7 @@
 ---
 title: "ElevenAgentsとは？できること・作り方・料金・電話対応まで解説"
+displayTitle: "ElevenAgents"
+subtitle: "できること・作り方・料金・電話対応まで解説"
 description: "ElevenAgentsは、ElevenLabsが提供する会話型AIエージェントの構築・運用プラットフォームです。"
 publishedAt: "2026-08-23"
 updatedAt: "2026-08-24"

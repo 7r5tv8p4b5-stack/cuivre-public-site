@@ -1,5 +1,7 @@
 ---
 title: "Google Veoとは？Veo 3.1・音声生成・Flow・Gemini・料金を解説【2026年版】"
+displayTitle: "Google Veo"
+subtitle: "Veo 3.1・音声生成・Flow・Gemini・料金を解説【2026年版】"
 description: "Google Veo 3.1の動画生成、音声、9:16、1080p・4K、Flow・Gemini・APIでの使い方、料金体系と注意点を2026年の公式情報で整理します。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-22"

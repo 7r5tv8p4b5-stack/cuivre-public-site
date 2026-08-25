@@ -1,5 +1,7 @@
 ---
 title: "Intercom Finとは？AIカスタマーサポートの使い方・料金・1件0.99ドルの「Outcome」を解説"
+displayTitle: "Intercom Fin"
+subtitle: "AIカスタマーサポートの使い方・料金・1件0.99ドルの「Outcome」を解説"
 description: "Finは、Intercomが提供するカスタマーサービス向けAIエージェントです。"
 publishedAt: "2026-08-23"
 updatedAt: "2026-08-24"

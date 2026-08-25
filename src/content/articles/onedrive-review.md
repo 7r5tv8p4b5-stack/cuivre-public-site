@@ -1,5 +1,7 @@
 ---
 title: "OneDriveとは？料金・使い方・Microsoft 365や他クラウドとの違いを解説"
+displayTitle: "OneDrive"
+subtitle: "料金・使い方・Microsoft 365、他クラウドとの違いを解説"
 description: "OneDriveは、Microsoftが提供しているクラウドストレージサービスです。写真や書類などのファイルをオンライン上へ保存でき、パソコンやスマートフォンなど複数の端末から同じデータへアクセスできます。特にWord、Excel、Po"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-25"

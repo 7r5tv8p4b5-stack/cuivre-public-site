@@ -1,5 +1,7 @@
 ---
 title: "Bolt.newとは？AIでWebサイト・アプリを作る方法・料金・無料版の限界を解説"
+displayTitle: "Bolt.new"
+subtitle: "AIでWebサイト・アプリを作る方法・料金・無料版の限界を解説"
 description: "Bolt.newは、作りたいWebサイトやWebアプリを自然な言葉で伝えると、AIがコードを書き、実行し、公開まで進めてくれるブラウザ型のAI開発サービスです。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-24"

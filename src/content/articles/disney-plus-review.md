@@ -1,5 +1,7 @@
 ---
 title: "Disney+とは？料金・作品ジャンル・使い方と他社動画配信サービスとの違いを解説"
+displayTitle: "Disney+"
+subtitle: "料金・作品ジャンル・使い方と他社動画配信サービスとの違いを解説"
 description: "Disney+は、ディズニーが提供する動画配信サービスです。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-25"

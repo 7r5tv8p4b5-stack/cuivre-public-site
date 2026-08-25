@@ -1,5 +1,7 @@
 ---
 title: "TikTok Shopクリエイターアフィリエイトとは？始め方・報酬・商品紹介の仕組みを解説"
+displayTitle: "TikTok Shopクリエイターアフィリエイト"
+subtitle: "始め方・報酬・商品紹介の仕組みを解説"
 description: "TikTok Shopのクリエイターアフィリエイトは、TikTok上で商品を紹介し、そのコンテンツをきっかけに商品が売れると成果報酬を受け取れる仕組みです。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-24"

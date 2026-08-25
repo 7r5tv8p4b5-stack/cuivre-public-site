@@ -28,6 +28,8 @@ categoryTags:
   - "AI"
   - "AI図解"
 title: "Napkin AIとは？使い方・料金・無料版でどこまで図解を作れるかを解説"
+displayTitle: "Napkin AI"
+subtitle: "使い方・料金・無料版でどこまで図解を作れるかを解説"
 description: "Napkin AIは、文章を読み取り、その内容に合った図解、フローチャート、マインドマップ、インフォグラフィックなどをAIで生成できるビジュアル作成サービスです。"
 updatedAt: "2026-08-24"
 ogTitle: "Napkin AIとは？使い方・料金・無料版でどこまで図解を作れるかを解説"

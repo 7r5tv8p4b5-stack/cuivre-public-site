@@ -1,5 +1,7 @@
 ---
 title: "Dia Browserとは？AIブラウザの使い方・料金・無料版との違いを解説"
+displayTitle: "Dia Browser"
+subtitle: "AIブラウザの使い方・料金・無料版との違いを解説"
 description: "Diaは、BrowserのTab、Slack、Gmail、Notion、Calendarなど仕事中に散らばるContextをAIへまとめて渡し、そのまま回答・Report・Meeting準備などへ使えるAI Browserです。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-24"

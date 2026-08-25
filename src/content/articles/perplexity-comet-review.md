@@ -1,5 +1,7 @@
 ---
 title: "Perplexity Cometとは？AIブラウザの使い方・無料で何ができるかを解説"
+displayTitle: "Perplexity Comet"
+subtitle: "AIブラウザの使い方・無料で何ができるかを解説"
 description: "Cometは、Perplexityの検索・回答機能とAI Assistantをブラウザそのものへ組み込んだAI Browserです。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-24"

@@ -1,5 +1,7 @@
 ---
 title: "Nottaとは？使い方・料金・どんな人に向いているかをわかりやすく解説"
+displayTitle: "Notta"
+subtitle: "使い方・料金・どんな人に向いているかをわかりやすく解説"
 description: "Nottaの使い方、料金、対応端末、文字起こし、要約、どんな人に向いているかを公式情報をもとに整理します。"
 publishedAt: "2026-08-12"
 updatedAt: "2026-08-23"

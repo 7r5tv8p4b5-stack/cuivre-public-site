@@ -1,5 +1,7 @@
 ---
 title: "ENEOSでんきは安い？Vプランの料金・にねん とく2割・切り替える意味を解説"
+displayTitle: "ENEOSでんき"
+subtitle: "安い？Vプランの料金・にねん とく2割・切り替える意味を解説"
 description: "ENEOSでんきは、ENEOS Powerが提供している家庭向けの電力サービスです。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-24"

@@ -1,5 +1,7 @@
 ---
 title: "Firefox Smart Windowとは？AIブラウザの特徴・使い方・日本で使えるかを解説"
+displayTitle: "Firefox Smart Window"
+subtitle: "AIブラウザの特徴・使い方・日本で使えるかを解説"
 description: "Firefox Smart Windowは、通常のFirefoxとは別に開ける、AI Assistantを組み込んだ新しいWindow Modeです。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-24"

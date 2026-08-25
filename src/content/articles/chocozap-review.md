@@ -1,5 +1,7 @@
 ---
 title: "chocoZAP（チョコザップ）とは？料金・設備・全店舗利用・退会を解説【2026年版】"
+displayTitle: "chocoZAP"
+subtitle: "料金・設備・全店舗利用・退会を解説【2026年版】"
 description: "chocoZAP（チョコザップ）の月額・年額料金、全国店舗利用、マシン、美容・リフレッシュ系サービス、入会金、退会条件まで2026年公式情報で整理します。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-22"

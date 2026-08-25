@@ -1,5 +1,7 @@
 ---
 title: "Writesonicとは？AI記事作成・SEO・AI検索対策で何ができるか、料金まで解説"
+displayTitle: "Writesonic"
+subtitle: "AI記事作成・SEO・AI検索対策で何ができるか、料金まで解説"
 description: "Writesonicは、AIを使って記事を書くためのサービスとして知られてきましたが、現在はそれだけではありません。"
 publishedAt: "2026-08-13"
 updatedAt: "2026-08-24"

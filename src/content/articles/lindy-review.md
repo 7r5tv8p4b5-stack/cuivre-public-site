@@ -1,5 +1,7 @@
 ---
 title: "Lindyとは？AIチームメイトの使い方・料金・どんな仕事を任せられるかを解説"
+displayTitle: "Lindy"
+subtitle: "AIチームメイトの使い方・料金・どんな仕事を任せられるかを解説"
 description: "Lindyは、メール、会議、Slack、調査、資料作成など、普段の仕事を自然な言葉で頼めるAIチームメイト型サービスです。"
 publishedAt: "2026-08-23"
 updatedAt: "2026-08-24"

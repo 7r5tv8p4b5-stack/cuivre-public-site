@@ -1,5 +1,7 @@
 ---
 title: "Yahoo!フリマとは？手数料・送料・買い方・売り方までわかりやすく解説"
+displayTitle: "Yahoo!フリマ"
+subtitle: "手数料・送料・買い方・売り方までわかりやすく解説"
 description: "Yahoo!フリマは、個人同士で商品を売買できるフリマサービスです。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-24"

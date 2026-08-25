@@ -1,5 +1,7 @@
 ---
 title: "Vapiとは？AI電話エージェントの作り方・料金・どんな開発に向いているかを解説"
+displayTitle: "Vapi"
+subtitle: "AI電話エージェントの作り方・料金・どんな開発に向いているかを解説"
 description: "Vapiは、電話やWeb上で人と会話できる音声AIエージェントを開発するためのプラットフォームです。"
 publishedAt: "2026-08-23"
 updatedAt: "2026-08-24"

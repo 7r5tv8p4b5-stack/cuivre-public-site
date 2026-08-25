@@ -1,5 +1,7 @@
 ---
 title: "Perplexity Advanced Deep Researchとは？通常検索との違い・使い方・料金まで解説"
+displayTitle: "Perplexity Advanced Deep Research"
+subtitle: "通常検索との違い・使い方・料金まで解説"
 description: "Perplexity Advanced Deep Researchは、PerplexityのResearch機能を大幅に強化したリサーチ機能です。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-24"

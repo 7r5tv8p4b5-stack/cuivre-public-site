@@ -1,5 +1,7 @@
 ---
 title: "DMMブックスとは？使い方・料金・どんな人に向いているかをわかりやすく解説"
+displayTitle: "DMMブックス"
+subtitle: "使い方・料金・どんな人に向いているかをわかりやすく解説"
 description: "DMMブックスは、DMM.comが提供している電子書籍サービスです。マンガ、小説、ライトノベル、写真集、実用書などを購入でき、WebブラウザのほかWindows・Mac・iPhone・iPad・Android向けの専用アプリから読むことができます。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-23"

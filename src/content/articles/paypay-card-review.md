@@ -1,5 +1,7 @@
 ---
 title: "PayPayカードとは？年会費・還元率・PayPayクレジット・最大1.5％を解説【2026年版】"
+displayTitle: "PayPayカード"
+subtitle: "年会費・還元率・PayPayクレジット・最大1.5％を解説【2026年版】"
 description: "PayPayカードの年会費永年無料、2026年6月以降の基本1％・PayPayステップ最大1.5％、本人確認、PayPayクレジット、ETCを整理します。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-22"

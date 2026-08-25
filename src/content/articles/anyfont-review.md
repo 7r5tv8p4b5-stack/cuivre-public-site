@@ -1,5 +1,7 @@
 ---
 title: "AnyFontとは？使い方・料金・iPhoneにフォントを追加する意味をわかりやすく解説"
+displayTitle: "AnyFont"
+subtitle: "使い方・料金・iPhoneにフォントを追加する意味をわかりやすく解説"
 description: "AnyFontは、手持ちのTrueTypeやOpenTypeフォントをiPhone・iPadへ追加し、Pages、Keynote、Word、PowerPointなど対応アプリで使えるようにするフォント管理アプリです。日本のApp Storeでは300円の買い切りで、自分で用意した.ttf、.otf、.ttcフ"
 publishedAt: "2026-08-21"
 updatedAt: "2026-08-23"

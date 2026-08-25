@@ -1,5 +1,7 @@
 ---
 title: "TECHBIZとは？フリーランス案件・支払いサイト・税務サポートまで解説"
+displayTitle: "TECHBIZ"
+subtitle: "フリーランス案件・支払いサイト・税務サポートまで解説"
 description: "TECHBIZ（テックビズ）は、ITエンジニア、PM・PL、デザイナーなどを対象にしたフリーランス案件紹介サービスです。"
 publishedAt: "2026-08-04"
 updatedAt: "2026-08-23"

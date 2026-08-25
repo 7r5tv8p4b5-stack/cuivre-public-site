@@ -28,6 +28,8 @@ categoryTags:
   - "AI"
   - "AIデザイン"
 title: "Canva AIとは？できること・使い方・無料版と有料プランの違いを解説"
+displayTitle: "Canva AI"
+subtitle: "できること・使い方・無料版と有料プランの違いを解説"
 description: "Canva AIは、文章や画像を生成するだけでなく、プレゼン、SNS画像、動画、Webサイト、表計算、インタラクティブなコンテンツまで、Canva上でAIと一緒に作れる機能群です。"
 updatedAt: "2026-08-24"
 ogTitle: "Canva AIとは？できること・使い方・無料版と有料プランの違いを解説"

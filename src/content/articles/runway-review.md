@@ -1,5 +1,7 @@
 ---
 title: "Runwayとは？Gen-4.5・料金・クレジット・商用利用・動画生成の使い方を解説【2026年版】"
+displayTitle: "Runway"
+subtitle: "Gen-4.5・料金・クレジット・商用利用・動画生成の使い方を解説【2026年版】"
 description: "RunwayのGen-4.5、料金、無料枠、クレジット、Text to Video・Image to Video、商用利用、Maxプランまで2026年の公式情報で整理します。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-22"

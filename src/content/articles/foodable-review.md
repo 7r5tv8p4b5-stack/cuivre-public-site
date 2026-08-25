@@ -1,5 +1,7 @@
 ---
 title: "foodableとは？家電＋食材サブスクの料金・仕組み・途中解約をわかりやすく解説"
+displayTitle: "foodable"
+subtitle: "家電＋食材サブスクの料金・仕組み・途中解約をわかりやすく解説"
 description: "foodable（フーダブル）は、パナソニックの家電を月額で利用しながら、その家電に合う食材やレシピなども楽しめるサブスクリプションサービスです。"
 publishedAt: "2026-08-17"
 updatedAt: "2026-08-23"

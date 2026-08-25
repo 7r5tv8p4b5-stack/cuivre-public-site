@@ -1,5 +1,7 @@
 ---
 title: "OpenAI Codexとは？使い方・料金・CLIやアプリで何ができるかを解説"
+displayTitle: "OpenAI Codex"
+subtitle: "使い方・料金・CLI、アプリで何ができるかを解説"
 description: "OpenAI Codexは、コードについて質問するだけでなく、Repositoryを調べ、ファイルを編集し、CommandやTestを実行しながら開発作業そのものを進めるCoding Agentです。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-24"

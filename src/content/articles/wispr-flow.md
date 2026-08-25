@@ -1,5 +1,7 @@
 ---
 title: "Wispr Flowとは？音声入力の使い方・無料版とProの違いをわかりやすく解説"
+displayTitle: "Wispr Flow"
+subtitle: "音声入力の使い方・無料版とProの違いをわかりやすく解説"
 description: "Wispr Flowは、話した内容を単に文字へ起こすだけでなく、フィラーや言い直しを整え、メール、チャット、文書などへそのまま使いやすい文章として入力できるAI音声入力ツールです。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-23"

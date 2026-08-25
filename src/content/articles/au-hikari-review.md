@@ -1,5 +1,7 @@
 ---
 title: "auひかりとは？料金・速度・auスマホとのセット割や他社光回線との違いを解説"
+displayTitle: "auひかり"
+subtitle: "料金・速度・auスマホとのセット割、他社光回線との違いを解説"
 description: "auひかりは、KDDIが提供している家庭向けの光回線サービスです。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-25"

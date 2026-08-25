@@ -1,5 +1,7 @@
 ---
 title: "LINEMOとは？ベストプランとベストプランVの違い・料金・LINEギガフリーまで解説"
+displayTitle: "LINEMO"
+subtitle: "ベストプランとベストプランVの違い・料金・LINEギガフリーまで解説"
 description: "LINEMOは、ソフトバンクが提供するオンライン専用の携帯電話サービスです。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-24"

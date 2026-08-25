@@ -1,5 +1,7 @@
 ---
 title: "SKIとは？CodexやClaude Codeを声で操作できる無料ツールの使い方を解説"
+displayTitle: "SKI"
+subtitle: "Codex、Claude Codeを声で操作できる無料ツールの使い方を解説"
 description: "SKIは、Codex、Claude Code、Cursor、Gemini CLIなどのAIコーディングエージェントへ声で指示し、エージェントからの返答も音声で聞けるデスクトップツールです。"
 publishedAt: "2026-08-17"
 updatedAt: "2026-08-23"

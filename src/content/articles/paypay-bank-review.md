@@ -1,5 +1,7 @@
 ---
 title: "PayPay銀行とは？金利・手数料・PayPayとの連携まで解説"
+displayTitle: "PayPay銀行"
+subtitle: "金利・手数料・PayPayとの連携まで解説"
 description: "PayPay銀行は、スマートフォンやWebを中心に使えるネット銀行です。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-24"

@@ -1,5 +1,7 @@
 ---
 title: "Google Universal Cartとは？Gemini・検索をまたいで買い物できる新しいAIカートを解説"
+displayTitle: "Google Universal Cart"
+subtitle: "Gemini・検索をまたいで買い物できる新しいAIカートを解説"
 description: "Google Universal Cartは、Google検索やGeminiなどで見つけた商品を一つのカートへ入れ、価格変動や在庫をAIに追跡させながら購入まで進められる新しいショッピング機能です。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-24"

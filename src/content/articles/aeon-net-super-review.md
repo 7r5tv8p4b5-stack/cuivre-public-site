@@ -1,5 +1,7 @@
 ---
 title: "イオンネットスーパーとは？配送料・WAON POINT・置き楽・配送エリアを解説【2026年版】"
+displayTitle: "イオンネットスーパー"
+subtitle: "配送料・WAON POINT・置き楽・配送エリアを解説【2026年版】"
 description: "イオンネットスーパーの店舗別配送料、全国の配送エリア、WAON POINT、置き楽、即日配送、商品点数、店舗受取まで2026年公式情報で整理します。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-22"

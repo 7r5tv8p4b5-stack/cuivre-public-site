@@ -1,5 +1,7 @@
 ---
 title: "everiesは買う価値ある？身の回りのモノと話せるARアプリを解説【2026年版】"
+displayTitle: "everies"
+subtitle: "買う価値・身の回りのモノと話せるARアプリを解説【2026年版】"
 description: "everiesは買う価値がある？価格、機能、対応環境、注意点を2026年最新情報をもとに解説します。"
 publishedAt: "2026-08-19"
 updatedAt: "2026-08-19"

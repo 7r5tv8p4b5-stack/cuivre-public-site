@@ -1,11 +1,14 @@
 ---
-import { articleCategory, articleDate, articleHref } from "../data/site.js";
+import { articleCategory, articleDate, articleDisplayTitle, articleHref, articleSubtitle } from "../data/site.js";
 const { article, variant = "default" } = Astro.props;
 const { frontmatter } = article;
 const appIcon = frontmatter.appIcon || frontmatter.app_icon;
 const category = articleCategory(frontmatter);
 const cardVariant = variant === "large" ? "standard" : variant;
 const tagHref = `/search/?tag=${encodeURIComponent(category)}`;
+const visibleTitle = articleDisplayTitle(frontmatter);
+const subtitle = articleSubtitle(frontmatter);
+const cardSummary = subtitle || frontmatter.description;
 ---
 <article class:list={["article-card", `article-card--${cardVariant}`]}>
   <div class="article-card__body">
@@ -20,8 +23,8 @@ const tagHref = `/search/?tag=${encodeURIComponent(category)}`;
       {articleDate(frontmatter) && <time datetime={articleDate(frontmatter)}>{articleDate(frontmatter)}</time>}
     </div>
     <a class="article-card__link" href={articleHref(article)}>
-      <h3>{frontmatter.title}</h3>
-      {cardVariant === "standard" && frontmatter.description && <p>{frontmatter.description}</p>}
+      <h3>{visibleTitle}</h3>
+      {cardSummary && <p>{cardSummary}</p>}
       <span class="article-card__arrow" aria-hidden="true">→</span>
     </a>
   </div>

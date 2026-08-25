@@ -1,5 +1,7 @@
 ---
 title: "SHEINとは？安い理由・送料・返品・安全性・Temuとの違いを解説【2026年版】"
+displayTitle: "SHEIN"
+subtitle: "安い理由・送料・返品・安全性・Temuとの違いを解説【2026年版】"
 description: "SHEINとはどんな海外通販サービスなのか。送料、40日返品、初回返品無料、注意点、Temuとの違いまで2026年の公式情報をもとに整理します。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-22"

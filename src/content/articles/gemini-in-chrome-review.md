@@ -1,5 +1,7 @@
 ---
 title: "Gemini in Chromeとは？使い方・料金・自動ブラウジングで何ができるかを解説"
+displayTitle: "Gemini in Chrome"
+subtitle: "使い方・料金・自動ブラウジングで何ができるかを解説"
 description: "Gemini in Chromeは、Google Chromeの中からGeminiを呼び出し、今見ているWeb Pageや複数TabをContextに質問したり、Web上のTaskを代わりに進めてもらったりできるAI機能です。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-24"

@@ -1,5 +1,7 @@
 ---
 title: "Otter.aiとは？使い方・料金・無料版でどこまで議事録を作れるかを解説"
+displayTitle: "Otter.ai"
+subtitle: "使い方・料金・無料版でどこまで議事録を作れるかを解説"
 description: "Otter.aiは、会議や会話を録音・文字起こしし、AIで要約やアクション項目まで整理できるAIミーティングツールです。"
 publishedAt: "2026-08-12"
 updatedAt: "2026-08-24"

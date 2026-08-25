@@ -1,5 +1,7 @@
 ---
 title: "U-NEXTとは？料金・ポイント制度・使い方と他社動画配信サービスとの違いを解説"
+displayTitle: "U-NEXT"
+subtitle: "料金・ポイント制度・使い方と他社動画配信サービスとの違いを解説"
 description: "U-NEXTは、映画・ドラマ・アニメなどを楽しめる動画配信サービスです。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-25"

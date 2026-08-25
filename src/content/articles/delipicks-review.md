@@ -1,5 +1,7 @@
 ---
 title: "DELIPICKSとは？料金・送料・まとめ買い割引・お試しセットを解説【2026年版】"
+displayTitle: "DELIPICKS"
+subtitle: "料金・送料・まとめ買い割引・お試しセットを解説【2026年版】"
 description: "DELIPICKSの弁当税込950円、まとめ買い10〜20％OFF、最低注文額、送料、お試しセット、栄養基準まで整理します。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-22"

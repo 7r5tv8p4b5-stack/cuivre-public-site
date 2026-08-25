@@ -1,5 +1,7 @@
 ---
 title: "Claude Researchとは？通常のWeb検索との違い・使い方・料金まで解説"
+displayTitle: "Claude Research"
+subtitle: "通常のWeb検索との違い・使い方・料金まで解説"
 description: "Claude Researchは、AnthropicのClaudeが複数の情報源を横断して調査し、引用付きのレポートとしてまとめるためのリサーチ機能です。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-24"

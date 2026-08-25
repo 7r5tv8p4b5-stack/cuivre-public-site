@@ -1,5 +1,7 @@
 ---
 title: "SUGOCAとは？デポジット・オートチャージ・JRキューポ・全国相互利用を解説【2026年版】"
+displayTitle: "SUGOCA"
+subtitle: "デポジット・オートチャージ・JRキューポ・全国相互利用を解説【2026年版】"
 description: "SUGOCAの発売価格2,000円、デポジット500円、JQ CARDオートチャージ、JRキューポ、全国相互利用を整理します。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-22"

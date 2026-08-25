@@ -1,5 +1,7 @@
 ---
 title: "Fireflies.aiとは？使い方・料金・どんな人に向いているかをわかりやすく解説"
+displayTitle: "Fireflies.ai"
+subtitle: "使い方・料金・どんな人に向いているかをわかりやすく解説"
 description: "Fireflies.aiは、オンライン会議や対面の会話を録音・文字起こしし、AIで要約やタスク整理まで行える会議アシスタントです。Zoom、Google Meet、Microsoft TeamsなどにAIノートテイカーを参加させる方法に加え、Windows・Macのデスクトップアプリ、iPhone・Andro"
 publishedAt: "2026-08-12"
 updatedAt: "2026-08-23"

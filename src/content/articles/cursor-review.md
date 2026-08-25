@@ -1,5 +1,7 @@
 ---
 title: "Cursorとは？AIコードエディタの使い方・料金・Proにする意味を解説"
+displayTitle: "Cursor"
+subtitle: "AIコードエディタの使い方・料金・Proにする意味を解説"
 description: "Cursorは、コードを書くEditorそのものにAI Agentを組み込み、現在のRepositoryを読みながら質問、修正、実装、Command実行まで進められるAI Code Editorです。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-24"

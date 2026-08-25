@@ -1,5 +1,7 @@
 ---
 title: "AutoSnoreは買う価値ある？800円でいびき録音・睡眠中の音を記録できるアプリを解説【2026年版】"
+displayTitle: "AutoSnore"
+subtitle: "買う価値・800円でいびき録音・睡眠中の音を記録できるアプリを解説【2026年版】"
 description: "AutoSnoreは買う価値がある？800円の買い切り価格、いびき録音、Snurk Score、Apple Watch不要、プライバシー、使い方まで2026年最新情報をもとに解説します。"
 publishedAt: "2026-08-19"
 updatedAt: "2026-08-19"

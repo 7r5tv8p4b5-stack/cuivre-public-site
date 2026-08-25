@@ -1,5 +1,7 @@
 ---
 title: "AdGuard Proとは？使い方・料金・通常版との違いをわかりやすく解説"
+displayTitle: "AdGuard Pro"
+subtitle: "使い方・料金・通常版との違いをわかりやすく解説"
 description: "AdGuard Proは、iPhone・iPad向けの広告ブロックとDNS保護をまとめた買い切りアプリです。Safariの広告を消すだけでなく、DNSフィルタを使って他のアプリやブラウザの通信も制御でき、トラッカーや特定ドメインをブロックできます。"
 publishedAt: "2026-08-21"
 updatedAt: "2026-08-23"

@@ -1,5 +1,7 @@
 ---
 title: "PayPayとは？還元率・PayPayポイント・チャージ・送る/受け取る・使い方を解説【2026年版】"
+displayTitle: "PayPay"
+subtitle: "還元率・PayPayポイント・チャージ・送る/受け取る・使い方を解説【2026年版】"
 description: "PayPayの基本還元率、PayPayステップ、PayPayポイント、残高・クレジット払い、チャージ、送る・受け取る、本人確認、請求書払いまで2026年公式情報で整理します。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-22"

@@ -1,5 +1,7 @@
 ---
 title: "Mem Agentとは？何を自動で覚えてくれる？料金・Mem Proとの違いを解説"
+displayTitle: "Mem Agent"
+subtitle: "何を自動で覚えてくれる？料金・Mem Proとの違いを解説"
 description: "Mem Agentは、ノートアプリ「Mem」に保存したメモ、会議、アイデア、カレンダーなどを読み、忘れそうな予定や未処理のことを先回りして知らせるパーソナルAIエージェントです。"
 publishedAt: "2026-08-17"
 updatedAt: "2026-08-23"

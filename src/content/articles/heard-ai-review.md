@@ -1,5 +1,7 @@
 ---
 title: "Heard AIとは？カップル向けAIの使い方・料金・どんな人に向いているかを解説"
+displayTitle: "Heard AI"
+subtitle: "カップル向けAIの使い方・料金・どんな人に向いているかを解説"
 description: "Heard AI（App Store上の名称は「get heard AI」）は、カップルのけんかやすれ違いについて、片方だけではなく「2人それぞれの話」を聞いてから整理するAIコミュニケーションアプリです。"
 publishedAt: "2026-08-17"
 updatedAt: "2026-08-23"

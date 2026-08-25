@@ -1,5 +1,7 @@
 ---
 title: "Spotifyとは？無料プラン・Premium料金・ロスレス・学割・ファミリーを解説【2026年版】"
+displayTitle: "Spotify"
+subtitle: "無料プラン・Premium料金・ロスレス・学割・ファミリーを解説【2026年版】"
 description: "Spotifyの無料プラン、Premium Standard月額1,080円、Student、Family、広告なし、オフライン再生、ロスレス音質、対応デバイスまで2026年最新情報で整理します。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-22"

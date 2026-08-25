@@ -1,5 +1,7 @@
 ---
 title: "Greplicaとは？使い方・料金・AIコーディングで何が変わるかをわかりやすく解説"
+displayTitle: "Greplica"
+subtitle: "使い方・料金・AIコーディングで何が変わるかをわかりやすく解説"
 description: "Greplicaは、CodexやClaude CodeなどのAIコーディングエージェントが、過去の開発セッションやコードベースの文脈を毎回ゼロから調べ直さなくて済むようにする「開発メモリ」ツールです。"
 publishedAt: "2026-08-17"
 updatedAt: "2026-08-23"

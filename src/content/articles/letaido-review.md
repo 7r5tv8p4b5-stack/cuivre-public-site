@@ -1,5 +1,7 @@
 ---
 title: "Letaidoとは？月99ドルで何を任せられる？Ahrefs連携と料金を解説"
+displayTitle: "Letaido"
+subtitle: "月99ドルで何を任せられる？Ahrefs連携と料金を解説"
 description: "Letaidoは、Ahrefsを開発するチームが提供する、マーケティング業務向けのAIエージェントワークスペースです。"
 publishedAt: "2026-08-17"
 updatedAt: "2026-08-23"

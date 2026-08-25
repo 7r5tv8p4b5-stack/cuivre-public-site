@@ -2079,6 +2079,15 @@ blockquote {
   line-height: 1.85;
 }
 
+.article-subtitle {
+  max-width: 900px;
+  margin: 10px 0 0;
+  color: #415065;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.62;
+}
+
 .article-subject {
   display: none;
 }
@@ -3581,7 +3590,7 @@ main {
 
 .article-card--compact p,
 .article-card--default p {
-  display: none;
+  -webkit-line-clamp: 2;
 }
 
 .latest-strip .article-card {

@@ -1,5 +1,7 @@
 ---
 title: "AutoSleepとは？使い方・料金・Apple Watchでできることをわかりやすく解説"
+displayTitle: "AutoSleep"
+subtitle: "使い方・料金・Apple Watchでできることをわかりやすく解説"
 description: "AutoSleepは、Apple Watchを着けて眠るだけで睡眠時間や睡眠の質を自動記録できるiPhone向けアプリです。毎晩「睡眠開始」を押す必要がなく、Apple Watchのセンサーデータをもとに睡眠を記録し、朝にiPhoneで結果を確認できます。"
 publishedAt: "2026-08-21"
 updatedAt: "2026-08-23"

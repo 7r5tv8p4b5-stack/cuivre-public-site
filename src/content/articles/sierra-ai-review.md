@@ -1,5 +1,7 @@
 ---
 title: "Sierra AIとは？Agent OSで何ができる？使い方・料金・企業向けAIエージェントの特徴を解説"
+displayTitle: "Sierra"
+subtitle: "Agent OSで何ができる？使い方・料金・企業向けAIエージェントの特徴を解説"
 description: "Sierraは、企業が顧客対応用のAIエージェントを構築し、チャット・電話・メール・SMSなど複数の窓口へ展開するためのAgent OSです。"
 publishedAt: "2026-08-23"
 updatedAt: "2026-08-24"

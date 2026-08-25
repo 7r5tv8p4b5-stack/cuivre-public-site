@@ -1,5 +1,7 @@
 ---
 title: "StageCameraPro2とは？使い方・料金・850円で標準カメラと何が変わるかをわかりやすく解説"
+displayTitle: "StageCameraPro2"
+subtitle: "使い方・料金・850円で標準カメラと何が変わるかをわかりやすく解説"
 description: "StageCameraPro2は、シャッター音へ配慮しながら高画質な写真・動画を撮影できるiPhone・iPad向けカメラアプリです。日本のApp Storeでは850円の買い切りで、追加課金なしです。"
 publishedAt: "2026-08-21"
 updatedAt: "2026-08-23"

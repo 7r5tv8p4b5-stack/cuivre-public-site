@@ -28,6 +28,8 @@ categoryTags:
   - "AI"
   - "AI音楽生成"
 title: "Sunoとは？AI音楽生成の使い方・料金・無料版とPro/Premierの違いを解説"
+displayTitle: "Suno"
+subtitle: "AI音楽生成の使い方・料金・無料版とPro/Premierの違いを解説"
 description: "Sunoは、作りたい曲のイメージを文章で伝えるだけで、歌詞、ボーカル、伴奏を含む楽曲をAIで生成できる音楽制作サービスです。"
 updatedAt: "2026-08-24"
 ogTitle: "Sunoとは？AI音楽生成の使い方・料金・無料版とPro/Premierの違いを解説"

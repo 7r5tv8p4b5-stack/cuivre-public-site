@@ -1,5 +1,7 @@
 ---
 title: "Decagonとは？AOPで作るAIカスタマーサポートの仕組み・料金・Sierraとの違いを考える前に知りたい特徴"
+displayTitle: "Decagon"
+subtitle: "AOPで作るAIカスタマーサポートの仕組み・料金・Sierraとの違いを考える前に知りたい特徴"
 description: "Decagonは、企業のカスタマーサポートや顧客体験を担当するAIエージェントを構築・運用するプラットフォームです。"
 publishedAt: "2026-08-23"
 updatedAt: "2026-08-24"

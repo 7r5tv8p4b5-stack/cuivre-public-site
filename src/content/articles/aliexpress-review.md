@@ -1,5 +1,7 @@
 ---
 title: "AliExpressとは？日本から買える？Choice・返品・安全性・注意点を解説【2026年版】"
+displayTitle: "AliExpress"
+subtitle: "日本から買える？Choice・返品・安全性・注意点を解説【2026年版】"
 description: "AliExpressとはどんな海外通販サイトなのか。日本からの利用、Choice、Buyer Protection、安全に使うための注意点まで整理します。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-22"

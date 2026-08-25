@@ -1,5 +1,7 @@
 ---
 title: "Claude Codeとは？使い方・料金・ProとMaxの違いまでわかりやすく解説"
+displayTitle: "Claude Code"
+subtitle: "使い方・料金・ProとMaxの違いまでわかりやすく解説"
 description: "Claude Codeは、AnthropicのClaudeをターミナルや対応IDEから使い、実際のコードベースを調べながら実装・修正・テストまで任せられるCoding Agentです。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-24"

@@ -1,5 +1,7 @@
 ---
 title: "楽天AIショッピングとは？楽天市場で商品の探し方がどう変わるのか、使い方まで解説"
+displayTitle: "Rakuten AI"
+subtitle: "楽天市場で商品の探し方がどう変わるのか、使い方まで解説"
 description: "楽天市場には、Rakuten AIを使って会話しながら商品を探せるAIコンシェルジュが組み込まれています。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-24"

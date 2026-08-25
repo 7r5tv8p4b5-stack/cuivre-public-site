@@ -1,5 +1,7 @@
 ---
 title: "Shadowrocketとは？使い方・料金・500円で何ができるのかをわかりやすく解説"
+displayTitle: "Shadowrocket"
+subtitle: "使い方・料金・500円で何ができるのかをわかりやすく解説"
 description: "Shadowrocketは、iPhoneやiPadの通信をルールに応じてプロキシサーバーへ振り分けるためのネットワークユーティリティです。日本のApp Storeでは500円の買い切りで販売されています。"
 publishedAt: "2026-08-21"
 updatedAt: "2026-08-23"

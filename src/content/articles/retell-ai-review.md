@@ -1,5 +1,7 @@
 ---
 title: "Retell AIとは？AI電話エージェントの作り方・料金・本番運用しやすい理由を解説"
+displayTitle: "Retell AI"
+subtitle: "AI電話エージェントの作り方・料金・本番運用し、すい理由を解説"
 description: "Retell AIは、自然な電話対応を行うAI Voice Agentを作成し、テスト、公開、監視まで行えるプラットフォームです。"
 publishedAt: "2026-08-23"
 updatedAt: "2026-08-24"

@@ -1,5 +1,7 @@
 ---
 title: "Gemini Deep Researchとは？使い方・料金・普通の検索との違いをわかりやすく解説"
+displayTitle: "Gemini Deep Research"
+subtitle: "使い方・料金・普通の検索との違いをわかりやすく解説"
 description: "Gemini Deep Researchは、GoogleのGeminiで複数の情報源を調べ、内容を整理し、引用元を確認できる長いリサーチレポートまで作るための機能です。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-24"

@@ -1,5 +1,7 @@
 ---
 title: "Just Press Recordとは？使い方・料金・文字起こしまでわかりやすく解説"
+displayTitle: "Just Press Record"
+subtitle: "使い方・料金・文字起こしまでわかりやすく解説"
 description: "Just Press Recordは、iPhone、iPad、Mac、Apple Watchで使える買い切り型の録音アプリです。ワンタップで録音を始め、録音した音声を文字起こしし、iCloud経由で複数のApple端末へ同期できます。"
 publishedAt: "2026-08-21"
 updatedAt: "2026-08-23"

@@ -1,5 +1,7 @@
 ---
 title: "Fathomとは？使い方・料金・どんな人に向いているかをわかりやすく解説"
+displayTitle: "Fathom"
+subtitle: "使い方・料金・どんな人に向いているかをわかりやすく解説"
 description: "Fathomは、ZoomやGoogle Meet、Microsoft Teamsの会議を録画・文字起こしし、AIで要約まで作ってくれる会議アシスタントです。会議中に細かくメモを取らなくても、あとから発言内容や決定事項を確認できるので、議事録を作る時間を減らしたい人には分かりやすいサービスです。"
 publishedAt: "2026-08-12"
 updatedAt: "2026-08-23"

@@ -1,5 +1,7 @@
 ---
 title: "CodeRabbitとは？使い方・料金・どんなチームに向いているかをわかりやすく解説"
+displayTitle: "CodeRabbit"
+subtitle: "使い方・料金・どんなチームに向いているかをわかりやすく解説"
 description: "CodeRabbitは、GitHubやGitLabのプルリクエストをAIでレビューし、バグ候補や改善点、セキュリティ上の問題などを指摘してくれるコードレビューサービスです。現在はPRレビューだけでなく、CLI、エージェントチャット、Jira・Linear連携、MCP接続、マージ前チェックなどまで広がっています"
 publishedAt: "2026-08-17"
 updatedAt: "2026-08-23"

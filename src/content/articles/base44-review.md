@@ -1,5 +1,7 @@
 ---
 title: "Base44とは？AIアプリ開発の使い方・料金・無料版でどこまで作れるかを解説"
+displayTitle: "Base44"
+subtitle: "AIアプリ開発の使い方・料金・無料版でどこまで作れるかを解説"
 description: "Base44は、作りたいアプリやWebサイトを普段の言葉で説明すると、AIがフロントエンドだけでなく、バックエンド、データベース、認証、決済までまとめて構築してくれるAI App Builderです。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-24"

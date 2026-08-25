@@ -1,5 +1,7 @@
 ---
 title: "TikTok Shopとは？日本での買い方・出店方法・手数料まで解説"
+displayTitle: "TikTok Shop"
+subtitle: "日本での買い方・出店方法・手数料まで解説"
 description: "TikTok Shopは、TikTokで商品を見つけて、そのままアプリ内で購入できるショッピング機能です。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-24"

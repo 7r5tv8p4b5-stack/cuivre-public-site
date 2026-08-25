@@ -28,6 +28,8 @@ categoryTags:
   - "AI"
   - "AIリサーチ"
 title: "Gemini Notebook（旧NotebookLM）とは？使い方・料金・無料版でどこまでできるかを解説"
+displayTitle: "NotebookLM"
+subtitle: "使い方・料金・無料版でどこまでできるかを解説"
 description: "Gemini Notebookは、自分で集めた資料やWeb情報をもとに、質問、要約、調査、音声解説、動画解説、マインドマップ、レポート、スライドなどを作れるGoogleのAIリサーチサービスです。"
 updatedAt: "2026-08-24"
 ogTitle: "Gemini Notebook（旧NotebookLM）とは？使い方・料金・無料版でどこまでできるかを解説"

@@ -28,6 +28,8 @@ categoryTags:
   - "AI"
   - "AI検索"
 title: "Perplexityとは？検索AIの使い方・料金・無料版とProの違いをわかりやすく解説"
+displayTitle: "Perplexity"
+subtitle: "検索AIの使い方・料金・無料版とProの違いをわかりやすく解説"
 description: "Perplexityは、Web上の情報を検索し、参照した情報源を示しながら質問への答えをまとめるAI検索サービスです。"
 updatedAt: "2026-08-24"
 ogTitle: "Perplexityとは？検索AIの使い方・料金・無料版とProの違いをわかりやすく解説"

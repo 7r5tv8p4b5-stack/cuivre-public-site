@@ -1,5 +1,7 @@
 ---
 title: "ChatGPT Deep Researchとは？使い方・料金・普通のWeb検索との違いを解説"
+displayTitle: "ChatGPT deep research"
+subtitle: "使い方・料金・普通のWeb検索との違いを解説"
 description: "ChatGPT Deep Researchは、複数のWebサイトやファイルを横断して情報を集め、内容を比較・整理し、出典付きのレポートまで作るChatGPTの調査機能です。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-24"

@@ -1,5 +1,7 @@
 ---
 title: "NightCap Cameraとは？使い方・料金・夜景や星空で使う意味をわかりやすく解説"
+displayTitle: "NightCapカメラ"
+subtitle: "使い方・料金・夜景や星空で使う意味をわかりやすく解説"
 description: "NightCap Cameraは、iPhoneやiPadで夜景、星空、オーロラ、光跡などを撮影するための低照度・長時間露光カメラアプリです。通常のカメラアプリより暗い環境での撮影に特化し、長時間露光や天体撮影向けのモードを利用できます。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-23"

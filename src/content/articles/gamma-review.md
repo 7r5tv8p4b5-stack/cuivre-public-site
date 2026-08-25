@@ -28,6 +28,8 @@ categoryTags:
   - "AI"
   - "AI資料作成"
 title: "Gammaとは？AIプレゼン作成の使い方・料金・無料版でどこまでできるかを解説"
+displayTitle: "Gamma"
+subtitle: "AIプレゼン作成の使い方・料金・無料版でどこまでできるかを解説"
 description: "Gammaは、テーマや文章を入力すると、構成、文章、レイアウト、画像までまとめて生成し、プレゼンテーションやドキュメント、Webサイトなどを作れるAIデザインサービスです。"
 updatedAt: "2026-08-24"
 ogTitle: "Gammaとは？AIプレゼン作成の使い方・料金・無料版でどこまでできるかを解説"
