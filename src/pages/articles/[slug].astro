@@ -90,7 +90,15 @@ const hasServiceDecision = Boolean(
   frontmatter.cuivreCheck?.length ||
   frontmatter.informationSources?.length
 );
-const firstSectionIndex = !hasFixedSections && hasServiceDecision ? articleHtml.search(/\s*<h2\b/i) : -1;
+const officialLinks = Array.isArray(frontmatter.officialLinks)
+  ? frontmatter.officialLinks
+  : frontmatter.officialCtaText
+    ? [{ href: frontmatter.officialUrl || frontmatter.official_url, label: frontmatter.officialCtaText || frontmatter.official_cta_text }]
+    : [];
+const officialScreenshots = frontmatter.officialScreenshots || frontmatter.official_screenshots || [];
+const hasPrebodyAppMedia = Boolean(officialLinks.length > 0 && frontmatter.appIcon && officialScreenshots.length > 0);
+const shouldSplitIntroBeforeBody = !hasFixedSections && (hasServiceDecision || hasPrebodyAppMedia);
+const firstSectionIndex = shouldSplitIntroBeforeBody ? articleHtml.search(/\s*<h2\b/i) : -1;
 const articleIntroHtml = firstSectionIndex > -1 ? articleHtml.slice(0, firstSectionIndex) : "";
 const articleBodyHtml = hasFixedSections ? fixedSections.body : firstSectionIndex > -1 ? articleHtml.slice(firstSectionIndex) : articleHtml;
 function headingsFromHtml(html) {
@@ -105,14 +113,6 @@ const isComparison = Boolean(comparisonSummary);
 const isRanking = Boolean(rankingSummary);
 const articleSubject = isComparison ? "比較ガイド" : isRanking ? "ランキングガイド" : serviceNameFor(frontmatter, slug);
 const productionUrl = `/articles/${slug}/`;
-const officialLinks = Array.isArray(frontmatter.officialLinks)
-  ? frontmatter.officialLinks
-  : frontmatter.officialCtaText
-    ? [{ href: frontmatter.officialUrl || frontmatter.official_url, label: frontmatter.officialCtaText || frontmatter.official_cta_text }]
-    : [];
-const officialCtaHref = officialLinks[0]?.href || "";
-const officialCtaText = officialLinks[0]?.label || "";
-const officialScreenshots = frontmatter.officialScreenshots || frontmatter.official_screenshots || [];
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "Article",
@@ -146,7 +146,7 @@ const structuredData = {
           <span>{articleSubject}</span>
         </nav>
 
-        <ArticleHero frontmatter={frontmatter} articleSubject={articleSubject} hideDescription={hasFixedSections || frontmatter.hideHeroDescription} />
+        <ArticleHero frontmatter={frontmatter} articleSubject={articleSubject} hideDescription={hasFixedSections || hasPrebodyAppMedia || frontmatter.hideHeroDescription} />
 
         {hasFixedSections ? (
           fixedSections.intro && <div class="article-intro article-body" set:html={fixedSections.intro} />
@@ -158,7 +158,7 @@ const structuredData = {
       </div>
       <ArticleTOC headings={tocHeadings} excludeTexts={topSectionTexts} />
       <div class="article-main">
-        {officialLinks.length > 0 && frontmatter.appIcon && officialScreenshots.length > 0 && (
+        {hasPrebodyAppMedia && (
           <div class="article-prebody-media">
             {officialLinks.map((link) => link.href && <ArticleCTA href={link.href} label={link.label} />)}
             <section class="app-screenshots" aria-label="公式スクリーンショット">
