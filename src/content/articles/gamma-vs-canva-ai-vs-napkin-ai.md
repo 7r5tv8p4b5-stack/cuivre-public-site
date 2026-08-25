@@ -27,6 +27,8 @@ categoryTags:
   - "AI"
   - "AI資料作成比較"
 title: "Gamma・Canva AI・Napkin AIを比較｜資料作成AIならどれがおすすめ？違い・料金・向いている人を解説【2026年版】"
+displayTitle: "Gamma・Canva AI・Napkin AIを比較"
+subtitle: "資料作成AIの違い・料金・向いている人を解説"
 description: "AIでプレゼン資料や図解を作るサービスは増えていますが、Gamma・Canva AI・Napkin AIは同じように見えて、得意分野がかなり違います。"
 updatedAt: "2026-08-21"
 ogTitle: "Gamma・Canva AI・Napkin AIを比較｜資料作成AIならどれがおすすめ？違い・料金・向いている人を解説【2026年版】"

@@ -1,5 +1,7 @@
 ---
 title: "AIコーディングエージェント4サービスを比較｜Codex・Claude Code・Cursor・Devinどれがおすすめ？"
+displayTitle: "AIコーディングエージェント4サービスを比較"
+subtitle: "IDE・CLI・クラウド・自動テストの違いを比較"
 description: "OpenAI Codex、Claude Code、Cursor、DevinをIDE、CLI、クラウド、並列、コードベース理解、自動テスト、タスク委任で比較します。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-22"

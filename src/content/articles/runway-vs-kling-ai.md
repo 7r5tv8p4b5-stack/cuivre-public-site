@@ -1,5 +1,7 @@
 ---
 title: "RunwayとKling AIを比較｜料金・動画品質・クレジット・商用利用はどっちがおすすめ？【2026年版】"
+displayTitle: "RunwayとKling AIを比較"
+subtitle: "料金・動画品質・クレジット・商用利用の違いを比較"
 description: "RunwayとKling AIを料金、無料枠、動画モデル、クレジット、Text to Video、Image to Video、1080p・4K、商用利用で比較します。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-22"

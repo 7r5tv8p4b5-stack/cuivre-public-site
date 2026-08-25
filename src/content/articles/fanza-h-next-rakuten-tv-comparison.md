@@ -1,5 +1,7 @@
 ---
 title: "成人向け動画サブスク3社比較｜FANZA・H-NEXT・Rakuten TVはどれがいい？【2026年版】"
+displayTitle: "成人向け動画サブスク3社を比較"
+subtitle: "料金・作品数・見放題・使い方の違いを比較"
 description: "FANZA、H-NEXT、Rakuten TV成人向けを2026年の公式情報で比較。料金体系、見放題、一般向けVODとのセット利用、作品数の考え方、家族利用まで整理します。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-22"

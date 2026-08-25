@@ -1,5 +1,7 @@
 ---
 title: "スマホ料金プラン4社を比較｜ahamo・povo・LINEMO・楽天モバイルどれがおすすめ？【2026年版】"
+displayTitle: "スマホ料金プラン4社を比較"
+subtitle: "料金・通話・回線・海外利用の違いを比較"
 description: "ahamo、povo、LINEMO、楽天モバイルを3GB・10GB・30GB・無制限、通話、海外、回線で比較します。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-22"

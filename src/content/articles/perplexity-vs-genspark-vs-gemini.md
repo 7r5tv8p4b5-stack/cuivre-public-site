@@ -27,6 +27,8 @@ categoryTags:
   - "AI"
   - "AI検索比較"
 title: "Perplexity・Genspark・Geminiを比較｜AI検索ならどれがおすすめ？違いを用途別に解説【2026年版】"
+displayTitle: "Perplexity・Genspark・Geminiを比較"
+subtitle: "AI検索の違い・用途別の使い分けを解説"
 description: "「AIで調べ物をしたい」と思ったとき、候補に入りやすいのがPerplexity、Genspark、Geminiです。"
 updatedAt: "2026-08-22"
 ogTitle: "Perplexity・Genspark・Geminiを比較｜AI検索ならどれがおすすめ？違いを用途別に解説【2026年版】"

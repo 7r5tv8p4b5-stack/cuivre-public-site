@@ -1,5 +1,7 @@
 ---
 title: "交通系IC4社を比較｜Suica・PASMO・ICOCA・SUGOCAどれがおすすめ？【2026年版】"
+displayTitle: "交通系IC4社を比較"
+subtitle: "モバイル・定期券・オートチャージ・対応エリアの違いを比較"
 description: "Suica、PASMO、ICOCA、SUGOCAを、全国相互利用、モバイル、デポジット、ポイント、オートチャージ、定期券で比較します。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-22"

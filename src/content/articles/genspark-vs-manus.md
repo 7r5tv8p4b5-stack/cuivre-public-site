@@ -27,6 +27,8 @@ categoryTags:
   - "AI"
   - "AIエージェント比較"
 title: "Genspark・Manusを比較｜AIエージェントならどっちがおすすめ？違い・料金・向いている人を解説【2026年版】"
+displayTitle: "GensparkとManusを比較"
+subtitle: "AIエージェントの違い・料金・向いている人を解説"
 description: "AIに質問へ答えてもらうだけでなく、実際の作業まで任せたい人が増える中で、候補に入りやすいのがGensparkとManusです。"
 updatedAt: "2026-08-22"
 ogTitle: "Genspark・Manusを比較｜AIエージェントならどっちがおすすめ？違い・料金・向いている人を解説【2026年版】"

@@ -1,5 +1,7 @@
 ---
 title: "SpotifyとApple Musicを比較｜料金・音質・無料プラン・おすすめ機能はどっちがいい？【2026年版】"
+displayTitle: "SpotifyとApple Musicを比較"
+subtitle: "料金・音質・無料プラン・おすすめ機能の違いを比較"
 description: "SpotifyとApple Musicを、料金、無料プラン、学割、ファミリー、ロスレス、空間オーディオ、レコメンド、対応デバイスで比較します。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-22"

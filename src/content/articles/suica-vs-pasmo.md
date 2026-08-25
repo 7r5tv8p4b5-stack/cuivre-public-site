@@ -1,5 +1,7 @@
 ---
 title: "SuicaとPASMOを比較｜モバイル・定期券・オートチャージはどっちがおすすめ？【2026年版】"
+displayTitle: "SuicaとPASMOを比較"
+subtitle: "モバイル・定期券・オートチャージの違いを比較"
 description: "SuicaとPASMOを、利用エリア、モバイル、デポジット、定期券、オートチャージ、ポイントで比較します。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-22"

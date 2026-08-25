@@ -1,5 +1,7 @@
 ---
 title: "動画配信サービス4社を比較｜Netflix・Prime Video・U-NEXT・Disney+どれがおすすめ？【2026年版】"
+displayTitle: "動画配信サービス4社を比較"
+subtitle: "料金・作品ジャンル・使いやすさの違いを比較"
 description: "Netflix、Amazon Prime Video、U-NEXT、Disney+を、月額、広告、4K、同時視聴、独占作品、ポイント、家族利用で比較します。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-22"

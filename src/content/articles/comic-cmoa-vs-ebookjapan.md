@@ -1,5 +1,7 @@
 ---
 title: "コミックシーモアとebookjapanを比較｜クーポン・PayPay・読み放題・どっちがおすすめ？【2026年版】"
+displayTitle: "コミックシーモアとebookjapanを比較"
+subtitle: "クーポン・PayPay・読み放題・無料漫画の違いを比較"
 description: "コミックシーモアとebookjapanを初回クーポン、ポイント、PayPay、読み放題、無料漫画、Webとアプリの使い方で比較します。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-22"

@@ -1,5 +1,7 @@
 ---
 title: "AI業務自動化4サービスを比較｜n8n・Gumloop・Lindy・Zapier Agentsどれがおすすめ？"
+displayTitle: "AI業務自動化4サービスを比較"
+subtitle: "ワークフロー・AI Agent・セルフホスト・連携の違いを比較"
 description: "n8n、Gumloop、Lindy、Zapier Agentsをワークフロー、AI Agent、セルフホスト、料金、連携、非エンジニア向け度で比較します。"
 publishedAt: "2026-08-23"
 updatedAt: "2026-08-23"

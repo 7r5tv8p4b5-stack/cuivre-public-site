@@ -1,5 +1,7 @@
 ---
 title: "24時間ジム4社を比較｜FIT-EASY・エニタイム・chocoZAP・FIT PLACE24どれがおすすめ？【2026年版】"
+displayTitle: "24時間ジム4社を比較"
+subtitle: "料金・設備・相互利用・サウナの違いから選び方を比較"
 description: "FIT-EASY、エニタイムフィットネス、chocoZAP、FIT PLACE24を、料金、設備、相互利用、サウナ、本格筋トレ、契約条件、向いている人で比較します。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-22"

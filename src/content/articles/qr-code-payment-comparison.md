@@ -1,5 +1,7 @@
 ---
 title: "QRコード決済4社を比較｜PayPay・楽天ペイ・d払い・au PAYどれがおすすめ？【2026年版】"
+displayTitle: "QRコード決済4社を比較"
+subtitle: "還元率・ポイント・チャージ・使いやすさの違いを比較"
 description: "PayPay、楽天ペイ、d払い、au PAYを、基本還元率、最大還元、ポイント、カード連携、チャージ、請求書払い、経済圏、向いている人で比較します。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-22"

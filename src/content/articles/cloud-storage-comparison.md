@@ -1,5 +1,7 @@
 ---
 title: "クラウドストレージ4社を比較｜Google Drive・iCloud+・OneDrive・Dropboxどれがおすすめ？【2026年版】"
+displayTitle: "クラウドストレージ4社を比較"
+subtitle: "無料容量・有料容量・写真・OS連携の違いを比較"
 description: "Google Drive、iCloud+、OneDrive、Dropboxを無料容量、有料容量、写真、OS連携、Office、家族共有、復元で比較します。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-22"

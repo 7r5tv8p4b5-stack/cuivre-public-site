@@ -1,5 +1,7 @@
 ---
 title: "ディスカバリーECとは？TikTok Shop・LIVEコマース・検索ECの違いを解説【2026年版】"
+displayTitle: "ディスカバリーECと検索ECの違い"
+subtitle: "TikTok Shop・LIVEコマース・検索ECの使い分けを解説"
 description: "ディスカバリーECの意味、TikTok Shopの日本GMV70％超がコンテンツ起点、LIVE約60％、検索ECとの使い分けを解説します。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-22"

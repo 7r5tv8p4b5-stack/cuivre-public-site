@@ -1,5 +1,7 @@
 ---
 title: "動画生成AIサービス6社を比較｜Runway・Kling・Veo・Pika・Hailuo・Lumaどれがおすすめ？【2026年版】"
+displayTitle: "動画生成AIサービス6社を比較"
+subtitle: "料金・無料枠・動画品質・商用利用の違いを比較"
 description: "Runway、Kling AI、Google Veo、Pika、Hailuo AI、Luma Dream Machineを料金、無料枠、動画品質、音声、解像度、商用利用、向いている用途で比較します。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-22"

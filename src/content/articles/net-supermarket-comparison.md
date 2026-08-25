@@ -1,5 +1,7 @@
 ---
 title: "ネットスーパー4社を比較｜Amazonフレッシュ・Green Beans・イオン・楽天マートどれがおすすめ？【2026年版】"
+displayTitle: "ネットスーパー4社を比較"
+subtitle: "配送料・配送エリア・ポイント・即日配送の違いを比較"
 description: "Amazonフレッシュ、Green Beans、イオンネットスーパー、楽天マートを、送料、最低注文金額、配送エリア、ポイント、当日配送、向いている人で比較します。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-22"

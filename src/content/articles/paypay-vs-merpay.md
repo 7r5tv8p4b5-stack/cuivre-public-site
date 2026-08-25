@@ -1,5 +1,7 @@
 ---
 title: "PayPayとメルペイを比較｜還元・送金・メルカリ売上金・iDはどっちがおすすめ？【2026年版】"
+displayTitle: "PayPayとメルペイを比較"
+subtitle: "還元・送金・メルカリ売上金・iDの違いを比較"
 description: "PayPayとメルペイを、ポイント、送る・受け取る、メルカリ売上金、クレジット、iD、コード払い、本人確認、向いている人で比較します。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-22"

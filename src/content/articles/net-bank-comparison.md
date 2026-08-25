@@ -1,5 +1,7 @@
 ---
 title: "ネット銀行4社を比較｜楽天銀行・ドコモの銀行・PayPay銀行・auじぶん銀行どれがおすすめ？【2026年版】"
+displayTitle: "ネット銀行4社を比較"
+subtitle: "金利・ATM・振込・経済圏連携の違いを比較"
 description: "楽天銀行、ドコモの銀行、PayPay銀行、auじぶん銀行を普通預金、ATM、振込、ポイント、経済圏で比較します。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-22"

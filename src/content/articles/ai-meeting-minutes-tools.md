@@ -1,5 +1,7 @@
 ---
 title: "AI議事録ツールおすすめ5選を比較｜無料で使えるサービスと選び方【2026年版】"
+displayTitle: "AI議事録ツールおすすめ5選"
+subtitle: "料金・文字起こし・AI要約・対応環境から選び方を比較"
 description: "AI議事録ツールのNotta、Fathom、Fireflies.ai、Otter.ai、tl;dvを公式情報をもとに比較。無料プラン、Web会議対応、選び方を整理します。"
 publishedAt: "2026-08-12"
 updatedAt: "2026-08-12"

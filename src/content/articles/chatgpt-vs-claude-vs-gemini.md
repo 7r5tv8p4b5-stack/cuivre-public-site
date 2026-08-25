@@ -27,6 +27,8 @@ categoryTags:
   - "AI"
   - "生成AI比較"
 title: "ChatGPT・Claude・Geminiを比較｜結局どの生成AIがおすすめ？違いを用途別に解説【2026年版】"
+displayTitle: "ChatGPT・Claude・Geminiを比較"
+subtitle: "料金・生成AI機能・使い方・向いている用途の違いを解説"
 description: "ChatGPT、Claude、Geminiは、いずれも文章作成・要約・調査・アイデア出し・ファイル解析などに使える代表的な生成AIです。"
 updatedAt: "2026-08-21"
 ogTitle: "ChatGPT・Claude・Geminiを比較｜結局どの生成AIがおすすめ？違いを用途別に解説【2026年版】"

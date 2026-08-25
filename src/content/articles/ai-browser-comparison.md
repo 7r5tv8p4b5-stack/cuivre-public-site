@@ -1,5 +1,7 @@
 ---
 title: "AIブラウザ4サービスを比較｜Comet・Dia・Gemini in Chrome・Firefox Smart Windowどれがおすすめ？"
+displayTitle: "AIブラウザ4サービスを比較"
+subtitle: "検索・タブ・履歴・モデル連携の違いを比較"
 description: "Comet、Dia、Gemini in Chrome、Firefox Smart Windowを検索、タブ、履歴、モデル、プライバシー、Google連携で比較します。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-22"

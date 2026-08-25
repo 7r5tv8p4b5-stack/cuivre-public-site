@@ -1,5 +1,7 @@
 ---
 title: "光回線4社を比較｜ドコモ光・SoftBank 光・auひかり・NURO 光どれがおすすめ？【2026年版】"
+displayTitle: "光回線4社を比較"
+subtitle: "料金・スマホ割・工事費・提供エリアの違いを比較"
 description: "ドコモ光、SoftBank 光、auひかり、NURO 光を月額、速度規格、工事、提供エリア、スマホ割で比較します。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-22"

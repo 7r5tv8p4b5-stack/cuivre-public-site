@@ -1,5 +1,7 @@
 ---
 title: "宅配食4社を比較｜nosh・三ツ星ファーム・DELIPICKS・ワタミどれがおすすめ？【2026年版】"
+displayTitle: "宅配食4社を比較"
+subtitle: "料金・送料・味・栄養・解約条件の違いを比較"
 description: "nosh、三ツ星ファーム、DELIPICKS、ワタミの宅食ダイレクトを料金、送料、栄養基準、メニュー、継続条件で比較します。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-22"

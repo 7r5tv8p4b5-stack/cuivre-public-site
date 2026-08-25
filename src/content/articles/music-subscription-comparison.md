@@ -1,5 +1,7 @@
 ---
 title: "音楽サブスク4社を比較｜Spotify・Apple Music・Amazon Music・YouTube Musicどれがおすすめ？【2026年版】"
+displayTitle: "音楽サブスク4社を比較"
+subtitle: "料金・音質・無料プラン・対応デバイスの違いを比較"
 description: "Spotify、Apple Music、Amazon Music Unlimited、YouTube Musicを、料金、無料プラン、学割、ファミリー、音質、オフライン再生、レコメンド、動画連携で比較します。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-22"

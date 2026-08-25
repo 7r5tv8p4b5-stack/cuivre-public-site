@@ -1,5 +1,7 @@
 ---
 title: "海外通販4社比較｜Temu・AliExpress・eBay・SHEINはどれがいい？【2026年版】"
+displayTitle: "海外通販4社を比較"
+subtitle: "安さ・品揃え・返品・配送の違いを比較"
 description: "Temu、AliExpress、eBay、SHEINの違いを比較。安さ、品揃え、ファッション、中古・希少品、返品、初心者向けかどうかまで整理します。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-22"

@@ -1,5 +1,7 @@
 ---
 title: "プロ野球配信サービスを比較｜DAZN・パ・リーグTV・ベースボールLIVE・J SPORTSどれがおすすめ？【2026年版】"
+displayTitle: "プロ野球配信サービスを比較"
+subtitle: "料金・見られる試合・他スポーツ・契約期間の違いを比較"
 description: "DAZN、パ・リーグTV、ベースボールLIVE、J SPORTSオンデマンドを料金・配信球団・交流戦・ファーム・他スポーツで比較。2026年の選び方を整理します。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-22"

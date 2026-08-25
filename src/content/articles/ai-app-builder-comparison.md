@@ -1,5 +1,7 @@
 ---
 title: "AIアプリ開発4サービスを比較｜Lovable・Replit Agent・Bolt.new・Base44どれがおすすめ？"
+displayTitle: "AIアプリ開発4サービスを比較"
+subtitle: "自然言語開発・バックエンド・コード・デザインの違いを比較"
 description: "Lovable、Replit Agent 4、Bolt.new、Base44を自然言語開発、バックエンド、コード、デザイン、デプロイ、対象ユーザーで比較します。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-22"

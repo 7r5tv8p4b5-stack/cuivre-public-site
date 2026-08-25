@@ -1,5 +1,7 @@
 ---
 title: "Google DriveとiCloud+を比較｜料金・写真・iPhone・Androidはどっちがおすすめ？【2026年版】"
+displayTitle: "Google DriveとiCloud+を比較"
+subtitle: "料金・写真・iPhone・Android連携の違いを比較"
 description: "Google OneとiCloud+を無料容量、100/200GB、写真バックアップ、iPhone・Android、家族共有で比較します。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-22"

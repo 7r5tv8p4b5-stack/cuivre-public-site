@@ -1,5 +1,7 @@
 ---
 title: "AIショッピング4サービスを比較｜ChatGPT・Rakuten AI・Yahoo!・Googleどれが便利？【2026年版】"
+displayTitle: "AIショッピング4サービスを比較"
+subtitle: "商品探索・比較・購入導線・データ連携の違いを比較"
 description: "ChatGPT、Rakuten AI、Yahoo!ショッピング AIエージェント、Google Universal Cartを商品探索、比較、購入、データ連携で比較します。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-22"

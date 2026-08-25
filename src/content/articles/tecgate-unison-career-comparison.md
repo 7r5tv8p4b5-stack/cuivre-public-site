@@ -1,5 +1,7 @@
 ---
 title: "Tecgate転職とユニゾンキャリアを比較｜IT転職で確認したい違いを整理"
+displayTitle: "Tecgate転職とユニゾンキャリアを比較"
+subtitle: "IT転職で確認したい違いを整理"
 description: "Tecgate転職とユニゾンキャリアについて、確認済み情報と要確認項目を分けて整理する比較記事の下書きです。"
 publishedAt: "2026-08-05"
 updatedAt: "2026-08-04"

@@ -1,5 +1,7 @@
 ---
 title: "AI音声エージェント4サービスを比較｜Vapi・Retell AI・Bland AI・ElevenAgentsどれがおすすめ？"
+displayTitle: "AI音声エージェント4サービスを比較"
+subtitle: "料金構造・音声品質・同時通話・運用機能の違いを比較"
 description: "Vapi、Retell AI、Bland AI、ElevenAgentsを料金構造、音声品質、モデル自由度、同時通話、運用機能で比較します。"
 publishedAt: "2026-08-23"
 updatedAt: "2026-08-23"

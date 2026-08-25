@@ -1,5 +1,7 @@
 ---
 title: "NottaとFathomを比較｜どっちがおすすめ？料金・無料版・対応環境の違い【2026年版】"
+displayTitle: "NottaとFathomを比較"
+subtitle: "料金・無料版・対応環境・使い分けを比較"
 description: "NottaとFathomの料金、無料版、対応環境、スマホ対応、Web会議対応、Botなし録音の違いを公式情報をもとに比較します。"
 publishedAt: "2026-08-12"
 updatedAt: "2026-08-12"

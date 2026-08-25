@@ -1,5 +1,7 @@
 ---
 title: "AIリサーチ4サービスを比較｜ChatGPT・Gemini・Perplexity・Claudeどれがおすすめ？【2026年版】"
+displayTitle: "AIリサーチ4サービスを比較"
+subtitle: "ソース・連携・調査深度・使い分けを比較"
 description: "ChatGPT deep research、Gemini Deep Research、Perplexity Advanced Deep Research、Claude Researchをソース、連携、調査深度で比較します。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-22"

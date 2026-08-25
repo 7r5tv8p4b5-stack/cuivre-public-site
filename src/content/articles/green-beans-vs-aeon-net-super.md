@@ -1,5 +1,7 @@
 ---
 title: "Green Beansとイオンネットスーパーを比較｜送料・配送エリア・WAON POINTはどっちがおすすめ？【2026年版】"
+displayTitle: "Green Beansとイオンネットスーパーを比較"
+subtitle: "送料・配送エリア・WAON POINTの違いを比較"
 description: "Green Beansとイオンネットスーパーを、送料、最低注文金額、配送エリア、配送方式、WAON POINT、置き楽、当日配送、向いている人で比較します。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-22"

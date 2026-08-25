@@ -27,6 +27,8 @@ categoryTags:
   - "AI"
   - "AIリサーチ比較"
 title: "NotebookLM・Perplexity・Geminiを比較｜AIで調べ物をするならどれがおすすめ？違いを用途別に解説【2026年版】"
+displayTitle: "NotebookLM・Perplexity・Geminiを比較"
+subtitle: "AI調査の用途・情報源・使い分けを解説"
 description: "AIで調べ物をするとき、候補に入りやすいのがNotebookLM、Perplexity、Geminiです。"
 updatedAt: "2026-08-22"
 ogTitle: "NotebookLM・Perplexity・Geminiを比較｜AIで調べ物をするならどれがおすすめ？違いを用途別に解説【2026年版】"

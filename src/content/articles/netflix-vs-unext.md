@@ -1,5 +1,7 @@
 ---
 title: "NetflixとU-NEXTを比較｜料金・作品・ポイント・同時視聴はどっちがおすすめ？【2026年版】"
+displayTitle: "NetflixとU-NEXTを比較"
+subtitle: "料金・作品・ポイント・同時視聴の違いを比較"
 description: "NetflixとU-NEXTを、月額料金、広告、オリジナル、新作レンタル、1,200ポイント、同時視聴、家族利用で比較します。"
 publishedAt: "2026-08-22"
 updatedAt: "2026-08-22"

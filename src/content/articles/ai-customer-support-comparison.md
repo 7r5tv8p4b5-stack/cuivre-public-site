@@ -1,5 +1,7 @@
 ---
 title: "AIカスタマーサポート4サービスを比較｜Sierra・Decagon・Intercom Fin・Adaどれがおすすめ？"
+displayTitle: "AIカスタマーサポート4サービスを比較"
+subtitle: "成果課金・オムニチャネル・多言語・自己改善の違いを比較"
 description: "Sierra、Decagon、Intercom Fin、AdaをOutcome課金、オムニチャネル、既存helpdesk、多言語、自己改善、Enterprise運用で比較します。"
 publishedAt: "2026-08-23"
 updatedAt: "2026-08-23"

@@ -1,5 +1,7 @@
 ---
 title: "就職・転職のサービス比較｜TECHBIZ・techadapt・Tecgate転職などを確認済み情報だけで整理"
+displayTitle: "就職・転職サービス比較"
+subtitle: "確認済み情報から転職サービスの違いを整理"
 description: "既存Researchを再利用した比較記事の下書きです。"
 publishedAt: "2026-08-04"
 updatedAt: "2026-08-04"
