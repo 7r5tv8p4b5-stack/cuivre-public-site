@@ -135,6 +135,11 @@ Web会議だけでなく、スマホでの録音や音声・動画ファイル�
 
 → **[Nottaとは？料金・使い方・評判まで詳しく解説](/articles/notta-review/)**
 
+<a href="https://px.a8.net/svt/ejp?a8mat=4BAB1A+3ENC62+5988+601S1" rel="nofollow">
+<img border="0" width="234" height="60" alt="" src="https://www25.a8.net/svt/bgt?aid=260821342206&wid=002&eno=01&mid=s00000024524001008000&mc=1">
+</a>
+<img border="0" width="1" height="1" src="https://www17.a8.net/0.gif?a8mat=4BAB1A+3ENC62+5988+601S1" alt="">
+
 ### Web会議を無料でたくさん記録したい → Fathom
 
 ZoomやGoogle Meet、Microsoft TeamsなどのWeb会議が中心なら、Fathomはかなり魅力的です。
