@@ -121,7 +121,10 @@ Nottaは、WindowsやMacではブラウザやデスクトップアプリから�
 
 毎月ほとんど会議をしない人には必要性が低い一方、毎週のように「録音を聞き返す」「議事録を作る」「発言を探す」といった作業が発生しているなら、その時間を減らすためにNottaを使う意味は大きくなります。
 
-**[Notta公式サイトで詳細を見る](https://px.a8.net/svt/ejp?a8mat=4BAB1A+3ENC62+5988+601S1)**
+<a href="https://px.a8.net/svt/ejp?a8mat=4BAB1A+3ENC62+5988+601S1" rel="nofollow">
+<img border="0" width="234" height="60" alt="" src="https://www25.a8.net/svt/bgt?aid=260821342206&wid=002&eno=01&mid=s00000024524001008000&mc=1">
+</a>
+<img border="0" width="1" height="1" src="https://www17.a8.net/0.gif?a8mat=4BAB1A+3ENC62+5988+601S1" alt="">
 
 ### 関連記事
 
