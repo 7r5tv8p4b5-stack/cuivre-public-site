@@ -255,3 +255,13 @@ d払い、dカード、ドコモの通信サービスを使い、街のdポイ�
 楽天サービスなら楽天ポイント、d払い・ドコモ系ならdポイント、Ponta提携店・リクルート系・au PAYならPontaポイント、三井住友カードならVポイント、イオン系列ならWAON POINTというのが大きな選び分けです。
 
 最高還元率だけで決めるより、**普段の買い物や決済で自然に貯まり、使い切りやすいポイントをメインにする**方が、共通ポイントを無理なく活用できます。
+
+**[楽天ポイント公式サイトを見る](https://point.rakuten.co.jp/)**
+
+**[dポイント公式サイトを見る](https://dpoint.docomo.ne.jp/)**
+
+**[Pontaポイント公式サイトを見る](https://www.ponta.jp/c/services/)**
+
+**[Vポイント公式サイトを見る](https://tsite.jp/)**
+
+**[WAON POINT公式サイトを見る](https://www.waon.net/waon_point/)**
