@@ -1,10 +1,10 @@
 ---
-title: "AIカスタマーサポート4サービスを比較｜Sierra・Decagon・Intercom Fin・Adaどれがおすすめ？"
+title: "AIカスタマーサポート4サービスを比較"
 displayTitle: "AIカスタマーサポート4サービスを比較"
-subtitle: "成果課金・オムニチャネル・多言語・自己改善の違いを比較"
-description: "Sierra、Decagon、Intercom Fin、AdaをOutcome課金、オムニチャネル、既存helpdesk、多言語、自己改善、Enterprise運用で比較します。"
+subtitle: "Sierra・Decagon・Fin・Adaの料金体系・対応チャネル・導入方法・運用機能の違いを比較【2026年版】"
+description: "Sierra、Decagon、Fin AI Agent、Adaの料金体系、対応チャネル、導入方法、運用機能の違いを比較します。"
 publishedAt: "2026-08-23"
-updatedAt: "2026-08-23"
+updatedAt: "2026-08-27"
 category: "AIカスタマーサポート"
 parentCategory: "AIカスタマーサポート"
 primaryCategory: "AIカスタマーサポート"
@@ -16,16 +16,22 @@ draft: false
 slug: "ai-customer-support-comparison"
 noindex: false
 canonical: "https://cuivre-public-site.pages.dev/articles/ai-customer-support-comparison/"
-ogTitle: "AIカスタマーサポート4サービスを比較｜Sierra・Decagon・Intercom Fin・Adaどれがおすすめ？"
-ogDescription: "Sierra、Decagon、Intercom Fin、AdaをOutcome課金、オムニチャネル、既存helpdesk、多言語、自己改善、Enterprise運用で比較します。"
+ogTitle: "AIカスタマーサポート4サービスを比較"
+ogDescription: "Sierra、Decagon、Fin AI Agent、Adaの料金体系、対応チャネル、導入方法、運用機能の違いを比較します。"
 targetKeyword: "AIカスタマーサポート4サービス"
 searchIntent: "comparison"
-serviceName: "Sierra / Decagon / Intercom Fin / Ada"
+serviceName: "Sierra / Decagon / Fin AI Agent / Ada"
 officialUrl: "https://sierra.ai/jp"
-officialCtaText: "公式サイトを確認する →"
+officialCtaText: "公式サイトを見る →"
 officialLinks:
-  - label: "Sierra公式サイト"
+  - label: "Sierra公式サイトを見る"
     href: "https://sierra.ai/jp"
+  - label: "Decagon公式サイトを見る"
+    href: "https://decagon.ai/"
+  - label: "Fin AI Agent公式サイトを見る"
+    href: "https://www.intercom.com/fin"
+  - label: "Ada公式サイトを見る"
+    href: "https://www.ada.cx/"
 humanWriter: true
 affiliate: false
 affiliateDisclosure: false
@@ -36,242 +42,249 @@ hideHeroDescription: true
 serviceIds: []
 companyIds: []
 affiliateProgramIds: []
-categoryTags: ["AIカスタマーサポート", "Sierra", "Decagon", "Intercom Fin", "Ada", "比較", "AI"]
+categoryTags: ["AIカスタマーサポート", "Sierra", "Decagon", "Fin AI Agent", "Ada", "比較", "AI"]
 ---
-# AIカスタマーサポートおすすめ4選を比較｜Sierra・Decagon・Intercom Fin・Adaはどう選ぶ？【2026年版】
+# AIカスタマーサポート4サービスを比較
 
-企業のカスタマーサポートに生成AIを入れるサービスは、2026年には「FAQへ自動回答するチャットボット」からかなり先へ進んでいます。
+**Sierra・Decagon・Fin・Adaの料金体系・対応チャネル・導入方法・運用機能の違いを比較【2026年版】**
 
-Sierra、Decagon、Intercom Fin、Adaはいずれも、顧客の質問を理解し、企業データを参照し、必要な処理を実行し、解決できなければ人間へ引き継げます。
+Sierra、Decagon、Fin AI Agent、Adaは、問い合わせへの回答だけでなく、顧客情報の確認や手続き、外部システムへの処理、人間への引き継ぎまで自動化できるAIカスタマーサポートサービスです。
 
-ただし、導入の重さと製品の考え方はかなり違います。既存helpdeskへAI Agentだけ追加しやすいFinもあれば、Voice・Email・Chatを含む企業のCX全体をAgent中心へ作り直すSierra、Decagon、Adaもあります。
+4サービスとも従来型のFAQチャットボットより対応範囲は広くなっていますが、既存のヘルプデスクへAIを追加するのか、AIを中心にカスタマーサービス全体を作り直すのか、料金を何に対して支払うのかには違いがあります。
 
-この記事では、2026年8月時点の4サービスを、導入しやすさ、業務処理、Voice、改善運用、料金モデル、企業規模まで比較します。最後に、成長企業、大企業、グローバル企業など用途別にどれを選びやすいか整理します。
+2026年8月27日時点の公式情報をもとに、4サービスの料金体系、対応チャネル、導入方法、AIエージェントの改善・運用機能を比較しながら、企業の状況ごとにどれを選びやすいか整理します。
 
-## 4サービスを先に分けると、Finだけ導入の入口がかなり違う
+| サービス | 料金の考え方 | 主な対応チャネル |
+|---|---|---|
+| Sierra | 成果ベース。具体的な単価は個別契約 | Chat・SMS・WhatsApp・Email・Voice・ChatGPT |
+| Decagon | 個別見積もり | Chat・Voice・Emailなど |
+| Fin AI Agent | $0.99〜/Outcome。Intercom利用時は別途Seat料金 | Chat・Email・Voiceなど |
+| Ada | Conversationベースが基本。Resolutionベースも選択可 | Chat・Email・Voice・SMS・Social |
 
-Intercom Finは、既存helpdeskへAI Agentだけ追加できます。
+## 最初に分けるなら、既存環境へAIを足すか、AI中心のCX基盤へ広げるか
 
-そのため、今のサポート環境を残したままAI解決率を上げたい会社に入りやすいです。
+4サービスともAIが顧客対応を自動化しますが、導入するときの出発点は同じではありません。
 
-Sierra、Decagon、Adaはより大きなCXプラットフォームです。
+特に違いが分かりやすいのがFin AI Agentです。
 
-チャット。
+Finは、すでに使っているヘルプデスクを残したままAIだけ追加する導入方法を明確に用意しています。Intercomと組み合わせることもできますが、既存のSalesforceなどのヘルプデスク上でFin AI Agentだけ利用する構成もあり、その場合はSeat料金なしでOutcome単位の料金になります。
 
-メール。
+つまり、
 
-Voice。
+**現在の問い合わせ管理システムを大きく変えず、まずAIによる解決率を上げたい**
 
-SMSやSNS。
+という企業には入りやすい選択肢です。
 
-顧客Memory。
+一方、Sierraは既存ヘルプデスクへチャットボットを付けるというより、AIエージェントを顧客との接点そのものへ広げる考え方が強くなっています。
 
-複雑な業務処理。
+Chat、SMS、WhatsApp、Email、Voice、ChatGPTへ一つのエージェントを展開でき、2026年にはHorizonによって、一回の問い合わせだけではなく数日・数週間にまたがる顧客対応も扱う方向へ広がっています。
 
-Agentの監視と改善。
+Decagonも現在は「サポート用AIチャット」というより、AI conciergeという位置付けです。
 
-これらをまとめて設計します。
+Chat、Voice、Emailを同じ知能レイヤーで扱い、2026年にはUser MemoryとOutbound Voiceを組み合わせたProactive Agentsも追加されています。問い合わせを待って回答するだけでなく、必要なタイミングで企業側から顧客へ連絡する方向まで広がっています。
 
-小さくAIを追加したいならFin。
+AdaもChatだけのサービスではありません。
 
-顧客対応の運用モデル自体をAI中心へ変えたいならSierra、Decagon、Ada。
+Voice、Email、Chat、SMS、Socialを扱い、2026年にはVoice・Messaging・Emailで共通のUnified Reasoning Engineを使う構成へ移行しました。一つのAI Agentを複数チャネルへ広げながら、企業側でKnowledge、Actions、Processes、Coachingなどを管理するプラットフォームです。
 
-まずこの違いを押さえると比較しやすいです。
+そのため最初の候補分けは、
 
-## 既存helpdeskを変えずに始めたいならIntercom Finが分かりやすい
+**既存ヘルプデスクを活かしながらAIを追加したい → Fin**
 
-AI Agentを試すためにサポートシステム全体を移行するのは大きな負担です。
+**AIを顧客体験そのものの基盤として広く作りたい → Sierra / Decagon / Ada**
 
-Finは既存helpdeskで使えるため、まず一部問い合わせをAIへ任せる形を作りやすいです。
+くらいから始めると分かりやすいです。
 
-料金も1 outcomeあたり0.99ドルからと公開されています。
+## 料金は4社で考え方そのものが違う
 
-14日無料で試せるので、自社ナレッジを入れ、実際の問い合わせで解決率を見るところまで比較的短く進められます。
+4サービスを比較するとき、月額料金の一覧だけで安い順に並べることはできません。
 
-成長企業や中規模サポートチームにはかなり現実的です。
+そもそも課金単位が違います。
 
-一方、複数国のVoiceや複雑な業務SOPを含め、CX基盤そのものを再設計するなら他3社の方が候補になりやすくなります。
+Sierraは**Outcome-based pricing**を大きな特徴にしています。
 
-## 成果ベースで大規模なCX変革を進めたいならSierra
+座席数や会話数ではなく、問い合わせ解決、解約防止、アップセルなど、事前に企業と定義した「成果」が発生した場合に料金が発生する考え方です。エスカレーションされた会話については多くの場合課金しないと説明しています。
 
-Sierraは、企業の顧客対応Agentを複数チャネルへ展開し、問い合わせ解決だけでなく解約防止やアップセルなど事業成果まで扱います。
+ただし、公開された一律の「1成果○ドル」という価格表はありません。Outcomeの定義や価値は企業ごとに異なり、必要に応じてConversationベースなどを混ぜた料金設計も行っています。
 
-GhostwriterでAgentの振る舞いを作り、Explorerで会話やデータを分析し、専門チームと継続的に改善します。
+Decagonも公開サイトでは具体的な標準単価を提示しておらず、導入はデモ・個別相談が中心です。
 
-料金もseatではなくoutcome-basedを前面に出しています。
+そのため、SierraやDecagonをFinの「$0.99/Outcome」と数字だけで直接比較することはできません。
 
-AIが価値ある結果を出した時に支払い、未解決のエスカレーションには多くの場合課金しないという考え方です。
+Finはこの4社では公開料金が最も分かりやすいサービスです。
 
-大量の顧客接点を持ち、AI導入をサポートコスト削減だけでなく売上や顧客生涯価値まで広げたい企業に向いています。
+Fin AI AgentはChat・Emailで**1 Outcomeあたり$0.99から**。Intercomと一緒に使う場合は、年払いでEssential $29/Seat/月、Advanced $85/Seat/月、Expert $132/Seat/月からとなり、そこへFinの利用料金が加わります。
 
-## CXチームが自分たちでAgentを改善し続けたいならDecagon
+既存ヘルプデスクでFinだけ使う場合はSeat料金がなく、Fin Outcome単位で利用できます。最低利用量などの条件はありますが、既存環境を維持したまま導入費用を計算しやすい形です。
 
-Decagonの特徴はAOPs、Duet、Watchtowerです。
+Adaは2026年現在、**Conversationベースの料金を基本**としています。
 
-AOPsで企業の業務手順を自然言語化する。
+AI Agentがエンドユーザーと行ったConversationに対して支払う方式で、企業によってはResolutionベースも選択できます。実際のConversation単価は公開固定価格ではなく契約内容によって決まります。
 
-Duetが実際の会話を分析して不足を見つけ、AOP改善を支援する。
+つまり料金体系は、
 
-Watchtowerが会話を常時監視する。
+**Sierra → 成果に対して支払う**
 
-この改善ループを製品として強く持っています。
+**Ada → 会話単位が基本**
 
-さらにMemory、Outbound Voice、Guided Discoveryなど、問い合わせ対応から顧客との長期的な関係へ広げています。
+**Fin → 解決・処理などのOutcome単位**
 
-CX Operationsが強く、エンジニアだけに依存せず自社でAgentを改善したい企業には特に比較価値があります。
+**Decagon → 公開固定価格ではなく個別見積もり**
 
-## 多言語・複数チャネル・複雑なSOPを一つのReasoning EngineへまとめたいならAda
+とかなり違います。
 
-AdaはReasoning Engineを中心に、Voice、Email、Chat、SMS、Instagramなど多くのチャネルへ同じAgentを展開します。
+月間問い合わせ件数だけではなく、
 
-Playbooksで複雑なmulti-step SOPを扱い、Performance Centerで分析と改善を行います。
+**問い合わせが解決した場合だけ費用を出したいのか、会話量から予算を読みやすくしたいのか、既存ヘルプデスクのSeat料金も含めて運用するのか**
 
-2026年にはKnowledgeの60言語対応やGlossaryなど、グローバル運用向けの管理も強化されています。
+まで決めて比較する必要があります。
 
-多国籍企業では、ただ翻訳できることより、商品名や業界用語、国ごとの業務ルールを一貫して管理できることが重要です。
+## Chatだけでなく、Voiceまで使うかで候補は変わる
 
-Adaはこの「多言語で大規模に運用するAgent」をかなり明確に狙っています。
+以前ならAIカスタマーサポートというと、Webサイトのチャットを最初に比較すればある程度判断できました。
 
-## Voiceを重視するなら、4社のうちFin以外は同条件で実地テストした方がいい
+現在は4サービスとも対応範囲が広がっています。
 
-Sierra、Decagon、AdaはVoiceを主要チャネルとして提供しています。
+特にSierraは、Chat、SMS、WhatsApp、Email、Voice、ChatGPTへ同じエージェントを展開できることを前面に出しています。2026年8月にはVoice Personasも発表され、Voiceで何を話すかだけでなく「どう話すか」まで企業側が設計できる方向へ進んでいます。
 
-FinもVoiceへ対応していますが、公式料金はSalesへの問い合わせとなっています。
+DecagonもVoiceを単独製品として持つのではなく、Chat・Emailと同じエージェント基盤へ統合しています。
 
-Voiceでは機能表だけで品質差を判断しにくいです。
+会話履歴や顧客コンテキストをチャネル間で共有でき、電話を受けるだけでなくOutbound Voiceによるリマインドやフォローアップなどにも対応します。
 
-割り込み。
+AdaでもVoiceはChatやEmailと別系統のAIではなくなりました。
 
-沈黙。
+Unified Reasoning Engineにより同じKnowledge、Actions、Processes、CoachingをVoiceでも利用でき、Testing at ScaleもVoiceまで対応しています。
 
-背景ノイズ。
+FinもChat・EmailだけではなくVoiceへ展開しています。ただし、公開されている$0.99/OutcomeはChatとEmailに対する価格で、Fin Voiceの価格はSalesへの問い合わせが必要です。
 
-日本人名。
+そのため、チャット中心なら4社とも候補になります。
 
-住所。
+電話まで本格的にAI化するなら、単にVoice対応の○×を見るのではなく、
 
-数字。
+**チャット・メール・電話で同じ顧客情報とAIロジックを共有できるか**
 
-本人確認。
+まで見る方が重要です。
 
-感情的な会話。
+この点ではSierra、Decagon、Adaはいずれも「一つのAIを複数チャネルへ広げる」方向がかなり明確になっています。
 
-これらを実際に試す必要があります。
+## 既存のZendesk・Salesforce・Intercomを残したいならFinだけが特別ではない
 
-特に日本向けサポートでは、英語デモが自然だからといって同じ品質になるとは限りません。
+Finの分かりやすい強みは、既存ヘルプデスクへAIだけ追加できることです。
 
-Voiceが導入の中心なら、同じ50〜100ケースを各候補へ流し、解決率と人間転送率、誤処理率を比較するのがいいです。
+ただし、現在は「既存環境と連携できるのはFinだけ」という比較にはなりません。
 
-## 料金モデルは4社とも違うので「月額が安い」で比べられない
+DecagonはSalesforce、Intercom、Zendeskなどと連携し、既存のCRM、ヘルプデスク、チケット管理、ナレッジベースを利用できます。
 
-Intercom Finは公開価格が最も分かりやすく、基本0.99ドル/outcomeです。
+AI Agentが情報を取得するだけでなく、顧客に代わって処理を実行し、必要なら既存サポートツールへエスカレーションできます。
 
-Intercom本体を使う場合はseat料金も加わります。
+Adaも外部システムとの接続を前提としており、APIによるActionsやProcesses、Zendesk SDKなどを利用できます。AI Agentの回答だけで完結させず、外部データを取得したり、実際の業務処理を実行したりできます。
 
-Sierraは事前に定義したoutcomeへ支払う成果ベース。
+Sierraも企業データや既存システムをエージェントへ接続し、単なる回答ではなく実際の顧客業務を処理する設計です。
 
-Decagonはconversation-basedとresolution-basedの両方を提供。
+つまり現在の4社では、**外部システム連携そのものには大きな差がありません**。
 
-Adaはconversation-basedを中心に、特定企業向けにresolution-basedも用意しています。
+違いは導入後の主役をどこに置くかです。
 
-Sierra、Decagon、Adaは共通の公開単価がありません。
+Finは既存ヘルプデスクを残してAIだけ追加する導線を商品として明確にしています。
 
-そのため、大企業の比較では単価だけではなく、
+一方、Sierra、Decagon、Adaでは既存システムをデータや処理の接続先として使いながら、AI Agent側を顧客対応の中心へ持ってくる構成を作りやすくなっています。
 
-年間問い合わせ数。
+「Salesforceとつながるか」ではなく、
 
-AI解決率。
+**Salesforceを今後もサポート業務の中心に残したいのか**
 
-Voice比率。
+を見る方が選択に影響します。
 
-人間への転送率。
+## AIを改善し続ける仕組みは4社ともかなり強くなっている
 
-導入・改善に必要な社内工数。
+生成AIをカスタマーサポートへ導入すると、公開した時点で完成ではありません。
 
-まで入れてTCOを見る必要があります。
+誤った回答、意図しないエスカレーション、解決できなかった問い合わせを見つけ、AI Agentを改善し続ける必要があります。
 
-## 解決率だけをKPIにすると、危険な自動化を増やすことがある
+この点は旧記事より4社の差が小さくなっています。
 
-AI Agentの導入事例では、resolution rateやdeflection rateがよく使われます。
+Sierraにはビルトインのテスト、Automated Monitoring、改善のためのインサイトがあり、Ghostwriterでは自然言語でエージェントのWorkflow、Integration、Guardrail、Toneなどを作成・変更できます。Explorerを使えば顧客会話を自然言語で分析することもできます。
 
-確かに重要な数字です。
+DecagonもAOPと呼ばれる業務手順を使ってエージェントロジックを設計し、Watchtowerで会話を継続監視できます。
 
-でも、解決率だけを上げようとすると、人間へ渡すべきケースまでAIが抱え込む危険があります。
+技術者だけではなくCXチームがAI Agentを改善できることを重視しており、知識ベース、Workflow、Toolなどの改善候補をAI側から提示する仕組みもあります。
 
-返金。
+AdaではKnowledge、Actions、Processes、Coachingを中心にAI Agentを管理します。
 
-不正利用。
+Testing at ScaleではChat・Emailに加えてVoiceのテストケースも作成でき、音声会話のシミュレーション結果を再生して確認できます。
 
-医療。
+FinもAI回答だけではなく、Procedureによって外部処理を実行でき、Intercom側のReportingやWorkflowなどと合わせて改善運用できます。上位プランではリアルタイムダッシュボードなども利用できます。
 
-高額契約。
+そのため、
 
-重大クレーム。
+「継続改善できるか」
 
-こうしたケースは、正しく人間へエスカレーションすること自体が成功です。
+だけでは4社を分けにくくなっています。
 
-4サービスともGuardrailsやhandoffを重視しています。
+実際に見るべきなのは、**誰が改善作業を担当するのか**です。
 
-AI導入では、
+AI専門チームとベンダーが共同で高度なCXを作るのか、社内のCX担当者が自分で改善するのか、既存ヘルプデスクの運用チームがそのままFinを管理するのか。
 
-自動解決率。
+ツールの機能差より、運用体制との相性の方が重要になっています。
 
-CSAT。
+## SierraとDecagonは「問い合わせ対応の効率化」より先を見ている
 
-誤処理率。
+4社ともカスタマーサポートを自動化できますが、特にSierraとDecagonは2026年になって「問い合わせ件数を減らすAI」からさらに先へ広がっています。
 
-安全なhandoff率。
+SierraのHorizonは、一回のサポート会話だけではなく、数日・数週間にまたがる顧客関係をAI Agentが継続的に扱う仕組みです。
 
-処理時間。
+顧客情報や過去の会話をコンテキストとして保持し、解約防止や次のアクション、アップセルなども含めて顧客ごとのOutcomeを目指します。
 
-コスト。
+DecagonのProactive Agentsも近い方向です。
 
-を組み合わせて見る方がいいです。
+User Memoryによって顧客との過去の関係を保持し、Outbound Voiceを使って企業側から必要なタイミングで顧客へ連絡できます。予約確認、フォローアップ、リマインドなど、顧客が問い合わせてくる前にAI側から動く仕組みです。
 
-## 小規模チームならSierra・Decagon・Adaを最初から選ばなくてもいい
+Adaも顧客サポートをコストセンターだけではなくRevenue Generationへ使う方向を打ち出しており、契約更新、プラン変更、アップセルなどをAI Agentから処理できます。
 
-大企業の成功事例を見ると、最新のAgentic CXプラットフォームを導入したくなります。
+Finも2026年にはFin for Salesを提供しており、問い合わせ対応だけではなく、見込み客のQualificationやRoutingまで行えるようになっています。
 
-ただ、問い合わせが月1000件程度で、大半がFAQなら、複雑なAI Agent基盤を導入しても運用負担の方が大きいことがあります。
+つまり、4社とも「FAQ回答だけ」の時代からはかなり離れています。
 
-まずFinのようなサービスでKnowledge回答と一部Procedureを自動化する。
+ただ、**問い合わせ対応の効率化から始めたいのか、AIを顧客接点全体へ広げることまで最初から考えるのか**で、導入時に必要な規模や設計は変わります。
 
-それで何が人間に残るかを見る。
+既存サポートの改善から小さく始めるならFinの導入方法は分かりやすく、AIを企業のCXそのものへ組み込むならSierra、Decagon、Adaまで含めて比較する意味が大きくなります。
 
-残った問い合わせが、複数システムをまたぐ複雑な業務ばかりになったところで、より大きなAgent基盤を検討する。
+## 結局どのAIカスタマーサポートを選ぶ？
 
-この順番でも遅くありません。
+**AIを問い合わせ対応だけではなく、顧客との長期的な関係や売上、解約防止まで含めたCX基盤として使いたいならSierra**が候補になります。
 
-AIカスタマーサポートは「最も高機能な製品」を選ぶより、自社の問い合わせ複雑度に合うものを選ぶ方が重要です。
+Outcomeベースの料金体系も含めて、Seat数を減らすためのツールではなく「AIがどんな成果を生んだか」を中心に導入したい企業と相性がいいサービスです。
 
-## 2026年に選ぶなら、用途でこう分けると分かりやすい
+**Chat・Email・Voiceを同じAI Agentで扱いながら、CXチーム自身が業務フローを改善し、Proactiveな顧客対応まで広げたいならDecagon**を選びやすいです。
 
-今のhelpdeskへAIを早く追加したいならIntercom Fin。
+既存のZendesk、Salesforce、Intercomなどとも接続できるため、バックエンドを全部入れ替える必要はありません。
 
-大規模な顧客接点を成果ベースでAI Agentへ移し、ベンダーと継続的に改善したいならSierra。
+**現在のヘルプデスクをなるべく変えず、まずAI Agentを追加して自動解決を始めたいならFin AI Agent**が最も入口を作りやすいです。
 
-CXチームがAOPsやDuetを使い、自分たちでAgentを高速改善したいならDecagon。
+Salesforceなど既存ヘルプデスクでFinだけ利用でき、料金も$0.99/Outcomeから公開されているため、4社の中では導入後の費用をイメージしやすくなっています。
 
-多言語・複数チャネル・複雑SOPを一つの企業向けAI基盤へ統合したいならAda。
+**大規模なグローバルサポートで、Chat・Email・Voice・SMS・Socialを一つのAI Agentへまとめ、社内で継続的に管理・改善したいならAda**が候補になります。
 
-この分け方が分かりやすいです。
+Conversationベースの料金を基本とし、Knowledge、Actions、Processes、Testing、Developer Toolkitまで、企業側がAI Agentを運用するための仕組みがまとまっています。
 
-Sierra、Decagon、Adaを検討する規模の企業なら、資料比較だけで決めず、自社問い合わせログを使ったPoCを行った方がいいです。
+単純な総合順位を付けるより、
+
+**成果を中心にCX全体をAI化する → Sierra**
+
+**オムニチャネルのAI Conciergeを自社で改善していく → Decagon**
+
+**既存ヘルプデスクへAIを追加する → Fin AI Agent**
+
+**大規模・多言語・多チャネルのAI Agentを管理する → Ada**
+
+という条件から候補を絞る方が、4サービスの違いを実際の選択へつなげやすいです。
 
 ## まとめ
 
-2026年のAIカスタマーサポートは、FAQを自動回答するチャットボットの比較ではなくなっています。
+Sierra、Decagon、Fin AI Agent、Adaは、現在ではどれも単純なFAQチャットボットではありません。
 
-Sierra、Decagon、Intercom Fin、Adaは、顧客情報を読み、企業システムで処理を行い、必要なら人間へ引き継ぐAI Agentです。
+外部システムと連携して実際の処理を行い、ChatだけでなくEmailやVoiceへ対応し、会話を分析してAI Agentを改善するところまで4社とも進んでいます。
 
-Finは既存環境へ追加しやすい。
+大きな違いは機能の○×より、**今のサポート環境へAIを追加するのか、それともAIを中心に顧客体験そのものを再設計するのか**です。
 
-Sierraは成果と大規模CX変革。
-
-DecagonはAgentの継続改善。
-
-Adaは多言語・マルチチャネルと企業SOP。
-
-それぞれ立ち位置が違います。
-
-最終的には「何％の質問に答えられるか」ではなく、自社の顧客が本当に困っている用事を、どこまで安全に最後まで完了できるかで選ぶのが一番確実です。
+既存環境を活かして始めるならFin、そこからAIを企業の主要な顧客接点へ広げるならSierra・Decagon・Adaまで含めて、料金体系と社内の運用体制を合わせて選ぶのが分かりやすいでしょう。
