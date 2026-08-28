@@ -180,7 +180,7 @@ const structuredData = {
           </div>
         )}
         <div class="article-body" set:html={articleBodyHtml} />
-        {officialLinks.map((link) => link.href && <ArticleCTA href={link.href} label={link.label} />)}
+        {!frontmatter.hideBottomOfficialCta && officialLinks.map((link) => link.href && <ArticleCTA href={link.href} label={link.label} />)}
         <RelatedArticles articles={relatedArticles} />
       </div>
       <aside class="article-recommendations" aria-label="おすすめ記事">
