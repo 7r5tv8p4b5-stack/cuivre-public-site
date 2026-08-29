@@ -1208,6 +1208,98 @@ p {
   display: none;
 }
 
+.affiliate-product {
+  margin: 18px 0 20px;
+  padding: 14px;
+  border: 1px solid #d7e4dc;
+  border-radius: 8px;
+  background: #f7fbf8;
+}
+
+.affiliate-product__header {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin-bottom: 12px;
+}
+
+.affiliate-product__header h2 {
+  margin: 0;
+  color: #102033;
+  font-size: 18px;
+  line-height: 1.35;
+}
+
+.affiliate-product__pr {
+  display: inline-flex;
+  align-items: center;
+  min-height: 22px;
+  padding: 2px 8px;
+  border: 1px solid #e4d6c5;
+  border-radius: 999px;
+  background: #fff8f0;
+  color: #7a4b12;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0;
+}
+
+.affiliate-product__body {
+  display: grid;
+  grid-template-columns: 82px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 14px;
+}
+
+.affiliate-product__image {
+  width: 82px;
+  height: 82px;
+  border-radius: 8px;
+  object-fit: cover;
+  background: #fff;
+}
+
+.affiliate-product__content strong {
+  display: block;
+  color: #1b2a25;
+  font-size: 16px;
+  line-height: 1.45;
+}
+
+.affiliate-product__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 7px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.affiliate-product__button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 40px;
+  padding: 0 14px;
+  border-radius: 999px;
+  background: var(--color-brand);
+  color: #fff;
+  font-size: 14px;
+  font-weight: 800;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.affiliate-product__button:hover {
+  background: #2f8ad8;
+}
+
+.affiliate-product__pixel {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+}
+
 .article-body {
   display: grid;
   gap: 22px;
@@ -2454,6 +2546,20 @@ blockquote {
 
   .article-cta .button-primary {
     justify-content: center;
+    width: 100%;
+  }
+
+  .affiliate-product__body {
+    grid-template-columns: 72px minmax(0, 1fr);
+  }
+
+  .affiliate-product__image {
+    width: 72px;
+    height: 72px;
+  }
+
+  .affiliate-product__button {
+    grid-column: 1 / -1;
     width: 100%;
   }
 

@@ -1,0 +1,27 @@
+---
+const { product } = Astro.props;
+---
+{product ? (
+  <aside class="affiliate-product" aria-label="おすすめ購入品">
+    <div class="affiliate-product__header">
+      <span class="affiliate-product__pr">PR</span>
+      <h2>おすすめ購入品</h2>
+    </div>
+    <div class="affiliate-product__body">
+      <img class="affiliate-product__image" src={product.imageUrl} alt={product.name} loading="lazy" decoding="async" />
+      <div class="affiliate-product__content">
+        <strong>{product.name}</strong>
+        <div class="affiliate-product__meta">
+          <span>{product.price}</span>
+          <span>レビュー{product.reviewCount}</span>
+        </div>
+      </div>
+      <a class="affiliate-product__button" href={product.href} rel="nofollow sponsored noopener" target="_blank">
+        楽天市場で見る
+      </a>
+    </div>
+    {product.trackingPixel && (
+      <img class="affiliate-product__pixel" src={product.trackingPixel} width="1" height="1" alt="" loading="lazy" decoding="async" />
+    )}
+  </aside>
+) : null}

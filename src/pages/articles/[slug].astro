@@ -3,6 +3,7 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 import ArticleCTA from "../../components/ArticleCTA.astro";
 import ArticleHero from "../../components/ArticleHero.astro";
 import ArticleTOC from "../../components/ArticleTOC.astro";
+import AffiliateProductRecommendation from "../../components/AffiliateProductRecommendation.astro";
 import ComparisonSummary from "../../components/ComparisonSummary.astro";
 import RankingSummary from "../../components/RankingSummary.astro";
 import RelatedArticles from "../../components/RelatedArticles.astro";
@@ -96,6 +97,7 @@ const officialLinks = Array.isArray(frontmatter.officialLinks)
     ? [{ href: frontmatter.officialUrl || frontmatter.official_url, label: frontmatter.officialCtaText || frontmatter.official_cta_text }]
     : [];
 const officialScreenshots = frontmatter.officialScreenshots || frontmatter.official_screenshots || [];
+const recommendedProduct = frontmatter.recommendedProduct || null;
 const hasPrebodyAppMedia = Boolean(officialLinks.length > 0 && frontmatter.appIcon && officialScreenshots.length > 0);
 const shouldSplitIntroBeforeBody = !hasFixedSections && (hasServiceDecision || hasPrebodyAppMedia);
 const firstSectionIndex = shouldSplitIntroBeforeBody ? articleHtml.search(/\s*<h2\b/i) : -1;
@@ -153,6 +155,7 @@ const structuredData = {
         ) : (
           articleIntroHtml && <div class="article-intro article-body" set:html={articleIntroHtml} />
         )}
+        <AffiliateProductRecommendation product={recommendedProduct} />
         <ComparisonSummary summary={comparisonSummary} />
         <RankingSummary summary={rankingSummary} />
       </div>
