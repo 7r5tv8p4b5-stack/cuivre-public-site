@@ -34,13 +34,25 @@ serviceIds: [55]
 companyIds: []
 affiliateProgramIds: []
 categoryTags: ["アプリ", "学習アプリ", "有料アプリ", "AnkiMobile Flashcards"]
-recommendedProduct:
-  name: "iPad・スマホ対応 折りたたみスタンド"
-  price: "500円"
-  reviewCount: "213件"
-  imageUrl: "https://thumbnail.image.rakuten.co.jp/@0_mall/ecojiji/cabinet/03082483/imgrc0084274228.jpg?_ex=64x64"
-  href: "https://rpx.a8.net/svt/ejp?a8mat=4B9VHB+33XJA2+2HOM+BWGDT&rakuten=y&a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00pseu4.2bo1116b.g00pseu4.2bo12ea9%2Fa26080140126_4B9VHB_33XJA2_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Fecojiji%252Fsmaholder%252F%26m%3Dhttp%253A%252F%252Fm.rakuten.co.jp%252Fecojiji%252Fi%252F10008402%252F%26rafcid%3Dwsc_i_is_a9f492a7-8ef9-40e2-ab89-4bc43a1ee283"
-  trackingPixel: "https://www16.a8.net/0.gif?a8mat=4B9VHB+33XJA2+2HOM+BWGDT"
+recommendedProducts:
+  - name: "iPad・スマホ対応 折りたたみスタンド"
+    price: "500円"
+    reviewCount: "213件"
+    imageUrl: "https://thumbnail.image.rakuten.co.jp/@0_mall/ecojiji/cabinet/03082483/imgrc0084274228.jpg?_ex=64x64"
+    href: "https://rpx.a8.net/svt/ejp?a8mat=4B9VHB+33XJA2+2HOM+BWGDT&rakuten=y&a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00pseu4.2bo1116b.g00pseu4.2bo12ea9%2Fa26080140126_4B9VHB_33XJA2_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Fecojiji%252Fsmaholder%252F%26m%3Dhttp%253A%252F%252Fm.rakuten.co.jp%252Fecojiji%252Fi%252F10008402%252F%26rafcid%3Dwsc_i_is_a9f492a7-8ef9-40e2-ab89-4bc43a1ee283"
+    trackingPixel: "https://www16.a8.net/0.gif?a8mat=4B9VHB+33XJA2+2HOM+BWGDT"
+  - name: "iPad・スマホ対応 折りたたみスタンド"
+    price: "500円"
+    reviewCount: "213件"
+    imageUrl: "https://thumbnail.image.rakuten.co.jp/@0_mall/ecojiji/cabinet/03082483/imgrc0084274228.jpg?_ex=64x64"
+    href: "https://rpx.a8.net/svt/ejp?a8mat=4B9VHB+33XJA2+2HOM+BWGDT&rakuten=y&a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00pseu4.2bo1116b.g00pseu4.2bo12ea9%2Fa26080140126_4B9VHB_33XJA2_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Fecojiji%252Fsmaholder%252F%26m%3Dhttp%253A%252F%252Fm.rakuten.co.jp%252Fecojiji%252Fi%252F10008402%252F%26rafcid%3Dwsc_i_is_a9f492a7-8ef9-40e2-ab89-4bc43a1ee283"
+    trackingPixel: "https://www16.a8.net/0.gif?a8mat=4B9VHB+33XJA2+2HOM+BWGDT"
+  - name: "iPad・スマホ対応 折りたたみスタンド"
+    price: "500円"
+    reviewCount: "213件"
+    imageUrl: "https://thumbnail.image.rakuten.co.jp/@0_mall/ecojiji/cabinet/03082483/imgrc0084274228.jpg?_ex=64x64"
+    href: "https://rpx.a8.net/svt/ejp?a8mat=4B9VHB+33XJA2+2HOM+BWGDT&rakuten=y&a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00pseu4.2bo1116b.g00pseu4.2bo12ea9%2Fa26080140126_4B9VHB_33XJA2_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Fecojiji%252Fsmaholder%252F%26m%3Dhttp%253A%252F%252Fm.rakuten.co.jp%252Fecojiji%252Fi%252F10008402%252F%26rafcid%3Dwsc_i_is_a9f492a7-8ef9-40e2-ab89-4bc43a1ee283"
+    trackingPixel: "https://www16.a8.net/0.gif?a8mat=4B9VHB+33XJA2+2HOM+BWGDT"
 appIcon:
   src: "/assets/apps/ankimobile-flashcards-review/icon.jpg"
   alt: "AnkiMobile Flashcardsの公式アイコン"

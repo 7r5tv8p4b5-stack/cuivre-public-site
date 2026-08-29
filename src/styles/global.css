@@ -1209,7 +1209,7 @@ p {
 }
 
 .affiliate-product {
-  margin: 18px 0 20px;
+  margin: 22px 0 28px;
   padding: 14px;
   border: 1px solid #d7e4dc;
   border-radius: 8px;
@@ -1244,16 +1244,26 @@ p {
   letter-spacing: 0;
 }
 
-.affiliate-product__body {
+.affiliate-product__grid {
   display: grid;
-  grid-template-columns: 82px minmax(0, 1fr) auto;
-  align-items: center;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 14px;
 }
 
+.affiliate-product__card {
+  display: grid;
+  align-content: start;
+  gap: 10px;
+  min-width: 0;
+  padding: 12px;
+  border: 1px solid #dfe9e3;
+  border-radius: 8px;
+  background: #fff;
+}
+
 .affiliate-product__image {
-  width: 82px;
-  height: 82px;
+  width: 96px;
+  height: 96px;
   border-radius: 8px;
   object-fit: cover;
   background: #fff;
@@ -1287,7 +1297,7 @@ p {
   font-size: 14px;
   font-weight: 800;
   text-decoration: none;
-  white-space: nowrap;
+  text-align: center;
 }
 
 .affiliate-product__button:hover {
@@ -2549,8 +2559,13 @@ blockquote {
     width: 100%;
   }
 
-  .affiliate-product__body {
+  .affiliate-product__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .affiliate-product__card {
     grid-template-columns: 72px minmax(0, 1fr);
+    align-items: center;
   }
 
   .affiliate-product__image {

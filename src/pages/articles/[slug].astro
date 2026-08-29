@@ -97,7 +97,7 @@ const officialLinks = Array.isArray(frontmatter.officialLinks)
     ? [{ href: frontmatter.officialUrl || frontmatter.official_url, label: frontmatter.officialCtaText || frontmatter.official_cta_text }]
     : [];
 const officialScreenshots = frontmatter.officialScreenshots || frontmatter.official_screenshots || [];
-const recommendedProduct = frontmatter.recommendedProduct || null;
+const recommendedProducts = frontmatter.recommendedProducts || (frontmatter.recommendedProduct ? [frontmatter.recommendedProduct] : []);
 const hasPrebodyAppMedia = Boolean(officialLinks.length > 0 && frontmatter.appIcon && officialScreenshots.length > 0);
 const shouldSplitIntroBeforeBody = !hasFixedSections && (hasServiceDecision || hasPrebodyAppMedia);
 const firstSectionIndex = shouldSplitIntroBeforeBody ? articleHtml.search(/\s*<h2\b/i) : -1;
@@ -155,7 +155,6 @@ const structuredData = {
         ) : (
           articleIntroHtml && <div class="article-intro article-body" set:html={articleIntroHtml} />
         )}
-        <AffiliateProductRecommendation product={recommendedProduct} />
         <ComparisonSummary summary={comparisonSummary} />
         <RankingSummary summary={rankingSummary} />
       </div>
@@ -182,6 +181,7 @@ const structuredData = {
             </section>
           </div>
         )}
+        <AffiliateProductRecommendation products={recommendedProducts} />
         <div class="article-body" set:html={articleBodyHtml} />
         {!frontmatter.hideBottomOfficialCta && officialLinks.map((link) => link.href && <ArticleCTA href={link.href} label={link.label} />)}
         <RelatedArticles articles={relatedArticles} />
