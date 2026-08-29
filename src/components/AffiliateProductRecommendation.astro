@@ -9,7 +9,7 @@ const { products = [] } = Astro.props;
     </div>
     <div class="affiliate-product__grid">
       {products.map((item) => (
-        <div class="affiliate-product__card">
+        <div class="affiliate-product__card" data-product-id={item.id}>
           <img class="affiliate-product__image" src={item.imageUrl} alt={item.displayName} loading="lazy" decoding="async" />
           <div class="affiliate-product__content">
             <strong>{item.displayName}</strong>

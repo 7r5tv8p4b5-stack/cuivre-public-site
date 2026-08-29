@@ -36,6 +36,24 @@ export const affiliateProducts: AffiliateProduct[] = [
     affiliateUrl: "https://rpx.a8.net/svt/ejp?a8mat=4B9VHB+33XJA2+2HOM+BWGDT&rakuten=y&a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00rr094.2bo1171a.g00rr094.2bo12088%2Fa26080140126_4B9VHB_33XJA2_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Fanker%252Fa2637%252F%26m%3Dhttp%253A%252F%252Fm.rakuten.co.jp%252Fanker%252Fi%252F10001037%252F%26rafcid%3Dwsc_i_is_a9f492a7-8ef9-40e2-ab89-4bc43a1ee283",
     trackingPixelUrl: "https://www10.a8.net/0.gif?a8mat=4B9VHB+33XJA2+2HOM+BWGDT",
   },
+  {
+    id: "rakuten-powerbank-01",
+    displayName: "Anker Nano モバイルバッテリー",
+    priceText: "3,990円〜",
+    reviewText: "177件",
+    imageUrl: "https://thumbnail.image.rakuten.co.jp/@0_mall/anker/cabinet/tmb/a1/a1645_normal.jpg?_ex=64x64",
+    affiliateUrl: "https://rpx.a8.net/svt/ejp?a8mat=4B9VHB+33XJA2+2HOM+BWGDT&rakuten=y&a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00rr094.2bo1171a.g00rr094.2bo12088%2Fa26080140126_4B9VHB_33XJA2_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Fanker%252Fa1645-ss%252F%26m%3Dhttp%253A%252F%252Fm.rakuten.co.jp%252Fanker%252Fi%252F10001811%252F%26rafcid%3Dwsc_i_is_a9f492a7-8ef9-40e2-ab89-4bc43a1ee283",
+    trackingPixelUrl: "https://www10.a8.net/0.gif?a8mat=4B9VHB+33XJA2+2HOM+BWGDT",
+  },
+  {
+    id: "rakuten-usbc-cable-01",
+    displayName: "UGREEN USB Type-C ケーブル",
+    priceText: "899円〜",
+    reviewText: "234件",
+    imageUrl: "https://thumbnail.image.rakuten.co.jp/@0_mall/ugreen-gear/cabinet/11871349/imgrc0133250863.jpg?_ex=64x64",
+    affiliateUrl: "https://rpx.a8.net/svt/ejp?a8mat=4B9VHB+33XJA2+2HOM+BWGDT&rakuten=y&a8ejpredirect=https%3A%2F%2Fhb.afl.rakuten.co.jp%2Fhgc%2Fg00u0fb4.2bo1141e.g00u0fb4.2bo1254c%2Fa26080140126_4B9VHB_33XJA2_2HOM_BWGDT%3Fpc%3Dhttps%253A%252F%252Fitem.rakuten.co.jp%252Fugreen-gear%252F60125%252F%26m%3Dhttp%253A%252F%252Fm.rakuten.co.jp%252Fugreen-gear%252Fi%252F10000557%252F%26rafcid%3Dwsc_i_is_a9f492a7-8ef9-40e2-ab89-4bc43a1ee283",
+    trackingPixelUrl: "https://www10.a8.net/0.gif?a8mat=4B9VHB+33XJA2+2HOM+BWGDT",
+  },
 ];
 
 function stableHash(value: string) {
@@ -44,6 +62,12 @@ function stableHash(value: string) {
 
 export function selectAffiliateProducts(seed: string, maxItems = 3) {
   if (affiliateProducts.length <= maxItems) return affiliateProducts;
-  const start = Math.abs(stableHash(seed)) % affiliateProducts.length;
-  return Array.from({ length: affiliateProducts.length }, (_, index) => affiliateProducts[(start + index) % affiliateProducts.length]).slice(0, maxItems);
+  return affiliateProducts
+    .map((product, index) => ({
+      product,
+      score: stableHash(`${seed}:${product.id}:${index}`),
+    }))
+    .sort((a, b) => a.score - b.score)
+    .slice(0, maxItems)
+    .map(({ product }) => product);
 }

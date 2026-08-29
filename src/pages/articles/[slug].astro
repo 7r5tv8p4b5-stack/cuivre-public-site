@@ -99,8 +99,9 @@ const officialLinks = Array.isArray(frontmatter.officialLinks)
     : [];
 const officialScreenshots = frontmatter.officialScreenshots || frontmatter.official_screenshots || [];
 const recommendedProducts = selectAffiliateProducts(slug, 3);
+const hasRecommendedProducts = recommendedProducts.length > 0;
 const hasPrebodyAppMedia = Boolean(officialLinks.length > 0 && frontmatter.appIcon && officialScreenshots.length > 0);
-const shouldSplitIntroBeforeBody = !hasFixedSections && (hasServiceDecision || hasPrebodyAppMedia);
+const shouldSplitIntroBeforeBody = !hasFixedSections && (hasServiceDecision || hasPrebodyAppMedia || hasRecommendedProducts);
 const firstSectionIndex = shouldSplitIntroBeforeBody ? articleHtml.search(/\s*<h2\b/i) : -1;
 const articleIntroHtml = firstSectionIndex > -1 ? articleHtml.slice(0, firstSectionIndex) : "";
 const articleBodyHtml = hasFixedSections ? fixedSections.body : firstSectionIndex > -1 ? articleHtml.slice(firstSectionIndex) : articleHtml;
