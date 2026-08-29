@@ -8,6 +8,7 @@ import ComparisonSummary from "../../components/ComparisonSummary.astro";
 import RankingSummary from "../../components/RankingSummary.astro";
 import RelatedArticles from "../../components/RelatedArticles.astro";
 import ServiceDecisionPanel from "../../components/ServiceDecisionPanel.astro";
+import { selectAffiliateProducts } from "../../data/affiliate-products";
 import {
   articleCategory,
   comparisonSummaryFor,
@@ -97,7 +98,7 @@ const officialLinks = Array.isArray(frontmatter.officialLinks)
     ? [{ href: frontmatter.officialUrl || frontmatter.official_url, label: frontmatter.officialCtaText || frontmatter.official_cta_text }]
     : [];
 const officialScreenshots = frontmatter.officialScreenshots || frontmatter.official_screenshots || [];
-const recommendedProducts = frontmatter.recommendedProducts || (frontmatter.recommendedProduct ? [frontmatter.recommendedProduct] : []);
+const recommendedProducts = selectAffiliateProducts(slug, 3);
 const hasPrebodyAppMedia = Boolean(officialLinks.length > 0 && frontmatter.appIcon && officialScreenshots.length > 0);
 const shouldSplitIntroBeforeBody = !hasFixedSections && (hasServiceDecision || hasPrebodyAppMedia);
 const firstSectionIndex = shouldSplitIntroBeforeBody ? articleHtml.search(/\s*<h2\b/i) : -1;
