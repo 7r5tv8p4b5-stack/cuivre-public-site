@@ -1,46 +1,6 @@
-const staticPaths = [
-  "/",
-  "/articles/",
-  "/categories/",
-  "/about/",
-  "/editorial-policy/",
-  "/affiliate-policy/",
-  "/privacy/",
-  "/contact/",
-];
-
-function articleEntries() {
-  const modules = import.meta.glob("../content/articles/*.md", { eager: true });
-  return Object.entries(modules)
-    .map(([path, mod]) => {
-      const frontmatter = mod.frontmatter || {};
-      const slug = frontmatter.slug || path.split("/").pop().replace(".md", "");
-      return {
-        url: `/articles/${slug}/`,
-        category: frontmatter.category || frontmatter.parentCategory || "",
-        updatedAt: frontmatter.updatedAt || frontmatter.publishedAt || "",
-        published: frontmatter.status === "published" && !frontmatter.noindex,
-      };
-    })
-    .filter((entry) => entry.published);
-}
-
 export function GET({ site }) {
   const baseUrl = site?.toString().replace(/\/$/, "") || "https://cuivre-public-site.pages.dev";
-  const articles = articleEntries();
-  const categories = Array.from(new Set(articles.map((entry) => entry.category).filter(Boolean))).map((category) => `/categories/${category}/`);
-  const urls = [
-    ...staticPaths.map((path) => ({ url: path, updatedAt: "" })),
-    ...categories.map((path) => ({ url: path, updatedAt: "" })),
-    ...articles,
-  ];
-  const body = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls
-    .map((entry) => {
-      const loc = `${baseUrl}${encodeURI(entry.url)}`;
-      const lastmod = entry.updatedAt ? `\n    <lastmod>${entry.updatedAt}</lastmod>` : "";
-      return `  <url>\n    <loc>${loc}</loc>${lastmod}\n  </url>`;
-    })
-    .join("\n")}\n</urlset>\n`;
+  const body = `<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n  <sitemap>\n    <loc>${baseUrl}/sitemap-pages.xml</loc>\n  </sitemap>\n  <sitemap>\n    <loc>${baseUrl}/sitemap-articles.xml</loc>\n  </sitemap>\n</sitemapindex>\n`;
   return new Response(body, {
     headers: {
       "Content-Type": "application/xml; charset=utf-8",
