@@ -46,7 +46,6 @@ categoryTags: ["AIカスタマーサポート", "Sierra", "Decagon", "Fin AI Age
 ---
 # AIカスタマーサポート4サービスを比較
 
-**Sierra・Decagon・Fin・Adaの料金体系・対応チャネル・導入方法・運用機能の違いを比較【2026年版】**
 
 Sierra、Decagon、Fin AI Agent、Adaは、問い合わせへの回答だけでなく、顧客情報の確認や手続き、外部システムへの処理、人間への引き継ぎまで自動化できるAIカスタマーサポートサービスです。
 

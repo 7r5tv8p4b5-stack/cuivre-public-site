@@ -59,7 +59,6 @@ officialScreenshots:
 ---
 # Slay the Spire
 
-**スマホ版を1,500円で買う価値はある？ゲーム内容・遊び方・Apple Arcade版・続編との違いを解説【2026年版】**
 
 『Slay the Spire』は、カードゲームのデッキ構築とローグライクを組み合わせた1人用ゲームです。
 

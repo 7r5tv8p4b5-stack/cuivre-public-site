@@ -59,7 +59,6 @@ officialScreenshots:
 ---
 # Oldi
 
-**昔のiPhoneらしい写りを再現できるカメラアプリ。対応モデル・撮影機能・150円で買う価値を解説【2026年版】**
 
 Oldi（オルディ）は、iPhone 3GSやiPhone 4、5、6、Xといった旧型iPhoneのカメラらしい写りを、現在のiPhoneで楽しめるカメラアプリです。
 

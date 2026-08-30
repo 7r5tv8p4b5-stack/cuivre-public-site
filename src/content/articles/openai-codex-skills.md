@@ -40,7 +40,6 @@ categoryTags: ["AIコーディングエージェント", "OpenAI Codex", "Codex"
 ---
 # OpenAI Codex
 
-**CodexのSkillsとは？チームのルールや作業手順を覚えさせる使い方を解説【2026年版】**
 
 Codexを使っていると、毎回同じ指示を書く場面が出てきます。
 

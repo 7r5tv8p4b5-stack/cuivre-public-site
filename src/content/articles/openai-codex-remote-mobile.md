@@ -40,7 +40,6 @@ categoryTags: ["AIコーディングエージェント", "OpenAI Codex", "Codex"
 ---
 # OpenAI Codex
 
-**iPhone・AndroidからCodexを使うには？Remote機能の仕組み・できること・注意点を解説【2026年版】**
 
 Codexは、MacやWindowsの前に座っているときだけ使うものではありません。
 

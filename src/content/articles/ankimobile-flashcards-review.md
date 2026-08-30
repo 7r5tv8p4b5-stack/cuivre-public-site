@@ -59,7 +59,6 @@ officialScreenshots:
 ---
 # AnkiMobile Flashcards
 
-**iPhone・iPadでAnkiを本格的に使える公式アプリ。使い方・同期・4,000円で買う意味を解説【2026年版】**
 
 AnkiMobile Flashcardsは、暗記カードアプリ「Anki」をiPhoneやiPadで使うための公式モバイルアプリです。単語帳のようにカードをめくるだけではなく、覚えられているかどうかに応じて復習するタイミングを変え、長期間覚えておきたい内容を繰り返し学習できます。
 

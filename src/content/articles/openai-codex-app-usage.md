@@ -40,7 +40,6 @@ categoryTags: ["AIコーディングエージェント", "OpenAI Codex", "Codex"
 ---
 # OpenAI Codex
 
-**プロジェクト・複数エージェント・worktreeはどう使う？デスクトップ版Codexの基本を解説【2026年版】**
 
 CodexにはCLIやIDE拡張だけでなく、macOS・Windowsで使えるデスクトップアプリがあります。
 
