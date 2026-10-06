@@ -5,10 +5,10 @@ subtitle: "公式アプリでできること・Starの貯め方・モバイル�
 description: "スターバックス リワードは、スターバックス公式アプリや登録済みカードでStarを貯められる会員プログラムです。公式アプリ、モバイルオーダー、eGift、使う前の注意点を整理します。"
 publishedAt: "2026-10-06"
 updatedAt: "2026-10-06"
-category: "ライフスタイル"
-parentCategory: "ライフスタイル"
-primaryCategory: "ライフスタイル"
-subcategory: "外食"
+category: "アプリ"
+parentCategory: "アプリ"
+primaryCategory: "アプリ"
+subcategory: "カフェアプリ"
 articleType: "service_review"
 contentType: "TYPE_C"
 status: "published"
@@ -22,11 +22,11 @@ targetKeyword: "スターバックス リワード"
 secondaryKeywords: "スタバ アプリ, スターバックス モバイルオーダー, Starbucks Rewards, スタバ Star"
 searchIntent: "スターバックス公式アプリやリワードの使い方、モバイルオーダーの注意点を知りたい"
 serviceName: "スターバックス リワード"
-officialUrl: "https://www.starbucks.co.jp/mobile-app/"
-officialCtaText: "スターバックス公式アプリを見る"
+officialUrl: "https://apps.apple.com/jp/app/%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%90%E3%83%83%E3%82%AF%E3%82%B9-%E3%82%B8%E3%83%A3%E3%83%91%E3%83%B3%E5%85%AC%E5%BC%8F%E3%83%A2%E3%83%90%E3%82%A4%E3%83%AB%E3%82%A2%E3%83%97%E3%83%AA/id1113037275?uo=4"
+officialCtaText: "スターバックス公式アプリをApp Storeで見る"
 officialLinks:
-  - label: "スターバックス公式アプリを見る"
-    href: "https://www.starbucks.co.jp/mobile-app/"
+  - label: "スターバックス公式アプリをApp Storeで見る"
+    href: "https://apps.apple.com/jp/app/%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%90%E3%83%83%E3%82%AF%E3%82%B9-%E3%82%B8%E3%83%A3%E3%83%91%E3%83%B3%E5%85%AC%E5%BC%8F%E3%83%A2%E3%83%90%E3%82%A4%E3%83%AB%E3%82%A2%E3%83%97%E3%83%AA/id1113037275?uo=4"
 humanWriter: true
 affiliate: false
 affiliateDisclosure: false
@@ -37,7 +37,29 @@ hideHeroDescription: true
 serviceIds: [269]
 companyIds: []
 affiliateProgramIds: []
-categoryTags: ["ライフスタイル", "外食", "カフェ", "スターバックス", "公式アプリ", "ポイント"]
+categoryTags: ["アプリ", "カフェアプリ", "外食アプリ", "スターバックス", "公式アプリ", "ポイント"]
+appIcon:
+  src: "/assets/apps/starbucks-rewards-review/icon.jpg"
+  alt: "スターバックス公式アプリの公式アイコン"
+  source: "App Store"
+  sourceUrl: "https://apps.apple.com/jp/app/%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%90%E3%83%83%E3%82%AF%E3%82%B9-%E3%82%B8%E3%83%A3%E3%83%91%E3%83%B3%E5%85%AC%E5%BC%8F%E3%83%A2%E3%83%90%E3%82%A4%E3%83%AB%E3%82%A2%E3%83%97%E3%83%AA/id1113037275?uo=4"
+  official: true
+officialScreenshots:
+  - src: "/assets/apps/starbucks-rewards-review/screenshot-1.png"
+    alt: "スターバックス公式アプリの公式スクリーンショット1"
+    source: "App Store"
+    sourceUrl: "https://apps.apple.com/jp/app/%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%90%E3%83%83%E3%82%AF%E3%82%B9-%E3%82%B8%E3%83%A3%E3%83%91%E3%83%B3%E5%85%AC%E5%BC%8F%E3%83%A2%E3%83%90%E3%82%A4%E3%83%AB%E3%82%A2%E3%83%97%E3%83%AA/id1113037275?uo=4"
+    official: true
+  - src: "/assets/apps/starbucks-rewards-review/screenshot-2.png"
+    alt: "スターバックス公式アプリの公式スクリーンショット2"
+    source: "App Store"
+    sourceUrl: "https://apps.apple.com/jp/app/%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%90%E3%83%83%E3%82%AF%E3%82%B9-%E3%82%B8%E3%83%A3%E3%83%91%E3%83%B3%E5%85%AC%E5%BC%8F%E3%83%A2%E3%83%90%E3%82%A4%E3%83%AB%E3%82%A2%E3%83%97%E3%83%AA/id1113037275?uo=4"
+    official: true
+  - src: "/assets/apps/starbucks-rewards-review/screenshot-3.png"
+    alt: "スターバックス公式アプリの公式スクリーンショット3"
+    source: "App Store"
+    sourceUrl: "https://apps.apple.com/jp/app/%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%90%E3%83%83%E3%82%AF%E3%82%B9-%E3%82%B8%E3%83%A3%E3%83%91%E3%83%B3%E5%85%AC%E5%BC%8F%E3%83%A2%E3%83%90%E3%82%A4%E3%83%AB%E3%82%A2%E3%83%97%E3%83%AA/id1113037275?uo=4"
+    official: true
 ---
 # スターバックス リワード
 

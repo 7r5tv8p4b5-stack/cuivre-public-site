@@ -5,10 +5,10 @@ subtitle: "料理や日用品を注文できるデリバリーサービスの仕
 description: "Uber Eatsは、近くの飲食店や一部店舗の商品をアプリやWebから注文できるデリバリーサービスです。使い方、手数料、配達と持ち帰り、注意点を整理します。"
 publishedAt: "2026-10-06"
 updatedAt: "2026-10-06"
-category: "ライフスタイル"
-parentCategory: "ライフスタイル"
-primaryCategory: "ライフスタイル"
-subcategory: "フードデリバリー"
+category: "アプリ"
+parentCategory: "アプリ"
+primaryCategory: "アプリ"
+subcategory: "フードデリバリーアプリ"
 articleType: "service_review"
 contentType: "TYPE_C"
 status: "published"
@@ -22,11 +22,11 @@ targetKeyword: "Uber Eats"
 secondaryKeywords: "Uber Eats 使い方, ウーバーイーツ 手数料, Uber Eats 配達, Uber Eats 持ち帰り"
 searchIntent: "Uber Eatsの使い方、手数料、配達と持ち帰りの違い、注意点を知りたい"
 serviceName: "Uber Eats"
-officialUrl: "https://www.ubereats.com/jp"
-officialCtaText: "Uber Eats公式サイトを見る"
+officialUrl: "https://apps.apple.com/jp/app/uber-eats-%E3%82%A6%E3%83%BC%E3%83%90%E3%83%BC%E3%82%A4%E3%83%BC%E3%83%84-%E5%87%BA%E5%89%8D-%E3%83%95%E3%83%BC%E3%83%89%E3%83%87%E3%83%AA%E3%83%90%E3%83%AA%E3%83%BC/id1058959277?uo=4"
+officialCtaText: "Uber EatsをApp Storeで見る"
 officialLinks:
-  - label: "Uber Eats公式サイトを見る"
-    href: "https://www.ubereats.com/jp"
+  - label: "Uber EatsをApp Storeで見る"
+    href: "https://apps.apple.com/jp/app/uber-eats-%E3%82%A6%E3%83%BC%E3%83%90%E3%83%BC%E3%82%A4%E3%83%BC%E3%83%84-%E5%87%BA%E5%89%8D-%E3%83%95%E3%83%BC%E3%83%89%E3%83%87%E3%83%AA%E3%83%90%E3%83%AA%E3%83%BC/id1058959277?uo=4"
 humanWriter: true
 affiliate: false
 affiliateDisclosure: false
@@ -37,7 +37,29 @@ hideHeroDescription: true
 serviceIds: [271]
 companyIds: []
 affiliateProgramIds: []
-categoryTags: ["ライフスタイル", "フードデリバリー", "Uber Eats", "宅配", "外食", "アプリ"]
+categoryTags: ["アプリ", "フードデリバリーアプリ", "Uber Eats", "宅配", "外食", "公式アプリ"]
+appIcon:
+  src: "/assets/apps/uber-eats-review/icon.jpg"
+  alt: "Uber Eats公式アプリの公式アイコン"
+  source: "App Store"
+  sourceUrl: "https://apps.apple.com/jp/app/uber-eats-%E3%82%A6%E3%83%BC%E3%83%90%E3%83%BC%E3%82%A4%E3%83%BC%E3%83%84-%E5%87%BA%E5%89%8D-%E3%83%95%E3%83%BC%E3%83%89%E3%83%87%E3%83%AA%E3%83%90%E3%83%AA%E3%83%BC/id1058959277?uo=4"
+  official: true
+officialScreenshots:
+  - src: "/assets/apps/uber-eats-review/screenshot-1.jpg"
+    alt: "Uber Eats公式アプリの公式スクリーンショット1"
+    source: "App Store"
+    sourceUrl: "https://apps.apple.com/jp/app/uber-eats-%E3%82%A6%E3%83%BC%E3%83%90%E3%83%BC%E3%82%A4%E3%83%BC%E3%83%84-%E5%87%BA%E5%89%8D-%E3%83%95%E3%83%BC%E3%83%89%E3%83%87%E3%83%AA%E3%83%90%E3%83%AA%E3%83%BC/id1058959277?uo=4"
+    official: true
+  - src: "/assets/apps/uber-eats-review/screenshot-2.jpg"
+    alt: "Uber Eats公式アプリの公式スクリーンショット2"
+    source: "App Store"
+    sourceUrl: "https://apps.apple.com/jp/app/uber-eats-%E3%82%A6%E3%83%BC%E3%83%90%E3%83%BC%E3%82%A4%E3%83%BC%E3%83%84-%E5%87%BA%E5%89%8D-%E3%83%95%E3%83%BC%E3%83%89%E3%83%87%E3%83%AA%E3%83%90%E3%83%AA%E3%83%BC/id1058959277?uo=4"
+    official: true
+  - src: "/assets/apps/uber-eats-review/screenshot-3.jpg"
+    alt: "Uber Eats公式アプリの公式スクリーンショット3"
+    source: "App Store"
+    sourceUrl: "https://apps.apple.com/jp/app/uber-eats-%E3%82%A6%E3%83%BC%E3%83%90%E3%83%BC%E3%82%A4%E3%83%BC%E3%83%84-%E5%87%BA%E5%89%8D-%E3%83%95%E3%83%BC%E3%83%89%E3%83%87%E3%83%AA%E3%83%90%E3%83%AA%E3%83%BC/id1058959277?uo=4"
+    official: true
 ---
 # Uber Eats
 

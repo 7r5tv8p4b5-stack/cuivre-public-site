@@ -5,10 +5,10 @@ subtitle: "クーポン・モバイルオーダー・Myマクドナルド リワ
 description: "マクドナルド公式アプリは、クーポン、モバイルオーダー、マックデリバリー、リワードを使える公式アプリです。注文方法、受け取り方法、注意点を整理します。"
 publishedAt: "2026-10-06"
 updatedAt: "2026-10-06"
-category: "ライフスタイル"
-parentCategory: "ライフスタイル"
-primaryCategory: "ライフスタイル"
-subcategory: "外食"
+category: "アプリ"
+parentCategory: "アプリ"
+primaryCategory: "アプリ"
+subcategory: "外食アプリ"
 articleType: "service_review"
 contentType: "TYPE_C"
 status: "published"
@@ -22,11 +22,11 @@ targetKeyword: "マクドナルド公式アプリ"
 secondaryKeywords: "マクドナルド モバイルオーダー, マック クーポン, Myマクドナルド リワード, マックデリバリー"
 searchIntent: "マクドナルド公式アプリ、モバイルオーダー、クーポン、リワードの使い方を知りたい"
 serviceName: "マクドナルド公式アプリ"
-officialUrl: "https://www.mcdonalds.co.jp/shop/mobileorder02/"
-officialCtaText: "マクドナルド公式アプリを見る"
+officialUrl: "https://apps.apple.com/jp/app/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89/id413618155?uo=4"
+officialCtaText: "マクドナルド公式アプリをApp Storeで見る"
 officialLinks:
-  - label: "マクドナルド公式アプリを見る"
-    href: "https://www.mcdonalds.co.jp/shop/mobileorder02/"
+  - label: "マクドナルド公式アプリをApp Storeで見る"
+    href: "https://apps.apple.com/jp/app/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89/id413618155?uo=4"
 humanWriter: true
 affiliate: false
 affiliateDisclosure: false
@@ -37,7 +37,29 @@ hideHeroDescription: true
 serviceIds: [270]
 companyIds: []
 affiliateProgramIds: []
-categoryTags: ["ライフスタイル", "外食", "マクドナルド", "モバイルオーダー", "クーポン", "公式アプリ"]
+categoryTags: ["アプリ", "外食アプリ", "ファストフード", "マクドナルド", "モバイルオーダー", "クーポン"]
+appIcon:
+  src: "/assets/apps/mcdonalds-mobile-order-review/icon.jpg"
+  alt: "マクドナルド公式アプリの公式アイコン"
+  source: "App Store"
+  sourceUrl: "https://apps.apple.com/jp/app/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89/id413618155?uo=4"
+  official: true
+officialScreenshots:
+  - src: "/assets/apps/mcdonalds-mobile-order-review/screenshot-1.png"
+    alt: "マクドナルド公式アプリの公式スクリーンショット1"
+    source: "App Store"
+    sourceUrl: "https://apps.apple.com/jp/app/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89/id413618155?uo=4"
+    official: true
+  - src: "/assets/apps/mcdonalds-mobile-order-review/screenshot-2.png"
+    alt: "マクドナルド公式アプリの公式スクリーンショット2"
+    source: "App Store"
+    sourceUrl: "https://apps.apple.com/jp/app/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89/id413618155?uo=4"
+    official: true
+  - src: "/assets/apps/mcdonalds-mobile-order-review/screenshot-3.png"
+    alt: "マクドナルド公式アプリの公式スクリーンショット3"
+    source: "App Store"
+    sourceUrl: "https://apps.apple.com/jp/app/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89/id413618155?uo=4"
+    official: true
 ---
 # マクドナルド公式アプリ
 
