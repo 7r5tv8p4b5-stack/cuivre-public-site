@@ -21,11 +21,11 @@ ogDescription: "ANA Payの仕組み、マイルの使い方、チャージ、支
 targetKeyword: "ANA Pay"
 searchIntent: "review"
 serviceName: "ANA Pay"
-officialUrl: "https://www.ana.co.jp/ja/jp/amc/ana-pay/"
-officialCtaText: "ANA Pay公式サイトを見る"
+officialUrl: "https://apps.apple.com/jp/app/ana%E3%83%9E%E3%82%A4%E3%83%AC%E3%83%BC%E3%82%B8%E3%82%AF%E3%83%A9%E3%83%96-%E8%88%AA%E7%A9%BA-%E6%97%85%E8%A1%8C-%E8%B2%B7%E3%81%84%E7%89%A9%E3%82%92%E3%83%9E%E3%82%A4%E3%83%AB%E3%81%A7%E3%82%AA%E3%83%88%E3%82%AF%E3%81%AB/id1091951820"
+officialCtaText: "ANA PayをApp Storeで見る"
 officialLinks:
-  - label: "ANA Pay公式サイトを見る"
-    href: "https://www.ana.co.jp/ja/jp/amc/ana-pay/"
+  - label: "ANA PayをApp Storeで見る"
+    href: "https://apps.apple.com/jp/app/ana%E3%83%9E%E3%82%A4%E3%83%AC%E3%83%BC%E3%82%B8%E3%82%AF%E3%83%A9%E3%83%96-%E8%88%AA%E7%A9%BA-%E6%97%85%E8%A1%8C-%E8%B2%B7%E3%81%84%E7%89%A9%E3%82%92%E3%83%9E%E3%82%A4%E3%83%AB%E3%81%A7%E3%82%AA%E3%83%88%E3%82%AF%E3%81%AB/id1091951820"
 humanWriter: true
 affiliate: false
 affiliateDisclosure: false
@@ -37,6 +37,28 @@ serviceIds: [311]
 companyIds: []
 affiliateProgramIds: []
 categoryTags: ["スマホ決済", "ANA Pay", "ANAマイル", "キャッシュレス", "航空"]
+appIcon:
+  src: "/assets/apps/ana-pay-review/icon.jpg"
+  alt: "ANA Payを使えるANAマイレージクラブアプリの公式アイコン"
+  source: "App Store"
+  sourceUrl: "https://apps.apple.com/jp/app/ana%E3%83%9E%E3%82%A4%E3%83%AC%E3%83%BC%E3%82%B8%E3%82%AF%E3%83%A9%E3%83%96-%E8%88%AA%E7%A9%BA-%E6%97%85%E8%A1%8C-%E8%B2%B7%E3%81%84%E7%89%A9%E3%82%92%E3%83%9E%E3%82%A4%E3%83%AB%E3%81%A7%E3%82%AA%E3%83%88%E3%82%AF%E3%81%AB/id1091951820"
+  official: true
+officialScreenshots:
+  - src: "/assets/apps/ana-pay-review/screenshot-1.jpg"
+    alt: "ANA Payの公式スクリーンショット1"
+    source: "App Store"
+    sourceUrl: "https://apps.apple.com/jp/app/ana%E3%83%9E%E3%82%A4%E3%83%AC%E3%83%BC%E3%82%B8%E3%82%AF%E3%83%A9%E3%83%96-%E8%88%AA%E7%A9%BA-%E6%97%85%E8%A1%8C-%E8%B2%B7%E3%81%84%E7%89%A9%E3%82%92%E3%83%9E%E3%82%A4%E3%83%AB%E3%81%A7%E3%82%AA%E3%83%88%E3%82%AF%E3%81%AB/id1091951820"
+    official: true
+  - src: "/assets/apps/ana-pay-review/screenshot-2.jpg"
+    alt: "ANA Payの公式スクリーンショット2"
+    source: "App Store"
+    sourceUrl: "https://apps.apple.com/jp/app/ana%E3%83%9E%E3%82%A4%E3%83%AC%E3%83%BC%E3%82%B8%E3%82%AF%E3%83%A9%E3%83%96-%E8%88%AA%E7%A9%BA-%E6%97%85%E8%A1%8C-%E8%B2%B7%E3%81%84%E7%89%A9%E3%82%92%E3%83%9E%E3%82%A4%E3%83%AB%E3%81%A7%E3%82%AA%E3%83%88%E3%82%AF%E3%81%AB/id1091951820"
+    official: true
+  - src: "/assets/apps/ana-pay-review/screenshot-3.jpg"
+    alt: "ANA Payの公式スクリーンショット3"
+    source: "App Store"
+    sourceUrl: "https://apps.apple.com/jp/app/ana%E3%83%9E%E3%82%A4%E3%83%AC%E3%83%BC%E3%82%B8%E3%82%AF%E3%83%A9%E3%83%96-%E8%88%AA%E7%A9%BA-%E6%97%85%E8%A1%8C-%E8%B2%B7%E3%81%84%E7%89%A9%E3%82%92%E3%83%9E%E3%82%A4%E3%83%AB%E3%81%A7%E3%82%AA%E3%83%88%E3%82%AF%E3%81%AB/id1091951820"
+    official: true
 ---
 ANA Payは、ANAマイレージクラブと連携して使えるスマートフォン決済サービスです。
 

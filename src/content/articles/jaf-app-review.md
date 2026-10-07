@@ -21,11 +21,11 @@ ogDescription: "JAFアプリの仕組み、ロードサービス要請、会員�
 targetKeyword: "JAFアプリ"
 searchIntent: "review"
 serviceName: "JAFアプリ"
-officialUrl: "https://jaf.or.jp/common/news/2026/20260501-001"
-officialCtaText: "JAFアプリ公式情報を見る"
+officialUrl: "https://apps.apple.com/jp/app/jaf%E3%82%B9%E3%83%9E%E3%83%BC%E3%83%88%E3%83%95%E3%82%A9%E3%83%B3%E3%82%A2%E3%83%97%E3%83%AA/id932357232"
+officialCtaText: "JAFアプリをApp Storeで見る"
 officialLinks:
-  - label: "JAFアプリ公式情報を見る"
-    href: "https://jaf.or.jp/common/news/2026/20260501-001"
+  - label: "JAFアプリをApp Storeで見る"
+    href: "https://apps.apple.com/jp/app/jaf%E3%82%B9%E3%83%9E%E3%83%BC%E3%83%88%E3%83%95%E3%82%A9%E3%83%B3%E3%82%A2%E3%83%97%E3%83%AA/id932357232"
 humanWriter: true
 affiliate: false
 affiliateDisclosure: false
@@ -37,6 +37,28 @@ serviceIds: [314]
 companyIds: []
 affiliateProgramIds: []
 categoryTags: ["カーライフ", "JAF", "JAFアプリ", "ロードサービス", "車"]
+appIcon:
+  src: "/assets/apps/jaf-app-review/icon.jpg"
+  alt: "JAFアプリの公式アイコン"
+  source: "App Store"
+  sourceUrl: "https://apps.apple.com/jp/app/jaf%E3%82%B9%E3%83%9E%E3%83%BC%E3%83%88%E3%83%95%E3%82%A9%E3%83%B3%E3%82%A2%E3%83%97%E3%83%AA/id932357232"
+  official: true
+officialScreenshots:
+  - src: "/assets/apps/jaf-app-review/screenshot-1.jpg"
+    alt: "JAFアプリの公式スクリーンショット1"
+    source: "App Store"
+    sourceUrl: "https://apps.apple.com/jp/app/jaf%E3%82%B9%E3%83%9E%E3%83%BC%E3%83%88%E3%83%95%E3%82%A9%E3%83%B3%E3%82%A2%E3%83%97%E3%83%AA/id932357232"
+    official: true
+  - src: "/assets/apps/jaf-app-review/screenshot-2.jpg"
+    alt: "JAFアプリの公式スクリーンショット2"
+    source: "App Store"
+    sourceUrl: "https://apps.apple.com/jp/app/jaf%E3%82%B9%E3%83%9E%E3%83%BC%E3%83%88%E3%83%95%E3%82%A9%E3%83%B3%E3%82%A2%E3%83%97%E3%83%AA/id932357232"
+    official: true
+  - src: "/assets/apps/jaf-app-review/screenshot-3.jpg"
+    alt: "JAFアプリの公式スクリーンショット3"
+    source: "App Store"
+    sourceUrl: "https://apps.apple.com/jp/app/jaf%E3%82%B9%E3%83%9E%E3%83%BC%E3%83%88%E3%83%95%E3%82%A9%E3%83%B3%E3%82%A2%E3%83%97%E3%83%AA/id932357232"
+    official: true
 ---
 JAFアプリは、JAF会員証の表示、ロードサービス要請、優待利用などをスマートフォンから行える公式アプリです。
 

@@ -21,11 +21,11 @@ ogDescription: "東京アプリの仕組み、東京ポイント、本人確認�
 targetKeyword: "東京アプリ"
 searchIntent: "review"
 serviceName: "東京アプリ"
-officialUrl: "https://www.tokyoapp.metro.tokyo.lg.jp/"
-officialCtaText: "東京アプリ公式サイトを見る"
+officialUrl: "https://apps.apple.com/jp/app/%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%85%AC%E5%BC%8F%E3%82%A2%E3%83%97%E3%83%AA/id6738757643"
+officialCtaText: "東京アプリをApp Storeで見る"
 officialLinks:
-  - label: "東京アプリ公式サイトを見る"
-    href: "https://www.tokyoapp.metro.tokyo.lg.jp/"
+  - label: "東京アプリをApp Storeで見る"
+    href: "https://apps.apple.com/jp/app/%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%85%AC%E5%BC%8F%E3%82%A2%E3%83%97%E3%83%AA/id6738757643"
 humanWriter: true
 affiliate: false
 affiliateDisclosure: false
@@ -37,6 +37,28 @@ serviceIds: [313]
 companyIds: []
 affiliateProgramIds: []
 categoryTags: ["行政サービス", "東京アプリ", "東京都", "東京ポイント", "自治体アプリ"]
+appIcon:
+  src: "/assets/apps/tokyo-app-review/icon.jpg"
+  alt: "東京アプリの公式アイコン"
+  source: "App Store"
+  sourceUrl: "https://apps.apple.com/jp/app/%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%85%AC%E5%BC%8F%E3%82%A2%E3%83%97%E3%83%AA/id6738757643"
+  official: true
+officialScreenshots:
+  - src: "/assets/apps/tokyo-app-review/screenshot-1.jpg"
+    alt: "東京アプリの公式スクリーンショット1"
+    source: "App Store"
+    sourceUrl: "https://apps.apple.com/jp/app/%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%85%AC%E5%BC%8F%E3%82%A2%E3%83%97%E3%83%AA/id6738757643"
+    official: true
+  - src: "/assets/apps/tokyo-app-review/screenshot-2.jpg"
+    alt: "東京アプリの公式スクリーンショット2"
+    source: "App Store"
+    sourceUrl: "https://apps.apple.com/jp/app/%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%85%AC%E5%BC%8F%E3%82%A2%E3%83%97%E3%83%AA/id6738757643"
+    official: true
+  - src: "/assets/apps/tokyo-app-review/screenshot-3.jpg"
+    alt: "東京アプリの公式スクリーンショット3"
+    source: "App Store"
+    sourceUrl: "https://apps.apple.com/jp/app/%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%85%AC%E5%BC%8F%E3%82%A2%E3%83%97%E3%83%AA/id6738757643"
+    official: true
 ---
 東京アプリは、東京都が提供する公式スマートフォンアプリです。
 

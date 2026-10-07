@@ -21,11 +21,11 @@ ogDescription: "VポイントPayアプリの仕組み、チャージ、Visa・iD
 targetKeyword: "VポイントPay"
 searchIntent: "review"
 serviceName: "VポイントPay"
-officialUrl: "https://www.smbc-card.com/mem/for_vpointapp/index.jsp"
-officialCtaText: "VポイントPay公式サイトを見る"
+officialUrl: "https://apps.apple.com/jp/app/v%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88pay/id1504833985"
+officialCtaText: "VポイントPayをApp Storeで見る"
 officialLinks:
-  - label: "VポイントPay公式サイトを見る"
-    href: "https://www.smbc-card.com/mem/for_vpointapp/index.jsp"
+  - label: "VポイントPayをApp Storeで見る"
+    href: "https://apps.apple.com/jp/app/v%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88pay/id1504833985"
 humanWriter: true
 affiliate: false
 affiliateDisclosure: false
@@ -37,6 +37,28 @@ serviceIds: [312]
 companyIds: []
 affiliateProgramIds: []
 categoryTags: ["スマホ決済", "VポイントPay", "Vポイント", "三井住友カード", "キャッシュレス"]
+appIcon:
+  src: "/assets/apps/v-point-pay-review/icon.jpg"
+  alt: "VポイントPayの公式アイコン"
+  source: "App Store"
+  sourceUrl: "https://apps.apple.com/jp/app/v%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88pay/id1504833985"
+  official: true
+officialScreenshots:
+  - src: "/assets/apps/v-point-pay-review/screenshot-1.jpg"
+    alt: "VポイントPayの公式スクリーンショット1"
+    source: "App Store"
+    sourceUrl: "https://apps.apple.com/jp/app/v%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88pay/id1504833985"
+    official: true
+  - src: "/assets/apps/v-point-pay-review/screenshot-2.jpg"
+    alt: "VポイントPayの公式スクリーンショット2"
+    source: "App Store"
+    sourceUrl: "https://apps.apple.com/jp/app/v%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88pay/id1504833985"
+    official: true
+  - src: "/assets/apps/v-point-pay-review/screenshot-3.jpg"
+    alt: "VポイントPayの公式スクリーンショット3"
+    source: "App Store"
+    sourceUrl: "https://apps.apple.com/jp/app/v%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88pay/id1504833985"
+    official: true
 ---
 VポイントPayは、Vポイントをスマートフォン決済に使えるプリペイド型サービスです。
 

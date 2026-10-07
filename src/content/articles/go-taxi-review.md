@@ -21,11 +21,11 @@ ogDescription: "GOの仕組み、タクシー配車、GO Pay、予約、GO Reser
 targetKeyword: "GO"
 searchIntent: "review"
 serviceName: "GO"
-officialUrl: "https://go.goinc.jp/service"
-officialCtaText: "GO公式サイトを見る"
+officialUrl: "https://apps.apple.com/jp/app/go-%E3%82%BF%E3%82%AF%E3%82%B7%E3%83%BC%E3%81%8C%E5%91%BC%E3%81%B9%E3%82%8B%E3%82%A2%E3%83%97%E3%83%AA-ai%E4%BA%88%E7%B4%84-%E9%85%8D%E8%BB%8A-%E8%BF%8E%E8%BB%8A-%E6%B1%BA%E6%B8%88/id1254341709"
+officialCtaText: "GOをApp Storeで見る"
 officialLinks:
-  - label: "GO公式サイトを見る"
-    href: "https://go.goinc.jp/service"
+  - label: "GOをApp Storeで見る"
+    href: "https://apps.apple.com/jp/app/go-%E3%82%BF%E3%82%AF%E3%82%B7%E3%83%BC%E3%81%8C%E5%91%BC%E3%81%B9%E3%82%8B%E3%82%A2%E3%83%97%E3%83%AA-ai%E4%BA%88%E7%B4%84-%E9%85%8D%E8%BB%8A-%E8%BF%8E%E8%BB%8A-%E6%B1%BA%E6%B8%88/id1254341709"
 humanWriter: true
 affiliate: false
 affiliateDisclosure: false
@@ -37,6 +37,28 @@ serviceIds: [317]
 companyIds: []
 affiliateProgramIds: []
 categoryTags: ["タクシー配車", "GO", "タクシーアプリ", "GO Pay", "移動"]
+appIcon:
+  src: "/assets/apps/go-taxi-review/icon.jpg"
+  alt: "GOの公式アイコン"
+  source: "App Store"
+  sourceUrl: "https://apps.apple.com/jp/app/go-%E3%82%BF%E3%82%AF%E3%82%B7%E3%83%BC%E3%81%8C%E5%91%BC%E3%81%B9%E3%82%8B%E3%82%A2%E3%83%97%E3%83%AA-ai%E4%BA%88%E7%B4%84-%E9%85%8D%E8%BB%8A-%E8%BF%8E%E8%BB%8A-%E6%B1%BA%E6%B8%88/id1254341709"
+  official: true
+officialScreenshots:
+  - src: "/assets/apps/go-taxi-review/screenshot-1.jpg"
+    alt: "GOの公式スクリーンショット1"
+    source: "App Store"
+    sourceUrl: "https://apps.apple.com/jp/app/go-%E3%82%BF%E3%82%AF%E3%82%B7%E3%83%BC%E3%81%8C%E5%91%BC%E3%81%B9%E3%82%8B%E3%82%A2%E3%83%97%E3%83%AA-ai%E4%BA%88%E7%B4%84-%E9%85%8D%E8%BB%8A-%E8%BF%8E%E8%BB%8A-%E6%B1%BA%E6%B8%88/id1254341709"
+    official: true
+  - src: "/assets/apps/go-taxi-review/screenshot-2.jpg"
+    alt: "GOの公式スクリーンショット2"
+    source: "App Store"
+    sourceUrl: "https://apps.apple.com/jp/app/go-%E3%82%BF%E3%82%AF%E3%82%B7%E3%83%BC%E3%81%8C%E5%91%BC%E3%81%B9%E3%82%8B%E3%82%A2%E3%83%97%E3%83%AA-ai%E4%BA%88%E7%B4%84-%E9%85%8D%E8%BB%8A-%E8%BF%8E%E8%BB%8A-%E6%B1%BA%E6%B8%88/id1254341709"
+    official: true
+  - src: "/assets/apps/go-taxi-review/screenshot-3.jpg"
+    alt: "GOの公式スクリーンショット3"
+    source: "App Store"
+    sourceUrl: "https://apps.apple.com/jp/app/go-%E3%82%BF%E3%82%AF%E3%82%B7%E3%83%BC%E3%81%8C%E5%91%BC%E3%81%B9%E3%82%8B%E3%82%A2%E3%83%97%E3%83%AA-ai%E4%BA%88%E7%B4%84-%E9%85%8D%E8%BB%8A-%E8%BF%8E%E8%BB%8A-%E6%B1%BA%E6%B8%88/id1254341709"
+    official: true
 ---
 GOは、スマートフォンからタクシーを呼べる配車アプリです。
 

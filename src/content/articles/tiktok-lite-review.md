@@ -21,11 +21,11 @@ ogDescription: "TikTok Liteの仕組み、ポイント、報酬ハブ、通常�
 targetKeyword: "TikTok Lite"
 searchIntent: "review"
 serviceName: "TikTok Lite"
-officialUrl: "https://support.tiktok.com/ja/using-tiktok/exploring-videos/tiktok-lite-app"
-officialCtaText: "TikTok Lite公式情報を見る"
+officialUrl: "https://apps.apple.com/jp/app/tiktok-lite/id6447160980"
+officialCtaText: "TikTok LiteをApp Storeで見る"
 officialLinks:
-  - label: "TikTok Lite公式情報を見る"
-    href: "https://support.tiktok.com/ja/using-tiktok/exploring-videos/tiktok-lite-app"
+  - label: "TikTok LiteをApp Storeで見る"
+    href: "https://apps.apple.com/jp/app/tiktok-lite/id6447160980"
 humanWriter: true
 affiliate: false
 affiliateDisclosure: false
@@ -37,6 +37,28 @@ serviceIds: [316]
 companyIds: []
 affiliateProgramIds: []
 categoryTags: ["動画アプリ", "TikTok Lite", "ポイ活", "ショート動画", "ポイント"]
+appIcon:
+  src: "/assets/apps/tiktok-lite-review/icon.jpg"
+  alt: "TikTok Liteの公式アイコン"
+  source: "App Store"
+  sourceUrl: "https://apps.apple.com/jp/app/tiktok-lite/id6447160980"
+  official: true
+officialScreenshots:
+  - src: "/assets/apps/tiktok-lite-review/screenshot-1.jpg"
+    alt: "TikTok Liteの公式スクリーンショット1"
+    source: "App Store"
+    sourceUrl: "https://apps.apple.com/jp/app/tiktok-lite/id6447160980"
+    official: true
+  - src: "/assets/apps/tiktok-lite-review/screenshot-2.jpg"
+    alt: "TikTok Liteの公式スクリーンショット2"
+    source: "App Store"
+    sourceUrl: "https://apps.apple.com/jp/app/tiktok-lite/id6447160980"
+    official: true
+  - src: "/assets/apps/tiktok-lite-review/screenshot-3.jpg"
+    alt: "TikTok Liteの公式スクリーンショット3"
+    source: "App Store"
+    sourceUrl: "https://apps.apple.com/jp/app/tiktok-lite/id6447160980"
+    official: true
 ---
 TikTok Liteは、動画視聴やアプリ内タスクを通じてポイントを集められるTikTokの軽量版アプリです。
 

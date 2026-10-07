@@ -21,11 +21,11 @@ ogDescription: "ChargeSPOTの仕組み、モバイルバッテリーの借り方
 targetKeyword: "ChargeSPOT"
 searchIntent: "review"
 serviceName: "ChargeSPOT"
-officialUrl: "https://chargespot.jp/"
-officialCtaText: "ChargeSPOT公式サイトを見る"
+officialUrl: "https://apps.apple.com/jp/app/chargespot-%E3%83%81%E3%83%A3%E3%83%BC%E3%82%B8%E3%82%B9%E3%83%9D%E3%83%83%E3%83%88-%E3%82%B9%E3%83%9E%E3%83%9B%E5%85%85%E9%9B%BB%E3%83%AC%E3%83%B3%E3%82%BF%E3%83%AB/id1272481966"
+officialCtaText: "ChargeSPOTをApp Storeで見る"
 officialLinks:
-  - label: "ChargeSPOT公式サイトを見る"
-    href: "https://chargespot.jp/"
+  - label: "ChargeSPOTをApp Storeで見る"
+    href: "https://apps.apple.com/jp/app/chargespot-%E3%83%81%E3%83%A3%E3%83%BC%E3%82%B8%E3%82%B9%E3%83%9D%E3%83%83%E3%83%88-%E3%82%B9%E3%83%9E%E3%83%9B%E5%85%85%E9%9B%BB%E3%83%AC%E3%83%B3%E3%82%BF%E3%83%AB/id1272481966"
 humanWriter: true
 affiliate: false
 affiliateDisclosure: false
@@ -37,6 +37,28 @@ serviceIds: [310]
 companyIds: []
 affiliateProgramIds: []
 categoryTags: ["ライフスタイル", "ChargeSPOT", "モバイルバッテリー", "スマホ充電", "レンタル"]
+appIcon:
+  src: "/assets/apps/chargespot-review/icon.jpg"
+  alt: "ChargeSPOTの公式アイコン"
+  source: "App Store"
+  sourceUrl: "https://apps.apple.com/jp/app/chargespot-%E3%83%81%E3%83%A3%E3%83%BC%E3%82%B8%E3%82%B9%E3%83%9D%E3%83%83%E3%83%88-%E3%82%B9%E3%83%9E%E3%83%9B%E5%85%85%E9%9B%BB%E3%83%AC%E3%83%B3%E3%82%BF%E3%83%AB/id1272481966"
+  official: true
+officialScreenshots:
+  - src: "/assets/apps/chargespot-review/screenshot-1.jpg"
+    alt: "ChargeSPOTの公式スクリーンショット1"
+    source: "App Store"
+    sourceUrl: "https://apps.apple.com/jp/app/chargespot-%E3%83%81%E3%83%A3%E3%83%BC%E3%82%B8%E3%82%B9%E3%83%9D%E3%83%83%E3%83%88-%E3%82%B9%E3%83%9E%E3%83%9B%E5%85%85%E9%9B%BB%E3%83%AC%E3%83%B3%E3%82%BF%E3%83%AB/id1272481966"
+    official: true
+  - src: "/assets/apps/chargespot-review/screenshot-2.jpg"
+    alt: "ChargeSPOTの公式スクリーンショット2"
+    source: "App Store"
+    sourceUrl: "https://apps.apple.com/jp/app/chargespot-%E3%83%81%E3%83%A3%E3%83%BC%E3%82%B8%E3%82%B9%E3%83%9D%E3%83%83%E3%83%88-%E3%82%B9%E3%83%9E%E3%83%9B%E5%85%85%E9%9B%BB%E3%83%AC%E3%83%B3%E3%82%BF%E3%83%AB/id1272481966"
+    official: true
+  - src: "/assets/apps/chargespot-review/screenshot-3.jpg"
+    alt: "ChargeSPOTの公式スクリーンショット3"
+    source: "App Store"
+    sourceUrl: "https://apps.apple.com/jp/app/chargespot-%E3%83%81%E3%83%A3%E3%83%BC%E3%82%B8%E3%82%B9%E3%83%9D%E3%83%83%E3%83%88-%E3%82%B9%E3%83%9E%E3%83%9B%E5%85%85%E9%9B%BB%E3%83%AC%E3%83%B3%E3%82%BF%E3%83%AB/id1272481966"
+    official: true
 ---
 ChargeSPOTは、外出先でモバイルバッテリーを借り、別のスタンドへ返却できるスマホ充電レンタルサービスです。
 

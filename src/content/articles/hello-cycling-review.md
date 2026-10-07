@@ -21,11 +21,11 @@ ogDescription: "HELLO CYCLINGの仕組み、使い方、料金、ステーショ
 targetKeyword: "HELLO CYCLING"
 searchIntent: "review"
 serviceName: "HELLO CYCLING"
-officialUrl: "https://www.hellocycling.jp/about/"
-officialCtaText: "HELLO CYCLING公式サイトを見る"
+officialUrl: "https://apps.apple.com/jp/app/hello-cycling-%E3%82%B7%E3%82%A7%E3%82%A2%E3%82%B5%E3%82%A4%E3%82%AF%E3%83%AB/id1216653677"
+officialCtaText: "HELLO CYCLINGをApp Storeで見る"
 officialLinks:
-  - label: "HELLO CYCLING公式サイトを見る"
-    href: "https://www.hellocycling.jp/about/"
+  - label: "HELLO CYCLINGをApp Storeで見る"
+    href: "https://apps.apple.com/jp/app/hello-cycling-%E3%82%B7%E3%82%A7%E3%82%A2%E3%82%B5%E3%82%A4%E3%82%AF%E3%83%AB/id1216653677"
 humanWriter: true
 affiliate: false
 affiliateDisclosure: false
@@ -37,6 +37,28 @@ serviceIds: [309]
 companyIds: []
 affiliateProgramIds: []
 categoryTags: ["シェアモビリティ", "HELLO CYCLING", "シェアサイクル", "自転車", "移動"]
+appIcon:
+  src: "/assets/apps/hello-cycling-review/icon.jpg"
+  alt: "HELLO CYCLINGの公式アイコン"
+  source: "App Store"
+  sourceUrl: "https://apps.apple.com/jp/app/hello-cycling-%E3%82%B7%E3%82%A7%E3%82%A2%E3%82%B5%E3%82%A4%E3%82%AF%E3%83%AB/id1216653677"
+  official: true
+officialScreenshots:
+  - src: "/assets/apps/hello-cycling-review/screenshot-1.jpg"
+    alt: "HELLO CYCLINGの公式スクリーンショット1"
+    source: "App Store"
+    sourceUrl: "https://apps.apple.com/jp/app/hello-cycling-%E3%82%B7%E3%82%A7%E3%82%A2%E3%82%B5%E3%82%A4%E3%82%AF%E3%83%AB/id1216653677"
+    official: true
+  - src: "/assets/apps/hello-cycling-review/screenshot-2.jpg"
+    alt: "HELLO CYCLINGの公式スクリーンショット2"
+    source: "App Store"
+    sourceUrl: "https://apps.apple.com/jp/app/hello-cycling-%E3%82%B7%E3%82%A7%E3%82%A2%E3%82%B5%E3%82%A4%E3%82%AF%E3%83%AB/id1216653677"
+    official: true
+  - src: "/assets/apps/hello-cycling-review/screenshot-3.jpg"
+    alt: "HELLO CYCLINGの公式スクリーンショット3"
+    source: "App Store"
+    sourceUrl: "https://apps.apple.com/jp/app/hello-cycling-%E3%82%B7%E3%82%A7%E3%82%A2%E3%82%B5%E3%82%A4%E3%82%AF%E3%83%AB/id1216653677"
+    official: true
 ---
 HELLO CYCLINGは、スマートフォンから自転車を借りて、対応ステーションへ返却できるシェアサイクルサービスです。東京を中心に全国へ広がっており、通勤、通学、観光、買い物など、短距離移動を補う交通手段として使えます。
 

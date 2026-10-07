@@ -21,11 +21,11 @@ ogDescription: "LUUPの仕組み、電動キックボードと電動アシスト
 targetKeyword: "LUUP"
 searchIntent: "review"
 serviceName: "LUUP"
-officialUrl: "https://luup.sc/service/"
-officialCtaText: "LUUP公式サイトを見る"
+officialUrl: "https://apps.apple.com/jp/app/luup-%E3%83%AB%E3%83%BC%E3%83%97-%E3%82%B7%E3%82%A7%E3%82%A2%E3%82%B5%E3%82%A4%E3%82%AF%E3%83%AB-%E9%9B%BB%E5%8B%95%E3%82%AD%E3%83%83%E3%82%AF%E3%83%9C%E3%83%BC%E3%83%89%E3%82%84%E8%87%AA%E8%BB%A2%E8%BB%8A/id1445630390"
+officialCtaText: "LUUPをApp Storeで見る"
 officialLinks:
-  - label: "LUUP公式サイトを見る"
-    href: "https://luup.sc/service/"
+  - label: "LUUPをApp Storeで見る"
+    href: "https://apps.apple.com/jp/app/luup-%E3%83%AB%E3%83%BC%E3%83%97-%E3%82%B7%E3%82%A7%E3%82%A2%E3%82%B5%E3%82%A4%E3%82%AF%E3%83%AB-%E9%9B%BB%E5%8B%95%E3%82%AD%E3%83%83%E3%82%AF%E3%83%9C%E3%83%BC%E3%83%89%E3%82%84%E8%87%AA%E8%BB%A2%E8%BB%8A/id1445630390"
 humanWriter: true
 affiliate: false
 affiliateDisclosure: false
@@ -37,6 +37,28 @@ serviceIds: [308]
 companyIds: []
 affiliateProgramIds: []
 categoryTags: ["シェアモビリティ", "LUUP", "電動キックボード", "シェアサイクル", "移動"]
+appIcon:
+  src: "/assets/apps/luup-review/icon.jpg"
+  alt: "LUUPの公式アイコン"
+  source: "App Store"
+  sourceUrl: "https://apps.apple.com/jp/app/luup-%E3%83%AB%E3%83%BC%E3%83%97-%E3%82%B7%E3%82%A7%E3%82%A2%E3%82%B5%E3%82%A4%E3%82%AF%E3%83%AB-%E9%9B%BB%E5%8B%95%E3%82%AD%E3%83%83%E3%82%AF%E3%83%9C%E3%83%BC%E3%83%89%E3%82%84%E8%87%AA%E8%BB%A2%E8%BB%8A/id1445630390"
+  official: true
+officialScreenshots:
+  - src: "/assets/apps/luup-review/screenshot-1.jpg"
+    alt: "LUUPの公式スクリーンショット1"
+    source: "App Store"
+    sourceUrl: "https://apps.apple.com/jp/app/luup-%E3%83%AB%E3%83%BC%E3%83%97-%E3%82%B7%E3%82%A7%E3%82%A2%E3%82%B5%E3%82%A4%E3%82%AF%E3%83%AB-%E9%9B%BB%E5%8B%95%E3%82%AD%E3%83%83%E3%82%AF%E3%83%9C%E3%83%BC%E3%83%89%E3%82%84%E8%87%AA%E8%BB%A2%E8%BB%8A/id1445630390"
+    official: true
+  - src: "/assets/apps/luup-review/screenshot-2.jpg"
+    alt: "LUUPの公式スクリーンショット2"
+    source: "App Store"
+    sourceUrl: "https://apps.apple.com/jp/app/luup-%E3%83%AB%E3%83%BC%E3%83%97-%E3%82%B7%E3%82%A7%E3%82%A2%E3%82%B5%E3%82%A4%E3%82%AF%E3%83%AB-%E9%9B%BB%E5%8B%95%E3%82%AD%E3%83%83%E3%82%AF%E3%83%9C%E3%83%BC%E3%83%89%E3%82%84%E8%87%AA%E8%BB%A2%E8%BB%8A/id1445630390"
+    official: true
+  - src: "/assets/apps/luup-review/screenshot-3.jpg"
+    alt: "LUUPの公式スクリーンショット3"
+    source: "App Store"
+    sourceUrl: "https://apps.apple.com/jp/app/luup-%E3%83%AB%E3%83%BC%E3%83%97-%E3%82%B7%E3%82%A7%E3%82%A2%E3%82%B5%E3%82%A4%E3%82%AF%E3%83%AB-%E9%9B%BB%E5%8B%95%E3%82%AD%E3%83%83%E3%82%AF%E3%83%9C%E3%83%BC%E3%83%89%E3%82%84%E8%87%AA%E8%BB%A2%E8%BB%8A/id1445630390"
+    official: true
 ---
 LUUPは、街なかのポートで電動キックボードや電動アシスト自転車を借り、別のポートへ返せるシェアモビリティサービスです。駅から目的地までの短距離移動、坂道の多いエリアでの移動、観光地での回遊などに使いやすいサービスとして広がっています。
 
