@@ -3,6 +3,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import ArticleCard from "../components/ArticleCard.astro";
 import Icon from "../components/Icon.astro";
 import {
+  categoryCardsFrom,
   articleDisplayTitle,
   articleHref,
   articleSubtitle,
@@ -18,6 +19,13 @@ const latestArticles = [...publishedArticles]
   .filter((article) => article.slug !== featuredArticle?.slug)
   .sort(sortByLatestActivity)
   .slice(0, 5);
+const categoryCards = categoryCardsFrom(publishedArticles).slice(0, 10);
+const focusCategories = [
+  { label: "新しいサービス", href: "/articles/", description: "直近で公開した注目サービスをまとめて確認" },
+  { label: "アプリ", href: "/categories/アプリ/", description: "アイコンや公式スクリーンショット付きで探す" },
+  { label: "AIサービス", href: "/categories/AIサービス/", description: "生成AI、AIエージェント、業務AIを整理" },
+  { label: "暮らし", href: "/categories/ライフスタイル/", description: "日常で使いやすいサービスを見つける" },
+];
 const popularSlugs = [
   "perplexity-review",
   "chatgpt-vs-claude-vs-gemini",
@@ -51,12 +59,24 @@ const organizationJsonLd = {
         <span class="spotlight-label">今週の注目</span>
         <h1>{featuredTitle}</h1>
         <p>{featuredSummary}</p>
-        <a class="button-primary" href={articleHref(featuredArticle)}>
-          記事を読む <Icon name="arrow" />
-        </a>
+        <div class="home-feature__actions">
+          <a class="button-primary" href={articleHref(featuredArticle)}>
+            記事を読む <Icon name="arrow" />
+          </a>
+          <a class="button-secondary" href="/articles/">記事一覧を見る</a>
+        </div>
       </div>
     </section>
   )}
+
+  <section class="home-focus" aria-label="探し方">
+    {focusCategories.map((item) => (
+      <a href={item.href}>
+        <strong>{item.label}</strong>
+        <span>{item.description}</span>
+      </a>
+    ))}
+  </section>
 
   <section class="home-section">
     <div class="section-heading">
@@ -74,6 +94,26 @@ const organizationJsonLd = {
       </div>
     )}
   </section>
+
+  {categoryCards.length > 0 && (
+    <section class="home-section">
+      <div class="section-heading">
+        <div>
+          <p class="section-kicker">BROWSE BY TOPIC</p>
+          <h2>カテゴリから探す</h2>
+        </div>
+        <a href="/categories/">すべて見る</a>
+      </div>
+      <div class="home-category-strip">
+        {categoryCards.map((category) => (
+          <a href={category.href}>
+            <span>{category.label}</span>
+            <small>{category.count}件</small>
+          </a>
+        ))}
+      </div>
+    </section>
+  )}
 
   <section class="home-section">
     <div class="section-heading">
